@@ -47,6 +47,8 @@ new_step "pointer to repo = ${repo}"
 new_step "build directory structure"
     sub_step "mkdir -p ${repo}/dependencies"
               mkdir -p ${repo}/dependencies
+    sub_step "mkdir -p ${repo}/find"
+              mkdir -p ${repo}/find
     sub_step "mkdir -p ${repo}/graph"
               mkdir -p ${repo}/graph
     sub_step "mkdir -p ${repo}/info"
@@ -63,19 +65,22 @@ while IFS= read -r package; do
 new_step "install package ${package}"
 
   sub_step "spack dependencies  ${package}"
-            spack dependencies "${package}" > "${repo}/dependencies/${package}.txt" &
+            spack dependencies "${package}" > "${repo}/dependencies/${package}.txt 2>&1" &
+
+  sub_step "spack find  ${package}"
+            spack find "${package}" > "${repo}/find/${package}.txt 2>&1" &
 
   sub_step "spack graph  ${package}"
-            spack graph "${package}" > "${repo}/graph/${package}.txt" &
+            spack graph "${package}" > "${repo}/graph/${package}.txt 2>&1" &
 
   sub_step "spack info  ${package}"
-            spack info "${package}" > "${repo}/info/${package}.txt" &
+            spack info "${package}" > "${repo}/info/${package}.txt 2>&1" &
 
   sub_step "spack spec  ${package}"
-            spack spec "${package}" > "${repo}/spec/${package}.txt" &
+            spack spec "${package}" > "${repo}/spec/${package}.txt 2>&1" &
 
   sub_step "spack install  ${package}"
-            spack install "${package}" > "${repo}/install/${package}.txt"
+            spack install "${package}" > "${repo}/install/${package}.txt 2>&1"
 
 done < "${file}"
 
