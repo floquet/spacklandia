@@ -91,7 +91,7 @@ new_step "Add results to git repo"
     sub_step "git add  ${repo}"
               git add "${repo}"
     sub_step "git commit -m 'builds from  ${file}'"
-              git commit -m 'builds from "${file}"
+              git commit -m 'builds from "${file}'
 
 printf "to push:\n cd $repo"
 
