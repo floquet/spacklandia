@@ -42,7 +42,7 @@ if [[ ! -f "${file}" ]]; then
 fi
 
 repo="spacklandia/builds/${HOSTNAME}"
-new_step "pointer to repo = ${repo}"
+new_step "pointer to repo = ${pGithub}/${repo}"
 
 new_step "build directory structure"
     sub_step "mkdir -p ${repo}/dependencies"
@@ -82,6 +82,13 @@ done < "${file}"
 new_step "Wait for parallel processes to complete"
           wait
 
+new_step "Add results to git repo"
+    sub_step "git add  ${repo}"
+              git add "${repo}"
+    sub_step "git commit -m 'builds from  ${file}'"
+              git commit -m 'builds from "${file}"
+
+printf "to push:\n cd $repo"
 
 display_total_elapsed_time()
 
