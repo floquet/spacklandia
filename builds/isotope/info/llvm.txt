@@ -1,0 +1,445 @@
+CMakePackage:   llvm
+
+Description:
+    The LLVM Project is a collection of modular and reusable compiler and
+    toolchain technologies. Despite its name, LLVM has little to do with
+    traditional virtual machines, though it does provide helpful libraries
+    that can be used to build them. The name "LLVM" itself is not an
+    acronym; it is the full name of the project.
+
+Homepage: https://llvm.org/
+
+Preferred version:  
+    22.1.8    https://github.com/llvm/llvm-project/archive/llvmorg-22.1.8.tar.gz
+
+Safe versions:  
+    main      [git] https://github.com/llvm/llvm-project on branch main
+    22.1.8    https://github.com/llvm/llvm-project/archive/llvmorg-22.1.8.tar.gz
+    22.1.7    https://github.com/llvm/llvm-project/archive/llvmorg-22.1.7.tar.gz
+    22.1.6    https://github.com/llvm/llvm-project/archive/llvmorg-22.1.6.tar.gz
+    22.1.5    https://github.com/llvm/llvm-project/archive/llvmorg-22.1.5.tar.gz
+    22.1.4    https://github.com/llvm/llvm-project/archive/llvmorg-22.1.4.tar.gz
+    22.1.3    https://github.com/llvm/llvm-project/archive/llvmorg-22.1.3.tar.gz
+    22.1.2    https://github.com/llvm/llvm-project/archive/llvmorg-22.1.2.tar.gz
+    22.1.1    https://github.com/llvm/llvm-project/archive/llvmorg-22.1.1.tar.gz
+    22.1.0    https://github.com/llvm/llvm-project/archive/llvmorg-22.1.0.tar.gz
+    21.1.8    https://github.com/llvm/llvm-project/archive/llvmorg-21.1.8.tar.gz
+    21.1.7    https://github.com/llvm/llvm-project/archive/llvmorg-21.1.7.tar.gz
+    21.1.6    https://github.com/llvm/llvm-project/archive/llvmorg-21.1.6.tar.gz
+    21.1.5    https://github.com/llvm/llvm-project/archive/llvmorg-21.1.5.tar.gz
+    21.1.4    https://github.com/llvm/llvm-project/archive/llvmorg-21.1.4.tar.gz
+    21.1.3    https://github.com/llvm/llvm-project/archive/llvmorg-21.1.3.tar.gz
+    21.1.2    https://github.com/llvm/llvm-project/archive/llvmorg-21.1.2.tar.gz
+    21.1.1    https://github.com/llvm/llvm-project/archive/llvmorg-21.1.1.tar.gz
+    21.1.0    https://github.com/llvm/llvm-project/archive/llvmorg-21.1.0.tar.gz
+    20.1.8    https://github.com/llvm/llvm-project/archive/llvmorg-20.1.8.tar.gz
+    20.1.7    https://github.com/llvm/llvm-project/archive/llvmorg-20.1.7.tar.gz
+    20.1.6    https://github.com/llvm/llvm-project/archive/llvmorg-20.1.6.tar.gz
+    20.1.5    https://github.com/llvm/llvm-project/archive/llvmorg-20.1.5.tar.gz
+    20.1.4    https://github.com/llvm/llvm-project/archive/llvmorg-20.1.4.tar.gz
+    20.1.3    https://github.com/llvm/llvm-project/archive/llvmorg-20.1.3.tar.gz
+    20.1.2    https://github.com/llvm/llvm-project/archive/llvmorg-20.1.2.tar.gz
+    20.1.1    https://github.com/llvm/llvm-project/archive/llvmorg-20.1.1.tar.gz
+    20.1.0    https://github.com/llvm/llvm-project/archive/llvmorg-20.1.0.tar.gz
+    19.1.7    https://github.com/llvm/llvm-project/archive/llvmorg-19.1.7.tar.gz
+    18.1.8    https://github.com/llvm/llvm-project/archive/llvmorg-18.1.8.tar.gz
+    17.0.6    https://github.com/llvm/llvm-project/archive/llvmorg-17.0.6.tar.gz
+    16.0.6    https://github.com/llvm/llvm-project/archive/llvmorg-16.0.6.tar.gz
+    15.0.7    https://github.com/llvm/llvm-project/archive/llvmorg-15.0.7.tar.gz
+    14.0.6    https://github.com/llvm/llvm-project/archive/llvmorg-14.0.6.tar.gz
+    13.0.1    https://github.com/llvm/llvm-project/archive/llvmorg-13.0.1.tar.gz
+    12.0.1    https://github.com/llvm/llvm-project/archive/llvmorg-12.0.1.tar.gz
+    11.1.0    https://github.com/llvm/llvm-project/archive/llvmorg-11.1.0.tar.gz
+    10.0.1    https://github.com/llvm/llvm-project/archive/llvmorg-10.0.1.tar.gz
+    9.0.1     https://github.com/llvm/llvm-project/archive/llvmorg-9.0.1.tar.gz
+    8.0.1     https://github.com/llvm/llvm-project/archive/llvmorg-8.0.1.tar.gz
+    7.1.0     https://github.com/llvm/llvm-project/archive/llvmorg-7.1.0.tar.gz
+    6.0.1     https://github.com/llvm/llvm-project/archive/llvmorg-6.0.1.tar.gz
+    5.0.2     https://github.com/llvm/llvm-project/archive/llvmorg-5.0.2.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    build_system [cmake]                      cmake
+        Build systems supported by the package
+
+    build_type [Release]                      Debug, MinSizeRel,
+                                              RelWithDebInfo, Release
+      when build_system=cmake
+        CMake build type
+
+    clang [true]                              false, true
+        Build the LLVM C/C++/Objective-C compiler frontend
+
+    code_signing [false]                      false, true
+      when +lldb platform=darwin
+        Enable code-signing on macOS
+
+    compiler-rt [runtime]                     none, project, runtime
+        Build the LLVM compiler runtime, including sanitizers, either as a
+        runtime (with just-build Clang) or as a project (with the compiler in
+        use)
+
+    cuda [false]                              false, true
+        Build with CUDA
+
+    cuda_arch [none]                          none, 10, 100, 100a, 100f, 101,
+                                              101a, 101f, 103, 103a, 103f, 11,
+                                              110, 110a, 110f, 12, 120, 120a,
+                                              120f, 121, 121a, 121f, 13, 20,
+                                              21, 30, 32, 35, 37, 50, 52, 53,
+                                              60, 61, 62, 70, 72, 75, 80, 86,
+                                              87, 89, 90, 90a
+      when +cuda
+        CUDA architecture
+
+    flang [false]                             false, true
+        Build the LLVM Fortran compiler frontend
+
+    generator [ninja]                         none
+      when build_system=cmake
+        the build system generator to use
+
+    gold [false]                              false, true
+        Add support for LTO with the gold linker plugin (deprecated)
+
+    ipo [false]                               false, true
+      when build_system=cmake %cmake@3.9:
+        CMake interprocedural optimization
+
+    libcxx [runtime]                          none, project, runtime
+        Build the LLVM C++ standard library either as a runtime (with just-
+        build Clang) or as a project (with the compiler in use)
+
+    libomp_tsan [false]                       false, true
+      when @4:12
+        Build with OpenMP capable thread sanitizer
+
+    libomptarget [true]                       false, true
+        Build the OpenMP offloading library
+
+    libomptarget_debug [false]                false, true
+        Allow debug output with the environment variable LIBOMPTARGET_DEBUG=1
+
+    libunwind [runtime]                       none, project, runtime
+        Build the LLVM unwinder libraryeither as a runtime (with just-build
+        Clang) or as a project (with the compiler in use)
+
+    link_llvm_dylib [false]                   false, true
+      when +llvm_dylib
+        Link LLVM tools against the LLVM shared library
+
+    lld [true]                                false, true
+        Build the LLVM linker
+
+    lldb [true]                               false, true
+        Build the LLVM debugger
+
+    llvm_dylib [true]                         false, true
+        Build a combined LLVM shared library with all components
+
+    lua [true]                                false, true
+        Enable lua scripting inside lldb
+
+    mlir [false]                              false, true
+      when @10:
+        Build with MLIR support
+
+    offload [true]                            false, true
+      when @19:
+        Build the Offload subproject
+
+    openmp [runtime]                          project, runtime
+        Build OpenMP either as a runtime (with just-build Clang) or as a
+        project (with the compiler in use)
+
+    polly [true]                              false, true
+        Build the LLVM polyhedral optimization plugin, only builds for 3.7.0+
+
+    python [false]                            false, true
+        Install python bindings
+
+    shlib_symbol_version [none]               none
+      when @13:
+        Add shared library symbol version
+
+    split_dwarf [false]                       false, true
+        Build with split dwarf information
+
+    targets [aarch64,amdgpu,nvptx,x86]        none, aarch64, all, amdgpu, arm,
+                                              avr, bpf, cppbackend, hexagon,
+                                              lanai, mips, msp430, nvptx,
+                                              powerpc, riscv, sparc, systemz,
+                                              webassembly, x86, xcore
+        What targets to build. Spack's target family is always added (e.g. X86
+        is automatically enabled when targeting znver2).
+
+    utils [false]                             false, true
+        Install utility binaries (FileCheck, etc.)
+
+    version_suffix [none]                     none
+        Add a symbol suffix
+
+    z3 [false]                                false, true
+        Use Z3 for the clang static analyzer
+
+    zstd [false]                              false, true
+      when @15:
+        Enable zstd support for static analyzer / lld
+
+
+Dependencies:
+    binutils+gas+ld~libiberty+plugins        build, link, run
+      when %gcc+binutils
+
+    binutils+gold+headers+ld+plugins         build, link
+      when +gold
+
+    c                                        build
+
+    cmake@:3.16                              build
+      when @:10 libunwind=runtime
+
+    cmake@:3.16                              build
+      when @:10 libcxx=runtime
+
+    cmake@:3.16                              build
+      when @:10 compiler-rt=runtime
+
+    cmake@3.4.3:                             build
+
+    cmake@3.13.4:                            build
+      when @12:
+
+    cmake@3.20:                              build
+      when @16:
+
+    cuda                                     build, link
+      when +cuda
+
+    cuda@:6.0                                build, link
+      when cuda_arch=10
+
+    cuda@:6.5                                build, link
+      when cuda_arch=11
+
+    cuda@2.1:6.5                             build, link
+      when cuda_arch=12
+
+    cuda@2.1:6.5                             build, link
+      when cuda_arch=13
+
+    cuda@3.0:8.0                             build, link
+      when cuda_arch=20
+
+    cuda@3.2:8.0                             build, link
+      when cuda_arch=21
+
+    cuda@5.0:10.2                            build, link
+      when cuda_arch=30
+
+    cuda@5.0:10.2                            build, link
+      when cuda_arch=32
+
+    cuda@5.0:11.8                            build, link
+      when cuda_arch=35
+
+    cuda@6.0:12.9                            build, link
+      when cuda_arch=50
+
+    cuda@6.5:11.8                            build, link
+      when cuda_arch=37
+
+    cuda@6.5:12.9                            build, link
+      when cuda_arch=52
+
+    cuda@6.5:12.9                            build, link
+      when cuda_arch=53
+
+    cuda@8.0:12.9                            build, link
+      when cuda_arch=60
+
+    cuda@8.0:12.9                            build, link
+      when cuda_arch=61
+
+    cuda@8.0:12.9                            build, link
+      when cuda_arch=62
+
+    cuda@9.0:12.9                            build, link
+      when cuda_arch=70
+
+    cuda@9.0:                                build, link
+      when cuda_arch=72
+
+    cuda@10.0:                               build, link
+      when cuda_arch=75
+
+    cuda@11.0:                               build, link
+      when cuda_arch=80
+
+    cuda@11.1:                               build, link
+      when cuda_arch=86
+
+    cuda@11.4:                               build, link
+      when cuda_arch=87
+
+    cuda@11.8:                               build, link
+      when cuda_arch=89
+
+    cuda@12.0:                               build, link
+      when cuda_arch=90
+
+    cuda@12.0:                               build, link
+      when cuda_arch=90a
+
+    cuda@12.8:12.9                           build, link
+      when cuda_arch=101
+
+    cuda@12.8:12.9                           build, link
+      when cuda_arch=101a
+
+    cuda@12.8:                               build, link
+      when cuda_arch=100
+
+    cuda@12.8:                               build, link
+      when cuda_arch=100a
+
+    cuda@12.8:                               build, link
+      when cuda_arch=120
+
+    cuda@12.8:                               build, link
+      when cuda_arch=120a
+
+    cuda@12.9                                build, link
+      when cuda_arch=101f
+
+    cuda@12.9:                               build, link
+      when cuda_arch=100f
+
+    cuda@12.9:                               build, link
+      when cuda_arch=103
+
+    cuda@12.9:                               build, link
+      when cuda_arch=103a
+
+    cuda@12.9:                               build, link
+      when cuda_arch=103f
+
+    cuda@12.9:                               build, link
+      when cuda_arch=120f
+
+    cuda@12.9:                               build, link
+      when cuda_arch=121
+
+    cuda@12.9:                               build, link
+      when cuda_arch=121a
+
+    cuda@12.9:                               build, link
+      when cuda_arch=121f
+
+    cuda@13.0:                               build, link
+      when cuda_arch=110
+
+    cuda@13.0:                               build, link
+      when cuda_arch=110a
+
+    cuda@13.0:                               build, link
+      when cuda_arch=110f
+
+    cxx                                      build
+
+    elf                                      build, link
+      when @:15+cuda
+
+    elf                                      build, link
+      when @:15+libomptarget
+
+    gmake                                    build
+      when build_system=cmake generator=make
+
+    hwloc                                    build, link
+
+    hwloc@2.0.1:                             build, link
+      when @13
+
+    libedit                                  build, link
+      when +lldb
+
+    libffi                                   build, link
+      when +libomptarget
+
+    libxml2                                  build, link
+      when +lldb
+
+    lua@5.3                                  build, link
+      when +lldb+lua
+
+    ncurses                                  build, link
+      when +lldb
+
+    ninja                                    build
+      when build_system=cmake generator=ninja
+
+    perl-data-dumper                         build
+
+    pkgconfig                                build
+
+    py-six                                   build, link
+      when +lldb+python
+
+    python                                   build
+      when ~python
+
+    python                                   build, link, run
+      when +python
+
+    python-venv                              build, run
+      when +python
+
+    swig                                     build, link
+      when +lldb+lua
+
+    swig                                     build, link
+      when +lldb+python
+
+    swig@:4.0                                build, link
+      when @:15+lldb+python
+
+    swig@:4.0                                build, link
+      when @:15+lldb+lua
+
+    swig@2:                                  build, link
+      when @10:+lldb+python
+
+    swig@2:                                  build, link
+      when @10:+lldb+lua
+
+    swig@3:                                  build, link
+      when @12:+lldb+python
+
+    swig@3:                                  build, link
+      when @12:+lldb+lua
+
+    swig@4:                                  build, link
+      when @17:+lldb+python
+
+    swig@4:                                  build, link
+      when @17:+lldb+lua
+
+    xz                                       build, link
+      when +lldb
+
+    z3@4.7.1:                                build, link
+      when +z3
+
+    zlib-api                                 build, link
+
+    zstd build_system=cmake                  build, link
+      when +zstd
+
+
+Licenses:
+    Apache-2.0
+
+

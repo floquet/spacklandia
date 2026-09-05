@@ -1,0 +1,38 @@
+[+]  gcc@16.2.0+binutils+bootstrap+futex~graphite+libsanitizer~mold~nvptx~piclibs~profiled~strip build_system=autotools build_type=RelWithDebInfo languages:='c,c++,fortran' platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]      ^binutils@2.47~debuginfod+gas~gprofng~headers~interwork+ld~libiberty~lto~nls~pgo+plugins build_system=autotools compress_debug_sections=zlib libs:=shared,static platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]          ^pkgconf@2.5.1 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]      ^compiler-wrapper@1.1.0 build_system=generic platform=linux os=ubuntu26.04 target=ivybridge
+[+]      ^diffutils@3.12 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]          ^libiconv@1.18 build_system=autotools libs:=shared,static platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]      ^gawk@5.4.0~nls build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]          ^readline@8.3 build_system=autotools patches=21f0a03,72dee13,e273643 platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[e]      ^gcc@15.2.0+binutils+bootstrap+futex~graphite+libsanitizer~mold~nvptx~piclibs~profiled~strip build_system=autotools build_type=RelWithDebInfo languages:='c,c++,fortran' platform=linux os=ubuntu26.04 target=x86_64
+[+]      ^gcc-runtime@15.2.0 build_system=generic platform=linux os=ubuntu26.04 target=ivybridge
+[e]      ^glibc@2.43 build_system=autotools platform=linux os=ubuntu26.04 target=x86_64
+[+]      ^gmake@4.4.1~guile build_system=generic platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]      ^gmp@6.3.0+cxx build_system=autotools libs:=shared,static patches=28a6673 platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]          ^autoconf@2.72 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge
+[+]          ^automake@1.18.1 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]          ^m4@1.4.21+sigsegv build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]              ^libsigsegv@2.15 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]      ^libtool@2.5.4 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]          ^file@5.46+static build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]              ^xz@5.8.3~pic build_system=autotools libs:=shared,static platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]          ^findutils@4.10.0 build_system=autotools patches=440b954 platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]      ^mpc@1.4.1 build_system=autotools libs:=shared,static platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]      ^mpfr@4.2.2 build_system=autotools libs:=shared,static platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]          ^autoconf-archive@2024.10.16 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge
+[+]      ^perl@5.42.2+cpanm+opcode+open+shared+threads build_system=generic platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]          ^berkeley-db@18.1.40+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]          ^bzip2@1.0.8~debug~pic+shared build_system=generic platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]          ^gdbm@1.26 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]          ^less@692 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]      ^texinfo@7.2~xs build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]          ^gettext@1.0+bzip2+curses+git~libunistring+libxml2+pic+shared+tar+xz build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]              ^libxml2@2.15.3+pic~python+shared build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]              ^tar@1.35 build_system=autotools patches=85cb6b4 zip=pigz platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]                  ^pigz@2.8 build_system=makefile platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]          ^ncurses@6.6~symlinks+termlib abi=none build_system=autotools patches=7a351bc platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]      ^zlib-ng@2.3.3+compat+new_strategies+opt+pic+shared build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]      ^zstd@1.5.7+programs build_system=makefile compression:=none libs:=shared,static platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+

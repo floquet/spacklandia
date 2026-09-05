@@ -1,0 +1,5 @@
+[ ] t3spq7o rust@1.97.1 staging (0s)
+[ ] t3spq7o rust@1.97.1 configure (29s)
+[ ] t3spq7o rust@1.97.1 build (29s)
+[ ] t3spq7o rust@1.97.1 install (1h33m)
+[+] t3spq7o rust@1.97.1 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/rust-1.97.1-t3spq7oneoljo7evrovzvodcbf5uuni6 (1h37m)
