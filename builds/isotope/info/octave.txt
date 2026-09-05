@@ -1,0 +1,230 @@
+AutotoolsPackage:   octave
+
+Description:
+    GNU Octave is a high-level language, primarily intended for numerical
+    computations. It provides a convenient command line interface for
+    solving linear and nonlinear problems numerically, and for performing
+    other numerical experiments using a language that is mostly compatible
+    with Matlab. It may also be used as a batch-oriented language.
+
+Homepage: https://www.gnu.org/software/octave/
+
+Preferred version:  
+    11.1.0    https://ftpmirror.gnu.org/octave/octave-11.1.0.tar.gz
+
+Safe versions:  
+    11.1.0    https://ftpmirror.gnu.org/octave/octave-11.1.0.tar.gz
+    10.3.0    https://ftpmirror.gnu.org/octave/octave-10.3.0.tar.gz
+    10.2.0    https://ftpmirror.gnu.org/octave/octave-10.2.0.tar.gz
+    10.1.0    https://ftpmirror.gnu.org/octave/octave-10.1.0.tar.gz
+    9.4.0     https://ftpmirror.gnu.org/octave/octave-9.4.0.tar.gz
+    9.3.0     https://ftpmirror.gnu.org/octave/octave-9.3.0.tar.gz
+    9.1.0     https://ftpmirror.gnu.org/octave/octave-9.1.0.tar.gz
+    8.4.0     https://ftpmirror.gnu.org/octave/octave-8.4.0.tar.gz
+    8.2.0     https://ftpmirror.gnu.org/octave/octave-8.2.0.tar.gz
+    8.1.0     https://ftpmirror.gnu.org/octave/octave-8.1.0.tar.gz
+    7.3.0     https://ftpmirror.gnu.org/octave/octave-7.3.0.tar.gz
+    7.2.0     https://ftpmirror.gnu.org/octave/octave-7.2.0.tar.gz
+    7.1.0     https://ftpmirror.gnu.org/octave/octave-7.1.0.tar.gz
+    6.4.0     https://ftpmirror.gnu.org/octave/octave-6.4.0.tar.gz
+    6.3.0     https://ftpmirror.gnu.org/octave/octave-6.3.0.tar.gz
+    6.2.0     https://ftpmirror.gnu.org/octave/octave-6.2.0.tar.gz
+    6.1.0     https://ftpmirror.gnu.org/octave/octave-6.1.0.tar.gz
+    5.2.0     https://ftpmirror.gnu.org/octave/octave-5.2.0.tar.gz
+    5.1.0     https://ftpmirror.gnu.org/octave/octave-5.1.0.tar.gz
+    4.4.1     https://ftpmirror.gnu.org/octave/octave-4.4.1.tar.gz
+    4.4.0     https://ftpmirror.gnu.org/octave/octave-4.4.0.tar.gz
+    4.2.2     https://ftpmirror.gnu.org/octave/octave-4.2.2.tar.gz
+    4.2.1     https://ftpmirror.gnu.org/octave/octave-4.2.1.tar.gz
+    4.2.0     https://ftpmirror.gnu.org/octave/octave-4.2.0.tar.gz
+    4.0.2     https://ftpmirror.gnu.org/octave/octave-4.0.2.tar.gz
+    4.0.0     https://ftpmirror.gnu.org/octave/octave-4.0.0.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    arpack [false]                  false, true
+        Use arpack
+
+    build_system [autotools]        autotools
+        Build systems supported by the package
+
+    bz2 [true]                      false, true
+        Use bzip2
+
+    curl [false]                    false, true
+        Use curl
+
+    fftw [false]                    false, true
+        Use FFTW3
+
+    fltk [false]                    false, true
+        Use FLTK
+
+    fontconfig [false]              false, true
+        Use fontconfig
+
+    freetype [false]                false, true
+        Use freetype
+
+    gl2ps [false]                   false, true
+        Use GL2PS
+
+    glpk [false]                    false, true
+        Use GLPK
+
+    gnuplot [false]                 false, true
+        Use gnuplot
+
+    hdf5 [false]                    false, true
+        Use HDF5
+
+    jdk [false]                     false, true
+        Use Java
+
+    llvm [false]                    false, true
+        Use LLVM
+
+    magick [false]                  false, true
+        Use magick
+
+    opengl [false]                  false, true
+        Use OpenGL
+
+    pcre2 [true]                    false, true
+      when @8:
+        Use PCRE2 instead of PCRE
+
+    qhull [false]                   false, true
+        Use qhull
+
+    qrupdate [false]                false, true
+        Use qrupdate
+
+    qscintilla [false]              false, true
+        Use QScintill
+
+    qt [false]                      false, true
+        Use Qt
+
+    readline [true]                 false, true
+        Use readline
+
+    suitesparse [false]             false, true
+        Use SuiteSparse
+
+    zlib [false]                    false, true
+        Use zlib
+
+
+Dependencies:
+    arpack-ng           build, link
+      when +arpack
+
+    blas                build, link
+
+    bzip2               build, link
+      when +bz2
+
+    c                   build
+
+    curl                build, link
+      when +curl
+
+    cxx                 build
+
+    fftw-api@3          build, link
+      when +fftw
+
+    fltk                build, link
+      when +fltk
+
+    fontconfig          build, link
+      when +fontconfig
+
+    fortran             build
+
+    freetype            build, link
+      when +freetype
+
+    gl                  build, link
+      when +fltk
+
+    gl                  build, link
+      when +opengl
+
+    gl2ps               build, link
+      when +gl2ps
+
+    glpk                build, link
+      when +glpk
+
+    gmake               build
+      when build_system=autotools
+
+    gnuconfig           build
+      when build_system=autotools target=ppc64le:
+
+    gnuconfig           build
+      when build_system=autotools target=aarch64:
+
+    gnuconfig           build
+      when build_system=autotools target=riscv64:
+
+    gnuplot             build, link
+      when +gnuplot
+
+    hdf5                build, link
+      when +hdf5
+
+    imagemagick         build, link
+      when +magick
+
+    java                build, link
+      when +jdk
+
+    lapack              build, link
+
+    llvm                build, link
+      when +llvm
+
+    pcre                build, link
+      when @:7
+
+    pcre                build, link
+      when ~pcre2
+
+    pcre2               build, link
+      when +pcre2
+
+    pkgconfig           build
+
+    qhull               build, link
+      when +qhull
+
+    qrupdate            build, link
+      when +qrupdate
+
+    qscintilla          build, link
+      when +qscintilla
+
+    qt+opengl           build, link
+      when +qt
+
+    readline            build, link
+      when +readline
+
+    suite-sparse        build, link
+      when +suitesparse
+
+    texinfo             build
+
+    zlib-api            build, link
+      when +zlib
+
+
+Licenses:
+    GPL-3.0-or-later
+
+

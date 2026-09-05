@@ -1,3 +1,4 @@
 [ ] qkc53zw llvm@18.1.8 staging (4s)
 [ ] qkc53zw llvm@18.1.8 cmake (15s)
 [ ] qkc53zw llvm@18.1.8 build (1m11s)
+[x] qkc53zw llvm@18.1.8 failed: /tmp/dantopa/spack-stage/spack-stage-llvm-18.1.8-qkc53zwwrbt36vkubrixyd3vznfonx7e-st4p8kd9.log (1h44m)

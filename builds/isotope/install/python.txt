@@ -1,0 +1,1 @@
+[+] 6evxp7g python@3.14.5 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/python-3.14.5-6evxp7gdtrsdkradxr2rxf3dbw3qmj72 (0s)

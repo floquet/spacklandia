@@ -1,0 +1,4 @@
+[ ] a35yjg3 octave@11.1.0 staging (0s)
+[ ] a35yjg3 octave@11.1.0 autoreconf (3s)
+[ ] a35yjg3 octave@11.1.0 configure (3s)
+[x] a35yjg3 octave@11.1.0 failed: /tmp/dantopa/spack-stage/spack-stage-octave-11.1.0-a35yjg34ki26ex3jlwkk6rxicdjidycg-3z0c_v78.log (21s)
