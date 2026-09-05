@@ -1,0 +1,350 @@
+CMakePackage:   caliper
+
+Description:
+    Caliper is a program instrumentation and performance measurement
+    framework. It is designed as a performance analysis toolbox in a
+    library, allowing one to bake performance analysis capabilities directly
+    into applications and activate them at runtime.
+
+Homepage: https://github.com/LLNL/Caliper
+
+Preferred version:  
+    2.15.0    https://github.com/LLNL/Caliper/archive/v2.15.0.tar.gz
+
+Safe versions:  
+    master    [git] https://github.com/LLNL/Caliper.git on branch master
+    2.15.0    https://github.com/LLNL/Caliper/archive/v2.15.0.tar.gz
+    2.14.0    https://github.com/LLNL/Caliper/archive/v2.14.0.tar.gz
+    2.13.1    https://github.com/LLNL/Caliper/archive/v2.13.1.tar.gz
+    2.13.0    https://github.com/LLNL/Caliper/archive/v2.13.0.tar.gz
+    2.12.1    https://github.com/LLNL/Caliper/archive/v2.12.1.tar.gz
+    2.11.0    https://github.com/LLNL/Caliper/archive/v2.11.0.tar.gz
+    2.10.0    https://github.com/LLNL/Caliper/archive/v2.10.0.tar.gz
+    2.9.1     https://github.com/LLNL/Caliper/archive/v2.9.1.tar.gz
+    2.9.0     https://github.com/LLNL/Caliper/archive/v2.9.0.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    adiak [true]                false, true
+        Enable Adiak support
+
+    amdgpu_target [none]        none, gfx1010, gfx1011, gfx1012, gfx1013,
+                                gfx1030, gfx1031, gfx1032, gfx1033, gfx1034,
+                                gfx1035, gfx1036, gfx1100, gfx1101, gfx1102,
+                                gfx1103, gfx1150, gfx1151, gfx1152, gfx1153,
+                                gfx1200, gfx1201, gfx1250, gfx1251, gfx701,
+                                gfx801, gfx802, gfx803, gfx900, gfx900:xnack-,
+                                gfx902, gfx904, gfx906, gfx906:xnack-, gfx908,
+                                gfx908:xnack-, gfx909, gfx90a, gfx90a:xnack+,
+                                gfx90a:xnack-, gfx90c, gfx940, gfx941, gfx942,
+                                gfx950
+      when +rocm
+        AMD GPU architecture
+
+    build_system [cmake]        cmake
+        Build systems supported by the package
+
+    build_type [Release]        Debug, MinSizeRel, RelWithDebInfo, Release
+      when build_system=cmake
+        CMake build type
+
+    cuda [false]                false, true
+        Build with CUDA
+
+    cuda_arch [none]            none, 10, 100, 100a, 100f, 101, 101a, 101f,
+                                103, 103a, 103f, 11, 110, 110a, 110f, 12, 120,
+                                120a, 120f, 121, 121a, 121f, 13, 20, 21, 30,
+                                32, 35, 37, 50, 52, 53, 60, 61, 62, 70, 72,
+                                75, 80, 86, 87, 89, 90, 90a
+      when +cuda
+        CUDA architecture
+
+    fortran [false]             false, true
+        Enable Fortran support
+
+    generator [make]            none
+      when build_system=cmake
+        the build system generator to use
+
+    gotcha [true]               false, true
+        Enable GOTCHA support
+
+    ipo [false]                 false, true
+      when build_system=cmake %cmake@3.9:
+        CMake interprocedural optimization
+
+    kokkos [true]               false, true
+        Enable Kokkos profiling support
+
+    libdw [true]                false, true
+        Enable DWARF symbol lookup
+
+    libpfm [false]              false, true
+        Enable libpfm (perf_events) service
+
+    libunwind [true]            false, true
+        Enable stack unwind support
+
+    mpi [true]                  false, true
+        Enable MPI support
+
+    papi [true]                 false, true
+        Enable PAPI service
+
+    python [false]              false, true
+        Build Python bindings
+
+    rocm [false]                false, true
+        Enable ROCm support
+
+    sampler [true]              false, true
+        Enable sampling support on Linux
+
+    shared [true]               false, true
+        Build shared libraries
+
+    tests [false]               false, true
+        Enable tests
+
+    tools [true]                false, true
+        Enable tools
+
+    variorum [false]            false, true
+        Enable Variorum support
+
+    vtune [false]               false, true
+        Enable Intel Vtune support
+
+
+Dependencies:
+    adiak@0.1:0               build, link
+      when @:2.10+adiak
+
+    adiak@0.4:0               build, link
+      when @2.11:+adiak
+
+    c                         build
+
+    cmake                     build
+
+    cuda                      build, link
+      when +cuda
+
+    cuda@:6.0                 build, link
+      when cuda_arch=10
+
+    cuda@:6.5                 build, link
+      when cuda_arch=11
+
+    cuda@:12.8                build, link
+      when @:2.13.1+cuda
+
+    cuda@2.1:6.5              build, link
+      when cuda_arch=12
+
+    cuda@2.1:6.5              build, link
+      when cuda_arch=13
+
+    cuda@3.0:8.0              build, link
+      when cuda_arch=20
+
+    cuda@3.2:8.0              build, link
+      when cuda_arch=21
+
+    cuda@5.0:10.2             build, link
+      when cuda_arch=30
+
+    cuda@5.0:10.2             build, link
+      when cuda_arch=32
+
+    cuda@5.0:11.8             build, link
+      when cuda_arch=35
+
+    cuda@6.0:12.9             build, link
+      when cuda_arch=50
+
+    cuda@6.5:11.8             build, link
+      when cuda_arch=37
+
+    cuda@6.5:12.9             build, link
+      when cuda_arch=52
+
+    cuda@6.5:12.9             build, link
+      when cuda_arch=53
+
+    cuda@8.0:12.9             build, link
+      when cuda_arch=60
+
+    cuda@8.0:12.9             build, link
+      when cuda_arch=61
+
+    cuda@8.0:12.9             build, link
+      when cuda_arch=62
+
+    cuda@9.0:12.9             build, link
+      when cuda_arch=70
+
+    cuda@9.0:                 build, link
+      when cuda_arch=72
+
+    cuda@10.0:                build, link
+      when cuda_arch=75
+
+    cuda@11.0:                build, link
+      when cuda_arch=80
+
+    cuda@11.1:                build, link
+      when cuda_arch=86
+
+    cuda@11.4:                build, link
+      when cuda_arch=87
+
+    cuda@11.8:                build, link
+      when cuda_arch=89
+
+    cuda@12.0:                build, link
+      when cuda_arch=90
+
+    cuda@12.0:                build, link
+      when cuda_arch=90a
+
+    cuda@12.8:12.9            build, link
+      when cuda_arch=101
+
+    cuda@12.8:12.9            build, link
+      when cuda_arch=101a
+
+    cuda@12.8:                build, link
+      when cuda_arch=100
+
+    cuda@12.8:                build, link
+      when cuda_arch=100a
+
+    cuda@12.8:                build, link
+      when cuda_arch=120
+
+    cuda@12.8:                build, link
+      when cuda_arch=120a
+
+    cuda@12.9                 build, link
+      when cuda_arch=101f
+
+    cuda@12.9:                build, link
+      when cuda_arch=100f
+
+    cuda@12.9:                build, link
+      when cuda_arch=103
+
+    cuda@12.9:                build, link
+      when cuda_arch=103a
+
+    cuda@12.9:                build, link
+      when cuda_arch=103f
+
+    cuda@12.9:                build, link
+      when cuda_arch=120f
+
+    cuda@12.9:                build, link
+      when cuda_arch=121
+
+    cuda@12.9:                build, link
+      when cuda_arch=121a
+
+    cuda@12.9:                build, link
+      when cuda_arch=121f
+
+    cuda@13.0:                build, link
+      when cuda_arch=110
+
+    cuda@13.0:                build, link
+      when cuda_arch=110a
+
+    cuda@13.0:                build, link
+      when cuda_arch=110f
+
+    cxx                       build
+
+    elfutils                  build, link
+      when +libdw
+
+    fortran                   build
+      when +fortran
+
+    gmake                     build
+      when build_system=cmake generator=make
+
+    hip+rocm                  build, link
+      when +rocm
+
+    hsa-rocr-dev              build, link
+      when +rocm
+
+    intel-oneapi-vtune        build, link
+      when +vtune
+
+    libpfm4@4.8:4             build, link
+      when +libpfm
+
+    llvm-amdgpu               build
+      when +rocm
+
+    llvm-amdgpu@5.2.0:        build, link
+      when amdgpu_target=gfx940
+
+    llvm-amdgpu@5.2.0:        build, link
+      when amdgpu_target=gfx1036
+
+    llvm-amdgpu@5.3.0:        build, link
+      when amdgpu_target=gfx1100
+
+    llvm-amdgpu@5.3.0:        build, link
+      when amdgpu_target=gfx1101
+
+    llvm-amdgpu@5.3.0:        build, link
+      when amdgpu_target=gfx1102
+
+    llvm-amdgpu@5.3.0:        build, link
+      when amdgpu_target=gfx1103
+
+    llvm-amdgpu@5.7.0:        build, link
+      when amdgpu_target=gfx941
+
+    llvm-amdgpu@5.7.0:        build, link
+      when amdgpu_target=gfx942
+
+    llvm-amdgpu@6.2.4:        build, link
+      when @2.14:+rocm
+
+    mpi                       build, link
+      when +mpi
+
+    ninja                     build
+      when build_system=cmake generator=ninja
+
+    papi@5.3:                 build, link
+      when +papi
+
+    py-pybind11               build, link, run
+      when +python
+
+    python                    build
+
+    python@3                  build, link, run
+      when +python
+
+    rocprofiler-sdk           build, link
+      when @2.14:+rocm
+
+    unwind@1.2:1              build, link
+      when +libunwind
+
+    variorum                  build, link
+      when +variorum
+
+
+Licenses:
+    BSD-3-Clause
+
+

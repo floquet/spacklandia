@@ -1,0 +1,4 @@
+[ ] zp5qcwj scorep@10.1 staging (0s)
+[ ] zp5qcwj scorep@10.1 autoreconf (1s)
+[ ] zp5qcwj scorep@10.1 configure (1s)
+[x] zp5qcwj scorep@10.1 failed: /tmp/dantopa/spack-stage/spack-stage-scorep-10.1-zp5qcwjoaeislzto2w7ufchix6kd5rlc-keba641e.log (49s)

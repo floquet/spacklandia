@@ -1,0 +1,99 @@
+AutotoolsPackage:   gperftools
+
+Description:
+    Google's fast malloc/free implementation, especially for multi-threaded
+    applications. Contains tcmalloc, heap-checker, heap-profiler, and cpu-
+    profiler.
+
+Homepage: https://github.com/gperftools/gperftools
+
+Preferred version:  
+    2.18.1    https://github.com/gperftools/gperftools/releases/download/gperftools-2.18.1/gperftools-2.18.1.tar.gz
+
+Safe versions:  
+    2.18.1    https://github.com/gperftools/gperftools/releases/download/gperftools-2.18.1/gperftools-2.18.1.tar.gz
+    2.18      https://github.com/gperftools/gperftools/releases/download/gperftools-2.18/gperftools-2.18.tar.gz
+    2.17.2    https://github.com/gperftools/gperftools/releases/download/gperftools-2.17.2/gperftools-2.17.2.tar.gz
+    2.17.1    https://github.com/gperftools/gperftools/releases/download/gperftools-2.17.1/gperftools-2.17.1.tar.gz
+    2.17      https://github.com/gperftools/gperftools/releases/download/gperftools-2.17/gperftools-2.17.tar.gz
+    2.16      https://github.com/gperftools/gperftools/releases/download/gperftools-2.16/gperftools-2.16.tar.gz
+    2.15      https://github.com/gperftools/gperftools/releases/download/gperftools-2.15/gperftools-2.15.tar.gz
+    2.14      https://github.com/gperftools/gperftools/releases/download/gperftools-2.14/gperftools-2.14.tar.gz
+    2.13      https://github.com/gperftools/gperftools/releases/download/gperftools-2.13/gperftools-2.13.tar.gz
+    2.12      https://github.com/gperftools/gperftools/releases/download/gperftools-2.12/gperftools-2.12.tar.gz
+    2.11      https://github.com/gperftools/gperftools/releases/download/gperftools-2.11/gperftools-2.11.tar.gz
+    2.10      https://github.com/gperftools/gperftools/releases/download/gperftools-2.10/gperftools-2.10.tar.gz
+    2.9.1     https://github.com/gperftools/gperftools/releases/download/gperftools-2.9.1/gperftools-2.9.1.tar.gz
+    2.8.1     https://github.com/gperftools/gperftools/releases/download/gperftools-2.8.1/gperftools-2.8.1.tar.gz
+    2.7       https://github.com/gperftools/gperftools/releases/download/gperftools-2.7/gperftools-2.7.tar.gz
+    2.4       https://github.com/gperftools/gperftools/releases/download/gperftools-2.4/gperftools-2.4.tar.gz
+    2.3       https://github.com/gperftools/gperftools/releases/download/gperftools-2.3/gperftools-2.3.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    build_system [cmake]                        autotools, cmake
+        Build systems supported by the package
+
+    build_type [Release]                        Debug, MinSizeRel,
+                                                RelWithDebInfo, Release
+      when build_system=cmake
+        CMake build type
+
+    debugalloc [true]                           false, true
+        Build versions of libs with debugalloc
+
+    dynamic_sized_delete_support [false]        false, true
+        Try to build run-time switch for sized delete operator
+
+    generator [make]                            none
+      when build_system=cmake
+        the build system generator to use
+
+    ipo [false]                                 false, true
+      when build_system=cmake %cmake@3.9:
+        CMake interprocedural optimization
+
+    libunwind [true]                            false, true
+      when platform=linux
+        Enable libunwind linking
+
+    sized_delete [false]                        false, true
+        Build sized delete operator
+
+
+Dependencies:
+    c                  build
+
+    cmake@3.12:        build
+      when build_system=cmake
+
+    cxx                build
+
+    gmake              build
+      when build_system=cmake generator=make
+
+    gmake              build
+      when build_system=autotools
+
+    gnuconfig          build
+      when build_system=autotools target=ppc64le:
+
+    gnuconfig          build
+      when build_system=autotools target=aarch64:
+
+    gnuconfig          build
+      when build_system=autotools target=riscv64:
+
+    ninja              build
+      when build_system=cmake generator=ninja
+
+    unwind             build, link
+      when +libunwind
+
+
+Licenses:
+    BSD-3-Clause
+
+

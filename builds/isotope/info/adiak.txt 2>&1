@@ -1,0 +1,91 @@
+CMakePackage:   adiak
+
+Description:
+    Adiak collects metadata about HPC application runs and provides it to
+    tools.
+
+Homepage: https://github.com/LLNL/Adiak
+
+Preferred version:  
+    0.5.0     [git] https://github.com/LLNL/Adiak at commit f08c8375c613e13e9b9c6a1db271cbf8f0d3f3e3
+
+Safe versions:  
+    master    [git] https://github.com/LLNL/Adiak on branch master
+    0.5.0     [git] https://github.com/LLNL/Adiak at commit f08c8375c613e13e9b9c6a1db271cbf8f0d3f3e3
+    0.4.1     [git] https://github.com/LLNL/Adiak at commit 7ac997111785bee6d9391664b1d18ebc2b3c557b
+    0.4.0     [git] https://github.com/LLNL/Adiak at commit 7e8b7233f8a148b402128ed46b2f0c643e3b397e
+    0.2.2     [git] https://github.com/LLNL/Adiak at commit 3aedd494c81c01df1183af28bc09bade2fabfcd3
+    0.2.1     [git] https://github.com/LLNL/Adiak at commit 950e3bfb91519ecb7b7ee7fa3063bfab23c0e2c9
+    0.1.1     https://github.com/LLNL/Adiak/releases/download/v0.1/adiak-v0.1.1.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    build_system [cmake]        cmake
+        Build systems supported by the package
+
+    build_type [Release]        Debug, MinSizeRel, RelWithDebInfo, Release
+      when build_system=cmake
+        CMake build type
+
+    generator [make]            none
+      when build_system=cmake
+        the build system generator to use
+
+    ipo [false]                 false, true
+      when build_system=cmake %cmake@3.9:
+        CMake interprocedural optimization
+
+    mpi [true]                  false, true
+        Build with MPI support
+
+    python [false]              false, true
+      when @0.5.0:
+        Build Python bindings
+
+    shared [true]               false, true
+        Build dynamic libraries
+
+    tests [false]               false, true
+        Build tests
+
+
+Dependencies:
+    blt                       build
+
+    c                         build
+
+    cmake                     build
+      when build_system=cmake
+
+    cxx                       build
+
+    fortran                   build
+
+    gmake                     build
+      when build_system=cmake generator=make
+
+    mpi                       build, link
+      when +mpi
+
+    ninja                     build
+      when build_system=cmake generator=ninja
+
+    py-mpi4py                 build, link, run
+      when +mpi+python
+
+    py-pybind11@3.0.0:        build, link, run
+      when +python
+
+    python@3:                 build, link, run
+      when +python
+
+    python-venv               build, run
+      when +python
+
+
+Licenses:
+    MIT
+
+

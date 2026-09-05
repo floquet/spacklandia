@@ -1,0 +1,370 @@
+AutotoolsPackage:   hwloc
+
+Description:
+    The Hardware Locality (hwloc) software project. The Portable Hardware
+    Locality (hwloc) software package provides a portable abstraction
+    (across OS, versions, architectures, ...) of the hierarchical topology
+    of modern architectures, including NUMA memory nodes, sockets, shared
+    caches, cores and simultaneous multithreading. It also gathers various
+    system attributes such as cache and memory information as well as the
+    locality of I/O devices such as network interfaces, InfiniBand HCAs or
+    GPUs. It primarily aims at helping applications with gathering
+    information about modern computing hardware so as to exploit it
+    accordingly and efficiently.
+
+Homepage: https://www.open-mpi.org/projects/hwloc/
+
+Preferred version:  
+    2.13.0     https://download.open-mpi.org/release/hwloc/v2.13/hwloc-2.13.0.tar.gz
+
+Safe versions:  
+    master     [git] https://github.com/open-mpi/hwloc.git on branch master
+    2.13.0     https://download.open-mpi.org/release/hwloc/v2.13/hwloc-2.13.0.tar.gz
+    2.12.2     https://download.open-mpi.org/release/hwloc/v2.12/hwloc-2.12.2.tar.gz
+    2.11.1     https://download.open-mpi.org/release/hwloc/v2.11/hwloc-2.11.1.tar.gz
+    2.10.0     https://download.open-mpi.org/release/hwloc/v2.10/hwloc-2.10.0.tar.gz
+    2.9.3      https://download.open-mpi.org/release/hwloc/v2.9/hwloc-2.9.3.tar.gz
+    2.9.2      https://download.open-mpi.org/release/hwloc/v2.9/hwloc-2.9.2.tar.gz
+    2.9.1      https://download.open-mpi.org/release/hwloc/v2.9/hwloc-2.9.1.tar.gz
+    2.9.0      https://download.open-mpi.org/release/hwloc/v2.9/hwloc-2.9.0.tar.gz
+    2.8.0      https://download.open-mpi.org/release/hwloc/v2.8/hwloc-2.8.0.tar.gz
+    2.7.1      https://download.open-mpi.org/release/hwloc/v2.7/hwloc-2.7.1.tar.gz
+    2.7.0      https://download.open-mpi.org/release/hwloc/v2.7/hwloc-2.7.0.tar.gz
+    2.6.0      https://download.open-mpi.org/release/hwloc/v2.6/hwloc-2.6.0.tar.gz
+    2.5.0      https://download.open-mpi.org/release/hwloc/v2.5/hwloc-2.5.0.tar.gz
+    2.4.1      https://download.open-mpi.org/release/hwloc/v2.4/hwloc-2.4.1.tar.gz
+    2.4.0      https://download.open-mpi.org/release/hwloc/v2.4/hwloc-2.4.0.tar.gz
+    2.3.0      https://download.open-mpi.org/release/hwloc/v2.3/hwloc-2.3.0.tar.gz
+    2.2.0      https://download.open-mpi.org/release/hwloc/v2.2/hwloc-2.2.0.tar.gz
+    2.1.0      https://download.open-mpi.org/release/hwloc/v2.1/hwloc-2.1.0.tar.gz
+    2.0.4      https://download.open-mpi.org/release/hwloc/v2.0/hwloc-2.0.4.tar.gz
+    2.0.3      https://download.open-mpi.org/release/hwloc/v2.0/hwloc-2.0.3.tar.gz
+    2.0.2      https://download.open-mpi.org/release/hwloc/v2.0/hwloc-2.0.2.tar.gz
+    2.0.1      https://download.open-mpi.org/release/hwloc/v2.0/hwloc-2.0.1.tar.gz
+    2.0.0      https://download.open-mpi.org/release/hwloc/v2.0/hwloc-2.0.0.tar.gz
+    1.11.13    https://download.open-mpi.org/release/hwloc/v1.11/hwloc-1.11.13.tar.gz
+    1.11.12    https://download.open-mpi.org/release/hwloc/v1.11/hwloc-1.11.12.tar.gz
+    1.11.11    https://download.open-mpi.org/release/hwloc/v1.11/hwloc-1.11.11.tar.gz
+    1.11.10    https://download.open-mpi.org/release/hwloc/v1.11/hwloc-1.11.10.tar.gz
+    1.11.9     https://download.open-mpi.org/release/hwloc/v1.11/hwloc-1.11.9.tar.gz
+    1.11.8     https://download.open-mpi.org/release/hwloc/v1.11/hwloc-1.11.8.tar.gz
+    1.11.7     https://download.open-mpi.org/release/hwloc/v1.11/hwloc-1.11.7.tar.gz
+    1.11.6     https://download.open-mpi.org/release/hwloc/v1.11/hwloc-1.11.6.tar.gz
+    1.11.5     https://download.open-mpi.org/release/hwloc/v1.11/hwloc-1.11.5.tar.gz
+    1.11.4     https://download.open-mpi.org/release/hwloc/v1.11/hwloc-1.11.4.tar.gz
+    1.11.3     https://download.open-mpi.org/release/hwloc/v1.11/hwloc-1.11.3.tar.gz
+    1.11.2     https://download.open-mpi.org/release/hwloc/v1.11/hwloc-1.11.2.tar.gz
+    1.11.1     https://download.open-mpi.org/release/hwloc/v1.11/hwloc-1.11.1.tar.gz
+    1.9        https://download.open-mpi.org/release/hwloc/v1.9/hwloc-1.9.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    amdgpu_target [none]            none, gfx1010, gfx1011, gfx1012, gfx1013,
+                                    gfx1030, gfx1031, gfx1032, gfx1033,
+                                    gfx1034, gfx1035, gfx1036, gfx1100,
+                                    gfx1101, gfx1102, gfx1103, gfx1150,
+                                    gfx1151, gfx1152, gfx1153, gfx1200,
+                                    gfx1201, gfx1250, gfx1251, gfx701, gfx801,
+                                    gfx802, gfx803, gfx900, gfx900:xnack-,
+                                    gfx902, gfx904, gfx906, gfx906:xnack-,
+                                    gfx908, gfx908:xnack-, gfx909, gfx90a,
+                                    gfx90a:xnack+, gfx90a:xnack-, gfx90c,
+                                    gfx940, gfx941, gfx942, gfx950
+      when +rocm
+        AMD GPU architecture
+
+    build_system [autotools]        autotools
+        Build systems supported by the package
+
+    cairo [false]                   false, true
+        Enable the Cairo back-end of hwloc's lstopo command
+
+    cuda [false]                    false, true
+        Build with CUDA
+
+    cuda_arch [none]                none, 10, 100, 100a, 100f, 101, 101a,
+                                    101f, 103, 103a, 103f, 11, 110, 110a,
+                                    110f, 12, 120, 120a, 120f, 121, 121a,
+                                    121f, 13, 20, 21, 30, 32, 35, 37, 50, 52,
+                                    53, 60, 61, 62, 70, 72, 75, 80, 86, 87,
+                                    89, 90, 90a
+      when +cuda
+        CUDA architecture
+
+    gl [false]                      false, true
+        Support GL device discovery
+
+    level_zero [false]              false, true
+        Support Intel OneAPI Level Zero devices
+
+    libs [shared,static]            shared, static
+        Build shared libs, static libs or both
+
+    libudev [false]                 false, true
+      when @1.11.0:
+        Build with libudev
+
+    libxml2 [true]                  false, true
+        Build with libxml2
+
+    netloc [false]                  false, true
+      when @2.0.0:2.9.3
+        Enable netloc [requires MPI]
+
+    nvml [false]                    false, true
+        Support NVML device discovery
+
+    opencl [false]                  false, true
+        Support an OpenCL library at run time
+
+    pci [true]                      false, true
+        Support analyzing devices on PCI bus
+
+    rocm [false]                    false, true
+        Support ROCm devices
+
+
+Dependencies:
+    autoconf                  build
+      when @master
+
+    automake                  build
+      when @master
+
+    c                         build
+
+    cairo                     build, link
+      when +cairo
+
+    cuda                      build, link
+      when +cuda
+
+    cuda                      build, link
+      when +nvml
+
+    cuda@:6.0                 build, link
+      when cuda_arch=10
+
+    cuda@:6.5                 build, link
+      when cuda_arch=11
+
+    cuda@2.1:6.5              build, link
+      when cuda_arch=12
+
+    cuda@2.1:6.5              build, link
+      when cuda_arch=13
+
+    cuda@3.0:8.0              build, link
+      when cuda_arch=20
+
+    cuda@3.2:8.0              build, link
+      when cuda_arch=21
+
+    cuda@5.0:10.2             build, link
+      when cuda_arch=30
+
+    cuda@5.0:10.2             build, link
+      when cuda_arch=32
+
+    cuda@5.0:11.8             build, link
+      when cuda_arch=35
+
+    cuda@6.0:12.9             build, link
+      when cuda_arch=50
+
+    cuda@6.5:11.8             build, link
+      when cuda_arch=37
+
+    cuda@6.5:12.9             build, link
+      when cuda_arch=52
+
+    cuda@6.5:12.9             build, link
+      when cuda_arch=53
+
+    cuda@8.0:12.9             build, link
+      when cuda_arch=60
+
+    cuda@8.0:12.9             build, link
+      when cuda_arch=61
+
+    cuda@8.0:12.9             build, link
+      when cuda_arch=62
+
+    cuda@9.0:12.9             build, link
+      when cuda_arch=70
+
+    cuda@9.0:                 build, link
+      when cuda_arch=72
+
+    cuda@10.0:                build, link
+      when cuda_arch=75
+
+    cuda@11.0:                build, link
+      when cuda_arch=80
+
+    cuda@11.1:                build, link
+      when cuda_arch=86
+
+    cuda@11.4:                build, link
+      when cuda_arch=87
+
+    cuda@11.8:                build, link
+      when cuda_arch=89
+
+    cuda@12.0:                build, link
+      when cuda_arch=90
+
+    cuda@12.0:                build, link
+      when cuda_arch=90a
+
+    cuda@12.8:12.9            build, link
+      when cuda_arch=101
+
+    cuda@12.8:12.9            build, link
+      when cuda_arch=101a
+
+    cuda@12.8:                build, link
+      when cuda_arch=100
+
+    cuda@12.8:                build, link
+      when cuda_arch=100a
+
+    cuda@12.8:                build, link
+      when cuda_arch=120
+
+    cuda@12.8:                build, link
+      when cuda_arch=120a
+
+    cuda@12.9                 build, link
+      when cuda_arch=101f
+
+    cuda@12.9:                build, link
+      when cuda_arch=100f
+
+    cuda@12.9:                build, link
+      when cuda_arch=103
+
+    cuda@12.9:                build, link
+      when cuda_arch=103a
+
+    cuda@12.9:                build, link
+      when cuda_arch=103f
+
+    cuda@12.9:                build, link
+      when cuda_arch=120f
+
+    cuda@12.9:                build, link
+      when cuda_arch=121
+
+    cuda@12.9:                build, link
+      when cuda_arch=121a
+
+    cuda@12.9:                build, link
+      when cuda_arch=121f
+
+    cuda@13.0:                build, link
+      when cuda_arch=110
+
+    cuda@13.0:                build, link
+      when cuda_arch=110a
+
+    cuda@13.0:                build, link
+      when cuda_arch=110f
+
+    cxx                       build
+
+    gl                        build, link
+      when +gl
+
+    gmake                     build
+      when build_system=autotools
+
+    gnuconfig                 build
+      when build_system=autotools target=ppc64le:
+
+    gnuconfig                 build
+      when build_system=autotools target=aarch64:
+
+    gnuconfig                 build
+      when build_system=autotools target=riscv64:
+
+    hip+rocm                  build, link
+      when +rocm
+
+    hsa-rocr-dev              build, link
+      when +rocm
+
+    libpciaccess              build, link
+      when +pci
+
+    libtool                   build
+      when @master
+
+    libxml2                   build, link
+      when +libxml2
+
+    llvm-amdgpu               build
+      when +rocm
+
+    llvm-amdgpu               build, link
+      when +opencl+rocm
+
+    llvm-amdgpu@5.2.0:        build, link
+      when amdgpu_target=gfx940
+
+    llvm-amdgpu@5.2.0:        build, link
+      when amdgpu_target=gfx1036
+
+    llvm-amdgpu@5.3.0:        build, link
+      when amdgpu_target=gfx1100
+
+    llvm-amdgpu@5.3.0:        build, link
+      when amdgpu_target=gfx1101
+
+    llvm-amdgpu@5.3.0:        build, link
+      when amdgpu_target=gfx1102
+
+    llvm-amdgpu@5.3.0:        build, link
+      when amdgpu_target=gfx1103
+
+    llvm-amdgpu@5.7.0:        build, link
+      when amdgpu_target=gfx941
+
+    llvm-amdgpu@5.7.0:        build, link
+      when amdgpu_target=gfx942
+
+    m4                        build
+      when @master
+
+    mpi                       build, link
+      when +netloc
+
+    ncurses                   build, link
+
+    ncurses~termlib           build, link
+      when @2.0:2.2
+
+    ncurses~termlib           build, link
+      when @1.0:1.11.12
+
+    numactl                   build, link
+      when @:1.11.11 platform=linux
+
+    oneapi-level-zero         build, link
+      when +level_zero
+
+    pkgconfig                 build
+
+    rocm-opencl               build, link
+      when +opencl+rocm
+
+    rocm-smi-lib              build, link
+      when +rocm
+
+
+Licenses:
+    BSD-3-Clause
+
+

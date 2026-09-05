@@ -1,0 +1,6 @@
+[ ] fbo6hrk gperftools@2.18.1 staging (0s)
+[ ] fbo6hrk gperftools@2.18.1 autoreconf (1s)
+[ ] fbo6hrk gperftools@2.18.1 configure (1s)
+[ ] fbo6hrk gperftools@2.18.1 build (14s)
+[ ] fbo6hrk gperftools@2.18.1 install (1m59s)
+[+] fbo6hrk gperftools@2.18.1 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/gperftools-2.18.1-fbo6hrkjpvwozgqlzjoawdhvhybckl26 (2m01s)
