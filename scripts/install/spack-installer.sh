@@ -41,8 +41,8 @@ if [[ ! -f "${file}" ]]; then
     exit 1
 fi
 
-repo="spacklandia/builds/${HOSTNAME}"
-new_step "pointer to repo = ${pGithub}/${repo}"
+repo="${pGithub}/spacklandia/builds/${HOSTNAME}"
+new_step "pointer to repo = ${repo}"
 
 new_step "build directory structure"
     sub_step "mkdir -p ${repo}/dependencies"
