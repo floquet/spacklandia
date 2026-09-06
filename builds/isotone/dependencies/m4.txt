@@ -1,0 +1,15 @@
+acfl
+aocc
+cce
+diffutils
+fj
+gcc
+gmake
+gnuconfig
+intel-oneapi-compilers
+intel-oneapi-compilers-classic
+libsigsegv
+llvm
+llvm-amdgpu
+nvhpc
+xl
