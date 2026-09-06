@@ -1,0 +1,23 @@
+o gperftools@2.18.1/nitn2p6
+|\
+| |\
+| | |\
+| | | |\
+o | | | | gmake@4.4.1/mkyma54
+|\| | | | 
+|\ \ \ \ \
+| |_|/ / /
+|/| | | | 
+| |\ \ \ \
+| | |_|/ /
+| |/| | | 
+| | |/ /
+| | o | compiler-wrapper@1.1.0/cpibo47
+| |  /
+o | | gcc-runtime@16.0.1/ucq2opi
+|\| | 
+| |/
+|/| 
+| o gcc@16.0.1/nfczfqn
+| 
+o glibc@2.43/ublhg65
