@@ -1,0 +1,12 @@
+ -   binutils@2.47~debuginfod~gas~gprofng~headers~interwork~ld~libiberty~lto~nls~pgo+plugins build_system=autotools compress_debug_sections=zlib libs:=shared,static platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+[+]      ^compiler-wrapper@1.1.0 build_system=generic platform=linux os=ubuntu26.04 target=skylake
+[+]      ^diffutils@3.12 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+[+]          ^libiconv@1.18 build_system=autotools libs:=shared,static platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+[e]      ^gcc@16.0.1+binutils+bootstrap+futex~graphite+libsanitizer~mold~nvptx~piclibs~profiled~strip build_system=autotools build_type=RelWithDebInfo languages:='c,c++,fortran' platform=linux os=ubuntu26.04 target=x86_64
+[+]      ^gcc-runtime@16.0.1 build_system=generic platform=linux os=ubuntu26.04 target=skylake
+[e]      ^glibc@2.43 build_system=autotools platform=linux os=ubuntu26.04 target=x86_64
+[+]      ^gmake@4.4.1~guile build_system=generic platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+[+]      ^pkgconf@2.5.1 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+[+]      ^zlib-ng@2.3.3+compat+new_strategies+opt+pic+shared build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+[+]      ^zstd@1.5.7+programs build_system=makefile compression:=none libs:=shared,static platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+
