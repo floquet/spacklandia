@@ -91,7 +91,7 @@ new_step "install package ${package}"
             git add ${repo}"
 
   sub_step "git commit -m '${package}'
-	       git commit -m  ${package}
+	        git commit -m  ${package}
 
 done < "${file}"
 
@@ -100,7 +100,7 @@ done < "${file}"
 
 new_step "Add results to git repo"
     sub_step "store list file"
-	      cp "${file}" "${repo}/list-file/."
+	          cp "${file}" "${repo}/list-file/."
     sub_step "git add  ${repo}"
               git add "${repo}"
     sub_step "git commit -m 'builds from ${file}'"
