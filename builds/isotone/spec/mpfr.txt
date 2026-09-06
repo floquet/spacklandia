@@ -7,7 +7,7 @@
 [+]                  ^readline@8.3 build_system=autotools patches=21f0a03,72dee13,e273643 platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
 [+]              ^less@692 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
 [+]              ^zlib-ng@2.3.3+compat+new_strategies+opt+pic+shared build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
- -       ^autoconf-archive@2024.10.16 build_system=autotools platform=linux os=ubuntu26.04 target=skylake
+[+]      ^autoconf-archive@2024.10.16 build_system=autotools platform=linux os=ubuntu26.04 target=skylake
  -       ^automake@1.18.1 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
 [+]      ^compiler-wrapper@1.1.0 build_system=generic platform=linux os=ubuntu26.04 target=skylake
 [e]      ^gcc@16.0.1+binutils+bootstrap+futex~graphite+libsanitizer~mold~nvptx~piclibs~profiled~strip build_system=autotools build_type=RelWithDebInfo languages:='c,c++,fortran' platform=linux os=ubuntu26.04 target=x86_64
