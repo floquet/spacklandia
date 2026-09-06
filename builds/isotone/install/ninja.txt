@@ -1,0 +1,1 @@
+[+] a7vpomi ninja@1.13.2 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/ninja-1.13.2-a7vpomizctvuzmgckgvgbgrf3ded2t5s (0s)
