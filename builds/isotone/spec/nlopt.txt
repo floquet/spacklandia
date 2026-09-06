@@ -9,19 +9,19 @@
 [+]      ^gcc-runtime@16.0.1 build_system=generic platform=linux os=ubuntu26.04 target=skylake
 [e]      ^glibc@2.43 build_system=autotools platform=linux os=ubuntu26.04 target=x86_64
 [+]      ^gmake@4.4.1~guile build_system=generic platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
-[+]      ^py-numpy@2.5.2 build_system=python_pip platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
-[+]          ^openblas@0.3.34~bignuma~consistent_fpcsr+dynamic_dispatch+fortran~ilp64+locking+pic+shared~static build_system=makefile patches=e192335 symbol_suffix=none threads=none platform=linux os=ubuntu26.04 target=skylake %c,cxx,fortran=gcc@16.0.1
-[+]          ^py-cython@3.2.4 build_system=python_pip platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
-[+]              ^py-setuptools@83.0.0 build_system=generic platform=linux os=ubuntu26.04 target=skylake
-[+]          ^py-meson-python@0.19.0 build_system=python_pip platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
-[+]              ^meson@1.11.1 build_system=python_pip patches=0f0b1bd platform=linux os=ubuntu26.04 target=skylake
+ -       ^py-numpy@2.5.2 build_system=python_pip platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+ -           ^openblas@0.3.34~bignuma~consistent_fpcsr+dynamic_dispatch+fortran~ilp64+locking+pic+shared~static build_system=makefile patches=e192335 symbol_suffix=none threads=none platform=linux os=ubuntu26.04 target=skylake %c,cxx,fortran=gcc@16.0.1
+ -           ^py-cython@3.2.4 build_system=python_pip platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+ -               ^py-setuptools@83.0.0 build_system=generic platform=linux os=ubuntu26.04 target=skylake
+ -           ^py-meson-python@0.19.0 build_system=python_pip platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -               ^meson@1.11.1 build_system=python_pip patches=0f0b1bd platform=linux os=ubuntu26.04 target=skylake
 [+]              ^ninja@1.13.2+re2c build_system=generic platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
 [+]                  ^re2c@4.4 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
-[+]              ^py-packaging@26.2 build_system=python_pip platform=linux os=ubuntu26.04 target=skylake
-[+]                  ^py-flit-core@3.12.0 build_system=python_pip platform=linux os=ubuntu26.04 target=skylake
-[+]              ^py-pyproject-metadata@0.11.0 build_system=python_pip platform=linux os=ubuntu26.04 target=skylake
-[+]          ^py-pip@26.1.2 build_system=generic platform=linux os=ubuntu26.04 target=skylake
-[+]          ^py-wheel@0.45.1 build_system=generic platform=linux os=ubuntu26.04 target=skylake
+ -               ^py-packaging@26.2 build_system=python_pip platform=linux os=ubuntu26.04 target=skylake
+ -                   ^py-flit-core@3.12.0 build_system=python_pip platform=linux os=ubuntu26.04 target=skylake
+ -               ^py-pyproject-metadata@0.11.0 build_system=python_pip platform=linux os=ubuntu26.04 target=skylake
+ -           ^py-pip@26.1.2 build_system=generic platform=linux os=ubuntu26.04 target=skylake
+ -           ^py-wheel@0.45.1 build_system=generic platform=linux os=ubuntu26.04 target=skylake
 [+]      ^python@3.14.5+bz2+ctypes+dbm~debug~freethreading+libxml2+lzma~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~static~tests~tkinter+uuid+zlib+zstd build_system=generic platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
 [+]          ^bzip2@1.0.8~debug~pic+shared build_system=generic platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
 [+]              ^diffutils@3.12 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
@@ -46,10 +46,10 @@
 [+]          ^util-linux-uuid@2.41 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
 [+]          ^xz@5.8.3~pic build_system=autotools libs:=shared,static platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
 [+]          ^zstd@1.5.7+programs build_system=makefile compression:=none libs:=shared,static platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
-[+]      ^python-venv@1.0 build_system=generic platform=linux os=ubuntu26.04 target=skylake
-[+]      ^swig@4.5.0+pcre build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
-[+]          ^bison@3.8.2~color build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
-[+]              ^m4@1.4.21+sigsegv build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+ -       ^python-venv@1.0 build_system=generic platform=linux os=ubuntu26.04 target=skylake
+ -       ^swig@4.5.0+pcre build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+ -           ^bison@3.8.2~color build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+ -               ^m4@1.4.21+sigsegv build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
 [+]                  ^libsigsegv@2.15 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
-[+]          ^pcre2@10.44~jit+multibyte+pic build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -           ^pcre2@10.44~jit+multibyte+pic build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
 
