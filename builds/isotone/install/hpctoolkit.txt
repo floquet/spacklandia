@@ -1,0 +1,286 @@
+[ ] i24adbm libpciaccess@0.17 staging (0s)
+[ ] xjdxf4h xxhash@0.8.3 staging (0s)
+[ ] wxdrjdc libiberty@2.46.0 staging (1s)
+[ ] fbawjlm yaml-cpp@0.8.0 staging (1s)
+[ ] i24adbm libpciaccess@0.17 autoreconf (1s)
+[ ] i24adbm libpciaccess@0.17 configure (1s)
+[ ] d4oeryf hpcviewer@2026.2.1 staging (1s)
+[ ] xm3jllm xerces-c@3.3.0 staging (1s)
+[ ] tmo5ib3 boost@1.90.0 staging (1s)
+[ ] yqdfpyi py-docutils@0.22.4 staging (1s)
+[ ] qxobt7d m4@1.4.21 staging (1s)
+[ ] syauj64 file@5.46 staging (1s)
+[ ] jplcnbx findutils@4.10.0 staging (1s)
+[ ] kneashf papi@7.2.0 staging (1s)
+[ ] syauj64 file@5.46 autoreconf (1s)
+[ ] syauj64 file@5.46 configure (1s)
+[ ] xjdxf4h xxhash@0.8.3 edit (1s)
+[ ] xjdxf4h xxhash@0.8.3 build (1s)
+[ ] qxobt7d m4@1.4.21 autoreconf (1s)
+[ ] qxobt7d m4@1.4.21 configure (1s)
+[ ] jplcnbx findutils@4.10.0 autoreconf (1s)
+[ ] jplcnbx findutils@4.10.0 configure (1s)
+[ ] kneashf papi@7.2.0 autoreconf (1s)
+[ ] kneashf papi@7.2.0 configure (1s)
+[x] i24adbm libpciaccess@0.17 failed: /var/tmp/dantopa/spack-stage/spack-stage-libpciaccess-0.17-i24adbment5laku45odxcz7dhmgrm7ps-lc7w6bul.log (2s)
+[x] jplcnbx findutils@4.10.0 failed: /var/tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7-kjztfrzp.log (2s)
+[x] qxobt7d m4@1.4.21 failed: /var/tmp/dantopa/spack-stage/spack-stage-m4-1.4.21-qxobt7dodmyai3yhin37umsnjoj4jphg-qh_wbith.log (2s)
+[x] syauj64 file@5.46 failed: /var/tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n-oa1omq2g.log (2s)
+[x] kneashf papi@7.2.0 failed: /var/tmp/dantopa/spack-stage/spack-stage-papi-7.2.0-kneashfdx2psgbbfbuxe5uwqn23xwxld-vd3ha22l.log (2s)
+[ ] fbawjlm yaml-cpp@0.8.0 cmake (3s)
+[ ] yqdfpyi py-docutils@0.22.4 install (3s)
+[ ] 622pklb intel-xed@2025.06.08 staging (1s)
+[x] fbawjlm yaml-cpp@0.8.0 failed: /var/tmp/dantopa/spack-stage/spack-stage-yaml-cpp-0.8.0-fbawjlm5qzx3jhymsrgejybavqdlf56l-lzqsnafg.log (3s)
+[ ] xm3jllm xerces-c@3.3.0 autoreconf (4s)
+[ ] xm3jllm xerces-c@3.3.0 configure (4s)
+[x] xjdxf4h xxhash@0.8.3 failed: /var/tmp/dantopa/spack-stage/spack-stage-xxhash-0.8.3-xjdxf4haumgsmomxwh5fd4wipwrwinvs-9241bzoj.log (4s)
+[x] xm3jllm xerces-c@3.3.0 failed: /var/tmp/dantopa/spack-stage/spack-stage-xerces-c-3.3.0-xm3jllmfguwii4lebhejk7qodnl7hort-r9qjinub.log (5s)
+[ ] wxdrjdc libiberty@2.46.0 autoreconf (5s)
+[ ] wxdrjdc libiberty@2.46.0 configure (5s)
+[+] yqdfpyi py-docutils@0.22.4 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/py-docutils-0.22.4-yqdfpyis2uhctssy5xsbke64rjtccamq (5s)
+[x] wxdrjdc libiberty@2.46.0 failed: /var/tmp/dantopa/spack-stage/spack-stage-libiberty-2.46.0-wxdrjdcdleg4mz5bt7izywk4euil3qvp-w7qjsrpr.log (6s)
+[ ] d4oeryf hpcviewer@2026.2.1 install (10s)
+[+] d4oeryf hpcviewer@2026.2.1 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/hpcviewer-2026.2.1-d4oeryfuqdpxsis3o72sl67uyfckmsc2 (11s)
+[ ] 622pklb intel-xed@2025.06.08 install (12s)
+[ ] tmo5ib3 boost@1.90.0 install (41s)
+[x] tmo5ib3 boost@1.90.0 failed: /var/tmp/dantopa/spack-stage/spack-stage-boost-1.90.0-tmo5ib3n2r63fv7epdx66jiwozeala5h-37638wk6.log (43s)
+[+] 622pklb intel-xed@2025.06.08 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/intel-xed-2025.06.08-622pklboul3ltucv5372ooorp5a55jnt (3m11s)
+-- lines 15 to 25 --
+  checking for gawk... gawk
+  checking whether make sets $(MAKE)... yes
+  checking whether make supports nested variables... no
+  checking whether make supports the include directive... yes (GNU style)
+  checking for gcc... /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc
+  checking whether the C compiler works... no
+> configure: error: in `/var/tmp/dantopa/spack-stage/spack-stage-libpciaccess-0.17-i24adbment5laku45odxcz7dhmgrm7ps/spack-src':
+> configure: error: C compiler cannot create executables
+  See `config.log' for more details
+  Command exited with status 77:
+      /var/tmp/dantopa/spack-stage/spack-stage-libpciaccess-0.17-i24adbment5laku45odxcz7dhmgrm7ps/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/libpciaccess-0.17-i24adbment5laku45odxcz7dhmgrm7ps
+-- lines 17 to 27 --
+  sed: couldn't flush stdout: Disk quota exceeded
+  x86_64-pc-linux-gnu
+  checking host system type... x86_64-pc-linux-gnu
+  checking for leaf optimisation... yes
+  checking for gcc... /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc
+  checking whether the C compiler works... no
+> configure: error: in '/var/tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7/spack-src/spack-build':
+> configure: error: C compiler cannot create executables
+  See 'config.log' for more details
+  Command exited with status 77:
+      /var/tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7
+-- lines 17 to 27 --
+  checking xargs -n works... yes
+  checking whether UID '1000' is supported by ustar format... yes
+  checking whether GID '1000' is supported by ustar format... yes
+  checking how to create a ustar tar archive... gnutar
+  checking for gcc... /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc
+  checking whether the C compiler works... no
+> configure: error: in '/var/tmp/dantopa/spack-stage/spack-stage-m4-1.4.21-qxobt7dodmyai3yhin37umsnjoj4jphg/spack-src/spack-build':
+> configure: error: C compiler cannot create executables
+  See 'config.log' for more details
+  Command exited with status 77:
+      /var/tmp/dantopa/spack-stage/spack-stage-m4-1.4.21-qxobt7dodmyai3yhin37umsnjoj4jphg/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/m4-1.4.21-qxobt7dodmyai3yhin37umsnjoj4jphg --enable-c++ --with-libsigsegv-prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/libsigsegv-2.15-gvnb75a6ajsi5seegvnrl2hiiarqemq3
+-- lines 28 to 38 --
+  checking for file formats in man section 5... yes
+  checking build system type... cat: -: Disk quota exceeded
+  x86_64-pc-linux-gnu
+  checking host system type... x86_64-pc-linux-gnu
+  checking for gcc... /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc
+  checking whether the C compiler works... no
+> configure: error: in '/var/tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n/spack-src':
+> configure: error: C compiler cannot create executables
+  See 'config.log' for more details
+  Command exited with status 77:
+      /var/tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n --disable-dependency-tracking --enable-fsect-man5 --enable-zlib --enable-bzlib --enable-xzlib --enable-zstdlib --disable-lzlib --enable-static
+-- lines 21 to 31 --
+  checking for OS... linux
+  checking for OS version... 7.0.0-30-generic
+  checking for perf_event workaround level... autodetect
+  checking for if MIC should be used... no
+  checking for if NEC should be used... no
+  checking whether the C compiler works... no
+> configure: error: in `/var/tmp/dantopa/spack-stage/spack-stage-papi-7.2.0-kneashfdx2psgbbfbuxe5uwqn23xwxld/spack-src/src':
+> configure: error: C compiler cannot create executables
+  See `config.log' for more details
+  Command exited with status 77:
+      /var/tmp/dantopa/spack-stage/spack-stage-papi-7.2.0-kneashfdx2psgbbfbuxe5uwqn23xwxld/spack-src/src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/papi-7.2.0-kneashfdx2psgbbfbuxe5uwqn23xwxld MPICC=: --with-components=example --with-shared-lib=yes --enable-perfevent-rdpmc=yes --with-tests=no
+-- lines 12 to 24 --
+  
+  -- The CXX compiler identification is unknown
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - failed
+  -- Check for working CXX compiler: /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/g++
+  -- Check for working CXX compiler: /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/g++ - broken
+> CMake Error at /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/cmake-3.31.12-jaab3zzqx7tblwnlniedxqfitwh27bha/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:73 (message):
+    The C++ compiler
+  
+      "/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/g++"
+  
+    is not able to compile a simple test program.
+  
+-- lines 28 to 53 --
+  
+      Run Build Command(s): /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/cmake-3.31.12-jaab3zzqx7tblwnlniedxqfitwh27bha/bin/cmake -E env VERBOSE=1 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gmake-4.4.1-mkyma5432d3gsulsfbayigyxf2ftrhen/bin/gmake -f Makefile cmTC_be5a8/fast
+      /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gmake-4.4.1-mkyma5432d3gsulsfbayigyxf2ftrhen/bin/gmake  -f CMakeFiles/cmTC_be5a8.dir/build.make CMakeFiles/cmTC_be5a8.dir/build
+      gmake[1]: Entering directory '/var/tmp/dantopa/spack-stage/spack-stage-yaml-cpp-0.8.0-fbawjlm5qzx3jhymsrgejybavqdlf56l/spack-build-fbawjlm/CMakeFiles/CMakeScratch/TryCompile-uzhF24'
+      Building CXX object CMakeFiles/cmTC_be5a8.dir/testCXXCompiler.cxx.o
+      /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/g++    -o CMakeFiles/cmTC_be5a8.dir/testCXXCompiler.cxx.o -c /var/tmp/dantopa/spack-stage/spack-stage-yaml-cpp-0.8.0-fbawjlm5qzx3jhymsrgejybavqdlf56l/spack-build-fbawjlm/CMakeFiles/CMakeScratch/TryCompile-uzhF24/testCXXCompiler.cxx
+>     /var/tmp/dantopa/spack-stage/spack-stage-yaml-cpp-0.8.0-fbawjlm5qzx3jhymsrgejybavqdlf56l/spack-build-fbawjlm/CMakeFiles/CMakeScratch/TryCompile-uzhF24/testCXXCompiler.cxx:4:21: fatal error: error closing /tmp/ccum9MdA.s: Disk quota exceeded
+          4 | int main(){return 0;}
+            |                     ^
+      compilation terminated.
+>     gmake[1]: *** [CMakeFiles/cmTC_be5a8.dir/build.make:81: CMakeFiles/cmTC_be5a8.dir/testCXXCompiler.cxx.o] Error 1
+      gmake[1]: Leaving directory '/var/tmp/dantopa/spack-stage/spack-stage-yaml-cpp-0.8.0-fbawjlm5qzx3jhymsrgejybavqdlf56l/spack-build-fbawjlm/CMakeFiles/CMakeScratch/TryCompile-uzhF24'
+>     gmake: *** [Makefile:134: cmTC_be5a8/fast] Error 2
+  
+  
+  
+  
+  
+    CMake will not be able to correctly generate this project.
+  Call Stack (most recent call first):
+    CMakeLists.txt:10 (project)
+  
+  
+  -- Configuring incomplete, errors occurred!
+  Command exited with status 1:
+      /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/cmake-3.31.12-jaab3zzqx7tblwnlniedxqfitwh27bha/bin/cmake -G 'Unix Makefiles' -DCMAKE_INSTALL_PREFIX:STRING=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/yaml-cpp-0.8.0-fbawjlm5qzx3jhymsrgejybavqdlf56l -DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON '-DCMAKE_INSTALL_RPATH:STRING=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/yaml-cpp-0.8.0-fbawjlm5qzx3jhymsrgejybavqdlf56l/lib;/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/yaml-cpp-0.8.0-fbawjlm5qzx3jhymsrgejybavqdlf56l/lib64' '-DCMAKE_PREFIX_PATH:STRING=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/cmake-3.31.12-jaab3zzqx7tblwnlniedxqfitwh27bha;/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r;/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gcc-runtime-16.0.1-ucq2opimto2x34zcrvdlow55lnwhuhnj;/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gmake-4.4.1-mkyma5432d3gsulsfbayigyxf2ftrhen' -DCMAKE_BUILD_TYPE:STRING=Release -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON -DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF -DCMAKE_POLICY_DEFAULT_CMP0090:STRING=NEW -DCMAKE_FIND_USE_PACKAGE_REGISTRY:BOOL=OFF -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON -DBUILD_SHARED_LIBS:BOOL=ON -DYAML_BUILD_SHARED_LIBS:BOOL=ON -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=ON -DYAML_CPP_BUILD_TESTS:BOOL=OFF /var/tmp/dantopa/spack-stage/spack-stage-yaml-cpp-0.8.0-fbawjlm5qzx3jhymsrgejybavqdlf56l/spack-src
+-- lines 6 to 40 --
+  /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc -O3     -c -o xxhash.o xxhash.c
+  /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc -O3   -fPIC  xxhash.c -shared -Wl,-soname=libxxhash.so.0 -o libxxhash.so.0.8.3
+  /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc -O3   -DXXHSUM_DISPATCH=1  -c -o cli/xxhsum.o cli/xxhsum.c
+  /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc -O3   -DXXHSUM_DISPATCH=1  -c -o cli/xsum_os_specific.o cli/xsum_os_specific.c
+  /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc -O3   -DXXHSUM_DISPATCH=1  -c -o cli/xsum_arch.o cli/xsum_arch.c
+  /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc -O3   -DXXHSUM_DISPATCH=1  -c -o cli/xsum_output.o cli/xsum_output.c
+> cli/xsum_arch.c:48:1: fatal error: error closing /tmp/ccDG7fhw.s: Disk quota exceeded
+     48 | }
+        | ^
+  compilation terminated.
+> make: *** [<builtin>: cli/xsum_arch.o] Error 1
+  make: *** Waiting for unfinished jobs....
+> cli/xsum_os_specific.c:523:1: fatal error: error closing /tmp/ccA9gJjN.s: Disk quota exceeded
+    523 | }
+        | ^
+  compilation terminated.
+> make: *** [<builtin>: cli/xsum_os_specific.o] Error 1
+> cli/xsum_output.c:66:1: fatal error: error closing /tmp/ccJGkKWN.s: Disk quota exceeded
+     66 | }
+        | ^
+  compilation terminated.
+> make: *** [<builtin>: cli/xsum_output.o] Error 1
+> cli/xxhsum.c:1677:1: fatal error: error writing to /tmp/ccsS3yc0.s: Disk quota exceeded
+   1677 | }
+        | ^
+  compilation terminated.
+> make: *** [<builtin>: cli/xxhsum.o] Error 1
+> xxhash.c:43: fatal error: error writing to /tmp/ccBY28pG.s: Disk quota exceeded
+  compilation terminated.
+> make: *** [<builtin>: xxhash.o] Error 1
+> xxhash.c:43: fatal error: error writing to /tmp/ccfDyFTk.s: Disk quota exceeded
+  compilation terminated.
+> make: *** [Makefile:158: libxxhash.so.0.8.3] Error 1
+  Command exited with status 2:
+      /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gmake-4.4.1-mkyma5432d3gsulsfbayigyxf2ftrhen/bin/make
+-- lines 24 to 34 --
+  checking whether UID '1000' is supported by ustar format... yes
+  checking whether GID '1000' is supported by ustar format... yes
+  checking how to create a ustar tar archive... gnutar
+  checking whether to enable maintainer-specific portions of Makefiles... no
+  checking whether to use rpath... yes
+  checking whether the C++ compiler works... no
+> configure: error: in '/var/tmp/dantopa/spack-stage/spack-stage-xerces-c-3.3.0-xm3jllmfguwii4lebhejk7qodnl7hort/spack-src':
+> configure: error: C++ compiler cannot create executables
+  See 'config.log' for more details
+  Command exited with status 77:
+      /var/tmp/dantopa/spack-stage/spack-stage-xerces-c-3.3.0-xm3jllmfguwii4lebhejk7qodnl7hort/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/xerces-c-3.3.0-xm3jllmfguwii4lebhejk7qodnl7hort --enable-netaccessor-curl --enable-transcoder-iconv
+-- lines 17 to 27 --
+  checking host system type... x86_64-pc-linux-gnu
+  checking for ar... ar
+  checking for ranlib... ranlib
+  checking whether to install libiberty headers and static library... yes
+  configure: target_header_dir = libiberty
+  checking for gcc... /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc
+> checking for suffix of object files... configure: error: in `/var/tmp/dantopa/spack-stage/spack-stage-libiberty-2.46.0-wxdrjdcdleg4mz5bt7izywk4euil3qvp/spack-src/libiberty':
+> configure: error: cannot compute suffix of object files: cannot compile
+  See `config.log' for more details
+  Command exited with status 1:
+      /var/tmp/dantopa/spack-stage/spack-stage-libiberty-2.46.0-wxdrjdcdleg4mz5bt7izywk4euil3qvp/spack-src/libiberty/configure 'CFLAGS=-g -O2 -fPIC' --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/libiberty-2.46.0-wxdrjdcdleg4mz5bt7izywk4euil3qvp --enable-install-libiberty
+-- lines 1 to 45 --
+  ==> Using cached archive: /home/dantopa/spacktivity/spack-isotone/var/spack/cache/_source-cache/archive/49/49551aff3b22cbc5c5a9ed3dbc92f0e23ea50a0f7325b0d198b705e8ee3fc305.tar.bz2
+  ==> Applied patch /home/dantopa/.spack/package_repos/fncqgg4/repos/spack_repo/builtin/packages/boost/bootstrap-compiler.patch
+  ==> Ran patch() for boost
+  ==> boost: Executing phase: 'install'
+  ==> [2026-09-06-10:52:28.745279] ./bootstrap.sh --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/boost-1.90.0-tmo5ib3n2r63fv7epdx66jiwozeala5h --with-toolset=gcc --with-libraries=atomic,chrono,container,date_time,exception,filesystem,graph,random,regex,system,thread,timer --without-icu
+  Building B2 engine..
+> ls: cannot access '/opt/IBM/openxlC/17.*/bin/ibm-clang++_r': No such file or directory
+  
+  A C++11 capable compiler is required for building the B2 engine.
+  Toolset 'gcc' does not appear to support C++11.
+  
+  > /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/g++ -x c++ -std=c++11 -pthread  check_clib.cpp check_cxx11.cpp
+> check_clib.cpp:19:1: fatal error: error closing /tmp/ccK9Qd2K.s: Disk quota exceeded
+     19 | }
+        | ^
+  compilation terminated.
+> check_cxx11.cpp:49:1: fatal error: error writing to /tmp/ccK9Qd2K.s: Disk quota exceeded
+     49 | }
+        | ^
+  compilation terminated.
+  > /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/g++ -x c++ -std=c++11  check_clib.cpp check_cxx11.cpp
+> check_clib.cpp:19:1: fatal error: error closing /tmp/ccUPmKUq.s: Disk quota exceeded
+     19 | }
+        | ^
+  compilation terminated.
+> check_cxx11.cpp:49:1: fatal error: error writing to /tmp/ccUPmKUq.s: Disk quota exceeded
+     49 | }
+        | ^
+  compilation terminated.
+  > /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/g++ -x c++ -std=c++11 -D_GNU_SOURCE  check_clib.cpp check_cxx11.cpp
+> check_clib.cpp:19:1: fatal error: error closing /tmp/ccTXt1QS.s: Disk quota exceeded
+     19 | }
+        | ^
+  compilation terminated.
+> check_cxx11.cpp:49:1: fatal error: error writing to /tmp/ccTXt1QS.s: Disk quota exceeded
+     49 | }
+        | ^
+  compilation terminated.
+> ls: cannot access '/opt/IBM/openxlC/17.*/bin/ibm-clang++_r': No such file or directory
+  
+  
+  ** Note, the C++11 capable compiler is _only_ required for building the B2
+  ** engine. The B2 build system allows for using any C++ level and any other
+  ** supported language and resource in your projects.
+  
+-- lines 58 to 77 --
+  A special toolset; cxx, is available which is used as a fallback when a more
+  specific toolset is not found and the cxx command is detected. The 'cxx'
+  toolset will use the '--cxx' and '--cxxflags' options, if present.
+  
+  Options:
+      --help                  Show this help message.
+      --verbose               Show messages about what this script is doing.
+      --debug                 Build b2 with debug information, and no
+                              optimizations.
+      --guess-toolset         Print the toolset we can detect for building.
+      --cxx=CXX               The compiler exec to use instead of the detected
+                              compiler exec.
+      --cxxflags=CXXFLAGS     The compiler flags to use in addition to the
+                              flags for the detected compiler.
+  
+  
+  
+  Failed to build B2 build engine
+  Command exited with status 1:
+      ./bootstrap.sh --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/boost-1.90.0-tmo5ib3n2r63fv7epdx66jiwozeala5h --with-toolset=gcc --with-libraries=atomic,chrono,container,date_time,exception,filesystem,graph,random,regex,system,thread,timer --without-icu
+==> Error: The following packages failed to install:
+libpciaccess@0.17/i24adbment5laku45odxcz7dhmgrm7ps: /var/tmp/dantopa/spack-stage/spack-stage-libpciaccess-0.17-i24adbment5laku45odxcz7dhmgrm7ps-lc7w6bul.log
+findutils@4.10.0/jplcnbxh55wbticij6q25vbqkd5e4sp7: /var/tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7-kjztfrzp.log
+m4@1.4.21/qxobt7dodmyai3yhin37umsnjoj4jphg: /var/tmp/dantopa/spack-stage/spack-stage-m4-1.4.21-qxobt7dodmyai3yhin37umsnjoj4jphg-qh_wbith.log
+file@5.46/syauj647c7jo3bsebuqx6r3tmmntjy7n: /var/tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n-oa1omq2g.log
+papi@7.2.0/kneashfdx2psgbbfbuxe5uwqn23xwxld: /var/tmp/dantopa/spack-stage/spack-stage-papi-7.2.0-kneashfdx2psgbbfbuxe5uwqn23xwxld-vd3ha22l.log
+yaml-cpp@0.8.0/fbawjlm5qzx3jhymsrgejybavqdlf56l: /var/tmp/dantopa/spack-stage/spack-stage-yaml-cpp-0.8.0-fbawjlm5qzx3jhymsrgejybavqdlf56l-lzqsnafg.log
+xxhash@0.8.3/xjdxf4haumgsmomxwh5fd4wipwrwinvs: /var/tmp/dantopa/spack-stage/spack-stage-xxhash-0.8.3-xjdxf4haumgsmomxwh5fd4wipwrwinvs-9241bzoj.log
+xerces-c@3.3.0/xm3jllmfguwii4lebhejk7qodnl7hort: /var/tmp/dantopa/spack-stage/spack-stage-xerces-c-3.3.0-xm3jllmfguwii4lebhejk7qodnl7hort-r9qjinub.log
+libiberty@2.46.0/wxdrjdcdleg4mz5bt7izywk4euil3qvp: /var/tmp/dantopa/spack-stage/spack-stage-libiberty-2.46.0-wxdrjdcdleg4mz5bt7izywk4euil3qvp-w7qjsrpr.log
+boost@1.90.0/tmo5ib3n2r63fv7epdx66jiwozeala5h: /var/tmp/dantopa/spack-stage/spack-stage-boost-1.90.0-tmo5ib3n2r63fv7epdx66jiwozeala5h-37638wk6.log

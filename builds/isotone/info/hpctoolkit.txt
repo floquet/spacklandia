@@ -1,0 +1,373 @@
+AutotoolsPackage:   hpctoolkit
+
+Description:
+    HPCToolkit is an integrated suite of tools for measurement and analysis
+    of program performance on computers ranging from multicore desktop
+    systems to the nation's largest supercomputers. By using statistical
+    sampling of timers and hardware performance counters, HPCToolkit
+    collects accurate measurements of a program's work, resource
+    consumption, and inefficiency and attributes them to the full calling
+    context in which they occur.
+
+Homepage: https://hpctoolkit.org
+
+Preferred version:  
+    2026.0.1          [git] https://gitlab.com/hpctoolkit/hpctoolkit.git at commit fc620c4751e6e233725620b2f22b1bcaa07c967f
+
+Safe versions:  
+    develop           [git] https://gitlab.com/hpctoolkit/hpctoolkit.git on branch develop
+    2026.0.stable     [git] https://gitlab.com/hpctoolkit/hpctoolkit.git on branch release/2026.0
+    2026.0.1          [git] https://gitlab.com/hpctoolkit/hpctoolkit.git at commit fc620c4751e6e233725620b2f22b1bcaa07c967f
+    2026.0.0          [git] https://gitlab.com/hpctoolkit/hpctoolkit.git at commit 7134ddc4bc68b0c7a92f31d1268bdd01e177efc0
+    2025.1.stable     [git] https://gitlab.com/hpctoolkit/hpctoolkit.git on branch release/2025.1
+    2025.1.2          [git] https://gitlab.com/hpctoolkit/hpctoolkit.git at commit b2f42a93d7f40a20398d35905d8d54a4568cb52e
+    2025.1.1          [git] https://gitlab.com/hpctoolkit/hpctoolkit.git at commit a1ffae9da0e7da042c70e6ed592db35286e4483d
+    2025.1.0          [git] https://gitlab.com/hpctoolkit/hpctoolkit.git at commit 9f9bdf0885ffc28ab51251bc5359485ff75d2a21
+    2025.0.stable     [git] https://gitlab.com/hpctoolkit/hpctoolkit.git on branch release/2025.0
+    2025.0.1          [git] https://gitlab.com/hpctoolkit/hpctoolkit.git at commit ed42fab06e0c4be41fba510f151a5ae153fbd5e5
+    2024.01.stable    [git] https://gitlab.com/hpctoolkit/hpctoolkit.git on branch release/2024.01
+    2024.01.1         [git] https://gitlab.com/hpctoolkit/hpctoolkit.git at commit 0672b9a9a2a1e3846c5e2059fb73a07a129f22cd
+    2023.08.stable    [git] https://gitlab.com/hpctoolkit/hpctoolkit.git on branch release/2023.08
+    2023.08.1         [git] https://gitlab.com/hpctoolkit/hpctoolkit.git at commit 753a72affd584a5e72fe153d1e8c47a394a3886e
+    2023.03.stable    [git] https://gitlab.com/hpctoolkit/hpctoolkit.git on branch release/2023.03
+    2023.03.01        [git] https://gitlab.com/hpctoolkit/hpctoolkit.git at commit 9e0daf2ad169f6c7f6c60408475b3c2f71baebbf
+    2022.10.01        [git] https://gitlab.com/hpctoolkit/hpctoolkit.git at commit e8a5cc87e8f5ddfd14338459a4106f8e0d162c83
+
+Deprecated versions:  
+    None
+
+Variants:
+    auditor_default [true]          false, true
+      when @2025:
+        Whether to use LD_AUDIT by default in hpcrun, can be set to false to
+        work around bugs in Glibc <2.35
+
+    build_system [autotools]        autotools, meson
+        Build systems supported by the package
+
+    buildtype [release]             debug, debugoptimized, minsize, plain,
+                                    release
+      when build_system=meson
+        Meson build type
+
+    cray [false]                    false, true
+      when build_system=autotools
+        Build hpcprof-mpi for Cray systems (may require --dirty).
+
+    cray-static [false]             false, true
+      when @:2022.09+cray build_system=autotools
+        Build old rev of hpcprof-mpi statically on Cray systems.
+
+    cuda [false]                    false, true
+      when @2020.03:
+        Support CUDA on NVIDIA GPUs.
+
+    debug [false]                   false, true
+      when build_system=autotools
+        Build in debug (develop) mode.
+
+    default_library [shared]        shared, static
+      when build_system=meson
+        Build shared libs, static libs or both
+
+    docs [false]                    false, true
+      when @2025:
+        Include extra documentation (user's manual)
+
+    gtpin [false]                   false, true
+      when @2022.05:+level_zero
+        Support instrumenting Intel GPU kernels with Intel GT-Pin
+
+    level_zero [false]              false, true
+      when @2022.04:
+        Support Level Zero on Intel GPUs.
+
+    mpi [false]                     false, true
+        Build hpcprof-mpi, the MPI version of hpcprof (not available for
+        2022.10.01).
+
+    opencl [false]                  false, true
+        Support offloading with OpenCL.
+
+    papi [true]                     false, true
+        Use PAPI instead of perfmon for access to the hardware performance
+        counters.
+
+    python [false]                  false, true
+      when @2023.03:
+        Support unwinding Python source.
+
+    rocm [false]                    false, true
+      when @2022.04:
+        Support ROCM on AMD GPUs.
+
+    strip [false]                   false, true
+      when build_system=meson
+        Strip targets on install
+
+    viewer [true]                   false, true
+        Include hpcviewer.
+
+
+Dependencies:
+    autoconf                                          build
+      when @2024.01: build_system=autotools
+
+    autoconf                                          build
+      when @:2024.1 build_system=meson
+
+    automake                                          build
+      when @2024.01: build_system=autotools
+
+    automake                                          build
+      when @:2024.1 build_system=meson
+
+    binutils@:2.33.1+libiberty~nls                    link
+      when @:2020.03
+
+    binutils@:2.39+libiberty                          link
+      when @2021:2022.06
+
+    binutils@:2.39+libiberty~nls                      link
+      when @2020.04:2020
+
+    boost+atomic+chrono+date_time+filesystem+graph+multithreaded+regex+shared+system+thread+timer visibility=global
+                                                      build, link
+
+    bzip2+shared                                      link
+
+    c                                                 build
+
+    cmake                                             build
+      when @2024.02: build_system=meson
+
+    cuda                                              build, link
+      when +cuda
+
+    cxx                                               build
+
+    dyninst@9.3.2:12                                  build, link
+      when @:2020
+
+    dyninst@10.2.0:12                                 build, link
+      when @2021
+
+    dyninst@12.1.0:12                                 build, link
+      when @2022:2023.08
+
+    dyninst@12.1.0:                                   build, link
+      when @2024.01:
+
+    elfutils~nls                                      link
+
+    gmake                                             build
+      when build_system=autotools
+
+    gmake                                             build
+      when @:2024.1 build_system=meson
+
+    gnuconfig                                         build
+      when build_system=autotools target=ppc64le:
+
+    gnuconfig                                         build
+      when build_system=autotools target=aarch64:
+
+    gnuconfig                                         build
+      when build_system=autotools target=riscv64:
+
+    googletest@1.8.1:+gmock                           test
+      when @2025:
+
+    gotcha@1.0.3:                                     build, link
+      when @:2020.09
+
+    hip@4.5:                                          build, run
+      when @:2024+rocm
+
+    hip@4.5:                                          build, link
+      when @2025:2025.0+rocm
+
+    hip@6.2:                                          test
+      when @2025.1:+rocm
+
+    hpcviewer                                         run
+      when +viewer
+
+    hsa-rocr-dev@4.5:                                 build, run
+      when @:2024+rocm
+
+    hsa-rocr-dev@4.5:                                 build, link
+      when @2025:2025.0+rocm
+
+    intel-gtpin                                       build, link
+      when +gtpin
+
+    intel-tbb+shared                                  build, link
+      when ^tbb=intel-tbb
+
+    intel-xed+deprecated-includes                     build, link
+      when @:2024.1.1 target=x86_64:
+
+    intel-xed+pic                                     build, link
+      when target=x86_64:
+
+    jemalloc                                          build, link
+      when @2026.1: ^dyninst@14:
+
+    libdwarf                                          build, link
+      when @:2022.06
+
+    libiberty+pic                                     build, link
+      when @2022.10:
+
+    libmonitor~dlopen+hpctoolkit                      build, link
+      when @2021.00:2024
+
+    libmonitor+dlopen+hpctoolkit                      build, link
+      when @:2020
+
+    libmonitor@2021.11.08:                            build, link
+      when @2022.01:2024
+
+    libpfm4                                           build, link
+      when ~papi
+
+    libtool                                           build
+      when @2024.01: build_system=autotools
+
+    libtool                                           build
+      when @:2024.1 build_system=meson
+
+    libunwind+pic libs=static                         build, link
+      when @:2023.08
+
+    libunwind@1.4:+xz                                 build, link
+
+    m4                                                build
+      when @:2024.1 build_system=meson
+
+    mbedtls+pic                                       build, link
+      when @:2022.03
+
+    memkind                                           build, run
+      when @2021.05.01:2023.08
+
+    meson@1.3.2:                                      build
+      when build_system=meson
+
+    mpi                                               build, link
+      when +cray
+
+    mpi                                               build, link
+      when +mpi
+
+    ninja                                             build
+      when build_system=meson
+
+    oneapi-igc                                        build, link
+      when +gtpin
+
+    oneapi-igc                                        build, link
+      when @2026:+level_zero
+
+    oneapi-level-zero                                 build, link
+      when +level_zero
+
+    opencl-c-headers                                  build, link
+      when +opencl
+
+    papi                                              build, link
+      when +papi
+
+    patchelf@0.11:                                    build, link
+      when @2025:
+
+    pkgconfig                                         build
+      when build_system=meson platform=linux
+
+    pkgconfig                                         build
+      when build_system=meson platform=freebsd
+
+    pkgconfig                                         build
+      when build_system=meson platform=darwin
+
+    pkgconfig                                         build
+      when @2024.02: build_system=meson
+
+    py-docutils                                       build
+      when @2025:
+
+    py-myst-parser@3:4                                build
+      when @2025.0+docs
+
+    py-myst-parser@3:                                 build
+      when +docs
+
+    py-sphinx@6:8                                     build
+      when @2025.0+docs
+
+    py-sphinx@6:                                      build
+      when +docs
+
+    py-sphinx-book-theme@1                            build
+      when @2025.0+docs
+
+    py-sphinx-book-theme@1:                           build
+      when +docs
+
+    python@3.4:                                       build
+      when @2020.03:2020.08
+
+    python@3.8:                                       build, run
+      when @2024.01:+python
+
+    python@3.10:                                      build, run
+      when @:2023.08+python
+
+    rocm-openmp-extras                                build
+      when %rocmcc
+
+    rocprofiler-dev@4.5:                              build, run
+      when @:2024+rocm
+
+    rocprofiler-dev@4.5:                              build, link
+      when @2025:2025.0+rocm
+
+    rocprofiler-sdk@6.2:                              build, link
+      when @2025.1:+rocm
+
+    roctracer-dev@4.5:                                build, run
+      when @:2024+rocm
+
+    roctracer-dev@4.5:                                build, link
+      when @2025:2025.0+rocm
+
+    tbb                                               build, link
+
+    xerces-c transcoder=iconv                         build, link
+
+    xxhash@0.8.1:                                     build, link
+      when @2025:
+
+    xz                                                link
+
+    xz+pic libs=static                                link
+      when @:2023.08
+
+    yaml-cpp@0.7.0:+shared                            build, link
+      when @2022.10:
+
+    zlib+shared                                       build, link
+      when ^zlib-api=zlib
+
+    zlib-api                                          build, link
+
+
+Licenses:
+    Apache-2.0
+      when @2025:
+
+    BSD-3-Clause
+      when @:2024
+
+
