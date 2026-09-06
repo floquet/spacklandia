@@ -1,0 +1,205 @@
+[ ] gfjhkrd nghttp2@1.67.1 staging (0s)
+[ ] jgjrhp7 pcre@8.45 staging (0s)
+[ ] xejzc6h ca-certificates-mozilla@2026-05-14 staging (0s)
+[ ] wlxcvxy less@692 staging (0s)
+[ ] 4ouuokm libmd@1.1.0 staging (0s)
+[ ] cln4oj7 berkeley-db@18.1.40 staging (0s)
+[ ] wnfh5ol readline@8.3 staging (0s)
+[ ] qoscdci util-linux-uuid@2.41 staging (0s)
+[ ] 2e6wkbb libffi@3.5.2 staging (0s)
+[ ] survjpn patchelf@0.17.2 staging (0s)
+[ ] 4ouuokm libmd@1.1.0 autoreconf (0s)
+[ ] 4ouuokm libmd@1.1.0 configure (0s)
+[ ] wlxcvxy less@692 autoreconf (0s)
+[ ] wlxcvxy less@692 configure (0s)
+[ ] gfjhkrd nghttp2@1.67.1 autoreconf (0s)
+[ ] gfjhkrd nghttp2@1.67.1 configure (0s)
+[ ] survjpn patchelf@0.17.2 autoreconf (1s)
+[ ] survjpn patchelf@0.17.2 configure (1s)
+[ ] xejzc6h ca-certificates-mozilla@2026-05-14 install (1s)
+[+] xejzc6h ca-certificates-mozilla@2026-05-14 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/ca-certificates-mozilla-2026-05-14-xejzc6hy7vd2c3lsikmeoivzwin2as6k (1s)
+[ ] 2e6wkbb libffi@3.5.2 autoreconf (1s)
+[ ] 2e6wkbb libffi@3.5.2 configure (1s)
+[ ] jgjrhp7 pcre@8.45 autoreconf (1s)
+[ ] jgjrhp7 pcre@8.45 configure (1s)
+[ ] wnfh5ol readline@8.3 autoreconf (2s)
+[ ] wnfh5ol readline@8.3 configure (2s)
+[ ] survjpn patchelf@0.17.2 build (2s)
+[ ] cln4oj7 berkeley-db@18.1.40 autoreconf (2s)
+[ ] cln4oj7 berkeley-db@18.1.40 configure (2s)
+[ ] qoscdci util-linux-uuid@2.41 autoreconf (3s)
+[ ] qoscdci util-linux-uuid@2.41 configure (3s)
+[ ] 4ouuokm libmd@1.1.0 build (6s)
+[ ] wlxcvxy less@692 build (6s)
+[ ] 4ouuokm libmd@1.1.0 install (9s)
+[ ] 2e6wkbb libffi@3.5.2 build (9s)
+[ ] jgjrhp7 pcre@8.45 build (9s)
+[+] 4ouuokm libmd@1.1.0 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/libmd-1.1.0-4ouuokms3tacuqwue26yl5x5aaxihnwi (10s)
+[ ] ogeeaax libbsd@0.12.2 staging (1s)
+[ ] ogeeaax libbsd@0.12.2 autoreconf (1s)
+[ ] ogeeaax libbsd@0.12.2 configure (1s)
+[ ] 2e6wkbb libffi@3.5.2 install (13s)
+[+] 2e6wkbb libffi@3.5.2 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/libffi-3.5.2-2e6wkbbqdjvphxtirowhezsfdgu3gjqr (14s)
+[ ] wnfh5ol readline@8.3 build (14s)
+[ ] wlxcvxy less@692 install (14s)
+[+] wlxcvxy less@692 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/less-692-wlxcvxy5xg7o7wwoif5ugtjpkvy3dwj5 (14s)
+[ ] survjpn patchelf@0.17.2 install (19s)
+[+] survjpn patchelf@0.17.2 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/patchelf-0.17.2-survjpnmb6wspgfyofksqv7xmmtr4dmg (19s)
+[ ] 4sjy46i rust-bootstrap@1.96.0 staging (0s)
+[ ] gfjhkrd nghttp2@1.67.1 build (21s)
+[ ] ogeeaax libbsd@0.12.2 build (15s)
+[ ] cln4oj7 berkeley-db@18.1.40 build (28s)
+[ ] wnfh5ol readline@8.3 install (35s)
+[ ] gfjhkrd nghttp2@1.67.1 install (35s)
+[+] wnfh5ol readline@8.3 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/readline-8.3-wnfh5olmdrvrq5sg4illd6ehaaw2gljb (36s)
+[+] gfjhkrd nghttp2@1.67.1 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/nghttp2-1.67.1-gfjhkrdp2tef5435lt64nc2izlwhb6e2 (36s)
+[ ] 5muzmqz sqlite@3.53.1 staging (0s)
+[ ] 5muzmqz sqlite@3.53.1 autoreconf (1s)
+[ ] 5muzmqz sqlite@3.53.1 configure (1s)
+[ ] jjakei6 gdbm@1.26 staging (0s)
+[ ] jjakei6 gdbm@1.26 autoreconf (0s)
+[ ] jjakei6 gdbm@1.26 configure (0s)
+[ ] qoscdci util-linux-uuid@2.41 build (38s)
+[ ] 5muzmqz sqlite@3.53.1 build (3s)
+[ ] ogeeaax libbsd@0.12.2 install (31s)
+[+] ogeeaax libbsd@0.12.2 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/libbsd-0.12.2-ogeeaaxa6vgbws7y7ldjmyor6r3qxcjw (32s)
+[ ] kknxowc expat@2.8.3 staging (1s)
+[ ] kknxowc expat@2.8.3 autoreconf (1s)
+[ ] kknxowc expat@2.8.3 configure (1s)
+[ ] qoscdci util-linux-uuid@2.41 install (43s)
+[+] qoscdci util-linux-uuid@2.41 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/util-linux-uuid-2.41-qoscdci6cmbxwjsorkgepvxjjnrwrvyz (45s)
+[ ] 4sjy46i rust-bootstrap@1.96.0 install (27s)
+[ ] jjakei6 gdbm@1.26 build (10s)
+[ ] jgjrhp7 pcre@8.45 install (49s)
+[+] jgjrhp7 pcre@8.45 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/pcre-8.45-jgjrhp7us6jwmbbm44h4lfah6oc35wrn (51s)
+[ ] kknxowc expat@2.8.3 build (12s)
+[+] 4sjy46i rust-bootstrap@1.96.0 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/rust-bootstrap-1.96.0-4sjy46ixx4hgg5vj6ab744xxrqiq4qmr (40s)
+[ ] jjakei6 gdbm@1.26 install (24s)
+[+] jjakei6 gdbm@1.26 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gdbm-1.26-jjakei67ydgfvqrmdsjbzstqooibgngw (26s)
+[ ] kknxowc expat@2.8.3 install (26s)
+[+] kknxowc expat@2.8.3 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/expat-2.8.3-kknxowc3xl4g4qe674d7fi7bw7z5igxx (27s)
+[ ] cln4oj7 berkeley-db@18.1.40 install (1m14s)
+[+] cln4oj7 berkeley-db@18.1.40 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/berkeley-db-18.1.40-cln4oj7pgmpr72yxjslkpm6vyz7ntxvh (1m15s)
+[ ] zbm4yle perl@5.42.2 staging (0s)
+[ ] zbm4yle perl@5.42.2 configure (2s)
+[ ] 5muzmqz sqlite@3.53.1 install (1m21s)
+[+] 5muzmqz sqlite@3.53.1 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/sqlite-3.53.1-5muzmqzkmezmypqvd4ic4d53foowhwuj (1m21s)
+[ ] zbm4yle perl@5.42.2 build (44s)
+[ ] zbm4yle perl@5.42.2 install (1m38s)
+[+] zbm4yle perl@5.42.2 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/perl-5.42.2-zbm4ylekimschrmlh7wief56msf7md6y (1m59s)
+[ ] amw5dle openssl@3.6.1 staging (0s)
+[ ] amw5dle openssl@3.6.1 install (3s)
+[+] amw5dle openssl@3.6.1 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/openssl-3.6.1-amw5dle2aroztin2nz4mf56dnj4g6qt5 (2m02s)
+[ ] 72loh7m curl@8.21.0 staging (0s)
+[ ] pqh3kbu libssh2@1.11.1 staging (0s)
+[ ] iqi3j3s python@3.14.5 staging (0s)
+[ ] pqh3kbu libssh2@1.11.1 autoreconf (0s)
+[ ] pqh3kbu libssh2@1.11.1 configure (0s)
+[ ] 72loh7m curl@8.21.0 autoreconf (1s)
+[ ] 72loh7m curl@8.21.0 configure (1s)
+[ ] iqi3j3s python@3.14.5 configure (1s)
+[ ] pqh3kbu libssh2@1.11.1 build (5s)
+[ ] pqh3kbu libssh2@1.11.1 install (10s)
+[+] pqh3kbu libssh2@1.11.1 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/libssh2-1.11.1-pqh3kbueshsrb5awydxmkdkdlsxjfxqh (10s)
+[ ] 72loh7m curl@8.21.0 build (20s)
+[ ] iqi3j3s python@3.14.5 build (53s)
+[ ] 72loh7m curl@8.21.0 install (1m31s)
+[+] 72loh7m curl@8.21.0 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/curl-8.21.0-72loh7mujvjeawfsad3rrcdty7eic43i (1m34s)
+[ ] jaab3zz cmake@3.31.12 staging (1s)
+[ ] jaab3zz cmake@3.31.12 bootstrap (3s)
+[ ] iqi3j3s python@3.14.5 install (2m48s)
+[+] iqi3j3s python@3.14.5 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/python-3.14.5-iqi3j3s6i54ihptht3aqloe7zsf7saom (3m10s)
+[ ] cykmnxj re2c@4.4 staging (0s)
+[ ] cykmnxj re2c@4.4 autoreconf (2s)
+[ ] cykmnxj re2c@4.4 configure (2s)
+[ ] cykmnxj re2c@4.4 build (16s)
+[ ] jaab3zz cmake@3.31.12 build (4m53s)
+[ ] cykmnxj re2c@4.4 install (5m58s)
+[+] cykmnxj re2c@4.4 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/re2c-4.4-cykmnxjea7epoftab5zmj26xxmziztmy (6m02s)
+[ ] a7vpomi ninja@1.13.2 staging (0s)
+[ ] a7vpomi ninja@1.13.2 configure (2s)
+[ ] a7vpomi ninja@1.13.2 install (2m43s)
+[+] a7vpomi ninja@1.13.2 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/ninja-1.13.2-a7vpomizctvuzmgckgvgbgrf3ded2t5s (2m44s)
+[ ] jaab3zz cmake@3.31.12 install (11m30s)
+[+] jaab3zz cmake@3.31.12 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/cmake-3.31.12-jaab3zzqx7tblwnlniedxqfitwh27bha (11m35s)
+[ ] ybp4s45 libgit2@1.9.1 staging (0s)
+[ ] ybp4s45 libgit2@1.9.1 cmake (3s)
+[ ] ybp4s45 libgit2@1.9.1 build (6s)
+[ ] ybp4s45 libgit2@1.9.1 install (19s)
+[+] ybp4s45 libgit2@1.9.1 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/libgit2-1.9.1-ybp4s45uhk52n7bt655e6pcujmrk6zsl (19s)
+[ ] sjzowom rust@1.97.1 staging (0s)
+[ ] sjzowom rust@1.97.1 configure (18s)
+[ ] sjzowom rust@1.97.1 build (18s)
+[x] sjzowom rust@1.97.1 failed: /tmp/dantopa/spack-stage/spack-stage-rust-1.97.1-sjzowomrtvbwcat4mqb5w7ujymy2rqry-zl2o83b2.log (53m33s)
+-- lines 78 to 90 --
+     Compiling ignore v0.4.23
+     Compiling clap v4.5.20
+     Compiling clap_complete v4.5.37
+      Finished `dev` profile [unoptimized] target(s) in 16.67s
+  fatal: not a git repository (or any parent up to mount point /)
+  Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+> WARNING: The `change-id` is missing in the `bootstrap.toml`. This means that you will not be able to track the major changes made to the bootstrap configurations.
+  NOTE: to silence this warning, add `change-id = 154587` or `change-id = "ignore"` at the top of `bootstrap.toml`
+  Building LLVM for x86_64-unknown-linux-gnu
+  CMAKE_TOOLCHAIN_FILE_x86_64-unknown-linux-gnu = None
+  CMAKE_TOOLCHAIN_FILE_x86_64_unknown_linux_gnu = None
+  HOST_CMAKE_TOOLCHAIN_FILE = None
+  CMAKE_TOOLCHAIN_FILE = None
+-- lines 4110 to 4164 --
+  [3822/3898] Linking CXX executable bin/llvm-cxxfilt
+  [3823/3898] Linking CXX executable bin/llvm-cxxmap
+  [3824/3898] Linking CXX executable bin/llvm-lto
+  [3825/3898] Building CXX object tools/obj2yaml/CMakeFiles/obj2yaml.dir/macho2yaml.cpp.o
+  [3826/3898] Linking CXX executable bin/bugpoint
+  [3827/3898] Building CXX object tools/verify-uselistorder/CMakeFiles/verify-uselistorder.dir/verify-uselistorder.cpp.o
+> FAILED: [code=1] tools/verify-uselistorder/CMakeFiles/verify-uselistorder.dir/verify-uselistorder.cpp.o
+  /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/g++ -DLLVM_BUILD_STATIC -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/dantopa/spack-stage/spack-stage-rust-1.97.1-sjzowomrtvbwcat4mqb5w7ujymy2rqry/spack-src/build/x86_64-unknown-linux-gnu/llvm/build/tools/verify-uselistorder -I/tmp/dantopa/spack-stage/spack-stage-rust-1.97.1-sjzowomrtvbwcat4mqb5w7ujymy2rqry/spack-src/src/llvm-project/llvm/tools/verify-uselistorder -I/tmp/dantopa/spack-stage/spack-stage-rust-1.97.1-sjzowomrtvbwcat4mqb5w7ujymy2rqry/spack-src/build/x86_64-unknown-linux-gnu/llvm/build/include -I/tmp/dantopa/spack-stage/spack-stage-rust-1.97.1-sjzowomrtvbwcat4mqb5w7ujymy2rqry/spack-src/src/llvm-project/llvm/include -isystem /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/zlib-ng-2.3.3-k4azvsxv5amp7s5lubxehggwowae4ddj/include -ffunction-sections -fdata-sections -fPIC -m64 -fdebug-prefix-map=/tmp/dantopa/spack-stage/spack-stage-rust-1.97.1-sjzowomrtvbwcat4mqb5w7ujymy2rqry/spack-src=/rustc/llvm -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -w -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT tools/verify-uselistorder/CMakeFiles/verify-uselistorder.dir/verify-uselistorder.cpp.o -MF tools/verify-uselistorder/CMakeFiles/verify-uselistorder.dir/verify-uselistorder.cpp.o.d -o tools/verify-uselistorder/CMakeFiles/verify-uselistorder.dir/verify-uselistorder.cpp.o -c /tmp/dantopa/spack-stage/spack-stage-rust-1.97.1-sjzowomrtvbwcat4mqb5w7ujymy2rqry/spack-src/src/llvm-project/llvm/tools/verify-uselistorder/verify-uselistorder.cpp
+> /tmp/dantopa/spack-stage/spack-stage-rust-1.97.1-sjzowomrtvbwcat4mqb5w7ujymy2rqry/spack-src/src/llvm-project/llvm/tools/verify-uselistorder/verify-uselistorder.cpp:596:1: fatal error: error writing to /tmp/cctDpn3L.s: Disk quota exceeded
+    596 | }
+        | ^
+  compilation terminated.
+  [3828/3898] Linking CXX executable bin/llvm-c-test
+> FAILED: [code=1] bin/llvm-c-test
+  : && /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/g++ -ffunction-sections -fdata-sections -fPIC -m64 -fdebug-prefix-map=/tmp/dantopa/spack-stage/spack-stage-rust-1.97.1-sjzowomrtvbwcat4mqb5w7ujymy2rqry/spack-src=/rustc/llvm -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -w -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -Wl,-rpath-link,/tmp/dantopa/spack-stage/spack-stage-rust-1.97.1-sjzowomrtvbwcat4mqb5w7ujymy2rqry/spack-src/build/x86_64-unknown-linux-gnu/llvm/build/./lib  -Wl,--gc-sections  -Wl,--dependency-file=tools/llvm-c-test/CMakeFiles/llvm-c-test.dir/link.d tools/llvm-c-test/CMakeFiles/llvm-c-test.dir/attributes.c.o tools/llvm-c-test/CMakeFiles/llvm-c-test.dir/calc.c.o tools/llvm-c-test/CMakeFiles/llvm-c-test.dir/debuginfo.c.o tools/llvm-c-test/CMakeFiles/llvm-c-test.dir/diagnostic.c.o tools/llvm-c-test/CMakeFiles/llvm-c-test.dir/disassemble.c.o tools/llvm-c-test/CMakeFiles/llvm-c-test.dir/echo.cpp.o tools/llvm-c-test/CMakeFiles/llvm-c-test.dir/helpers.c.o tools/llvm-c-test/CMakeFiles/llvm-c-test.dir/include-all.c.o tools/llvm-c-test/CMakeFiles/llvm-c-test.dir/main.c.o tools/llvm-c-test/CMakeFiles/llvm-c-test.dir/module.c.o tools/llvm-c-test/CMakeFiles/llvm-c-test.dir/metadata.c.o tools/llvm-c-test/CMakeFiles/llvm-c-test.dir/object.c.o tools/llvm-c-test/CMakeFiles/llvm-c-test.dir/targets.c.o -o bin/llvm-c-test  -Wl,-rpath,"\$ORIGIN/../lib:/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/zlib-ng-2.3.3-k4azvsxv5amp7s5lubxehggwowae4ddj/lib:"  lib/libLLVMAArch64AsmParser.a  lib/libLLVMAMDGPUAsmParser.a  lib/libLLVMARMAsmParser.a  lib/libLLVMBPFAsmParser.a  lib/libLLVMHexagonAsmParser.a  lib/libLLVMLoongArchAsmParser.a  lib/libLLVMMSP430AsmParser.a  lib/libLLVMMipsAsmParser.a  lib/libLLVMPowerPCAsmParser.a  lib/libLLVMRISCVAsmParser.a  lib/libLLVMSparcAsmParser.a  lib/libLLVMSystemZAsmParser.a  lib/libLLVMWebAssemblyAsmParser.a  lib/libLLVMX86AsmParser.a  lib/libLLVMAVRAsmParser.a  lib/libLLVMM68kAsmParser.a  lib/libLLVMCSKYAsmParser.a  lib/libLLVMXtensaAsmParser.a  lib/libLLVMAArch64CodeGen.a  lib/libLLVMAMDGPUCodeGen.a  lib/libLLVMARMCodeGen.a  lib/libLLVMBPFCodeGen.a  lib/libLLVMHexagonCodeGen.a  lib/libLLVMLoongArchCodeGen.a  lib/libLLVMMSP430CodeGen.a  lib/libLLVMMipsCodeGen.a  lib/libLLVMNVPTXCodeGen.a  lib/libLLVMPowerPCCodeGen.a  lib/libLLVMRISCVCodeGen.a  lib/libLLVMSparcCodeGen.a  lib/libLLVMSystemZCodeGen.a  lib/libLLVMWebAssemblyCodeGen.a  lib/libLLVMX86CodeGen.a  lib/libLLVMAVRCodeGen.a  lib/libLLVMM68kCodeGen.a  lib/libLLVMCSKYCodeGen.a  lib/libLLVMXtensaCodeGen.a  lib/libLLVMAArch64Desc.a  lib/libLLVMAMDGPUDesc.a  lib/libLLVMARMDesc.a  lib/libLLVMBPFDesc.a  lib/libLLVMHexagonDesc.a  lib/libLLVMLoongArchDesc.a  lib/libLLVMMSP430Desc.a  lib/libLLVMMipsDesc.a  lib/libLLVMNVPTXDesc.a  lib/libLLVMPowerPCDesc.a  lib/libLLVMRISCVDesc.a  lib/libLLVMSparcDesc.a  lib/libLLVMSystemZDesc.a  lib/libLLVMWebAssemblyDesc.a  lib/libLLVMX86Desc.a  lib/libLLVMAVRDesc.a  lib/libLLVMM68kDesc.a  lib/libLLVMCSKYDesc.a  lib/libLLVMXtensaDesc.a  lib/libLLVMAArch64Disassembler.a  lib/libLLVMAMDGPUDisassembler.a  lib/libLLVMARMDisassembler.a  lib/libLLVMBPFDisassembler.a  lib/libLLVMHexagonDisassembler.a  lib/libLLVMLoongArchDisassembler.a  lib/libLLVMMSP430Disassembler.a  lib/libLLVMMipsDisassembler.a  lib/libLLVMPowerPCDisassembler.a  lib/libLLVMRISCVDisassembler.a  lib/libLLVMSparcDisassembler.a  lib/libLLVMSystemZDisassembler.a  lib/libLLVMWebAssemblyDisassembler.a  lib/libLLVMX86Disassembler.a  lib/libLLVMAVRDisassembler.a  lib/libLLVMM68kDisassembler.a  lib/libLLVMCSKYDisassembler.a  lib/libLLVMXtensaDisassembler.a  lib/libLLVMAArch64Info.a  lib/libLLVMAMDGPUInfo.a  lib/libLLVMARMInfo.a  lib/libLLVMBPFInfo.a  lib/libLLVMHexagonInfo.a  lib/libLLVMLoongArchInfo.a  lib/libLLVMMSP430Info.a  lib/libLLVMMipsInfo.a  lib/libLLVMNVPTXInfo.a  lib/libLLVMPowerPCInfo.a  lib/libLLVMRISCVInfo.a  lib/libLLVMSparcInfo.a  lib/libLLVMSystemZInfo.a  lib/libLLVMWebAssemblyInfo.a  lib/libLLVMX86Info.a  lib/libLLVMAVRInfo.a  lib/libLLVMM68kInfo.a  lib/libLLVMCSKYInfo.a  lib/libLLVMXtensaInfo.a  lib/libLLVMBitReader.a  lib/libLLVMCore.a  lib/libLLVMMCDisassembler.a  lib/libLLVMObject.a  lib/libLLVMSupport.a  lib/libLLVMTarget.a  lib/libLLVMHexagonAsmParser.a  lib/libLLVMMIRParser.a  lib/libLLVMPasses.a  lib/libLLVMHipStdPar.a  lib/libLLVMCoroutines.a  lib/libLLVMipo.a  lib/libLLVMVectorize.a  lib/libLLVMSandboxIR.a  lib/libLLVMFrontendOpenMP.a  lib/libLLVMFrontendOffloading.a  lib/libLLVMObjectYAML.a  lib/libLLVMFrontendAtomic.a  lib/libLLVMFrontendDirective.a  lib/libLLVMLinker.a  lib/libLLVMWebAssemblyUtils.a  lib/libLLVMCFGuard.a  lib/libLLVMGlobalISel.a  lib/libLLVMIRPrinter.a  lib/libLLVMInstrumentation.a  lib/libLLVMAsmPrinter.a  lib/libLLVMSelectionDAG.a  lib/libLLVMCodeGen.a  lib/libLLVMTarget.a  lib/libLLVMScalarOpts.a  lib/libLLVMAggressiveInstCombine.a  lib/libLLVMInstCombine.a  lib/libLLVMObjCARCOpts.a  lib/libLLVMCGData.a  lib/libLLVMBitWriter.a  lib/libLLVMTransformUtils.a  lib/libLLVMAArch64Desc.a  lib/libLLVMAArch64Info.a  lib/libLLVMAArch64Utils.a  lib/libLLVMAMDGPUDesc.a  lib/libLLVMAMDGPUInfo.a  lib/libLLVMAMDGPUUtils.a  lib/libLLVMAnalysis.a  lib/libLLVMProfileData.a  lib/libLLVMSymbolize.a  lib/libLLVMDebugInfoGSYM.a  lib/libLLVMDebugInfoDWARF.a  lib/libLLVMDebugInfoPDB.a  lib/libLLVMDebugInfoCodeView.a  lib/libLLVMDebugInfoMSF.a  lib/libLLVMDebugInfoBTF.a  lib/libLLVMFrontendHLSL.a  lib/libLLVMARMDesc.a  lib/libLLVMObject.a  lib/libLLVMMCParser.a  lib/libLLVMIRReader.a  lib/libLLVMBitReader.a  lib/libLLVMAsmParser.a  lib/libLLVMCore.a  lib/libLLVMRemarks.a  lib/libLLVMBitstreamReader.a  lib/libLLVMTextAPI.a  lib/libLLVMARMInfo.a  lib/libLLVMARMUtils.a  lib/libLLVMHexagonDesc.a  lib/libLLVMHexagonInfo.a  lib/libLLVMLoongArchDesc.a  lib/libLLVMLoongArchInfo.a  lib/libLLVMRISCVDesc.a  lib/libLLVMRISCVInfo.a  lib/libLLVMSystemZDesc.a  lib/libLLVMSystemZInfo.a  lib/libLLVMWebAssemblyDesc.a  lib/libLLVMWebAssemblyInfo.a  lib/libLLVMM68kDesc.a  lib/libLLVMM68kInfo.a  lib/libLLVMCodeGenTypes.a  lib/libLLVMXtensaDesc.a  lib/libLLVMXtensaInfo.a  lib/libLLVMMCDisassembler.a  lib/libLLVMMC.a  lib/libLLVMDebugInfoDWARFLowLevel.a  lib/libLLVMBinaryFormat.a  lib/libLLVMTargetParser.a  lib/libLLVMSupport.a  lib/libLLVMDemangle.a  -lrt  -ldl  -lm  /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/zlib-ng-2.3.3-k4azvsxv5amp7s5lubxehggwowae4ddj/lib/libz.so  -lgcc_s_asneeded  -lgcc_s_asneeded && :
+> /usr/bin/x86_64-linux-gnu-ld.bfd: final link failed: No space left on device
+> collect2: error: ld returned 1 exit status
+  [3829/3898] Linking CXX executable bin/llvm-debuginfod-find
+  [3830/3898] Linking CXX executable bin/llc
+> FAILED: [code=1] bin/llc
+  : && /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/g++ -ffunction-sections -fdata-sections -fPIC -m64 -fdebug-prefix-map=/tmp/dantopa/spack-stage/spack-stage-rust-1.97.1-sjzowomrtvbwcat4mqb5w7ujymy2rqry/spack-src=/rustc/llvm -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -w -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -Wl,-rpath-link,/tmp/dantopa/spack-stage/spack-stage-rust-1.97.1-sjzowomrtvbwcat4mqb5w7ujymy2rqry/spack-src/build/x86_64-unknown-linux-gnu/llvm/build/./lib   -Wl,--dependency-file=tools/llc/CMakeFiles/llc.dir/link.d tools/llc/CMakeFiles/llc.dir/llc.cpp.o tools/llc/CMakeFiles/llc.dir/NewPMDriver.cpp.o -o bin/llc  -Wl,-rpath,"\$ORIGIN/../lib:/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/zlib-ng-2.3.3-k4azvsxv5amp7s5lubxehggwowae4ddj/lib:"  lib/libLLVMAArch64AsmParser.a  lib/libLLVMAMDGPUAsmParser.a  lib/libLLVMARMAsmParser.a  lib/libLLVMBPFAsmParser.a  lib/libLLVMHexagonAsmParser.a  lib/libLLVMLoongArchAsmParser.a  lib/libLLVMMSP430AsmParser.a  lib/libLLVMMipsAsmParser.a  lib/libLLVMPowerPCAsmParser.a  lib/libLLVMRISCVAsmParser.a  lib/libLLVMSparcAsmParser.a  lib/libLLVMSystemZAsmParser.a  lib/libLLVMWebAssemblyAsmParser.a  lib/libLLVMX86AsmParser.a  lib/libLLVMAVRAsmParser.a  lib/libLLVMM68kAsmParser.a  lib/libLLVMCSKYAsmParser.a  lib/libLLVMXtensaAsmParser.a  lib/libLLVMAArch64CodeGen.a  lib/libLLVMAMDGPUCodeGen.a  lib/libLLVMARMCodeGen.a  lib/libLLVMBPFCodeGen.a  lib/libLLVMHexagonCodeGen.a  lib/libLLVMLoongArchCodeGen.a  lib/libLLVMMSP430CodeGen.a  lib/libLLVMMipsCodeGen.a  lib/libLLVMNVPTXCodeGen.a  lib/libLLVMPowerPCCodeGen.a  lib/libLLVMRISCVCodeGen.a  lib/libLLVMSparcCodeGen.a  lib/libLLVMSystemZCodeGen.a  lib/libLLVMWebAssemblyCodeGen.a  lib/libLLVMX86CodeGen.a  lib/libLLVMAVRCodeGen.a  lib/libLLVMM68kCodeGen.a  lib/libLLVMCSKYCodeGen.a  lib/libLLVMXtensaCodeGen.a  lib/libLLVMAArch64Desc.a  lib/libLLVMAMDGPUDesc.a  lib/libLLVMARMDesc.a  lib/libLLVMBPFDesc.a  lib/libLLVMHexagonDesc.a  lib/libLLVMLoongArchDesc.a  lib/libLLVMMSP430Desc.a  lib/libLLVMMipsDesc.a  lib/libLLVMNVPTXDesc.a  lib/libLLVMPowerPCDesc.a  lib/libLLVMRISCVDesc.a  lib/libLLVMSparcDesc.a  lib/libLLVMSystemZDesc.a  lib/libLLVMWebAssemblyDesc.a  lib/libLLVMX86Desc.a  lib/libLLVMAVRDesc.a  lib/libLLVMM68kDesc.a  lib/libLLVMCSKYDesc.a  lib/libLLVMXtensaDesc.a  lib/libLLVMAArch64Info.a  lib/libLLVMAMDGPUInfo.a  lib/libLLVMARMInfo.a  lib/libLLVMBPFInfo.a  lib/libLLVMHexagonInfo.a  lib/libLLVMLoongArchInfo.a  lib/libLLVMMSP430Info.a  lib/libLLVMMipsInfo.a  lib/libLLVMNVPTXInfo.a  lib/libLLVMPowerPCInfo.a  lib/libLLVMRISCVInfo.a  lib/libLLVMSparcInfo.a  lib/libLLVMSystemZInfo.a  lib/libLLVMWebAssemblyInfo.a  lib/libLLVMX86Info.a  lib/libLLVMAVRInfo.a  lib/libLLVMM68kInfo.a  lib/libLLVMCSKYInfo.a  lib/libLLVMXtensaInfo.a  lib/libLLVMAnalysis.a  lib/libLLVMAsmPrinter.a  lib/libLLVMCodeGen.a  lib/libLLVMCodeGenTypes.a  lib/libLLVMCore.a  lib/libLLVMIRPrinter.a  lib/libLLVMIRReader.a  lib/libLLVMMC.a  lib/libLLVMMIRParser.a  lib/libLLVMPasses.a  lib/libLLVMPlugins.a  lib/libLLVMRemarks.a  lib/libLLVMScalarOpts.a  lib/libLLVMSelectionDAG.a  lib/libLLVMSupport.a  lib/libLLVMTarget.a  lib/libLLVMTargetParser.a  lib/libLLVMTransformUtils.a  lib/libLLVMVectorize.a  lib/libLLVMAArch64Utils.a  lib/libLLVMAMDGPUUtils.a  lib/libLLVMARMUtils.a  lib/libLLVMHexagonAsmParser.a  lib/libLLVMHexagonDesc.a  lib/libLLVMHexagonInfo.a  lib/libLLVMHipStdPar.a  lib/libLLVMCoroutines.a  lib/libLLVMipo.a  lib/libLLVMVectorize.a  lib/libLLVMSandboxIR.a  lib/libLLVMFrontendOpenMP.a  lib/libLLVMFrontendOffloading.a  lib/libLLVMObjectYAML.a  lib/libLLVMFrontendAtomic.a  lib/libLLVMFrontendDirective.a  lib/libLLVMLinker.a  lib/libLLVMWebAssemblyUtils.a  lib/libLLVMWebAssemblyDesc.a  lib/libLLVMWebAssemblyInfo.a  lib/libLLVMMCDisassembler.a  lib/libLLVMIRPrinter.a  lib/libLLVMCFGuard.a  lib/libLLVMGlobalISel.a  lib/libLLVMInstrumentation.a  lib/libLLVMSelectionDAG.a  lib/libLLVMCodeGen.a  lib/libLLVMScalarOpts.a  lib/libLLVMAggressiveInstCombine.a  lib/libLLVMInstCombine.a  lib/libLLVMObjCARCOpts.a  lib/libLLVMCGData.a  lib/libLLVMBitWriter.a  lib/libLLVMCodeGenTypes.a  lib/libLLVMTransformUtils.a  lib/libLLVMTarget.a  lib/libLLVMAnalysis.a  lib/libLLVMProfileData.a  lib/libLLVMSymbolize.a  lib/libLLVMDebugInfoGSYM.a  lib/libLLVMDebugInfoDWARF.a  lib/libLLVMDebugInfoPDB.a  lib/libLLVMDebugInfoCodeView.a  lib/libLLVMDebugInfoMSF.a  lib/libLLVMDebugInfoBTF.a  lib/libLLVMObject.a  lib/libLLVMIRReader.a  lib/libLLVMAsmParser.a  lib/libLLVMMCParser.a  lib/libLLVMBitReader.a  lib/libLLVMTextAPI.a  lib/libLLVMFrontendHLSL.a  lib/libLLVMCore.a  lib/libLLVMRemarks.a  lib/libLLVMBitstreamReader.a  lib/libLLVMMC.a  lib/libLLVMDebugInfoDWARFLowLevel.a  lib/libLLVMBinaryFormat.a  lib/libLLVMTargetParser.a  lib/libLLVMSupport.a  lib/libLLVMDemangle.a  -lrt  -ldl  -lm  /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/zlib-ng-2.3.3-k4azvsxv5amp7s5lubxehggwowae4ddj/lib/libz.so  -lgcc_s_asneeded  -lgcc_s_asneeded && :
+> /usr/bin/x86_64-linux-gnu-ld.bfd: final link failed: No space left on device
+> collect2: error: ld returned 1 exit status
+  [3831/3898] Linking CXX executable bin/llvm-debuginfod
+  [3832/3898] Linking CXX executable bin/llvm-dlang-demangle-fuzzer
+  [3833/3898] Linking CXX executable bin/dsymutil
+  [3834/3898] Linking CXX executable bin/llvm-diff
+  [3835/3898] Linking CXX executable bin/llvm-dis
+  [3836/3898] Linking CXX executable bin/llvm-debuginfo-analyzer
+  [3837/3898] Building CXX object tools/sancov/CMakeFiles/sancov.dir/sancov.cpp.o
+> FAILED: [code=1] tools/sancov/CMakeFiles/sancov.dir/sancov.cpp.o
+  /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/g++ -DLLVM_BUILD_STATIC -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/dantopa/spack-stage/spack-stage-rust-1.97.1-sjzowomrtvbwcat4mqb5w7ujymy2rqry/spack-src/build/x86_64-unknown-linux-gnu/llvm/build/tools/sancov -I/tmp/dantopa/spack-stage/spack-stage-rust-1.97.1-sjzowomrtvbwcat4mqb5w7ujymy2rqry/spack-src/src/llvm-project/llvm/tools/sancov -I/tmp/dantopa/spack-stage/spack-stage-rust-1.97.1-sjzowomrtvbwcat4mqb5w7ujymy2rqry/spack-src/build/x86_64-unknown-linux-gnu/llvm/build/include -I/tmp/dantopa/spack-stage/spack-stage-rust-1.97.1-sjzowomrtvbwcat4mqb5w7ujymy2rqry/spack-src/src/llvm-project/llvm/include -isystem /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/zlib-ng-2.3.3-k4azvsxv5amp7s5lubxehggwowae4ddj/include -ffunction-sections -fdata-sections -fPIC -m64 -fdebug-prefix-map=/tmp/dantopa/spack-stage/spack-stage-rust-1.97.1-sjzowomrtvbwcat4mqb5w7ujymy2rqry/spack-src=/rustc/llvm -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -w -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT tools/sancov/CMakeFiles/sancov.dir/sancov.cpp.o -MF tools/sancov/CMakeFiles/sancov.dir/sancov.cpp.o.d -o tools/sancov/CMakeFiles/sancov.dir/sancov.cpp.o -c /tmp/dantopa/spack-stage/spack-stage-rust-1.97.1-sjzowomrtvbwcat4mqb5w7ujymy2rqry/spack-src/src/llvm-project/llvm/tools/sancov/sancov.cpp
+> /tmp/dantopa/spack-stage/spack-stage-rust-1.97.1-sjzowomrtvbwcat4mqb5w7ujymy2rqry/spack-src/src/llvm-project/llvm/tools/sancov/sancov.cpp:1416:1: fatal error: error writing to /tmp/cc0P4s6X.s: Disk quota exceeded
+   1416 | }
+        | ^
+  compilation terminated.
+  [3838/3898] Building CXX object tools/obj2yaml/CMakeFiles/obj2yaml.dir/elf2yaml.cpp.o
+> FAILED: [code=1] tools/obj2yaml/CMakeFiles/obj2yaml.dir/elf2yaml.cpp.o
+  /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/g++ -DLLVM_BUILD_STATIC -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/tmp/dantopa/spack-stage/spack-stage-rust-1.97.1-sjzowomrtvbwcat4mqb5w7ujymy2rqry/spack-src/build/x86_64-unknown-linux-gnu/llvm/build/tools/obj2yaml -I/tmp/dantopa/spack-stage/spack-stage-rust-1.97.1-sjzowomrtvbwcat4mqb5w7ujymy2rqry/spack-src/src/llvm-project/llvm/tools/obj2yaml -I/tmp/dantopa/spack-stage/spack-stage-rust-1.97.1-sjzowomrtvbwcat4mqb5w7ujymy2rqry/spack-src/build/x86_64-unknown-linux-gnu/llvm/build/include -I/tmp/dantopa/spack-stage/spack-stage-rust-1.97.1-sjzowomrtvbwcat4mqb5w7ujymy2rqry/spack-src/src/llvm-project/llvm/include -isystem /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/zlib-ng-2.3.3-k4azvsxv5amp7s5lubxehggwowae4ddj/include -ffunction-sections -fdata-sections -fPIC -m64 -fdebug-prefix-map=/tmp/dantopa/spack-stage/spack-stage-rust-1.97.1-sjzowomrtvbwcat4mqb5w7ujymy2rqry/spack-src=/rustc/llvm -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -w -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT tools/obj2yaml/CMakeFiles/obj2yaml.dir/elf2yaml.cpp.o -MF tools/obj2yaml/CMakeFiles/obj2yaml.dir/elf2yaml.cpp.o.d -o tools/obj2yaml/CMakeFiles/obj2yaml.dir/elf2yaml.cpp.o -c /tmp/dantopa/spack-stage/spack-stage-rust-1.97.1-sjzowomrtvbwcat4mqb5w7ujymy2rqry/spack-src/src/llvm-project/llvm/tools/obj2yaml/elf2yaml.cpp
+> /tmp/dantopa/spack-stage/spack-stage-rust-1.97.1-sjzowomrtvbwcat4mqb5w7ujymy2rqry/spack-src/src/llvm-project/llvm/tools/obj2yaml/elf2yaml.cpp:1712:1: fatal error: error writing to /tmp/cczRnojr.s: Disk quota exceeded
+   1712 | }
+        | ^
+  compilation terminated.
+  ninja: build stopped: subcommand failed.
+  
+  thread 'main' (2967988) panicked at /tmp/dantopa/spack-stage/spack-stage-rust-1.97.1-sjzowomrtvbwcat4mqb5w7ujymy2rqry/spack-src/vendor/cmake-0.1.54/src/lib.rs:1119:5:
+  
+  command did not execute successfully, got: exit status: 1
+  
+  build script failed, must exit now
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+  	finished in 3177.962 seconds
+  Build completed unsuccessfully in 0:53:14
+  Command exited with status 1:
+      /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/python-3.14.5-iqi3j3s6i54ihptht3aqloe7zsf7saom/bin/python3.14 ./x.py build -j 12
+==> Error: The following packages failed to install:
+rust@1.97.1/sjzowomrtvbwcat4mqb5w7ujymy2rqry: /tmp/dantopa/spack-stage/spack-stage-rust-1.97.1-sjzowomrtvbwcat4mqb5w7ujymy2rqry-zl2o83b2.log

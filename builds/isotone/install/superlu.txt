@@ -1,0 +1,25 @@
+[ ] u7qx5bu superlu@7.0.1 staging (1s)
+[ ] u7qx5bu superlu@7.0.1 cmake (1s)
+[x] u7qx5bu superlu@7.0.1 failed: /tmp/dantopa/spack-stage/spack-stage-superlu-7.0.1-u7qx5bu6ywi737pltigrsfkcpvxgyk73-ope13a4c.log (1s)
+-- lines 1 to 19 --
+  ==> No patches needed for superlu
+  ==> superlu: Executing phase: 'cmake'
+  ==> [2026-09-05-23:05:04.781643] Find (max depth = None): ['/home/dantopa/spackticity/spack-isotone/opt/spack/linux-skylake/metis-5.1.0-ll5hjke36m5fhdriwiewij354ihxokfa'] ['libmetis.so']
+  ==> [2026-09-05-23:05:04.781708] find must skip /home/dantopa/spackticity/spack-isotone/opt/spack/linux-skylake/metis-5.1.0-ll5hjke36m5fhdriwiewij354ihxokfa: [Errno 2] No such file or directory: '/home/dantopa/spackticity/spack-isotone/opt/spack/linux-skylake/metis-5.1.0-ll5hjke36m5fhdriwiewij354ihxokfa'
+  ==> [2026-09-05-23:05:04.781767] Find complete: ['/home/dantopa/spackticity/spack-isotone/opt/spack/linux-skylake/metis-5.1.0-ll5hjke36m5fhdriwiewij354ihxokfa'] ['libmetis.so']
+  Traceback (most recent call last):
+    File "/home/dantopa/.spack/package_repos/fncqgg4/repos/spack_repo/builtin/packages/superlu/package.py", line 84, in cmake_args
+      self.define("TPL_METIS_LIBRARIES", self.spec["metis"].libs),
+                                         ^^^^^^^^^^^^^^^^^^^^^^^
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/spec.py", line 1491, in __get__
+      value = f()
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/spec.py", line 1483, in <lambda>
+      callbacks_chain.append(lambda: _default(instance.wrapped_obj))
+                                     ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/spec.py", line 1411, in _libs_default_handler
+      raise spack.error.NoLibrariesError(
+          f"Unable to recursively locate {spec.name} libraries in {home}"
+      )
+  spack.error.NoLibrariesError: Unable to recursively locate metis libraries in /home/dantopa/spackticity/spack-isotone/opt/spack/linux-skylake/metis-5.1.0-ll5hjke36m5fhdriwiewij354ihxokfa
+==> Error: The following packages failed to install:
+superlu@7.0.1/u7qx5bu6ywi737pltigrsfkcpvxgyk73: /tmp/dantopa/spack-stage/spack-stage-superlu-7.0.1-u7qx5bu6ywi737pltigrsfkcpvxgyk73-ope13a4c.log

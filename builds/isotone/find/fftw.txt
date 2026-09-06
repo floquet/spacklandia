@@ -1,0 +1,2 @@
+-- linux-ubuntu26.04-skylake / %c,fortran=gcc@16.0.1 ------------
+fftw@3.3.11

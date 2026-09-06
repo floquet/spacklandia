@@ -1,0 +1,79 @@
+AutotoolsPackage:   gsl
+
+Description:
+    The GNU Scientific Library (GSL) is a numerical library for C and C++
+    programmers. It is free software under the GNU General Public License.
+    The library provides a wide range of mathematical routines such as
+    random number generators, special functions and least-squares fitting.
+    There are over 1000 functions in total with an extensive test suite.
+
+Homepage: https://www.gnu.org/software/gsl
+
+Preferred version:  
+    2.8      https://ftpmirror.gnu.org/gsl/gsl-2.8.tar.gz
+
+Safe versions:  
+    2.8      https://ftpmirror.gnu.org/gsl/gsl-2.8.tar.gz
+    2.7.1    https://ftpmirror.gnu.org/gsl/gsl-2.7.1.tar.gz
+    2.7      https://ftpmirror.gnu.org/gsl/gsl-2.7.tar.gz
+    2.6      https://ftpmirror.gnu.org/gsl/gsl-2.6.tar.gz
+    2.5      https://ftpmirror.gnu.org/gsl/gsl-2.5.tar.gz
+    2.4      https://ftpmirror.gnu.org/gsl/gsl-2.4.tar.gz
+    2.3      https://ftpmirror.gnu.org/gsl/gsl-2.3.tar.gz
+    2.2.1    https://ftpmirror.gnu.org/gsl/gsl-2.2.1.tar.gz
+    2.1      https://ftpmirror.gnu.org/gsl/gsl-2.1.tar.gz
+    2.0      https://ftpmirror.gnu.org/gsl/gsl-2.0.tar.gz
+    1.16     https://ftpmirror.gnu.org/gsl/gsl-1.16.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    build_system [autotools]        autotools
+        Build systems supported by the package
+
+    external-cblas [false]          false, true
+        Build against external blas
+
+    pic [true]                      false, true
+        Enable position-independent code (PIC)
+
+    shared [true]                   false, true
+        Build shared library
+
+
+Dependencies:
+    autoconf         build
+      when +external-cblas
+
+    automake         build
+      when +external-cblas
+
+    blas             build, link
+      when +external-cblas
+
+    c                build
+
+    gmake            build
+      when build_system=autotools
+
+    gnuconfig        build
+      when build_system=autotools target=ppc64le:
+
+    gnuconfig        build
+      when build_system=autotools target=aarch64:
+
+    gnuconfig        build
+      when build_system=autotools target=riscv64:
+
+    libtool          build
+      when +external-cblas
+
+    m4               build
+      when +external-cblas
+
+
+Licenses:
+    GPL-3.0-or-later
+
+

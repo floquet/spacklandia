@@ -1,0 +1,1 @@
+[+] uxquprd openblas@0.3.34 /home/dantopa/spackticity/spack-isotone/opt/spack/linux-skylake/openblas-0.3.34-uxquprdvkgrzexkkanw75v3clxhpttdv (0s)

@@ -1,0 +1,110 @@
+CMakePackage:   nlopt
+
+Description:
+    NLopt is a free/open-source library for nonlinear optimization,
+    providing a common interface for a number of different free optimization
+    routines available online as well as original implementations of various
+    other algorithms.
+
+Homepage: https://nlopt.readthedocs.io
+
+Preferred version:  
+    2.9.1     https://github.com/stevengj/nlopt/archive/v2.9.1.tar.gz
+
+Safe versions:  
+    master    [git] https://github.com/stevengj/nlopt.git on branch master
+    2.9.1     https://github.com/stevengj/nlopt/archive/v2.9.1.tar.gz
+    2.8.0     https://github.com/stevengj/nlopt/archive/v2.8.0.tar.gz
+    2.7.1     https://github.com/stevengj/nlopt/archive/v2.7.1.tar.gz
+    2.7.0     https://github.com/stevengj/nlopt/archive/v2.7.0.tar.gz
+    2.6.2     https://github.com/stevengj/nlopt/archive/v2.6.2.tar.gz
+    2.6.1     https://github.com/stevengj/nlopt/archive/v2.6.1.tar.gz
+    2.6.0     https://github.com/stevengj/nlopt/archive/v2.6.0.tar.gz
+    2.5.0     https://github.com/stevengj/nlopt/archive/v2.5.0.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    build_system [cmake]        cmake
+        Build systems supported by the package
+
+    build_type [Release]        Debug, MinSizeRel, RelWithDebInfo, Release
+      when build_system=cmake
+        CMake build type
+
+    cxx [false]                 false, true
+        Build the C++ routines
+
+    generator [make]            none
+      when build_system=cmake
+        the build system generator to use
+
+    guile [false]               false, true
+        Enable Guile support
+
+    ipo [false]                 false, true
+      when build_system=cmake %cmake@3.9:
+        CMake interprocedural optimization
+
+    matlab [false]              false, true
+        Build the Matlab bindings.
+
+    octave [false]              false, true
+        Enable GNU Octave support
+
+    python [true]               false, true
+        Build python wrappers
+
+    shared [true]               false, true
+        Enables the build of shared libraries
+
+
+Dependencies:
+    c                   build
+
+    cmake               build
+      when build_system=cmake
+
+    cmake@3.0:          build
+      when @master
+
+    cxx                 build
+
+    fortran             build
+
+    gmake               build
+      when build_system=cmake generator=make
+
+    guile               build, link
+      when +guile
+
+    matlab              build, link
+      when +matlab
+
+    ninja               build
+      when build_system=cmake generator=ninja
+
+    octave              build, link
+      when +octave
+
+    py-numpy            build, run
+      when +python
+
+    python              build, run
+      when +python
+
+    python@:3.12        build, run
+      when @:2.8+python
+
+    python-venv         build, run
+      when +python
+
+    swig                build, link
+      when +python
+
+
+Licenses:
+    LGPL-2.1-or-later
+
+

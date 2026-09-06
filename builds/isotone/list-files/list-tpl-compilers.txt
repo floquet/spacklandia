@@ -1,0 +1,8 @@
+# Compilers and language toolchains
+gcc
+llvm
+rust
+julia
+octave
+python
+r

@@ -1,0 +1,1 @@
+[+] pjr55vx gmp@6.3.0 /home/dantopa/spackticity/spack-isotone/opt/spack/linux-skylake/gmp-6.3.0-pjr55vxsxgy5jxktslfn7z5xeqmeqa5d (0s)
