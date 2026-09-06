@@ -1,7 +1,7 @@
 [ ] i24adbm libpciaccess@0.17 staging (0s)
 [ ] i24adbm libpciaccess@0.17 autoreconf (0s)
 [ ] i24adbm libpciaccess@0.17 configure (0s)
-[x] i24adbm libpciaccess@0.17 failed: /var/tmp/dantopa/spack-stage/spack-stage-libpciaccess-0.17-i24adbment5laku45odxcz7dhmgrm7ps-0omo4z_j.log (1s)
+[x] i24adbm libpciaccess@0.17 failed: /var/tmp/dantopa/spack-stage/spack-stage-libpciaccess-0.17-i24adbment5laku45odxcz7dhmgrm7ps-bn76sez5.log (1s)
 -- lines 15 to 25 --
   checking for gawk... gawk
   checking whether make sets $(MAKE)... yes
@@ -15,4 +15,4 @@
   Command exited with status 77:
       /var/tmp/dantopa/spack-stage/spack-stage-libpciaccess-0.17-i24adbment5laku45odxcz7dhmgrm7ps/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/libpciaccess-0.17-i24adbment5laku45odxcz7dhmgrm7ps
 ==> Error: The following packages failed to install:
-libpciaccess@0.17/i24adbment5laku45odxcz7dhmgrm7ps: /var/tmp/dantopa/spack-stage/spack-stage-libpciaccess-0.17-i24adbment5laku45odxcz7dhmgrm7ps-0omo4z_j.log
+libpciaccess@0.17/i24adbment5laku45odxcz7dhmgrm7ps: /var/tmp/dantopa/spack-stage/spack-stage-libpciaccess-0.17-i24adbment5laku45odxcz7dhmgrm7ps-bn76sez5.log
