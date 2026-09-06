@@ -1,0 +1,7 @@
+==> Error: Package 'spack_repo.builtin.packages.open_coarrays.package' not found in repository '/home/dantopa/.spack/package_repos/fncqgg4/repos/spack_repo/builtin'
+Use 'spack create' to create a new package.
+
+Did you mean one of the following packages?
+  opencoarrays
+  opencarp
+  openrasmol
