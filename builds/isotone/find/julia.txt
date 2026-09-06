@@ -1,1 +1,1 @@
-environment: line 89: spack: command not found
+==> Error: No package matches the query: julia

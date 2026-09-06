@@ -1,1 +1,246 @@
-environment: line 89: spack: command not found
+[ ] gvnb75a libsigsegv@2.15 staging (1s)
+[ ] syauj64 file@5.46 staging (1s)
+[ ] vye5evr libwhich@1.3.0 staging (1s)
+[ ] ztr2hjv which@2.23 staging (1s)
+[ ] c67jwq6 p7zip@17.06 staging (1s)
+[ ] jplcnbx findutils@4.10.0 staging (1s)
+[ ] g4p6d5y dsfmt@2.2.5 staging (1s)
+[ ] bu3me62 autoconf-archive@2024.10.16 staging (1s)
+[ ] m5ps7zc pcre2@10.44 staging (1s)
+[ ] qzsyhz7 binutils@2.47 staging (1s)
+[ ] h24eiuf openblas@0.3.34 staging (1s)
+[ ] pf4bowo texinfo@7.2 staging (1s)
+[ ] gvnb75a libsigsegv@2.15 autoreconf (2s)
+[ ] gvnb75a libsigsegv@2.15 configure (2s)
+[ ] bu3me62 autoconf-archive@2024.10.16 autoreconf (2s)
+[ ] bu3me62 autoconf-archive@2024.10.16 configure (2s)
+[ ] syauj64 file@5.46 autoreconf (2s)
+[ ] syauj64 file@5.46 configure (2s)
+[ ] ztr2hjv which@2.23 autoreconf (2s)
+[ ] ztr2hjv which@2.23 configure (2s)
+[ ] jplcnbx findutils@4.10.0 autoreconf (2s)
+[ ] jplcnbx findutils@4.10.0 configure (2s)
+[x] syauj64 file@5.46 failed: /tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n-pncsu33h.log (4s)
+[ ] vye5evr libwhich@1.3.0 edit (4s)
+[ ] vye5evr libwhich@1.3.0 build (4s)
+[ ] vye5evr libwhich@1.3.0 install (4s)
+[x] pf4bowo texinfo@7.2 failed: /tmp/dantopa/spack-stage/spack-stage-texinfo-7.2-pf4bowomsyz2stlaxqz7x634f2v6fk5n-dyji5k2_.log (4s)
+[x] jplcnbx findutils@4.10.0 failed: /tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7-wbxdyz27.log (4s)
+[x] m5ps7zc pcre2@10.44 failed: /tmp/dantopa/spack-stage/spack-stage-pcre2-10.44-m5ps7zcgluqn2lgnf73ydk7yklq2alux-ypnfhwxq.log (4s)
+[+] vye5evr libwhich@1.3.0 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/libwhich-1.3.0-vye5evrwzk6gutczay4dtmtlvxhzdomh (4s)
+[x] h24eiuf openblas@0.3.34 failed: /tmp/dantopa/spack-stage/spack-stage-openblas-0.3.34-h24eiufg6h6dkwyqpd6ke2dyu6efc3ua-yfp1mu5l.log (4s)
+[ ] hla2lyl libuv-julia@1.48.1rc1 staging (0s)
+[ ] 24xh5jr libblastrampoline@5.15.0 staging (0s)
+[ ] ejsgjsb perl-data-dumper@2.173 staging (0s)
+[ ] 5bmn5s4 openssl@3.5.5 staging (0s)
+[ ] bu3me62 autoconf-archive@2024.10.16 build (5s)
+[x] s4wbwui libedit@3.1-20251016 failed: /tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du-m2l1k4wg.log (1s)
+[x] c67jwq6 p7zip@17.06 failed: /tmp/dantopa/spack-stage/spack-stage-p7zip-17.06-c67jwq6sefnq2mkirkzyus3jwphkgfvg-agq629y3.log (5s)
+[ ] bu3me62 autoconf-archive@2024.10.16 install (5s)
+[ ] yptprvc util-macros@1.20.2 staging (1s)
+[x] g4p6d5y dsfmt@2.2.5 failed: /tmp/dantopa/spack-stage/spack-stage-dsfmt-2.2.5-g4p6d5yfnciyrjawys63eiz4xbo4fcbv-mv1xdd4k.log (5s)
+[x] 24xh5jr libblastrampoline@5.15.0 failed: /tmp/dantopa/spack-stage/spack-stage-libblastrampoline-5.15.0-24xh5jrxtve2hb6f7grjkbonjvibu34q-qhwfth3r.log (1s)
+[x] ejsgjsb perl-data-dumper@2.173 failed: /tmp/dantopa/spack-stage/spack-stage-perl-data-dumper-2.173-ejsgjsb4zucdey27x5zv32lwth6cfrwk-dkve9h1z.log (1s)
+[x] bu3me62 autoconf-archive@2024.10.16 failed: /tmp/dantopa/spack-stage/spack-stage-autoconf-archive-2024.10.16-bu3me62murwhjymi6qw55olpwzgweszi-pbadpopa.log (5s)
+[x] hla2lyl libuv-julia@1.48.1rc1 failed: /tmp/dantopa/spack-stage/spack-stage-libuv-julia-1.48.1rc1-hla2lyluwqb5hgfzy7xvg4277idxjszy-thrrlbp6.log (1s)
+[ ] vauzbyf nghttp2@1.64.0 staging (0s)
+[ ] pssrh6m unzip@6.0 staging (0s)
+[ ] fktyjnd openlibm@0.8.7 staging (0s)
+[ ] vauzbyf nghttp2@1.64.0 autoreconf (1s)
+[ ] vauzbyf nghttp2@1.64.0 configure (1s)
+[x] vauzbyf nghttp2@1.64.0 failed: /tmp/dantopa/spack-stage/spack-stage-nghttp2-1.64.0-vauzbyfqr6tqmq3f25pg2n2ykke3347k-7ff13ce8.log (1s)
+[x] gvnb75a libsigsegv@2.15 failed: /tmp/dantopa/spack-stage/spack-stage-libsigsegv-2.15-gvnb75a6ajsi5seegvnrl2hiiarqemq3-iqn1jli8.log (6s)
+[x] ztr2hjv which@2.23 failed: /tmp/dantopa/spack-stage/spack-stage-which-2.23-ztr2hjvbes6thdfwm6rammju3gmxbluj-0adqjd1x.log (6s)
+[x] fktyjnd openlibm@0.8.7 failed: /tmp/dantopa/spack-stage/spack-stage-openlibm-0.8.7-fktyjndlil4qtr74y5vkucuh3ydfv7pq-0vxt9p1r.log (2s)
+[x] pssrh6m unzip@6.0 failed: /tmp/dantopa/spack-stage/spack-stage-unzip-6.0-pssrh6mtjtz5fsqxjsefqs6xmx2jb76z-_8kjkpx1.log (4s)
+[x] 5bmn5s4 openssl@3.5.5 failed: /tmp/dantopa/spack-stage/spack-stage-openssl-3.5.5-5bmn5s4vdcfj6wr55ww3yp5oar2zfdrh-goie064o.log (10s)
+[x] qzsyhz7 binutils@2.47 failed: /tmp/dantopa/spack-stage/spack-stage-binutils-2.47-qzsyhz7sa4h4wombirpmzqjfpamunlrl-q6fma87u.log (1m01s)
+[x] yptprvc util-macros@1.20.2 failed: /tmp/dantopa/spack-stage/spack-stage-util-macros-1.20.2-yptprvcwdccqkfkf7qyuuru6u36cidtw-2ksl4yhx.log (2m50s)
+==> Warning: 1 jobserver token was not released by the build processes. This can indicate that the build ran with limited parallelism.
+-- lines 28 to 39 --
+  checking build system type... x86_64-pc-linux-gnu
+  checking host system type... x86_64-pc-linux-gnu
+  checking for gcc... /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc
+  checking whether the C compiler works... yes
+  checking for C compiler default output file name... a.out
+  checking for suffix of executables...
+> checking whether we are cross compiling... configure: error: in '/tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n/spack-src':
+> configure: error: cannot run C compiled programs.
+  If you meant to cross compile, use '--host'.
+  See 'config.log' for more details
+  Command exited with status 77:
+      /tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n --disable-dependency-tracking --enable-fsect-man5 --enable-zlib --enable-bzlib --enable-xzlib --enable-zstdlib --disable-lzlib --enable-static
+-- lines 14 to 24 --
+  checking whether make supports nested variables... (cached) yes
+  checking build system type... x86_64-pc-linux-gnu
+  checking host system type... x86_64-pc-linux-gnu
+  checking for leaf optimisation... yes
+  checking for gcc... /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc
+  checking whether the C compiler works... no
+> configure: error: in '/tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7/spack-src/spack-build':
+> configure: error: C compiler cannot create executables
+  See 'config.log' for more details
+  Command exited with status 77:
+      /tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7
+-- lines 1 to 17 --
+  Traceback (most recent call last):
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/package_base.py", line 1685, in do_stage
+      self.do_fetch(mirror_only)
+      ~~~~~~~~~~~~~^^^^^^^^^^^^^
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/package_base.py", line 1665, in do_fetch
+      self.stage.fetch(mirror_only, err_msg=err_msg)
+      ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/stage.py", line 890, in fetch
+      stage.fetch(mirror_only, err_msg)
+      ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/stage.py", line 619, in fetch
+      raise spack.error.FetchError(
+          f"All fetchers failed for {self.name}", "\n".join(f"    {e}" for e in errors)
+      )
+  spack.error.FetchError: All fetchers failed for spack-stage-openblas-0.3.34-h24eiufg6h6dkwyqpd6ke2dyu6efc3ua
+          https://mirror.spack.io/_source-cache/archive/cd/cd7e129868320cc2d033afa920e31202dfe0b8066a5b66661900ccc0f197dfed.tar.gz: OSError: [Errno 122] Disk quota exceeded
+      https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.34/OpenBLAS-0.3.34.tar.gz: OSError: [Errno 122] Disk quota exceeded
+-- lines 1 to 12 --
+  OSError: [Errno 122] Disk quota exceeded
+  
+  During handling of the above exception, another exception occurred:
+  
+  Traceback (most recent call last):
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/installer/build.py", line 528, in worker_function
+      _install(request, state_stream, spack.store.STORE)
+      ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/installer/build.py", line 738, in _install
+      with open(pkg.env_mods_path, "w", encoding="utf-8") as f:
+           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  OSError: [Errno 122] Disk quota exceeded
+-- lines 1 to 17 --
+  Traceback (most recent call last):
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/package_base.py", line 1685, in do_stage
+      self.do_fetch(mirror_only)
+      ~~~~~~~~~~~~~^^^^^^^^^^^^^
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/package_base.py", line 1665, in do_fetch
+      self.stage.fetch(mirror_only, err_msg=err_msg)
+      ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/stage.py", line 890, in fetch
+      stage.fetch(mirror_only, err_msg)
+      ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/stage.py", line 619, in fetch
+      raise spack.error.FetchError(
+          f"All fetchers failed for {self.name}", "\n".join(f"    {e}" for e in errors)
+      )
+  spack.error.FetchError: All fetchers failed for spack-stage-p7zip-17.06-c67jwq6sefnq2mkirkzyus3jwphkgfvg
+          https://mirror.spack.io/_source-cache/archive/c3/c35640020e8f044b425d9c18e1808ff9206dc7caf77c9720f57eb0849d714cd1.tar.gz: OSError: [Errno 122] Disk quota exceeded
+      https://github.com/p7zip-project/p7zip/archive/refs/tags/v17.06.tar.gz: OSError: [Errno 122] Disk quota exceeded
+-- lines 22 to 41 --
+  make[1]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-autoconf-archive-2024.10.16-bu3me62murwhjymi6qw55olpwzgweszi/spack-src/doc'
+  make[1]: Entering directory '/tmp/dantopa/spack-stage/spack-stage-autoconf-archive-2024.10.16-bu3me62murwhjymi6qw55olpwzgweszi/spack-src'
+  make[1]: Nothing to be done for 'all-am'.
+  make[1]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-autoconf-archive-2024.10.16-bu3me62murwhjymi6qw55olpwzgweszi/spack-src'
+  ==> autoconf-archive: Executing phase: 'install'
+  ==> [2026-09-06-01:09:27.603499] /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gmake-4.4.1-mkyma5432d3gsulsfbayigyxf2ftrhen/bin/make install
+  Making install in doc
+  make[1]: Entering directory '/tmp/dantopa/spack-stage/spack-stage-autoconf-archive-2024.10.16-bu3me62murwhjymi6qw55olpwzgweszi/spack-src/doc'
+  make[2]: Entering directory '/tmp/dantopa/spack-stage/spack-stage-autoconf-archive-2024.10.16-bu3me62murwhjymi6qw55olpwzgweszi/spack-src/doc'
+  make[2]: Nothing to be done for 'install-exec-am'.
+   /usr/bin/mkdir -p '/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/autoconf-archive-2024.10.16-bu3me62murwhjymi6qw55olpwzgweszi/share/info'
+   /usr/bin/install -c -m 644 ./autoconf-archive.info ./autoconf-archive.info-1 ./autoconf-archive.info-2 ./autoconf-archive.info-3 ./autoconf-archive.info-4 '/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/autoconf-archive-2024.10.16-bu3me62murwhjymi6qw55olpwzgweszi/share/info'
+   install-info --info-dir='/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/autoconf-archive-2024.10.16-bu3me62murwhjymi6qw55olpwzgweszi/share/info' '/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/autoconf-archive-2024.10.16-bu3me62murwhjymi6qw55olpwzgweszi/share/info/autoconf-archive.info'
+  make[2]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-autoconf-archive-2024.10.16-bu3me62murwhjymi6qw55olpwzgweszi/spack-src/doc'
+  make[1]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-autoconf-archive-2024.10.16-bu3me62murwhjymi6qw55olpwzgweszi/spack-src/doc'
+  make[1]: Entering directory '/tmp/dantopa/spack-stage/spack-stage-autoconf-archive-2024.10.16-bu3me62murwhjymi6qw55olpwzgweszi/spack-src'
+  make[2]: Entering directory '/tmp/dantopa/spack-stage/spack-stage-autoconf-archive-2024.10.16-bu3me62murwhjymi6qw55olpwzgweszi/spack-src'
+  make[2]: Nothing to be done for 'install-exec-am'.
+   /usr/bin/mkdir -p '/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/autoconf-archive-2024.10.16-bu3me62murwhjymi6qw55olpwzgweszi/share/aclocal'
+   /usr/bin/mkdir -p '/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/autoconf-archive-2024.10.16-bu3me62murwhjymi6qw5
+-- lines 1 to 19 --
+  Initialized empty Git repository in /tmp/tmpa5pabo_y/libuv-julia/.git/
+  Traceback (most recent call last):
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/package_base.py", line 1685, in do_stage
+      self.do_fetch(mirror_only)
+      ~~~~~~~~~~~~~^^^^^^^^^^^^^
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/package_base.py", line 1665, in do_fetch
+      self.stage.fetch(mirror_only, err_msg=err_msg)
+      ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/stage.py", line 890, in fetch
+      stage.fetch(mirror_only, err_msg)
+      ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/stage.py", line 619, in fetch
+      raise spack.error.FetchError(
+          f"All fetchers failed for {self.name}", "\n".join(f"    {e}" for e in errors)
+      )
+  spack.error.FetchError: All fetchers failed for spack-stage-libuv-julia-1.48.1rc1-hla2lyluwqb5hgfzy7xvg4277idxjszy
+          https://mirror.spack.io/_source-cache/git/JuliaLang/libuv.git/af4172ec713ee986ba1a989b9e33993a07c60c9e.tar.gz: DetailedHTTPError: GET https://mirror.spack.io/_source-cache/git/JuliaLang/libuv.git/af4172ec713ee986ba1a989b9e33993a07c60c9e.tar.gz returned 404: Not Found
+      [git] https://github.com/JuliaLang/libuv.git at commit af4172ec713ee986ba1a989b9e33993a07c60c9e: ProcessError: Command exited with status 128:
+      /usr/bin/git -c advice.detachedHead=false clone --quiet --depth 1 --filter=blob:none --no-checkout https://github.com/JuliaLang/libuv.git libuv-julia
+-- lines 5 to 18 --
+  ==> [2026-09-06-01:09:28.766475] Find complete: ['/var/tmp/dantopa/spack-stage/spack-stage-nghttp2-1.64.0-vauzbyfqr6tqmq3f25pg2n2ykke3347k/spack-src'] ['configure']
+  ==> [2026-09-06-01:09:28.766705] FILTER FILE: /var/tmp/dantopa/spack-stage/spack-stage-nghttp2-1.64.0-vauzbyfqr6tqmq3f25pg2n2ykke3347k/spack-src/configure [replacing "^(\s*if test x-L = )("\$p" \|\|\s*)$"]
+  ==> [2026-09-06-01:09:28.798634] FILTER FILE: /var/tmp/dantopa/spack-stage/spack-stage-nghttp2-1.64.0-vauzbyfqr6tqmq3f25pg2n2ykke3347k/spack-src/configure [replacing "^(\s*test x-R = )("\$p")(; then\s*)$"]
+  ==> [2026-09-06-01:09:28.831326] FILTER FILE: /var/tmp/dantopa/spack-stage/spack-stage-nghttp2-1.64.0-vauzbyfqr6tqmq3f25pg2n2ykke3347k/spack-src/configure [replacing "^(\s*test \$p = "-R")(; then\s*)$"]
+  ==> [2026-09-06-01:09:28.863618] FILTER FILE: /var/tmp/dantopa/spack-stage/spack-stage-nghttp2-1.64.0-vauzbyfqr6tqmq3f25pg2n2ykke3347k/spack-src/configure [replacing "lt_cv_apple_cc_single_mod=no"]
+  ==> [2026-09-06-01:09:28.898707] /var/tmp/dantopa/spack-stage/spack-stage-nghttp2-1.64.0-vauzbyfqr6tqmq3f25pg2n2ykke3347k/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/nghttp2-1.64.0-vauzbyfqr6tqmq3f25pg2n2ykke3347k --enable-lib-only --with-libxml2=no --with-jansson=no --with-zlib=no --with-libevent-openssl=no --with-libcares=no --with-openssl=no --with-libev=no --with-cunit=no --with-jemalloc=no --with-systemd=no --with-mruby=no --with-neverbleed=no --with-boost=no --with-wolfssl=no
+> configure: WARNING: unrecognized options: --with-cunit, --with-boost
+  checking for gcc... /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc
+  checking whether the C compiler works... no
+> configure: error: in `/var/tmp/dantopa/spack-stage/spack-stage-nghttp2-1.64.0-vauzbyfqr6tqmq3f25pg2n2ykke3347k/spack-src':
+> configure: error: C compiler cannot create executables
+  See `config.log' for more details
+  Command exited with status 77:
+      /var/tmp/dantopa/spack-stage/spack-stage-nghttp2-1.64.0-vauzbyfqr6tqmq3f25pg2n2ykke3347k/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/nghttp2-1.64.0-vauzbyfqr6tqmq3f25pg2n2ykke3347k --enable-lib-only --with-libxml2=no --with-jansson=no --with-zlib=no --with-libevent-openssl=no --with-libcares=no --with-openssl=no --with-libev=no --with-cunit=no --with-jemalloc=no --with-systemd=no --with-mruby=no --with-neverbleed=no --with-boost=no --with-wolfssl=no
+-- lines 139 to 158 --
+  /tmp/dantopa/spack-stage/spack-stage-libsigsegv-2.15-gvnb75a6ajsi5seegvnrl2hiiarqemq3/spack-src/configure: line 1807: printf: write error: Disk quota exceeded
+  /tmp/dantopa/spack-stage/spack-stage-libsigsegv-2.15-gvnb75a6ajsi5seegvnrl2hiiarqemq3/spack-src/configure: line 1810: printf: write error: Disk quota exceeded
+  /tmp/dantopa/spack-stage/spack-stage-libsigsegv-2.15-gvnb75a6ajsi5seegvnrl2hiiarqemq3/spack-src/configure: line 1825: printf: write error: Disk quota exceeded
+  /tmp/dantopa/spack-stage/spack-stage-libsigsegv-2.15-gvnb75a6ajsi5seegvnrl2hiiarqemq3/spack-src/configure: line 1826: printf: write error: Disk quota exceeded
+  /tmp/dantopa/spack-stage/spack-stage-libsigsegv-2.15-gvnb75a6ajsi5seegvnrl2hiiarqemq3/spack-src/configure: line 16973: printf: write error: Disk quota exceeded
+  no
+  /tmp/dantopa/spack-stage/spack-stage-libsigsegv-2.15-gvnb75a6ajsi5seegvnrl2hiiarqemq3/spack-src/configure: line 17404: printf: write error: Disk quota exceeded
+  checking for the fault handler specifics... /tmp/dantopa/spack-stage/spack-stage-libsigsegv-2.15-gvnb75a6ajsi5seegvnrl2hiiarqemq3/spack-src/configure: line 17415: printf: write error: Disk quota exceeded
+  fault-linux-x86_64-old.h
+  /tmp/dantopa/spack-stage/spack-stage-libsigsegv-2.15-gvnb75a6ajsi5seegvnrl2hiiarqemq3/spack-src/configure: line 17436: printf: write error: Disk quota exceeded
+  checking if the system supports catching SIGSEGV... /tmp/dantopa/spack-stage/spack-stage-libsigsegv-2.15-gvnb75a6ajsi5seegvnrl2hiiarqemq3/spack-src/configure: line 17438: printf: write error: Disk quota exceeded
+  no
+  /tmp/dantopa/spack-stage/spack-stage-libsigsegv-2.15-gvnb75a6ajsi5seegvnrl2hiiarqemq3/spack-src/configure: line 17452: printf: write error: Disk quota exceeded
+  checking for stack direction... /tmp/dantopa/spack-stage/spack-stage-libsigsegv-2.15-gvnb75a6ajsi5seegvnrl2hiiarqemq3/spack-src/configure: line 17568: printf: write error: Disk quota exceeded
+  grows down
+  /tmp/dantopa/spack-stage/spack-stage-libsigsegv-2.15-gvnb75a6ajsi5seegvnrl2hiiarqemq3/spack-src/configure: line 17587: printf: write error: Disk quota exceeded
+  checking for prmap_t in sys/procfs.h... cat: confdefs.h: Disk quota exceeded
+  cat: -: Disk quota exceeded
+  /tmp/dantopa/spack-stage/spack-stage-libsigsegv-2.15-gvnb75a6ajsi5seegvnrl2hiiarqemq3/spack-src/configure: line 1660: printf: write error: Disk quota exceeded
+  /tmp/dantopa/spack-stage/spack-stage-lib
+-- lines 128 to 141 --
+  cat: -: Disk quota exceeded
+  cat: -: Disk quota exceeded
+  cat: -: Disk quota exceeded
+  cat: -: Disk quota exceeded
+  cat: -: Disk quota exceeded
+  /tmp/dantopa/spack-stage/spack-stage-which-2.23-ztr2hjvbes6thdfwm6rammju3gmxbluj/spack-src/configure: line 8399: echo: write error: Disk quota exceeded
+> configure: error: could not make ./config.status
+  /tmp/dantopa/spack-stage/spack-stage-which-2.23-ztr2hjvbes6thdfwm6rammju3gmxbluj/spack-src/configure: line 8: printf: write error: Disk quota exceeded
+  /tmp/dantopa/spack-stage/spack-stage-which-2.23-ztr2hjvbes6thdfwm6rammju3gmxbluj/spack-src/configure: line 11: echo: write error: Disk quota exceeded
+  sort: write failed: 'standard output': Disk quota exceeded
+  /tmp/dantopa/spack-stage/spack-stage-which-2.23-ztr2hjvbes6thdfwm6rammju3gmxbluj/spack-src/configure: line 42: echo: write error: Disk quota exceeded
+  /tmp/dantopa/spack-stage/spack-stage-which-2.23-ztr2hjvbes6thdfwm6rammju3gmxbluj/spack-src/configure: line 44: printf: Disk quota exceeded
+  /tmp/dantopa/spack-stage/spack-stage-which-2.23-ztr2hjvbes6thdfwm6rammju3gmxbluj/spack-src/configure: line 44: printf: write error: Disk quota exceeded
+  /tmp/dantopa/spack-stage/spack-stage-which-2.23-ztr2hjvbes6thdfwm6rammju3gmxbluj/spack-src/configure: line 47: echo:
+==> Error: The following packages failed to install:
+file@5.46/syauj647c7jo3bsebuqx6r3tmmntjy7n: /tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n-pncsu33h.log
+texinfo@7.2/pf4bowomsyz2stlaxqz7x634f2v6fk5n: /tmp/dantopa/spack-stage/spack-stage-texinfo-7.2-pf4bowomsyz2stlaxqz7x634f2v6fk5n-dyji5k2_.log
+findutils@4.10.0/jplcnbxh55wbticij6q25vbqkd5e4sp7: /tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7-wbxdyz27.log
+pcre2@10.44/m5ps7zcgluqn2lgnf73ydk7yklq2alux: /tmp/dantopa/spack-stage/spack-stage-pcre2-10.44-m5ps7zcgluqn2lgnf73ydk7yklq2alux-ypnfhwxq.log
+openblas@0.3.34/h24eiufg6h6dkwyqpd6ke2dyu6efc3ua: /tmp/dantopa/spack-stage/spack-stage-openblas-0.3.34-h24eiufg6h6dkwyqpd6ke2dyu6efc3ua-yfp1mu5l.log
+libedit@3.1-20251016/s4wbwui7kvkknqfrfpsbgipkiqvhv7du: /tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du-m2l1k4wg.log
+p7zip@17.06/c67jwq6sefnq2mkirkzyus3jwphkgfvg: /tmp/dantopa/spack-stage/spack-stage-p7zip-17.06-c67jwq6sefnq2mkirkzyus3jwphkgfvg-agq629y3.log
+dsfmt@2.2.5/g4p6d5yfnciyrjawys63eiz4xbo4fcbv: /tmp/dantopa/spack-stage/spack-stage-dsfmt-2.2.5-g4p6d5yfnciyrjawys63eiz4xbo4fcbv-mv1xdd4k.log
+libblastrampoline@5.15.0/24xh5jrxtve2hb6f7grjkbonjvibu34q: /tmp/dantopa/spack-stage/spack-stage-libblastrampoline-5.15.0-24xh5jrxtve2hb6f7grjkbonjvibu34q-qhwfth3r.log
+perl-data-dumper@2.173/ejsgjsb4zucdey27x5zv32lwth6cfrwk: /tmp/dantopa/spack-stage/spack-stage-perl-data-dumper-2.173-ejsgjsb4zucdey27x5zv32lwth6cfrwk-dkve9h1z.log
+autoconf-archive@2024.10.16/bu3me62murwhjymi6qw55olpwzgweszi: /tmp/dantopa/spack-stage/spack-stage-autoconf-archive-2024.10.16-bu3me62murwhjymi6qw55olpwzgweszi-pbadpopa.log
+libuv-julia@1.48.1rc1/hla2lyluwqb5hgfzy7xvg4277idxjszy: /tmp/dantopa/spack-stage/spack-stage-libuv-julia-1.48.1rc1-hla2lyluwqb5hgfzy7xvg4277idxjszy-thrrlbp6.log
+nghttp2@1.64.0/vauzbyfqr6tqmq3f25pg2n2ykke3347k: /tmp/dantopa/spack-stage/spack-stage-nghttp2-1.64.0-vauzbyfqr6tqmq3f25pg2n2ykke3347k-7ff13ce8.log
+libsigsegv@2.15/gvnb75a6ajsi5seegvnrl2hiiarqemq3: /tmp/dantopa/spack-stage/spack-stage-libsigsegv-2.15-gvnb75a6ajsi5seegvnrl2hiiarqemq3-iqn1jli8.log
+which@2.23/ztr2hjvbes6thdfwm6rammju3gmxbluj: /tmp/dantopa/spack-stage/spack-stage-which-2.23-ztr2hjvbes6thdfwm6rammju3gmxbluj-0adqjd1x.log
+openlibm@0.8.7/fktyjndlil4qtr74y5vkucuh3ydfv7pq: /tmp/dantopa/spack-stage/spack-stage-openlibm-0.8.7-fktyjndlil4qtr74y5vkucuh3ydfv7pq-0vxt9p1r.log
+unzip@6.0/pssrh6mtjtz5fsqxjsefqs6xmx2jb76z: /tmp/dantopa/spack-stage/spack-stage-unzip-6.0-pssrh6mtjtz5fsqxjsefqs6xmx2jb76z-_8kjkpx1.log
+openssl@3.5.5/5bmn5s4vdcfj6wr55ww3yp5oar2zfdrh: /tmp/dantopa/spack-stage/spack-stage-openssl-3.5.5-5bmn5s4vdcfj6wr55ww3yp5oar2zfdrh-goie064o.log
+binutils@2.47/qzsyhz7sa4h4wombirpmzqjfpamunlrl: /tmp/dantopa/spack-stage/spack-stage-binutils-2.47-qzsyhz7sa4h4wombirpmzqjfpamunlrl-q6fma87u.log
+util-macros@1.20.2/yptprvcwdccqkfkf7qyuuru6u36cidtw: /tmp/dantopa/spack-stage/spack-stage-util-macros-1.20.2-yptprvcwdccqkfkf7qyuuru6u36cidtw-2ksl4yhx.log
