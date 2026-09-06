@@ -1,0 +1,6 @@
+[ ] 2wnragq iperf3@3.21 staging (0s)
+[ ] 2wnragq iperf3@3.21 autoreconf (0s)
+[ ] 2wnragq iperf3@3.21 configure (0s)
+[ ] 2wnragq iperf3@3.21 build (9s)
+[ ] 2wnragq iperf3@3.21 install (18s)
+[+] 2wnragq iperf3@3.21 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/iperf3-3.21-2wnragqtimzzl7skflrwh6yznirnl2kz (18s)

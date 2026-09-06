@@ -1,1 +1,2 @@
-==> Error: No package matches the query: netcdf-c
+-- linux-ubuntu26.04-ivybridge / %c=gcc@15.2.0 ------------------
+netcdf-c@4.10.0

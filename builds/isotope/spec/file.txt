@@ -1,0 +1,13 @@
+[+]  file@5.46+static build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]      ^bzip2@1.0.8~debug~pic+shared build_system=generic platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]          ^diffutils@3.12 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]              ^libiconv@1.18 build_system=autotools libs:=shared,static platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]      ^compiler-wrapper@1.1.0 build_system=generic platform=linux os=ubuntu26.04 target=ivybridge
+[e]      ^gcc@15.2.0+binutils+bootstrap+futex~graphite+libsanitizer~mold~nvptx~piclibs~profiled~strip build_system=autotools build_type=RelWithDebInfo languages:='c,c++,fortran' platform=linux os=ubuntu26.04 target=x86_64
+[+]      ^gcc-runtime@15.2.0 build_system=generic platform=linux os=ubuntu26.04 target=ivybridge
+[e]      ^glibc@2.43 build_system=autotools platform=linux os=ubuntu26.04 target=x86_64
+[+]      ^gmake@4.4.1~guile build_system=generic platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]      ^xz@5.8.3~pic build_system=autotools libs:=shared,static platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]      ^zlib-ng@2.3.3+compat+new_strategies+opt+pic+shared build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]      ^zstd@1.5.7+programs build_system=makefile compression:=none libs:=shared,static platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+

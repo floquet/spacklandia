@@ -1,0 +1,1 @@
+[+] ifdj5ad ninja@1.13.2 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/ninja-1.13.2-ifdj5adyz2jdoh6kpw3szttv4nsmfn2p (0s)

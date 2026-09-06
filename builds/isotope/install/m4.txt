@@ -1,0 +1,1 @@
+[+] haov73b m4@1.4.21 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/m4-1.4.21-haov73b6q2fghpglk2twqtgja6ilexrh (0s)

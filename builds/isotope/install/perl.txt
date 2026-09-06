@@ -1,0 +1,1 @@
+[+] rojhcc3 perl@5.42.2 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/perl-5.42.2-rojhcc3u7nuhv33yfyfx73gjpddrrmzp (0s)

@@ -1,6 +1,6 @@
- -   gdb@17.1+debuginfod~gold~ld~lto+python~quad~source-highlight~tui+xz build_system=autotools patches=7590c95 platform=linux os=ubuntu26.04 target=ivybridge %c,cxx,fortran=gcc@15.2.0
+[+]  gdb@17.1+debuginfod~gold~ld~lto+python~quad~source-highlight~tui+xz build_system=autotools patches=7590c95 platform=linux os=ubuntu26.04 target=ivybridge %c,cxx,fortran=gcc@15.2.0
 [+]      ^compiler-wrapper@1.1.0 build_system=generic platform=linux os=ubuntu26.04 target=ivybridge
- -       ^elfutils@0.194+debuginfod+exeprefix+nls build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]      ^elfutils@0.194+debuginfod+exeprefix+nls build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
 [+]          ^bzip2@1.0.8~debug~pic+shared build_system=generic platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
 [+]              ^diffutils@3.12 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
 [+]          ^curl@8.21.0~gssapi~ldap~libidn2~librtmp~libssh+libssh2+nghttp2 build_system=autotools libs:=shared,static tls:=openssl platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
@@ -10,13 +10,13 @@
 [+]              ^libxml2@2.15.3+pic~python+shared build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
 [+]              ^tar@1.35 build_system=autotools patches=85cb6b4 zip=pigz platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
 [+]                  ^pigz@2.8 build_system=makefile platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
- -           ^json-c@0.19~ipo build_system=cmake build_type=Release generator=make platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]          ^json-c@0.19~ipo build_system=cmake build_type=Release generator=make platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
 [+]              ^cmake@3.31.12~doc+ncurses+ownlibs~qtgui build_system=generic build_type=Release platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
- -           ^libarchive@3.8.5+iconv build_system=autotools compression:=bz2lib,lz4,lzma,lzo2,zlib,zstd crypto=openssl libs:=shared,static programs:=none xar=libxml2 platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
- -               ^lz4@1.10.0+pic build_system=makefile libs:=shared,static platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
- -               ^lzo@2.10 build_system=autotools libs:=shared,static platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]          ^libarchive@3.8.5+iconv build_system=autotools compression:=bz2lib,lz4,lzma,lzo2,zlib,zstd crypto=openssl libs:=shared,static programs:=none xar=libxml2 platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]              ^lz4@1.10.0+pic build_system=makefile libs:=shared,static platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]              ^lzo@2.10 build_system=autotools libs:=shared,static platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
 [+]          ^libiconv@1.18 build_system=autotools libs:=shared,static platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
- -           ^libmicrohttpd@1.0.2~https build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]          ^libmicrohttpd@1.0.2~https build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
 [+]          ^m4@1.4.21+sigsegv build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
 [+]              ^libsigsegv@2.15 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
 [+]          ^sqlite@3.53.1+column_metadata+fts+rtree build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0

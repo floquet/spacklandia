@@ -1,0 +1,61 @@
+Package:   perl
+
+Description:
+    Perl 5 is a highly capable, feature-rich programming language with over
+    27 years of development.
+
+Homepage: https://www.perl.org
+
+Preferred version:  
+    5.42.2     http://www.cpan.org/src/5.0/perl-5.42.2.tar.gz
+
+Safe versions:  
+    5.42.2     http://www.cpan.org/src/5.0/perl-5.42.2.tar.gz
+    5.42.0     http://www.cpan.org/src/5.0/perl-5.42.0.tar.gz
+    5.40.2     http://www.cpan.org/src/5.0/perl-5.40.2.tar.gz
+    5.40.0     http://www.cpan.org/src/5.0/perl-5.40.0.tar.gz
+    5.39.10    http://www.cpan.org/src/5.0/perl-5.39.10.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    build_system [generic]        generic
+        Build systems supported by the package
+
+    cpanm [true]                  false, true
+        Optionally install cpanm with the core packages.
+
+    opcode [true]                 false, true
+        Support Opcode.pm
+
+    open [true]                   false, true
+        Support open.pm
+
+    shared [true]                 false, true
+        Build a shared libperl.so library
+
+    threads [true]                false, true
+        Build perl with threads support
+
+
+Dependencies:
+    berkeley-db        build, link
+
+    bzip2              build, link
+
+    c                  build
+
+    gdbm               build, link
+
+    gmake              build
+
+    less               run
+
+    zlib-api           build, link
+
+
+Licenses:
+    Artistic-1.0-Perl OR GPL-1.0-or-later
+
+

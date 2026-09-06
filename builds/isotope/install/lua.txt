@@ -1,0 +1,1 @@
+[+] nnb7x73 lua@5.3.6 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/lua-5.3.6-nnb7x73wvvaeuzjs6runxs7x4x66avxb (0s)

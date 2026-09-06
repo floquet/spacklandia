@@ -1,5 +1,5 @@
- -   hpctoolkit@2026.0.1+auditor_default~cuda~docs~level_zero~mpi~opencl+papi~python~rocm~strip+viewer build_system=meson buildtype=release commit=fc620c4751e6e233725620b2f22b1bcaa07c967f default_library:=shared platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
- -       ^boost@1.90.0+atomic~charconv+chrono~clanglibcpp~cobalt+container~context~contract~conversion+date_time~debug+exception~fiber+filesystem+graph~graph_parallel~icu~iostreams~json~locale~log~math~mpi~mqtt5+multithreaded~nowide~numpy~openmethod~pic~program_options~python+random+regex~serialization+shared~signals2~singlethreaded~stacktrace+system~taggedlayout~test+thread+timer~type_erasure~url~versionedlayout~wave build_system=generic cxxstd=11 patches=a440f96 visibility=global platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]  hpctoolkit@2026.0.1+auditor_default~cuda~docs~level_zero~mpi~opencl+papi~python~rocm~strip+viewer build_system=meson buildtype=release commit=fc620c4751e6e233725620b2f22b1bcaa07c967f default_library:=shared platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]      ^boost@1.90.0+atomic~charconv+chrono~clanglibcpp~cobalt+container~context~contract~conversion+date_time~debug+exception~fiber+filesystem+graph~graph_parallel~icu~iostreams~json~locale~log~math~mpi~mqtt5+multithreaded~nowide~numpy~openmethod~pic~program_options~python+random+regex~serialization+shared~signals2~singlethreaded~stacktrace+system~taggedlayout~test+thread+timer~type_erasure~url~versionedlayout~wave build_system=generic cxxstd=11 patches=a440f96 visibility=global platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
 [+]      ^bzip2@1.0.8~debug~pic+shared build_system=generic platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
 [+]          ^diffutils@3.12 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
 [+]          ^gmake@4.4.1~guile build_system=generic platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
@@ -11,8 +11,8 @@
 [+]                  ^ca-certificates-mozilla@2026-05-14 build_system=generic platform=linux os=ubuntu26.04 target=ivybridge
 [+]          ^ncurses@6.6~symlinks+termlib abi=none build_system=autotools patches=7a351bc platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
 [+]      ^compiler-wrapper@1.1.0 build_system=generic platform=linux os=ubuntu26.04 target=ivybridge
- -       ^dyninst@13.0.0~ipo+openmp~stat_dysect~static build_system=cmake build_type=Release generator=make patches=36f98e7,db3ede9 platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
- -       ^elfutils@0.194~debuginfod+exeprefix~nls build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]      ^dyninst@13.0.0~ipo+openmp~stat_dysect~static build_system=cmake build_type=Release generator=make patches=36f98e7,db3ede9 platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]      ^elfutils@0.194~debuginfod+exeprefix~nls build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
 [+]          ^libiconv@1.18 build_system=autotools libs:=shared,static platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
 [+]          ^m4@1.4.21+sigsegv build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
 [+]              ^libsigsegv@2.15 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
@@ -20,13 +20,13 @@
 [e]      ^gcc@15.2.0+binutils+bootstrap+futex~graphite+libsanitizer~mold~nvptx~piclibs~profiled~strip build_system=autotools build_type=RelWithDebInfo languages:='c,c++,fortran' platform=linux os=ubuntu26.04 target=x86_64
 [+]      ^gcc-runtime@15.2.0 build_system=generic platform=linux os=ubuntu26.04 target=ivybridge
 [e]      ^glibc@2.43 build_system=autotools platform=linux os=ubuntu26.04 target=x86_64
- -       ^hpcviewer@2026.2.1 build_system=generic platform=linux os=ubuntu26.04 target=ivybridge
- -       ^intel-tbb@2022.3.0~ipo+shared+tm build_system=cmake build_type=Release cxxstd=default generator=make platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]      ^hpcviewer@2026.2.1 build_system=generic platform=linux os=ubuntu26.04 target=ivybridge
+[+]      ^intel-tbb@2022.3.0~ipo+shared+tm build_system=cmake build_type=Release cxxstd=default generator=make platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
 [+]          ^hwloc@2.13.0~cairo~cuda~gl~level_zero~libudev+libxml2~nvml~opencl+pci~rocm build_system=autotools libs:=shared,static patches=b4db98b platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
 [+]              ^libpciaccess@0.17 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
 [+]                  ^util-macros@1.20.2 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge
 [+]              ^libxml2@2.15.3+pic~python+shared build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
- -       ^intel-xed@2025.06.08~debug~deprecated-includes~examples+optimize+pic build_system=generic commit=dc6bdbe036515c7ef55d3b2d50bafc5232bfe534 platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]      ^intel-xed@2025.06.08~debug~deprecated-includes~examples+optimize+pic build_system=generic commit=dc6bdbe036515c7ef55d3b2d50bafc5232bfe534 platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
 [+]          ^python@3.14.5+bz2+ctypes+dbm~debug~freethreading+libxml2+lzma~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~static~tests~tkinter+uuid+zlib+zstd build_system=generic platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
 [+]              ^expat@2.8.4+libbsd+pic build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
 [+]                  ^libbsd@0.12.2 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
@@ -39,29 +39,29 @@
 [+]              ^readline@8.3 build_system=autotools patches=21f0a03,72dee13,e273643 platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
 [+]              ^sqlite@3.53.1+column_metadata+fts+rtree build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
 [+]              ^util-linux-uuid@2.41 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
- -       ^libiberty@2.46.0+pic build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
- -       ^libunwind@1.8.3~block_signals~conservative_checks~cxx_exceptions~debug~debug_frame+docs~pic+tests+weak_backtrace+xz~zlib build_system=autotools components:=none libs:=shared,static patches=4562c23 platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]      ^libiberty@2.46.0+pic build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]      ^libunwind@1.8.3~block_signals~conservative_checks~cxx_exceptions~debug~debug_frame+docs~pic+tests+weak_backtrace+xz~zlib build_system=autotools components:=none libs:=shared,static patches=4562c23 platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
 [+]          ^libtool@2.5.4 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
 [+]              ^file@5.46+static build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
 [+]              ^findutils@4.10.0 build_system=autotools patches=440b954 platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
- -       ^meson@1.11.1 build_system=python_pip patches=0f0b1bd platform=linux os=ubuntu26.04 target=ivybridge
- -           ^py-pip@26.1.2 build_system=generic platform=linux os=ubuntu26.04 target=ivybridge
- -           ^py-setuptools@83.0.0 build_system=generic platform=linux os=ubuntu26.04 target=ivybridge
- -           ^py-wheel@0.45.1 build_system=generic platform=linux os=ubuntu26.04 target=ivybridge
- -           ^python-venv@1.0 build_system=generic platform=linux os=ubuntu26.04 target=ivybridge
+[+]      ^meson@1.11.1 build_system=python_pip patches=0f0b1bd platform=linux os=ubuntu26.04 target=ivybridge
+[+]          ^py-pip@26.1.2 build_system=generic platform=linux os=ubuntu26.04 target=ivybridge
+[+]          ^py-setuptools@83.0.0 build_system=generic platform=linux os=ubuntu26.04 target=ivybridge
+[+]          ^py-wheel@0.45.1 build_system=generic platform=linux os=ubuntu26.04 target=ivybridge
+[+]          ^python-venv@1.0 build_system=generic platform=linux os=ubuntu26.04 target=ivybridge
 [+]      ^ninja@1.13.2+re2c build_system=generic platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
 [+]          ^re2c@4.4 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
- -       ^papi@7.2.0~cuda~debug+example~infiniband~lmsensors~nvml~powercap~rapl+rdpmc~rocm~rocm_smi~rocp_sdk~sde+shared~static_tools~topdown build_system=autotools patches=fab5f67 platform=linux os=ubuntu26.04 target=ivybridge %c,cxx,fortran=gcc@15.2.0
+[+]      ^papi@7.2.0~cuda~debug+example~infiniband~lmsensors~nvml~powercap~rapl+rdpmc~rocm~rocm_smi~rocp_sdk~sde+shared~static_tools~topdown build_system=autotools patches=fab5f67 platform=linux os=ubuntu26.04 target=ivybridge %c,cxx,fortran=gcc@15.2.0
 [+]          ^perl@5.42.2+cpanm+opcode+open+shared+threads build_system=generic platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
 [+]              ^berkeley-db@18.1.40+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
 [+]              ^less@692 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
 [+]      ^patchelf@0.17.2 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
 [+]      ^pkgconf@2.5.1 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
- -       ^py-docutils@0.22.4 build_system=python_pip platform=linux os=ubuntu26.04 target=ivybridge
- -           ^py-flit-core@3.12.0 build_system=python_pip platform=linux os=ubuntu26.04 target=ivybridge
- -       ^xerces-c@3.3.0 build_system=autotools cxxstd=default netaccessor=curl transcoder=iconv platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
- -       ^xxhash@0.8.3+pic build_system=makefile platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]      ^py-docutils@0.22.4 build_system=python_pip platform=linux os=ubuntu26.04 target=ivybridge
+[+]          ^py-flit-core@3.12.0 build_system=python_pip platform=linux os=ubuntu26.04 target=ivybridge
+[+]      ^xerces-c@3.3.0 build_system=autotools cxxstd=default netaccessor=curl transcoder=iconv platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]      ^xxhash@0.8.3+pic build_system=makefile platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
 [+]      ^xz@5.8.3~pic build_system=autotools libs:=shared,static platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
- -       ^yaml-cpp@0.9.0~ipo+pic+shared~tests build_system=cmake build_type=Release generator=make platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]      ^yaml-cpp@0.9.0~ipo+pic+shared~tests build_system=cmake build_type=Release generator=make platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
 [+]      ^zlib-ng@2.3.3+compat+new_strategies+opt+pic+shared build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
 

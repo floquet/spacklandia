@@ -1,0 +1,1 @@
+[+] qvqglwv automake@1.18.1 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/automake-1.18.1-qvqglwvv4kipw3rl36ydaij5nei7gs4e (0s)

@@ -1,0 +1,6 @@
+[ ] fpc6x26 htop@3.4.1 staging (1s)
+[ ] fpc6x26 htop@3.4.1 autoreconf (1s)
+[ ] fpc6x26 htop@3.4.1 configure (7s)
+[ ] fpc6x26 htop@3.4.1 build (17s)
+[ ] fpc6x26 htop@3.4.1 install (21s)
+[+] fpc6x26 htop@3.4.1 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/htop-3.4.1-fpc6x266n6oj7w423wzsmcamkgyk6txx (21s)

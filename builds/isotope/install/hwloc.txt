@@ -1,1 +1,0 @@
-[+] 5uk2kgc hwloc@2.13.0 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hwloc-2.13.0-5uk2kgczukyb5j2lt3daj3e3x55f5byd (0s)

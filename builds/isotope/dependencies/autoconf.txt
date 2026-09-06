@@ -1,0 +1,4 @@
+gmake
+gnuconfig
+m4
+perl

@@ -1,0 +1,51 @@
+[ ] ncezqpg strace@6.15 staging (1s)
+[ ] ncezqpg strace@6.15 autoreconf (1s)
+[ ] ncezqpg strace@6.15 configure (1s)
+[ ] ncezqpg strace@6.15 build (1m16s)
+[x] ncezqpg strace@6.15 failed: /tmp/dantopa/spack-stage/spack-stage-strace-6.15-ncezqpgvucaww2uwxpdgrltm4i5b67kz-ciigfssh.log (1m19s)
+-- lines 800 to 827 --
+  /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DHAVE_CONFIG_H   -I./linux/x86_64 -I./linux/x86_64 -I./linux/generic -I./linux/generic -I. -I.  -DIN_STRACE=1       -Wall -Wextra -Wno-missing-field-initializers -Wno-unused-parameter -Wdate-time -Wformat-security -Wimplicit-fallthrough=5 -Winit-self -Wlogical-op -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wtrampolines -Wundef -Wwrite-strings -Werror   -g -O2 -MT libstrace_a-ipc_msg.o -MD -MP -MF .deps/libstrace_a-ipc_msg.Tpo -c -o libstrace_a-ipc_msg.o `test -f 'ipc_msg.c' || echo './'`ipc_msg.c
+  mv -f .deps/libstrace_a-getpid.Tpo .deps/libstrace_a-getpid.Po
+  /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DHAVE_CONFIG_H   -I./linux/x86_64 -I./linux/x86_64 -I./linux/generic -I./linux/generic -I. -I.  -DIN_STRACE=1       -Wall -Wextra -Wno-missing-field-initializers -Wno-unused-parameter -Wdate-time -Wformat-security -Wimplicit-fallthrough=5 -Winit-self -Wlogical-op -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wtrampolines -Wundef -Wwrite-strings -Werror   -g -O2 -MT libstrace_a-ipc_msgctl.o -MD -MP -MF .deps/libstrace_a-ipc_msgctl.Tpo -c -o libstrace_a-ipc_msgctl.o `test -f 'ipc_msgctl.c' || echo './'`ipc_msgctl.c
+  mv -f .deps/libstrace_a-inotify_ioctl.Tpo .deps/libstrace_a-inotify_ioctl.Po
+  /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DHAVE_CONFIG_H   -I./linux/x86_64 -I./linux/x86_64 -I./linux/generic -I./linux/generic -I. -I.  -DIN_STRACE=1       -Wall -Wextra -Wno-missing-field-initializers -Wno-unused-parameter -Wdate-time -Wformat-security -Wimplicit-fallthrough=5 -Winit-self -Wlogical-op -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wtrampolines -Wundef -Wwrite-strings -Werror   -g -O2 -MT libstrace_a-ipc_sem.o -MD -MP -MF .deps/libstrace_a-ipc_sem.Tpo -c -o libstrace_a-ipc_sem.o `test -f 'ipc_sem.c' || echo './'`ipc_sem.c
+  ioctl.c: In function 'ioctl_lookup':
+> ioctl.c:52:13: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     52 |         iop = bsearch((const void *) (const uintptr_t) code, ioctlent,
+        |             ^
+  In file included from list.h:90,
+                   from defs.h:40,
+                   from io_uring.c:9:
+  io_uring.c: In function 'print_io_uring_buf_reg':
+> macros.h:141:9: error: static assertion failed: "Unexpected size of arg.resv (sizeof(uint64_t) * 3 expected).  --enabled-bundled=yes configure option may be used to work around that."
+    141 |         static_assert(sizeof(type_) == (sz_), \
+        |         ^~~~~~~~~~~~~
+> io_uring.c:573:9: note: in expansion of macro 'CHECK_TYPE_SIZE'
+    573 |         CHECK_TYPE_SIZE(arg.resv, sizeof(uint64_t) * 3);
+        |         ^~~~~~~~~~~~~~~
+  mv -f .deps/libstrace_a-inotify.Tpo .deps/libstrace_a-inotify.Po
+  /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DHAVE_CONFIG_H   -I./linux/x86_64 -I./linux/x86_64 -I./linux/generic -I./linux/generic -I. -I.  -DIN_STRACE=1       -Wall -Wextra -Wno-missing-field-initializers -Wno-unused-parameter -Wdate-time -Wformat-security -Wimplicit-fallthrough=5 -Winit-self -Wlogical-op -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wtrampolines -Wundef -Wwrite-strings -Werror   -g -O2 -MT libstrace_a-ipc_semctl.o -MD -MP -MF .deps/libstrace_a-ipc_semctl.Tpo -c -o libstrace_a-ipc_semctl.o `test -f 'ipc_semctl.c' || echo './'`ipc_semctl.c
+> make[3]: *** [Makefile:5793: libstrace_a-io_uring.o] Error 1
+  make[3]: *** Waiting for unfinished jobs....
+  mv -f .deps/libstrace_a-filter_seccomp.Tpo .deps/libstrace_a-filter_seccomp.Po
+  mv -f .deps/libstrace_a-filter_qualify.Tpo .deps/libstrace_a-filter_qualify.Po
+  mv -f .deps/libstrace_a-bpf.Tpo .deps/libstrace_a-bpf.Po
+  mv -f .deps/libstrace_a-hdio.Tpo .deps/libstrace_a-hdio.Po
+  mv -f .deps/libstrace_a-ioperm.Tpo .deps/libstrace_a-ioperm.Po
+-- lines 833 to 846 --
+  mv -f .deps/libstrace_a-io.Tpo .deps/libstrace_a-io.Po
+  mv -f .deps/libstrace_a-ipc_semctl.Tpo .deps/libstrace_a-ipc_semctl.Po
+  mv -f .deps/libstrace_a-ioctl.Tpo .deps/libstrace_a-ioctl.Po
+  mv -f .deps/libstrace_a-gpio_ioctl.Tpo .deps/libstrace_a-gpio_ioctl.Po
+  mv -f .deps/strace-strace.Tpo .deps/strace-strace.Po
+  make[3]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-strace-6.15-ncezqpgvucaww2uwxpdgrltm4i5b67kz/spack-src/src'
+> make[2]: *** [Makefile:2810: all] Error 2
+  rm ioctlsort0 ioctlsort0.o ioctls_all0.h ioctls_all1.h ioctlsort1 ioctlsort1.o ioctlsort2 ioctlsort2.o ioctls_all2.h
+  make[2]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-strace-6.15-ncezqpgvucaww2uwxpdgrltm4i5b67kz/spack-src/src'
+> make[1]: *** [Makefile:599: all-recursive] Error 1
+  make[1]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-strace-6.15-ncezqpgvucaww2uwxpdgrltm4i5b67kz/spack-src'
+> make: *** [Makefile:504: all] Error 2
+  Command exited with status 2:
+      /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/gmake-4.4.1-6bd66sboze6lk56atf3h5x3tdil3hbmr/bin/make V=1
+==> Error: The following packages failed to install:
+strace@6.15/ncezqpgvucaww2uwxpdgrltm4i5b67kz: /tmp/dantopa/spack-stage/spack-stage-strace-6.15-ncezqpgvucaww2uwxpdgrltm4i5b67kz-ciigfssh.log

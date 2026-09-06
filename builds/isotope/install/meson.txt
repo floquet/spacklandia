@@ -1,0 +1,1 @@
+[+] hnyfmot meson@1.11.1 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/meson-1.11.1-hnyfmothdnwy3nmsl75lod4occlxkfhp (0s)

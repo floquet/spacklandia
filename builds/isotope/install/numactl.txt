@@ -1,0 +1,1 @@
+[+] kbi7gpc numactl@2.0.19 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/numactl-2.0.19-kbi7gpc4vt7ocfghnv47ntikbutjmdav (0s)

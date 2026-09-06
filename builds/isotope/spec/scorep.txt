@@ -6,19 +6,19 @@
 [+]          ^zlib-ng@2.3.3+compat+new_strategies+opt+pic+shared build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
 [+]          ^zstd@1.5.7+programs build_system=makefile compression:=none libs:=shared,static platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
 [+]      ^compiler-wrapper@1.1.0 build_system=generic platform=linux os=ubuntu26.04 target=ivybridge
- -       ^cubelib@4.9.1 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
- -       ^cubew@4.9.1 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]      ^cubelib@4.9.1 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]      ^cubew@4.9.1 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
 [e]      ^gcc@15.2.0+binutils+bootstrap+futex~graphite+libsanitizer~mold~nvptx~piclibs~profiled~strip build_system=autotools build_type=RelWithDebInfo languages:='c,c++,fortran' platform=linux os=ubuntu26.04 target=x86_64
 [+]      ^gcc-runtime@15.2.0 build_system=generic platform=linux os=ubuntu26.04 target=ivybridge
 [e]      ^glibc@2.43 build_system=autotools platform=linux os=ubuntu26.04 target=x86_64
 [+]      ^gmake@4.4.1~guile build_system=generic platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
- -       ^gotcha@1.0.8~ipo~test build_system=cmake build_type=Release commit=4b74402f37c28c43acb401ac63ecc20abc95d107 generator=make platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]      ^gotcha@1.0.8~ipo~test build_system=cmake build_type=Release commit=4b74402f37c28c43acb401ac63ecc20abc95d107 generator=make platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
 [+]          ^cmake@3.31.12~doc+ncurses+ownlibs~qtgui build_system=generic build_type=Release platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
 [+]              ^curl@8.21.0~gssapi~ldap~libidn2~librtmp~libssh+libssh2+nghttp2 build_system=autotools libs:=shared,static tls:=openssl platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
 [+]                  ^libssh2@1.11.1+shared build_system=autotools crypto=openssl platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
 [+]                  ^nghttp2@1.64.0 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
 [+]              ^ncurses@6.6~symlinks+termlib abi=none build_system=autotools patches=7a351bc platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
- -       ^opari2@2.0.10 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c,cxx,fortran=gcc@15.2.0
+[+]      ^opari2@2.0.10 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c,cxx,fortran=gcc@15.2.0
 [+]      ^openmpi@5.0.10+atomics~cuda~debug+fortran~gpfs~internal-hwloc~internal-libevent~internal-pmix~ipv6~java~lustre~memchecker~openshmem~rocm~romio+rsh~static~two_level_namespace+vt+wrapper-rpath build_system=autotools fabrics:=none patches=646eb1a,caecbd6 romio-filesystem:=none schedulers:=none platform=linux os=ubuntu26.04 target=ivybridge %c,cxx,fortran=gcc@15.2.0
 [+]          ^autoconf@2.72 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge
 [+]              ^m4@1.4.21+sigsegv build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0

@@ -1,0 +1,1 @@
+[+] milsuri libfabric@2.6.0 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/libfabric-2.6.0-milsurimttlhx5su7mgt2knobrr52o5z (0s)

@@ -1,0 +1,1 @@
+[+] 7iav2bb pkgconf@2.5.1 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/pkgconf-2.5.1-7iav2bbsh2j56oqk3s3bp3d3nfbgervc (0s)

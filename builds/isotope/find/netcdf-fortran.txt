@@ -1,1 +1,2 @@
-==> Error: No package matches the query: netcdf-fortran
+-- linux-ubuntu26.04-ivybridge / %c,fortran=gcc@15.2.0 ----------
+netcdf-fortran@4.6.2
