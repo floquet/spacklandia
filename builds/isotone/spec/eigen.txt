@@ -1,4 +1,4 @@
-[+]  eigen@5.0.1~blas~ipo~lapack~nightly~rocm build_system=cmake build_type=Release generator=make platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+ -   eigen@5.0.1~blas~ipo~lapack~nightly~rocm build_system=cmake build_type=Release generator=make platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
 [+]      ^cmake@3.31.12~doc+ncurses+ownlibs~qtgui build_system=generic build_type=Release platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
 [+]          ^curl@8.21.0~gssapi~ldap~libidn2~librtmp~libssh~libssh2+nghttp2 build_system=autotools libs:=shared,static tls:=openssl platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
 [+]              ^nghttp2@1.67.1 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1

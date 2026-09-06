@@ -1,2 +1,1 @@
--- linux-ubuntu26.04-skylake / %c,cxx=gcc@16.0.1 ----------------
-eigen@5.0.1
+==> Error: No package matches the query: eigen
