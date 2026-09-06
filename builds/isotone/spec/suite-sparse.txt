@@ -32,7 +32,7 @@
 [+]          ^libsigsegv@2.15 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
  -       ^metis@5.1.0~gdb~int64~ipo~no_warning~real64+shared build_system=cmake build_type=Release generator=make patches=4991da9,93a7903,b1225da platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
  -       ^mpfr@4.2.2 build_system=autotools libs:=shared,static platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
- -           ^autoconf-archive@2024.10.16 build_system=autotools platform=linux os=ubuntu26.04 target=skylake
+[+]          ^autoconf-archive@2024.10.16 build_system=autotools platform=linux os=ubuntu26.04 target=skylake
  -           ^texinfo@7.2~xs build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
 [+]              ^gettext@1.0+bzip2+curses+git~libunistring+libxml2+pic+shared+tar+xz build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
 [+]                  ^libxml2@2.15.3+pic~python+shared build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
