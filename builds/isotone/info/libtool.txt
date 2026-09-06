@@ -1,0 +1,71 @@
+AutotoolsPackage:   libtool
+
+Description:
+    libtool -- library building part of autotools.
+
+Homepage: https://www.gnu.org/software/libtool/
+
+Preferred version:  
+    2.5.4      https://ftpmirror.gnu.org/libtool/libtool-2.5.4.tar.gz
+
+Safe versions:  
+    develop    [git] https://git.savannah.gnu.org/git/libtool.git on branch master
+    2.5.4      https://ftpmirror.gnu.org/libtool/libtool-2.5.4.tar.gz
+    2.4.7      https://ftpmirror.gnu.org/libtool/libtool-2.4.7.tar.gz
+    2.4.6      https://ftpmirror.gnu.org/libtool/libtool-2.4.6.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    build_system [autotools]        autotools
+        Build systems supported by the package
+
+
+Dependencies:
+    autoconf              build
+      when @develop
+
+    autoconf@2.62:        test
+      when @2.4.6
+
+    automake              test
+      when @2.4.6
+
+    automake              build
+      when @develop
+
+    c                     build
+
+    file                  build, run
+
+    findutils             build, run
+
+    gmake                 build
+      when build_system=autotools
+
+    gnuconfig             build
+      when build_system=autotools target=ppc64le:
+
+    gnuconfig             build
+      when build_system=autotools target=aarch64:
+
+    gnuconfig             build
+      when build_system=autotools target=riscv64:
+
+    help2man              build
+      when @develop
+
+    m4@1.4.6:             build
+
+    texinfo               build
+      when @develop
+
+    xz                    build
+      when @develop
+
+
+Licenses:
+    LGPL-2.0-or-later AND GPL-2.0-or-later
+
+
