@@ -1,2 +1,1 @@
--- linux-ubuntu26.04-skylake / %c=gcc@16.0.1 --------------------
-mpfr@4.2.2
+==> Error: No package matches the query: mpfr
