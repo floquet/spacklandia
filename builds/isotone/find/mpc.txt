@@ -1,2 +1,1 @@
--- linux-ubuntu26.04-skylake / %c=gcc@16.0.1 --------------------
-mpc@1.4.1
+==> Error: No package matches the query: mpc
