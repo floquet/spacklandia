@@ -1,0 +1,17 @@
+acfl
+aocc
+cce
+cmake
+fj
+gcc
+gmake
+hwloc
+intel-oneapi-compilers
+intel-oneapi-compilers-classic
+intel-oneapi-tbb
+intel-tbb
+llvm
+llvm-amdgpu
+ninja
+nvhpc
+xl
