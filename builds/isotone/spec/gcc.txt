@@ -1,1 +1,2 @@
-environment: line 89: spack: command not found
+[e]  gcc@16.0.1+binutils+bootstrap+futex~graphite+libsanitizer~mold~nvptx~piclibs~profiled~strip build_system=autotools build_type=RelWithDebInfo languages:='c,c++,fortran' platform=linux os=ubuntu26.04 target=x86_64
+
