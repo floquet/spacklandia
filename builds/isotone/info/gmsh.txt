@@ -1,0 +1,226 @@
+CMakePackage:   gmsh
+
+Description:
+    Gmsh is a free 3D finite element grid generator with a built-in CAD
+    engine and post-processor. Its design goal is to provide a fast, light
+    and user-friendly meshing tool with parametric input and advanced
+    visualization capabilities. Gmsh is built around four modules: geometry,
+    mesh, solver and post-processing. The specification of any input to
+    these modules is done either interactively using the graphical user
+    interface or in ASCII text files using Gmsh's own scripting language.
+
+Homepage: https://gmsh.info
+
+Preferred version:  
+    4.15.1    https://gmsh.info/src/gmsh-4.15.1-source.tgz
+
+Safe versions:  
+    master    [git] https://gitlab.onelab.info/gmsh/gmsh.git on branch master
+    4.15.1    https://gmsh.info/src/gmsh-4.15.1-source.tgz
+    4.13.1    https://gmsh.info/src/gmsh-4.13.1-source.tgz
+    4.13.0    https://gmsh.info/src/gmsh-4.13.0-source.tgz
+    4.12.2    https://gmsh.info/src/gmsh-4.12.2-source.tgz
+    4.12.0    https://gmsh.info/src/gmsh-4.12.0-source.tgz
+    4.11.1    https://gmsh.info/src/gmsh-4.11.1-source.tgz
+    4.10.3    https://gmsh.info/src/gmsh-4.10.3-source.tgz
+    4.8.4     https://gmsh.info/src/gmsh-4.8.4-source.tgz
+    4.7.1     https://gmsh.info/src/gmsh-4.7.1-source.tgz
+    4.7.0     https://gmsh.info/src/gmsh-4.7.0-source.tgz
+    4.6.0     https://gmsh.info/src/gmsh-4.6.0-source.tgz
+    4.5.6     https://gmsh.info/src/gmsh-4.5.6-source.tgz
+    4.5.5     https://gmsh.info/src/gmsh-4.5.5-source.tgz
+    4.5.4     https://gmsh.info/src/gmsh-4.5.4-source.tgz
+    4.4.1     https://gmsh.info/src/gmsh-4.4.1-source.tgz
+    4.2.2     https://gmsh.info/src/gmsh-4.2.2-source.tgz
+    4.0.0     https://gmsh.info/src/gmsh-4.0.0-source.tgz
+    3.0.6     https://gmsh.info/src/gmsh-3.0.6-source.tgz
+    3.0.1     https://gmsh.info/src/gmsh-3.0.1-source.tgz
+    2.16.0    https://gmsh.info/src/gmsh-2.16.0-source.tgz
+    2.15.0    https://gmsh.info/src/gmsh-2.15.0-source.tgz
+
+Deprecated versions:  
+    None
+
+Variants:
+    alglib [true]               false, true
+        Build with Alglib (built-in or 3rd party)
+
+    build_system [cmake]        cmake
+        Build systems supported by the package
+
+    build_type [Release]        Debug, MinSizeRel, RelWithDebInfo, Release
+      when build_system=cmake
+        CMake build type
+
+    cairo [false]               false, true
+        Enable Cairo to render fonts (experimental)
+
+    cgns [true]                 false, true
+        Build with CGNS
+
+    compression [true]          false, true
+        Enables IO compression through zlib
+
+    eigen [false]               false, true
+        Build with Eigen (built-in or 3rd party)
+
+    external [false]            false, true
+        Use system versions of contrib libraries, when possible
+
+    fltk [true]                 false, true
+        Enables the build of the FLTK GUI
+
+    generator [make]            none
+      when build_system=cmake
+        the build system generator to use
+
+    gmp [true]                  false, true
+        Enable GMP for Kbipack (advanced)
+
+    hdf5 [false]                false, true
+        Enables HDF5 support
+
+    ipo [false]                 false, true
+      when build_system=cmake %cmake@3.9:
+        CMake interprocedural optimization
+
+    med [true]                  false, true
+        Build with MED(HDF5)
+
+    metis [true]                false, true
+        Build with Metis (built-in)
+
+    mmg [true]                  false, true
+        Build with Mmg3d
+
+    mpi [false]                 false, true
+        Builds MPI support for parser and solver
+
+    netgen [true]               false, true
+        Build with Netgen (built-in)
+
+    opencascade [false]         false, true
+        Build with OpenCASCADE
+
+    openmp [false]              false, true
+        Enable OpenMP support
+
+    petsc [false]               false, true
+        Build with PETSc
+
+    privateapi [false]          false, true
+        Enable the private API
+
+    shared [true]               false, true
+        Enables the build of shared libraries
+
+    slepc [false]               false, true
+        Build with SLEPc (only when PETSc is enabled)
+
+    tetgen [false]              false, true
+        Build with Tetgen (built-in)
+
+    voropp [true]               false, true
+        Build with voro++ (built-in or 3rd party
+
+
+Dependencies:
+    alglib               build, link
+      when +alglib+external
+
+    blas                 build, link
+      when ~eigen
+
+    c                    build
+
+    cairo                build, link
+      when +cairo
+
+    cgns                 build, link
+      when +cgns
+
+    cgns~scoping         build, link
+      when @:4.7.1+cgns
+
+    cmake@2.8:           build
+
+    cxx                  build
+
+    eigen@3:             build, link
+      when +eigen+external
+
+    fltk+gl              build, link
+      when +fltk
+
+    fortran              build
+
+    freetype             build, link
+      when +opencascade
+
+    gl                   build, link
+      when +fltk
+
+    glu                  build, link
+      when +fltk
+
+    gmake                build
+      when build_system=cmake generator=make
+
+    gmp                  build, link
+      when +gmp
+
+    hdf5                 build, link
+      when +hdf5
+
+    lapack               build, link
+      when ~eigen
+
+    libjpeg-turbo        build, link
+      when +fltk
+
+    libpng               build, link
+      when +fltk
+
+    med@:5               build, link
+      when +med
+
+    metis                build, link
+      when +external+metis
+
+    mmg                  build, link
+      when +mmg
+
+    mpi                  build, link
+      when +mpi
+
+    ninja                build
+      when build_system=cmake generator=ninja
+
+    opencascade          build, link
+      when +opencascade
+
+    petsc~int64          build, link
+      when +petsc
+
+    petsc~mpi            build, link
+      when ~mpi+petsc
+
+    petsc+mpi            build, link
+      when +mpi+petsc
+
+    slepc                build, link
+      when +petsc+slepc
+
+    voropp               build, link
+      when +external+voropp
+
+    zlib-api             build, link
+
+    zlib-api             build, link
+      when +compression
+
+
+Licenses:
+    GPL-2.0-or-later
+
+
