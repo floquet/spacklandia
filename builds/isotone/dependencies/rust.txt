@@ -1,1 +1,23 @@
-environment: line 89: spack: command not found
+acfl
+aocc
+cce
+cmake
+curl
+fj
+gcc
+intel-oneapi-compilers
+intel-oneapi-compilers-classic
+libgit2
+libssh2
+llvm
+llvm-amdgpu
+ninja
+nvhpc
+openssl
+pkg-config
+pkgconf
+python
+rust-bootstrap
+xl
+zlib
+zlib-ng
