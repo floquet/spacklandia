@@ -1,0 +1,77 @@
+AutotoolsPackage:   fio
+
+Description:
+    Flexible I/O Tester. Fio spawns a number of threads or processes doing a
+    particular type of I/O action as specified by the user. fio takes a
+    number of global parameters, each inherited by the thread unless
+    otherwise parameters given to them overriding that setting is given.
+
+Homepage: https://github.com/axboe/fio
+
+Preferred version:  
+    3.37    https://github.com/axboe/fio/archive/fio-3.37.tar.gz
+
+Safe versions:  
+    3.37    https://github.com/axboe/fio/archive/fio-3.37.tar.gz
+    3.36    https://github.com/axboe/fio/archive/fio-3.36.tar.gz
+    3.34    https://github.com/axboe/fio/archive/fio-3.34.tar.gz
+    3.33    https://github.com/axboe/fio/archive/fio-3.33.tar.gz
+    3.26    https://github.com/axboe/fio/archive/fio-3.26.tar.gz
+    3.25    https://github.com/axboe/fio/archive/fio-3.25.tar.gz
+    3.19    https://github.com/axboe/fio/archive/fio-3.19.tar.gz
+    3.16    https://github.com/axboe/fio/archive/fio-3.16.tar.gz
+    2.19    https://github.com/axboe/fio/archive/fio-2.19.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    build_system [autotools]        autotools
+        Build systems supported by the package
+
+    doc [false]                     false, true
+        Generate documentation
+
+    gui [false]                     false, true
+        Enable building of gtk gfio
+
+    libaio [false]                  false, true
+        Enable libaio engine
+
+
+Dependencies:
+    c                    build
+
+    cairo                build, link
+      when +gui
+
+    gmake                build
+      when build_system=autotools
+
+    gnuconfig            build
+      when build_system=autotools target=ppc64le:
+
+    gnuconfig            build
+      when build_system=autotools target=aarch64:
+
+    gnuconfig            build
+      when build_system=autotools target=riscv64:
+
+    gtkplus@2.18:        build, link
+      when +gui
+
+    libaio               build, link
+      when +libaio
+
+    pkgconfig            build
+
+    py-sphinx            build
+      when +doc
+
+    zlib-api             build, link
+
+
+Licenses:
+    GPL-2.0-only
+
+

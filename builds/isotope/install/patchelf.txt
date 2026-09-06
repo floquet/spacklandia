@@ -1,0 +1,1 @@
+[+] zuuhizp patchelf@0.17.2 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/patchelf-0.17.2-zuuhizpult6w4bxy6y76euymvppgthtb (0s)

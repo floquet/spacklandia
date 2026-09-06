@@ -1,0 +1,1 @@
+[+] h3zqgsz binutils@2.47 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/binutils-2.47-h3zqgsz5oq7tijq73njgfxn7mq4wpp6j (0s)

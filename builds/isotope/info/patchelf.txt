@@ -1,0 +1,59 @@
+AutotoolsPackage:   patchelf
+
+Description:
+    PatchELF is a small utility to modify the dynamic linker and RPATH of
+    ELF executables.
+
+Homepage: https://nixos.org/patchelf.html
+
+Preferred version:  
+    0.17.2    https://github.com/NixOS/patchelf/releases/download/0.17.2/patchelf-0.17.2.tar.gz
+
+Safe versions:  
+    0.18.0    https://github.com/NixOS/patchelf/releases/download/0.18.0/patchelf-0.18.0.tar.gz
+    0.17.2    https://github.com/NixOS/patchelf/releases/download/0.17.2/patchelf-0.17.2.tar.gz
+    0.16.1    https://github.com/NixOS/patchelf/releases/download/0.16.1/patchelf-0.16.1.tar.gz
+    0.15.0    https://github.com/NixOS/patchelf/releases/download/0.15.0/patchelf-0.15.0.tar.gz
+    0.14.5    https://github.com/NixOS/patchelf/releases/download/0.14.5/patchelf-0.14.5.tar.gz
+    0.14.3    https://github.com/NixOS/patchelf/releases/download/0.14.3/patchelf-0.14.3.tar.gz
+    0.14.2    https://github.com/NixOS/patchelf/releases/download/0.14.2/patchelf-0.14.2.tar.gz
+    0.14.1    https://github.com/NixOS/patchelf/releases/download/0.14.1/patchelf-0.14.1.tar.gz
+    0.14      https://github.com/NixOS/patchelf/releases/download/0.14/patchelf-0.14.tar.gz
+    0.13.1    https://github.com/NixOS/patchelf/releases/download/0.13.1/patchelf-0.13.1.tar.gz
+    0.13      https://github.com/NixOS/patchelf/releases/download/0.13/patchelf-0.13.tar.bz2
+    0.12      https://github.com/NixOS/patchelf/releases/download/0.12/patchelf-0.12.tar.bz2
+    0.11      https://nixos.org/releases/patchelf/patchelf-0.11/patchelf-0.11.tar.gz
+    0.10      https://nixos.org/releases/patchelf/patchelf-0.10/patchelf-0.10.tar.gz
+    0.9       https://nixos.org/releases/patchelf/patchelf-0.9/patchelf-0.9.tar.gz
+    0.8       https://nixos.org/releases/patchelf/patchelf-0.8/patchelf-0.8.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    build_system [autotools]        autotools
+        Build systems supported by the package
+
+
+Dependencies:
+    c                build
+
+    cxx              build
+
+    gmake            build
+      when build_system=autotools
+
+    gnuconfig        build
+      when build_system=autotools target=ppc64le:
+
+    gnuconfig        build
+      when build_system=autotools target=aarch64:
+
+    gnuconfig        build
+      when build_system=autotools target=riscv64:
+
+
+Licenses:
+    GPL-3.0-or-later
+
+

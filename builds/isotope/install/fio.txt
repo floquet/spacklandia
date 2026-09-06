@@ -1,0 +1,6 @@
+[ ] y4age7o fio@3.37 staging (0s)
+[ ] y4age7o fio@3.37 autoreconf (1s)
+[ ] y4age7o fio@3.37 configure (1s)
+[ ] y4age7o fio@3.37 build (7s)
+[ ] y4age7o fio@3.37 install (15s)
+[+] y4age7o fio@3.37 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/fio-3.37-y4age7obor6jsmj7vepknsj5mn6itp5h (15s)
