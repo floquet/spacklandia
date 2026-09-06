@@ -1,1 +1,70 @@
-environment: line 89: spack: command not found
+[ ] m5ps7zc pcre2@10.44 staging (0s)
+[ ] uxquprd openblas@0.3.34 staging (0s)
+[ ] pf4bowo texinfo@7.2 staging (0s)
+[ ] m5ps7zc pcre2@10.44 autoreconf (0s)
+[ ] m5ps7zc pcre2@10.44 configure (0s)
+[x] m5ps7zc pcre2@10.44 failed: /tmp/dantopa/spack-stage/spack-stage-pcre2-10.44-m5ps7zcgluqn2lgnf73ydk7yklq2alux-0fvvzac4.log (0s)
+[x] pf4bowo texinfo@7.2 failed: /tmp/dantopa/spack-stage/spack-stage-texinfo-7.2-pf4bowomsyz2stlaxqz7x634f2v6fk5n-o2mrlyva.log (0s)
+[x] uxquprd openblas@0.3.34 failed: /tmp/dantopa/spack-stage/spack-stage-openblas-0.3.34-uxquprdvkgrzexkkanw75v3clxhpttdv-a8p7rdw2.log (1s)
+-- lines 21 to 40 --
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/builder.py", line 390, in execute
+      callback(self.builder)
+      ~~~~~~~~^^^^^^^^^^^^^^
+    File "/home/dantopa/.spack/package_repos/fncqgg4/repos/spack_repo/builtin/build_systems/autotools.py", line 357, in _do_patch_libtool_configure
+      x.filter(regex=r'^(\s*if test x-L = )("\$p" \|\|\s*)$', repl=r"\1x\2")
+      ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/util/filesystem.py", line 442, in filter
+      return filter_file(
+          regex,
+      ...<6 lines>...
+          stop_at=stop_at,
+      )
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/util/filesystem.py", line 384, in filter_file
+      ) as input_file, open(
+                       ~~~~^
+          path, mode="w", errors="surrogateescape", newline="", encoding=encoding
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      ) as output_file:
+      ^
+  OSError: [Errno 122] Disk quota exceeded
+-- lines 1 to 18 --
+  ==> Using cached archive: /home/dantopa/spacktivity/spack-isotone/var/spack/cache/_source-cache/archive/e8/e86de7dfef6b352aa1bf647de3a6213d1567c70129eccbf8977706d9c91919c8.tar.gz
+  /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/tar-1.35-ia5kd4wpe722cnmipsohpuzdcsqmt5s7/bin/tar: texinfo-7.2/tp/t/results/html_tests/test_accents_sc_enable_encoding_to_utf8_latin1/res_html/node-chap.html: Cannot write: Disk quota exceeded
+  /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/tar-1.35-ia5kd4wpe722cnmipsohpuzdcsqmt5s7/bin/tar: texinfo-7.2/tp/t/results/html_tests/test_accents_sc_enable_encoding_to_utf8_latin1/res_html/index.html: Cannot write: Disk quota exceeded
+  /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/tar-1.35-ia5kd4wpe722cnmipsohpuzdcsqmt5s7/bin/tar: texinfo-7.2/tp/t/results/html_tests/contents_in_middle_section_separate_element/res_html/contents_in_middle_section.html: Cannot write: Disk quota exceeded
+  /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/tar-1.35-ia5kd4wpe722cnmipsohpuzdcsqmt5s7/bin/tar: texinfo-7.2/tp/t/results/html_tests/html_in_copying.pl: Cannot write: Disk quota exceeded
+  /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/tar-1.35-ia5kd4wpe722cnmipsohpuzdcsqmt5s7/bin/tar: texinfo-7.2/tp/t/results/html_tests/utf8_enable_encoding.pl: Cannot write: Disk quota exceeded
+  /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/tar-1.35-ia5kd4wpe722cnmipsohpuzdcsqmt5s7/bin/tar: texinfo-7.2/tp/t/results/html_tests/base_for_css_info_in_init_test/res_html/index.html: Cannot write: Disk quota exceeded
+  /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/tar-1.35-ia5kd4wpe722cnmipsohpuzdcsqmt5s7/bin/tar: texinfo-7.2/tp/t/results/html_tests/utf8_default.pl: Cannot write: Disk quota exceeded
+  /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/tar-1.35-ia5kd4wpe722cnmipsohpuzdcsqmt5s7/bin/tar: texinfo-7.2/tp/t/results/html_tests/node_footnote_use_node/res_html/a.html: Cannot write: Disk quota exceeded
+  /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/tar-1.35-ia5kd4wpe722cnmipsohpuzdcsqmt5s7/bin/tar: texinfo-7.2/tp/t/results/html_tests/node_footnote_use_node/res_html/chapter.html: Cannot write: Disk quota exceeded
+  /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/tar-1.35-ia5kd4wpe722cnmipsohpuzdcsqmt5s7/bin/tar: texinfo-7.2/tp/t/results/html_tests/node_footnote_use_node/res_html/index.html: Cannot write: Disk quota exceeded
+  /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/tar-1.35-ia5kd4wpe722cnmipsohpuzdcsqmt5s7/bin/tar: texinfo-7.2/tp/t/results/html_tests/filenameconflictwithspecialelement.pl: Cannot write: Disk quota exceeded
+  /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/tar-1.35-ia5kd4wpe722cnmipsohpuzdcsqmt5s7/bin/tar: texinfo-7.2/tp/t/results/html_tests/test_accents_sc_enable_encoding_latin1/res_html/node-chap.html: Cannot write: Disk quota exceeded
+  /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/tar-1.35-ia5kd4wpe722cnmipsohpuzdcsqmt5s7/bin/tar: texinfo-7.2/tp/t/results/html_tests/test_accents_sc_enable_encoding_latin1/res_html/index.html: Cannot write: Disk quota exceeded
+  /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/tar-1.35-ia5kd4wpe722cnmipsohpuzdcsqmt5s7/bin/tar: texinfo-7.2/tp/t/results/html_tests/redirection_same_labels/res_html/umlaut.html: Cannot write: Disk quota exceeded
+  /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/tar-1.35-ia5kd4wpe722cnmipsohpuzdcsqmt5s7/bin/tar: texinfo-7.2/tp/t/results/html_tests/redirection_same_labels/res_html/i.html: Cannot write: Disk quota exceeded
+  /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/tar-1.35-ia5kd4wpe722cnmipsohpuzdcsqmt5s7/bin/tar: texinfo-7.2/tp/t/results/html_tests/redirection_same_labels/res_html/circumflex.html: Cannot write: Disk quota exceeded
+  /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/tar-1.35-ia5kd4wpe722cnmipsohpuzdcsqmt5s7/bin/tar: texinfo-7.2/tp/t/results/html_tests/redirection_same_labels/res_html/ind
+-- lines 1 to 17 --
+  Traceback (most recent call last):
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/package_base.py", line 1685, in do_stage
+      self.do_fetch(mirror_only)
+      ~~~~~~~~~~~~~^^^^^^^^^^^^^
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/package_base.py", line 1665, in do_fetch
+      self.stage.fetch(mirror_only, err_msg=err_msg)
+      ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/stage.py", line 890, in fetch
+      stage.fetch(mirror_only, err_msg)
+      ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/stage.py", line 619, in fetch
+      raise spack.error.FetchError(
+          f"All fetchers failed for {self.name}", "\n".join(f"    {e}" for e in errors)
+      )
+  spack.error.FetchError: All fetchers failed for spack-stage-openblas-0.3.34-uxquprdvkgrzexkkanw75v3clxhpttdv
+          https://mirror.spack.io/_source-cache/archive/cd/cd7e129868320cc2d033afa920e31202dfe0b8066a5b66661900ccc0f197dfed.tar.gz: OSError: [Errno 122] Disk quota exceeded
+      https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.34/OpenBLAS-0.3.34.tar.gz: OSError: [Errno 122] Disk quota exceeded
+==> Error: The following packages failed to install:
+pcre2@10.44/m5ps7zcgluqn2lgnf73ydk7yklq2alux: /tmp/dantopa/spack-stage/spack-stage-pcre2-10.44-m5ps7zcgluqn2lgnf73ydk7yklq2alux-0fvvzac4.log
+texinfo@7.2/pf4bowomsyz2stlaxqz7x634f2v6fk5n: /tmp/dantopa/spack-stage/spack-stage-texinfo-7.2-pf4bowomsyz2stlaxqz7x634f2v6fk5n-o2mrlyva.log
+openblas@0.3.34/uxquprdvkgrzexkkanw75v3clxhpttdv: /tmp/dantopa/spack-stage/spack-stage-openblas-0.3.34-uxquprdvkgrzexkkanw75v3clxhpttdv-a8p7rdw2.log
