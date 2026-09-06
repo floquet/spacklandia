@@ -27,5 +27,5 @@
  -       ^m4@1.4.21+sigsegv build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
 [+]          ^diffutils@3.12 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
 [+]              ^libiconv@1.18 build_system=autotools libs:=shared,static platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
- -           ^libsigsegv@2.15 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+[+]          ^libsigsegv@2.15 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
 

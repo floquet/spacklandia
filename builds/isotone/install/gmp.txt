@@ -1,62 +1,52 @@
-[ ] gvnb75a libsigsegv@2.15 staging (1s)
-[ ] syauj64 file@5.46 staging (1s)
-[ ] jplcnbx findutils@4.10.0 staging (1s)
-[ ] gvnb75a libsigsegv@2.15 autoreconf (1s)
-[ ] gvnb75a libsigsegv@2.15 configure (1s)
-[ ] syauj64 file@5.46 autoreconf (1s)
-[ ] syauj64 file@5.46 configure (1s)
-[ ] jplcnbx findutils@4.10.0 autoreconf (1s)
-[ ] jplcnbx findutils@4.10.0 configure (1s)
-[ ] gvnb75a libsigsegv@2.15 build (5s)
-[ ] gvnb75a libsigsegv@2.15 install (6s)
-[+] gvnb75a libsigsegv@2.15 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/libsigsegv-2.15-gvnb75a6ajsi5seegvnrl2hiiarqemq3 (6s)
+[ ] syauj64 file@5.46 staging (0s)
 [ ] qxobt7d m4@1.4.21 staging (0s)
-[x] qxobt7d m4@1.4.21 failed: /tmp/dantopa/spack-stage/spack-stage-m4-1.4.21-qxobt7dodmyai3yhin37umsnjoj4jphg-0p790r8u.log (0s)
-[x] jplcnbx findutils@4.10.0 failed: /tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7-k1eo_cno.log (6s)
-[x] syauj64 file@5.46 failed: /tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n-yrnk55vv.log (6s)
--- lines 149 to 168 --
-  checking for alloca... yes
-  checking whether the preprocessor supports include_next... yes
-  checking whether source code line length is unlimited... yes
-  checking whether <wchar.h> uses 'inline' correctly... yes
-  checking for nl_langinfo and CODESET... yes
-  checking for a traditional french locale... none
-  checking whether char8_t is correctly defined... yes
-  checking whether char16_t is correctly defined... yes
-  checking whether char32_t is correctly defined... yes
-  checking for bit size of wchar_t... 32
-  checking for mbstate_t... yes
-  checking for a traditional japanese locale... none
-  checking for a french Unicode locale... none
-  checking for a transitional chinese locale... cat: confdefs.h: Disk quota exceeded
-  cat: -: Disk quota exceeded
-  /tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7/spack-src/configure: line 12468: printf: write error: Disk quota exceeded
-  /tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7/spack-src/configure: line 12520: printf: write error: Disk quota exceeded
-  none
-  /tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7/spack-src/configure: line 12547: printf: write error: Disk quota exceeded
-  checking whether mbrtowc handles incomplete charac
--- lines 182 to 201 --
-  checking for pipe2... yes
-  checking for posix_spawnp... yes
-  checking for getopt_long... yes
-  checking for asprintf... yes
-  checking for vasprintf... yes
-  checking for strlcpy... yes
-  checking for strlcat... yes
-  checking for getline... yes
-  checking for ctime_r... yes
-  checking for asctime_r... yes
-  checking for localtime_r... yes
-  checking for gmtime_r... cat: confdefs.h: Disk quota exceeded
-  cat: -: Disk quota exceeded
-  no
-  checking for pread... cat: confdefs.h: Disk quota exceeded
-  cat: -: Disk quota exceeded
-  /tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n/spack-src/configure: line 1672: printf: write error: Disk quota exceeded
-  /tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n/spack-src/configure: line 1680: printf: write error: Disk quota exceeded
-  /tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n/spack-src/configure: line 1691: printf: write error: Disk quota exceeded
-  /tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n/spack-src/configure: line 180
+[ ] syauj64 file@5.46 autoreconf (0s)
+[ ] syauj64 file@5.46 configure (0s)
+[ ] jplcnbx findutils@4.10.0 staging (0s)
+[ ] qxobt7d m4@1.4.21 autoreconf (0s)
+[ ] qxobt7d m4@1.4.21 configure (0s)
+[ ] jplcnbx findutils@4.10.0 autoreconf (0s)
+[ ] jplcnbx findutils@4.10.0 configure (0s)
+[x] syauj64 file@5.46 failed: /var/tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n-fsqkmc8c.log (1s)
+[x] jplcnbx findutils@4.10.0 failed: /var/tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7-gn2slndj.log (1s)
+[x] qxobt7d m4@1.4.21 failed: /var/tmp/dantopa/spack-stage/spack-stage-m4-1.4.21-qxobt7dodmyai3yhin37umsnjoj4jphg-bzhhb4qb.log (1s)
+-- lines 28 to 38 --
+  checking for file formats in man section 5... yes
+  checking build system type... cat: -: Disk quota exceeded
+  x86_64-pc-linux-gnu
+  checking host system type... x86_64-pc-linux-gnu
+  checking for gcc... /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc
+  checking whether the C compiler works... no
+> configure: error: in '/var/tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n/spack-src':
+> configure: error: C compiler cannot create executables
+  See 'config.log' for more details
+  Command exited with status 77:
+      /var/tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n --disable-dependency-tracking --enable-fsect-man5 --enable-zlib --enable-bzlib --enable-xzlib --enable-zstdlib --disable-lzlib --enable-static
+-- lines 17 to 27 --
+  sed: couldn't flush stdout: Disk quota exceeded
+  x86_64-pc-linux-gnu
+  checking host system type... x86_64-pc-linux-gnu
+  checking for leaf optimisation... yes
+  checking for gcc... /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc
+  checking whether the C compiler works... no
+> configure: error: in '/var/tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7/spack-src/spack-build':
+> configure: error: C compiler cannot create executables
+  See 'config.log' for more details
+  Command exited with status 77:
+      /var/tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7
+-- lines 17 to 27 --
+  checking xargs -n works... yes
+  checking whether UID '1000' is supported by ustar format... yes
+  checking whether GID '1000' is supported by ustar format... yes
+  checking how to create a ustar tar archive... gnutar
+  checking for gcc... /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc
+  checking whether the C compiler works... no
+> configure: error: in '/var/tmp/dantopa/spack-stage/spack-stage-m4-1.4.21-qxobt7dodmyai3yhin37umsnjoj4jphg/spack-src/spack-build':
+> configure: error: C compiler cannot create executables
+  See 'config.log' for more details
+  Command exited with status 77:
+      /var/tmp/dantopa/spack-stage/spack-stage-m4-1.4.21-qxobt7dodmyai3yhin37umsnjoj4jphg/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/m4-1.4.21-qxobt7dodmyai3yhin37umsnjoj4jphg --enable-c++ --with-libsigsegv-prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/libsigsegv-2.15-gvnb75a6ajsi5seegvnrl2hiiarqemq3
 ==> Error: The following packages failed to install:
-m4@1.4.21/qxobt7dodmyai3yhin37umsnjoj4jphg: /tmp/dantopa/spack-stage/spack-stage-m4-1.4.21-qxobt7dodmyai3yhin37umsnjoj4jphg-0p790r8u.log
-findutils@4.10.0/jplcnbxh55wbticij6q25vbqkd5e4sp7: /tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7-k1eo_cno.log
-file@5.46/syauj647c7jo3bsebuqx6r3tmmntjy7n: /tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n-yrnk55vv.log
+file@5.46/syauj647c7jo3bsebuqx6r3tmmntjy7n: /var/tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n-fsqkmc8c.log
+findutils@4.10.0/jplcnbxh55wbticij6q25vbqkd5e4sp7: /var/tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7-gn2slndj.log
+m4@1.4.21/qxobt7dodmyai3yhin37umsnjoj4jphg: /var/tmp/dantopa/spack-stage/spack-stage-m4-1.4.21-qxobt7dodmyai3yhin37umsnjoj4jphg-bzhhb4qb.log
