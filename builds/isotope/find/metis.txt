@@ -1,0 +1,2 @@
+-- linux-ubuntu26.04-ivybridge / %c,cxx=gcc@15.2.0 --------------
+metis@5.1.0

@@ -1,0 +1,6 @@
+[ ] nvzntjm netcdf-fortran@4.6.2 staging (0s)
+[ ] nvzntjm netcdf-fortran@4.6.2 autoreconf (1s)
+[ ] nvzntjm netcdf-fortran@4.6.2 configure (1s)
+[ ] nvzntjm netcdf-fortran@4.6.2 build (17s)
+[ ] nvzntjm netcdf-fortran@4.6.2 install (2m40s)
+[+] nvzntjm netcdf-fortran@4.6.2 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/netcdf-fortran-4.6.2-nvzntjm5fk2fzqigsgfxmxrsq6iid344 (2m41s)

@@ -1,0 +1,25 @@
+ -   eigen@5.0.1~blas~ipo~lapack~nightly~rocm build_system=cmake build_type=Release generator=make platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]      ^cmake@3.31.12~doc+ncurses+ownlibs~qtgui build_system=generic build_type=Release platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]          ^curl@8.21.0~gssapi~ldap~libidn2~librtmp~libssh+libssh2+nghttp2 build_system=autotools libs:=shared,static tls:=openssl platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]              ^libssh2@1.11.1+shared build_system=autotools crypto=openssl platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]                  ^xz@5.8.3~pic build_system=autotools libs:=shared,static platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]              ^nghttp2@1.64.0 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]                  ^diffutils@3.12 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]                      ^libiconv@1.18 build_system=autotools libs:=shared,static platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]              ^openssl@3.5.5~docs+shared build_system=generic certs=mozilla platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]                  ^ca-certificates-mozilla@2026-05-14 build_system=generic platform=linux os=ubuntu26.04 target=ivybridge
+[+]                  ^perl@5.42.2+cpanm+opcode+open+shared+threads build_system=generic platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]                      ^berkeley-db@18.1.40+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]                      ^bzip2@1.0.8~debug~pic+shared build_system=generic platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]                      ^gdbm@1.26 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]                          ^readline@8.3 build_system=autotools patches=21f0a03,72dee13,e273643 platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]                      ^less@692 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]              ^pkgconf@2.5.1 build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]          ^ncurses@6.6~symlinks+termlib abi=none build_system=autotools patches=7a351bc platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]          ^zlib-ng@2.3.3+compat+new_strategies+opt+pic+shared build_system=autotools platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]      ^compiler-wrapper@1.1.0 build_system=generic platform=linux os=ubuntu26.04 target=ivybridge
+[e]      ^gcc@15.2.0+binutils+bootstrap+futex~graphite+libsanitizer~mold~nvptx~piclibs~profiled~strip build_system=autotools build_type=RelWithDebInfo languages:='c,c++,fortran' platform=linux os=ubuntu26.04 target=x86_64
+[+]      ^gcc-runtime@15.2.0 build_system=generic platform=linux os=ubuntu26.04 target=ivybridge
+[e]      ^glibc@2.43 build_system=autotools platform=linux os=ubuntu26.04 target=x86_64
+[+]      ^gmake@4.4.1~guile build_system=generic platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+

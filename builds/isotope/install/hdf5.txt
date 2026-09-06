@@ -1,0 +1,5 @@
+[ ] uqswvkv hdf5@1.14.6 staging (0s)
+[ ] uqswvkv hdf5@1.14.6 cmake (3s)
+[ ] uqswvkv hdf5@1.14.6 build (21s)
+[ ] uqswvkv hdf5@1.14.6 install (2m08s)
+[+] uqswvkv hdf5@1.14.6 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.14.6-uqswvkvweus4wc76ddgo4u3kqlvlfyb3 (2m10s)

@@ -1,0 +1,26 @@
+[ ] koxvk7q petsc@3.25.5 staging (1s)
+[ ] koxvk7q petsc@3.25.5 configure (2s)
+[x] koxvk7q petsc@3.25.5 failed: /tmp/dantopa/spack-stage/spack-stage-petsc-3.25.5-koxvk7qp6r6tkfa6tayjhnhcvagcsd66-gk66fpbo.log (55s)
+-- lines 50 to 69 --
+    optimization flags for your system with CXXOPTFLAGS="optimization flags" see
+    config/examples/arch-*-opt.py for examples
+  =============================================================================================
+  =============================================================================================
+                                       ***** WARNING *****
+    Using default FC optimization flags "-g -O". You might consider manually setting optimal
+    optimization flags for your system with FOPTFLAGS="optimization flags" see
+    config/examples/arch-*-opt.py for examples
+  =============================================================================================
+  
+  *********************************************************************************************
+             UNABLE to CONFIGURE with GIVEN OPTIONS (see configure.log for details):
+  ---------------------------------------------------------------------------------------------
+    You set a value for --with-blaslapack-lib=<lib>, but
+    ['/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openblas-0.3.34-j5qwtq7opm47pmesxkkkmv442jrltws7/lib/libopenblas64_.so']
+    cannot be used
+  *********************************************************************************************
+  
+  Command exited with status 1:
+      /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/python-3.14.5-6evxp7gdtrsdkradxr2rxf3dbw3qmj72/bin/python3.14 configure --prefix=/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/petsc-3.25.5-koxvk7qp6r6tkfa6tayjhnhcvagcsd66 --with-ssl=0 --download-c2html=0 --download-sowing=0 --download-hwloc=0 --with-make-exec=/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/gmake-4.4.1-6bd66sboze6lk56atf3h5x3tdil3hbmr/bin/make --with-cc=/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-7eoxwoqj5uv3xmzy5d3rkxw5shgwoevr/bin/mpicc --with-cxx=/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-7eoxwoqj5uv3xmzy5d3rkxw5shgwoevr/bin/mpic++ --with-fc=/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-7eoxwoqj5uv3xmzy5d3rkxw5shgwoevr/bin/mpif90 --with-fortran-bindings=1 --with-precision=double --with-scalar-type=real --with-shared-libraries=1 --with-debugging=0 --with-openmp=0 --with-64-bit-indices=0 --with-blas-lapack-lib=/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openblas-0.3.34-j5qwtq7opm47pmesxkkkmv442jrltws7/lib/libopenblas64_.so --with-x=0 --with-sycl=0 --with-clanguage=C --with-cuda=0 --with-hip=0 --with-metis=0 --with-hypre=0 --with-parmetis=0 --with-kokkos=0 --with-kokkos-kernels=0 --with-superlu_dist=0 --with-ptscotch=0 --with-suitesparse=0 --with-hdf5=0 --with-zlib=0 --with-mumps=0 --with-fftw=0 --with-valgrind=0 --with-gmp=0 --with-libpng=0 --with-giflib=0 --with-mpfr=0 --with-netcdf=0 --with-pnetcdf=0 --with-moab=0 --with-random123=0 --with-cgns=0 --with-memkind=0 --with-p4est=0 --with-saws=0 --with-yaml=0 --with-hwloc=0 --with-libjpeg=0 --with-scalapack=0 --with-strumpack=0 --with-mmg=0 --with-parmmg=0 --with-tetgen=0 --with-trilinos=0 --with-trilinos=0 --with-trilinos=0 --with-cudac=0 --with-hipc=0
+==> Error: The following packages failed to install:
+petsc@3.25.5/koxvk7qp6r6tkfa6tayjhnhcvagcsd66: /tmp/dantopa/spack-stage/spack-stage-petsc-3.25.5-koxvk7qp6r6tkfa6tayjhnhcvagcsd66-gk66fpbo.log

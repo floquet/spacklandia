@@ -1,0 +1,5 @@
+[ ] gzr2sf6 superlu@7.0.1 staging (0s)
+[ ] gzr2sf6 superlu@7.0.1 cmake (1s)
+[ ] gzr2sf6 superlu@7.0.1 build (3s)
+[ ] gzr2sf6 superlu@7.0.1 install (10s)
+[+] gzr2sf6 superlu@7.0.1 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/superlu-7.0.1-gzr2sf6kadiob5fjjm7wq543r73fu3ym (10s)

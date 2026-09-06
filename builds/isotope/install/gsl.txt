@@ -1,0 +1,6 @@
+[ ] dgnqdwl gsl@2.8 staging (0s)
+[ ] dgnqdwl gsl@2.8 autoreconf (1s)
+[ ] dgnqdwl gsl@2.8 configure (1s)
+[ ] dgnqdwl gsl@2.8 build (22s)
+[ ] dgnqdwl gsl@2.8 install (3m15s)
+[+] dgnqdwl gsl@2.8 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/gsl-2.8-dgnqdwl6buweg7fzzrzc6ecn3qovwu5t (3m19s)

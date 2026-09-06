@@ -1,0 +1,5 @@
+[ ] nf3dpe6 sundials@7.9.0 staging (0s)
+[ ] nf3dpe6 sundials@7.9.0 cmake (16s)
+[ ] nf3dpe6 sundials@7.9.0 build (23s)
+[ ] nf3dpe6 sundials@7.9.0 install (52s)
+[+] nf3dpe6 sundials@7.9.0 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/sundials-7.9.0-nf3dpe6svk2kjv5j2pojci5xuuz2vbfi (54s)

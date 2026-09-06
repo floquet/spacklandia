@@ -1,0 +1,6 @@
+[ ] fuqrjvq fftw@3.3.11 staging (1s)
+[ ] fuqrjvq fftw@3.3.11 autoreconf (1s)
+[ ] fuqrjvq fftw@3.3.11 configure (1s)
+[ ] fuqrjvq fftw@3.3.11 build (1m47s)
+[ ] fuqrjvq fftw@3.3.11 install (6m08s)
+[+] fuqrjvq fftw@3.3.11 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/fftw-3.3.11-fuqrjvqexk76h3zltjp5o47p4h3gvibn (6m17s)

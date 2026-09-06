@@ -1,0 +1,5 @@
+[ ] qoat7il eigen@5.0.1 staging (1s)
+[ ] qoat7il eigen@5.0.1 cmake (1s)
+[ ] qoat7il eigen@5.0.1 build (3s)
+[ ] qoat7il eigen@5.0.1 install (3s)
+[+] qoat7il eigen@5.0.1 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/eigen-5.0.1-qoat7ilwhcczokrdi5uzb32esr3tntyz (5s)

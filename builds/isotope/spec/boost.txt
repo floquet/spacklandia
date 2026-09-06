@@ -1,0 +1,6 @@
+[+]  boost@1.90.0+atomic~charconv+chrono~clanglibcpp~cobalt~container~context~contract~conversion~date_time~debug+exception~fiber~filesystem~graph~graph_parallel~icu~iostreams~json~locale~log~math~mpi~mqtt5+multithreaded~nowide~numpy~openmethod~pic~program_options~python~random~regex~serialization+shared~signals2~singlethreaded~stacktrace+system~taggedlayout~test+thread~timer~type_erasure~url~versionedlayout~wave build_system=generic cxxstd=11 patches=a440f96 visibility=hidden platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
+[+]      ^compiler-wrapper@1.1.0 build_system=generic platform=linux os=ubuntu26.04 target=ivybridge
+[e]      ^gcc@15.2.0+binutils+bootstrap+futex~graphite+libsanitizer~mold~nvptx~piclibs~profiled~strip build_system=autotools build_type=RelWithDebInfo languages:='c,c++,fortran' platform=linux os=ubuntu26.04 target=x86_64
+[+]      ^gcc-runtime@15.2.0 build_system=generic platform=linux os=ubuntu26.04 target=ivybridge
+[e]      ^glibc@2.43 build_system=autotools platform=linux os=ubuntu26.04 target=x86_64
+

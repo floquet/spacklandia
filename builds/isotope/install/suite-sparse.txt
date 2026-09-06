@@ -1,0 +1,1 @@
+[+] etmj2xs suite-sparse@7.8.3 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/suite-sparse-7.8.3-etmj2xsrv4en4m76zakbbofq4nqxfzxa (0s)

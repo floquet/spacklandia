@@ -1,0 +1,90 @@
+CMakePackage:   metis
+
+Description:
+    METIS is a set of serial programs for partitioning graphs, partitioning
+    finite element meshes, and producing fill reducing orderings for sparse
+    matrices. The algorithms implemented in METIS are based on the
+    multilevel recursive-bisection, multilevel k-way, and multi-constraint
+    partitioning schemes.
+
+Homepage: http://papers.karypis.org/glaros/software/metis/overview.html#metis---serial-graph-partitioning-and-fill-reducing-matrix-ordering
+
+Preferred version:  
+    5.1.0    http://papers.karypis.org/glaros/files/sw/metis/metis-5.1.0.tar.gz
+
+Safe versions:  
+    5.1.0    http://papers.karypis.org/glaros/files/sw/metis/metis-5.1.0.tar.gz
+    4.0.3    http://papers.karypis.org/glaros/files/sw/metis/metis-4.0.3.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    build_system [cmake]         cmake, makefile
+        Build systems supported by the package
+
+    build_type [Release]         Debug, MinSizeRel, RelWithDebInfo, Release
+      when build_system=cmake
+        CMake build type
+
+    debug [false]                false, true
+      when build_system=makefile
+        Compile in debug mode
+
+    gdb [false]                  false, true
+      when build_system=cmake
+        Enable gdb support
+
+    generator [make]             none
+      when build_system=cmake
+        the build system generator to use
+
+    gkrand [false]               false, true
+      when build_system=cmake
+        Use portable deterministic random number generator
+
+    int64 [false]                false, true
+      when build_system=cmake
+        Use index type of 64 bit
+
+    ipo [false]                  false, true
+      when build_system=cmake %cmake@3.9:
+        CMake interprocedural optimization
+
+    no_warning [false]           false, true
+        Disable failed partition warning print on all ranks
+
+    petsc_patches [false]        false, true
+      when @=5.1.0 build_system=cmake
+        Apply patches from the PETSc fork through v5.1.0-p13
+
+    real64 [false]               false, true
+      when build_system=cmake
+        Use real type of 64 bit
+
+    shared [true]                false, true
+        Build shared libraries
+
+
+Dependencies:
+    c            build
+
+    cmake        build
+      when build_system=cmake
+
+    cxx          build
+
+    gmake        build
+      when build_system=makefile
+
+    gmake        build
+      when build_system=cmake generator=make
+
+    ninja        build
+      when build_system=cmake generator=ninja
+
+
+Licenses:
+    Apache-2.0
+
+

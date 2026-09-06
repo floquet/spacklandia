@@ -1,0 +1,1 @@
+[+] fi47e7a gmp@6.3.0 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/gmp-6.3.0-fi47e7a7xucvkazgh4t6355xup5zjycx (0s)

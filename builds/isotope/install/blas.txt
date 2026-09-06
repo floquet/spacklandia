@@ -1,0 +1,1 @@
+[+] j5qwtq7 openblas@0.3.34 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openblas-0.3.34-j5qwtq7opm47pmesxkkkmv442jrltws7 (0s)
