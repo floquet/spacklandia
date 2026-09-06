@@ -65,22 +65,22 @@ while IFS= read -r package; do
 new_step "install package ${package}"
 
   sub_step "spack dependencies  ${package}"
-            spack dependencies "${package}" > "${repo}/dependencies/${package}.txt 2>&1" &
+            spack dependencies "${package}" > "${repo}/dependencies/${package}.txt" 2>&1 &
 
   sub_step "spack find  ${package}"
-            spack find "${package}" > "${repo}/find/${package}.txt 2>&1" &
+            spack find "${package}" > "${repo}/find/${package}.txt" 2>&1 &
 
   sub_step "spack graph  ${package}"
-            spack graph "${package}" > "${repo}/graph/${package}.txt 2>&1" &
+            spack graph "${package}" > "${repo}/graph/${package}.txt" 2>&1 &
 
   sub_step "spack info  ${package}"
-            spack info "${package}" > "${repo}/info/${package}.txt 2>&1" &
+            spack info "${package}" > "${repo}/info/${package}.txt" 2>&1 &
 
   sub_step "spack spec  ${package}"
-            spack spec "${package}" > "${repo}/spec/${package}.txt 2>&1" &
+            spack spec "${package}" > "${repo}/spec/${package}.txt" 2>&1 &
 
   sub_step "spack install  ${package}"
-            spack install "${package}" > "${repo}/install/${package}.txt 2>&1"
+            spack install "${package}" > "${repo}/install/${package}.txt" 2>&1
 
 done < "${file}"
 
