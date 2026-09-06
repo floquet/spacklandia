@@ -1,0 +1,172 @@
+AutotoolsPackage:   scorep
+
+Description:
+    The Score-P measurement infrastructure is a highly scalable and easy-to-
+    use tool suite for profiling, event tracing, and online analysis of HPC
+    applications.
+
+Homepage: https://www.vi-hps.org/projects/score-p
+
+Preferred version:  
+    10.1    https://perftools.pages.jsc.fz-juelich.de/cicd/scorep/tags/scorep-10.1/scorep-10.1.tar.gz
+
+Safe versions:  
+    10.1    https://perftools.pages.jsc.fz-juelich.de/cicd/scorep/tags/scorep-10.1/scorep-10.1.tar.gz
+    10.0    https://perftools.pages.jsc.fz-juelich.de/cicd/scorep/tags/scorep-10.0/scorep-10.0.tar.gz
+    9.4     https://perftools.pages.jsc.fz-juelich.de/cicd/scorep/tags/scorep-9.4/scorep-9.4.tar.gz
+    9.3     https://perftools.pages.jsc.fz-juelich.de/cicd/scorep/tags/scorep-9.3/scorep-9.3.tar.gz
+    9.2     https://perftools.pages.jsc.fz-juelich.de/cicd/scorep/tags/scorep-9.2/scorep-9.2.tar.gz
+    8.4     https://perftools.pages.jsc.fz-juelich.de/cicd/scorep/tags/scorep-8.4/scorep-8.4.tar.gz
+    8.3     https://perftools.pages.jsc.fz-juelich.de/cicd/scorep/tags/scorep-8.3/scorep-8.3.tar.gz
+    8.1     https://perftools.pages.jsc.fz-juelich.de/cicd/scorep/tags/scorep-8.1/scorep-8.1.tar.gz
+    8.0     https://perftools.pages.jsc.fz-juelich.de/cicd/scorep/tags/scorep-8.0/scorep-8.0.tar.gz
+    7.1     https://perftools.pages.jsc.fz-juelich.de/cicd/scorep/tags/scorep-7.1/scorep-7.1.tar.gz
+    7.0     https://perftools.pages.jsc.fz-juelich.de/cicd/scorep/tags/scorep-7.0/scorep-7.0.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    binutils [true]                 false, true
+      when ^binutils
+        Enable debug info lookup via binutils
+
+    build_system [autotools]        autotools
+        Build systems supported by the package
+
+    cuda [false]                    false, true
+        Enable CUDA support
+
+    fortran [true]                  false, true
+        Enable fortran support
+
+    gcc-plugin [true]               false, true
+      when %gcc
+        Enable gcc-plugin
+
+    gotcha [true]                   false, true
+      when @9:
+        Enable library wrapping with libgotcha
+
+    hip [false]                     false, true
+      when @8.0:
+        Enable ROCm/HIP support
+
+    llvm-plugin [true]              false, true
+      when @9.0: ^llvm
+        Enable LLVM compiler plugin
+
+    mpi [true]                      false, true
+        Enable MPI support
+
+    mpi_f08 [true]                  false, true
+      when @9.1:+fortran+mpi
+        Enable MPI F08 support
+
+    papi [true]                     false, true
+        Enable PAPI
+
+    pdt [false]                     false, true
+      when @:8.4
+        Enable PDT
+
+    shmem [false]                   false, true
+        Enable shmem tracing
+
+    unwind [false]                  false, true
+        Enable sampling via libunwind and lib wrapping
+
+
+Dependencies:
+    binutils                  link
+      when @8:
+
+    c                         build, run
+
+    cubelib@4.6:4.7.99        build, link
+      when @7.0:7
+
+    cubelib@4.8               build, link
+      when @8:8.2
+
+    cubelib@4.8.2:4.8         build, link
+      when @8.3:8
+
+    cubelib@4.9:              build, link
+      when @9:
+
+    cubew@4.6:4.7.99          build, link
+      when @7.0:7
+
+    cubew@4.8                 build, link
+      when @8:8.2
+
+    cubew@4.8.2:4.8           build, link
+      when @8.3:8
+
+    cubew@4.9:                build, link
+      when @9:
+
+    cuda                      build, link
+      when +cuda
+
+    cxx                       build, run
+
+    fortran                   build, run
+      when +fortran
+
+    gmake                     build
+      when build_system=autotools
+
+    gnuconfig                 build
+      when build_system=autotools target=ppc64le:
+
+    gnuconfig                 build
+      when build_system=autotools target=aarch64:
+
+    gnuconfig                 build
+      when build_system=autotools target=riscv64:
+
+    gotcha@1.0.8:             link
+      when +gotcha
+
+    hip@4.2:                  build, link
+      when +hip
+
+    libunwind                 build, link
+      when +unwind
+
+    llvm                      build, link
+      when +unwind
+
+    mpi@2.2:                  build, run
+      when +mpi
+
+    opari2@2.0.6:             build, link
+      when @7:
+
+    otf2@2.3:2.3.99           build, link
+      when @7.0:7
+
+    otf2@3:                   build, link
+      when @8:
+
+    papi                      build, link
+      when +papi
+
+    pdt                       build, link
+      when +pdt
+
+    rocm-smi-lib              build, link
+      when @:9+hip
+
+    rocprofiler-dev           build, link
+      when @:9+hip
+
+    rocprofiler-sdk           build, link
+      when @10:+hip
+
+
+Licenses:
+    None
+

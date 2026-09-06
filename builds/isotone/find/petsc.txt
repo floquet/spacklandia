@@ -1,2 +1,1 @@
--- linux-ubuntu26.04-skylake / %c,cxx,fortran=gcc@16.0.1 --------
-petsc@3.25.5
+==> Error: No package matches the query: petsc

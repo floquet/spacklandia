@@ -1,0 +1,3 @@
+[x] 3y6c6nl gsl@2.8 failed: /tmp/dantopa/spack-stage/spack-stage-gsl-2.8-3y6c6nlhgg6jmhw644nblera5bljmk6s-5th0tdey.log (0s)
+==> Error: The following packages failed to install:
+gsl@2.8/3y6c6nlhgg6jmhw644nblera5bljmk6s: /tmp/dantopa/spack-stage/spack-stage-gsl-2.8-3y6c6nlhgg6jmhw644nblera5bljmk6s-5th0tdey.log

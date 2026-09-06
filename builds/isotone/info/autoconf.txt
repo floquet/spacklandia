@@ -1,0 +1,56 @@
+AutotoolsPackage:   autoconf
+
+Description:
+    Autoconf -- system configuration part of autotools
+
+Homepage: https://www.gnu.org/software/autoconf/
+
+Preferred version:  
+    2.72    https://ftpmirror.gnu.org/autoconf/autoconf-2.72.tar.gz
+
+Safe versions:  
+    2.72    https://ftpmirror.gnu.org/autoconf/autoconf-2.72.tar.gz
+    2.71    https://ftpmirror.gnu.org/autoconf/autoconf-2.71.tar.gz
+    2.70    https://ftpmirror.gnu.org/autoconf/autoconf-2.70.tar.gz
+    2.69    https://ftpmirror.gnu.org/autoconf/autoconf-2.69.tar.gz
+    2.62    https://ftpmirror.gnu.org/autoconf/autoconf-2.62.tar.gz
+    2.59    https://ftpmirror.gnu.org/autoconf/autoconf-2.59.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    build_system [autotools]        autotools
+        Build systems supported by the package
+
+
+Dependencies:
+    gmake            build
+      when build_system=autotools
+
+    gnuconfig        build
+      when build_system=autotools target=ppc64le:
+
+    gnuconfig        build
+      when build_system=autotools target=aarch64:
+
+    gnuconfig        build
+      when build_system=autotools target=riscv64:
+
+    m4@1.4.6:        build, run
+      when @:2.71
+
+    m4@1.4.8:        build, run
+      when @2.72:
+
+    perl             build, run
+
+
+Licenses:
+    GPL-3.0-or-later WITH Autoconf-exception-3.0
+      when @2.62:
+
+    GPL-2.0-or-later WITH Autoconf-exception-2.0
+      when @:2.59
+
+

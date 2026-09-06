@@ -1,0 +1,23 @@
+[ ] pssrh6m unzip@6.0 staging (0s)
+[ ] pssrh6m unzip@6.0 edit (0s)
+[ ] pssrh6m unzip@6.0 build (0s)
+[x] pssrh6m unzip@6.0 failed: /var/tmp/dantopa/spack-stage/spack-stage-unzip-6.0-pssrh6mtjtz5fsqxjsefqs6xmx2jb76z-23_bn5om.log (0s)
+-- lines 41 to 56 --
+  ==> Applied patch https://src.fedoraproject.org/rpms/unzip/raw/c98fc67064eee9a7437bc3dc5bce3432c3571d5c/f/unzip-zipbomb-manpage.patch
+  ==> unzip: Executing phase: 'edit'
+  ==> unzip: Executing phase: 'build'
+  ==> [2026-09-06-10:47:53.888892] /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gmake-4.4.1-mkyma5432d3gsulsfbayigyxf2ftrhen/bin/make -f unix/Makefile 'LOC=-Wno-error=implicit-function-declaration -Wno-error=implicit-int -DLARGE_FILE_SUPPORT' generic
+  sh unix/configure "cc" "-I. -Ibzip2 -DUNIX -Wno-error=implicit-function-declaration -Wno-error=implicit-int -DLARGE_FILE_SUPPORT" "bzip2"
+  Check C compiler operation
+> conftest.c:4:1: fatal error: error closing /tmp/ccc9vKQ0.s: Disk quota exceeded
+      4 | }
+        | ^
+  compilation terminated.
+  
+  C compiler "cc" does not work as expected.
+  Failing command was: cc -I. -Ibzip2 -DUNIX -Wno-error=implicit-function-declaration -Wno-error=implicit-int -DLARGE_FILE_SUPPORT -I. -DUNIX -c conftest.c
+> make: *** [unix/Makefile:470: flags] Error 1
+  Command exited with status 2:
+      /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gmake-4.4.1-mkyma5432d3gsulsfbayigyxf2ftrhen/bin/make -f unix/Makefile 'LOC=-Wno-error=implicit-function-declaration -Wno-error=implicit-int -DLARGE_FILE_SUPPORT' generic
+==> Error: The following packages failed to install:
+unzip@6.0/pssrh6mtjtz5fsqxjsefqs6xmx2jb76z: /var/tmp/dantopa/spack-stage/spack-stage-unzip-6.0-pssrh6mtjtz5fsqxjsefqs6xmx2jb76z-23_bn5om.log

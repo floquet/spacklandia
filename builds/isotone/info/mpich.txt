@@ -1,0 +1,451 @@
+AutotoolsPackage:   mpich
+
+Description:
+    MPICH is a high performance and widely portable implementation of the
+    Message Passing Interface (MPI) standard.
+
+Homepage: https://www.mpich.org
+
+Preferred version:  
+    5.0.1      https://www.mpich.org/static/downloads/5.0.1/mpich-5.0.1.tar.gz
+
+Safe versions:  
+    develop    [git] https://github.com/pmodels/mpich.git
+    5.0.1      https://www.mpich.org/static/downloads/5.0.1/mpich-5.0.1.tar.gz
+    5.0.0      https://www.mpich.org/static/downloads/5.0.0/mpich-5.0.0.tar.gz
+    4.3.2      https://www.mpich.org/static/downloads/4.3.2/mpich-4.3.2.tar.gz
+    4.3.1      https://www.mpich.org/static/downloads/4.3.1/mpich-4.3.1.tar.gz
+    4.3.0      https://www.mpich.org/static/downloads/4.3.0/mpich-4.3.0.tar.gz
+    4.2.3      https://www.mpich.org/static/downloads/4.2.3/mpich-4.2.3.tar.gz
+    4.2.2      https://www.mpich.org/static/downloads/4.2.2/mpich-4.2.2.tar.gz
+    4.2.1      https://www.mpich.org/static/downloads/4.2.1/mpich-4.2.1.tar.gz
+    4.2.0      https://www.mpich.org/static/downloads/4.2.0/mpich-4.2.0.tar.gz
+    4.1.2      https://www.mpich.org/static/downloads/4.1.2/mpich-4.1.2.tar.gz
+    4.1.1      https://www.mpich.org/static/downloads/4.1.1/mpich-4.1.1.tar.gz
+    4.1        https://www.mpich.org/static/downloads/4.1/mpich-4.1.tar.gz
+    4.0.3      https://www.mpich.org/static/downloads/4.0.3/mpich-4.0.3.tar.gz
+    4.0.2      https://www.mpich.org/static/downloads/4.0.2/mpich-4.0.2.tar.gz
+    4.0.1      https://www.mpich.org/static/downloads/4.0.1/mpich-4.0.1.tar.gz
+    4.0        https://www.mpich.org/static/downloads/4.0/mpich-4.0.tar.gz
+    3.4.3      https://www.mpich.org/static/downloads/3.4.3/mpich-3.4.3.tar.gz
+    3.4.2      https://www.mpich.org/static/downloads/3.4.2/mpich-3.4.2.tar.gz
+    3.4.1      https://www.mpich.org/static/downloads/3.4.1/mpich-3.4.1.tar.gz
+    3.4        https://www.mpich.org/static/downloads/3.4/mpich-3.4.tar.gz
+    3.3.2      https://www.mpich.org/static/downloads/3.3.2/mpich-3.3.2.tar.gz
+    3.3.1      https://www.mpich.org/static/downloads/3.3.1/mpich-3.3.1.tar.gz
+    3.3        https://www.mpich.org/static/downloads/3.3/mpich-3.3.tar.gz
+    3.2.1      https://www.mpich.org/static/downloads/3.2.1/mpich-3.2.1.tar.gz
+    3.2        https://www.mpich.org/static/downloads/3.2/mpich-3.2.tar.gz
+    3.1.4      https://www.mpich.org/static/downloads/3.1.4/mpich-3.1.4.tar.gz
+    3.1.3      https://www.mpich.org/static/downloads/3.1.3/mpich-3.1.3.tar.gz
+    3.1.2      https://www.mpich.org/static/downloads/3.1.2/mpich-3.1.2.tar.gz
+    3.1.1      https://www.mpich.org/static/downloads/3.1.1/mpich-3.1.1.tar.gz
+    3.1        https://www.mpich.org/static/downloads/3.1/mpich-3.1.tar.gz
+    3.0.4      https://www.mpich.org/static/downloads/3.0.4/mpich-3.0.4.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    amdgpu_target [none]            none, gfx1010, gfx1011, gfx1012, gfx1013,
+                                    gfx1030, gfx1031, gfx1032, gfx1033,
+                                    gfx1034, gfx1035, gfx1036, gfx1100,
+                                    gfx1101, gfx1102, gfx1103, gfx1150,
+                                    gfx1151, gfx1152, gfx1153, gfx1200,
+                                    gfx1201, gfx1250, gfx1251, gfx701, gfx801,
+                                    gfx802, gfx803, gfx900, gfx900:xnack-,
+                                    gfx902, gfx904, gfx906, gfx906:xnack-,
+                                    gfx908, gfx908:xnack-, gfx909, gfx90a,
+                                    gfx90a:xnack+, gfx90a:xnack-, gfx90c,
+                                    gfx940, gfx941, gfx942, gfx950
+      when +rocm
+        AMD GPU architecture
+
+    argobots [false]                false, true
+        Enable Argobots support
+
+    build_system [autotools]        autotools
+        Build systems supported by the package
+
+    cuda [false]                    false, true
+        Build with CUDA
+
+    cuda_arch [none]                none, 10, 100, 100a, 100f, 101, 101a,
+                                    101f, 103, 103a, 103f, 11, 110, 110a,
+                                    110f, 12, 120, 120a, 120f, 121, 121a,
+                                    121f, 13, 20, 21, 30, 32, 35, 37, 50, 52,
+                                    53, 60, 61, 62, 70, 72, 75, 80, 86, 87,
+                                    89, 90, 90a
+      when +cuda
+        CUDA architecture
+
+    datatype-engine [auto]          auto, dataloop, yaksa
+      when @3.4:
+        controls the datatype engine to use
+
+    device [ch4]                    ch3, ch3:sock, ch4
+        Abstract Device Interface (ADI)
+        implementation. The ch4 device is in experimental state for versions
+        before 3.4.
+
+    fortran [true]                  false, true
+        Enable Fortran support
+
+    hcoll [false]                   false, true
+      when @3.3: device=ch4 netmod=ucx
+        Enable support for Mellanox HCOLL accelerated collective operations
+        library
+
+    hwloc [true]                    false, true
+        Use external hwloc package
+
+    hydra [true]                    false, true
+        Build the hydra process manager
+
+    level_zero [false]              false, true
+        Enable level zero support
+
+    libxml2 [true]                  false, true
+        Use libxml2 for XML support instead of the custom minimalistic
+        implementation
+
+    mpi5-abi [false]                false, true
+      when @5:
+        Enable MPI-5 standard ABI.
+
+    netmod [ofi]                    mxm, ofi, tcp, ucx
+        Network module. Only single netmod builds are
+        supported, and netmod is ignored if device is ch3:sock.
+
+    pci [true]                      false, true
+        Support analyzing devices on PCI bus
+
+    pmi [default]                   cray, default, pmi, pmi2, pmix
+        PMI interface.
+
+    rocm [false]                    false, true
+        Enable ROCm support
+
+    romio [true]                    false, true
+        Enable ROMIO MPI I/O implementation
+
+    slurm [false]                   false, true
+        Enable Slurm support
+
+    vci [false]                     false, true
+      when @4: device=ch4
+        Enable multiple VCI (virtual communication interface) critical
+        sections to improve performance of applications that do heavy
+        concurrent MPIcommunications. Set MPIR_CVAR_CH4_NUM_VCIS=<N> to enable
+        multiple vcis at runtime.
+
+    verbs [false]                   false, true
+        Build support for OpenFabrics verbs.
+
+    wrapperrpath [true]             false, true
+        Enable wrapper rpath
+
+    xpmem [false]                   false, true
+      when @3.4:
+        Enable XPMEM support
+
+
+Dependencies:
+    argobots                  build, link
+      when +argobots
+
+    autoconf@2.67:            build
+      when @develop
+
+    autoconf@2.67:            build
+      when @3.3+hwloc
+
+    automake@1.15:            build
+      when @develop
+
+    automake@1.15:            build
+      when @3.3+hwloc
+
+    c                         build
+
+    cray-pmi                  build, link
+      when pmi=cray
+
+    cuda                      build, link
+      when +cuda
+
+    cuda@:6.0                 build, link
+      when cuda_arch=10
+
+    cuda@:6.5                 build, link
+      when cuda_arch=11
+
+    cuda@2.1:6.5              build, link
+      when cuda_arch=12
+
+    cuda@2.1:6.5              build, link
+      when cuda_arch=13
+
+    cuda@3.0:8.0              build, link
+      when cuda_arch=20
+
+    cuda@3.2:8.0              build, link
+      when cuda_arch=21
+
+    cuda@5.0:10.2             build, link
+      when cuda_arch=30
+
+    cuda@5.0:10.2             build, link
+      when cuda_arch=32
+
+    cuda@5.0:11.8             build, link
+      when cuda_arch=35
+
+    cuda@6.0:12.9             build, link
+      when cuda_arch=50
+
+    cuda@6.5:11.8             build, link
+      when cuda_arch=37
+
+    cuda@6.5:12.9             build, link
+      when cuda_arch=52
+
+    cuda@6.5:12.9             build, link
+      when cuda_arch=53
+
+    cuda@8.0:12.9             build, link
+      when cuda_arch=60
+
+    cuda@8.0:12.9             build, link
+      when cuda_arch=61
+
+    cuda@8.0:12.9             build, link
+      when cuda_arch=62
+
+    cuda@9.0:12.9             build, link
+      when cuda_arch=70
+
+    cuda@9.0:                 build, link
+      when cuda_arch=72
+
+    cuda@10.0:                build, link
+      when cuda_arch=75
+
+    cuda@11.0:                build, link
+      when cuda_arch=80
+
+    cuda@11.1:                build, link
+      when cuda_arch=86
+
+    cuda@11.4:                build, link
+      when cuda_arch=87
+
+    cuda@11.8:                build, link
+      when cuda_arch=89
+
+    cuda@12.0:                build, link
+      when cuda_arch=90
+
+    cuda@12.0:                build, link
+      when cuda_arch=90a
+
+    cuda@12.8:12.9            build, link
+      when cuda_arch=101
+
+    cuda@12.8:12.9            build, link
+      when cuda_arch=101a
+
+    cuda@12.8:                build, link
+      when cuda_arch=100
+
+    cuda@12.8:                build, link
+      when cuda_arch=100a
+
+    cuda@12.8:                build, link
+      when cuda_arch=120
+
+    cuda@12.8:                build, link
+      when cuda_arch=120a
+
+    cuda@12.9                 build, link
+      when cuda_arch=101f
+
+    cuda@12.9:                build, link
+      when cuda_arch=100f
+
+    cuda@12.9:                build, link
+      when cuda_arch=103
+
+    cuda@12.9:                build, link
+      when cuda_arch=103a
+
+    cuda@12.9:                build, link
+      when cuda_arch=103f
+
+    cuda@12.9:                build, link
+      when cuda_arch=120f
+
+    cuda@12.9:                build, link
+      when cuda_arch=121
+
+    cuda@12.9:                build, link
+      when cuda_arch=121a
+
+    cuda@12.9:                build, link
+      when cuda_arch=121f
+
+    cuda@13.0:                build, link
+      when cuda_arch=110
+
+    cuda@13.0:                build, link
+      when cuda_arch=110a
+
+    cuda@13.0:                build, link
+      when cuda_arch=110f
+
+    cxx                       build
+
+    findutils                 build
+
+    fortran                   build
+      when +fortran
+
+    gmake                     build
+      when build_system=autotools
+
+    gnuconfig                 build
+      when build_system=autotools target=ppc64le:
+
+    gnuconfig                 build
+      when build_system=autotools target=aarch64:
+
+    gnuconfig                 build
+      when build_system=autotools target=riscv64:
+
+    hcoll                     build, link
+      when +hcoll
+
+    hip+rocm                  build, link
+      when +rocm
+
+    hsa-rocr-dev              build, link
+      when +rocm
+
+    hwloc@2.0.0:              build, link
+      when @3.3:+hwloc
+
+    hwloc@2.0.0:+cuda         build, link
+      when @3.3:+cuda+hwloc
+
+    libfabric                 build, link
+      when netmod=ofi
+
+    libfabric@:1.6            build, link
+      when device=ch3 netmod=ofi
+
+    libfabric+cuda            build, link
+      when +cuda netmod=ofi
+
+    libfabric@1.5:            build, link
+      when @3.4: device=ch4 netmod=ofi
+
+    libpciaccess              build, link
+      when @:3.2+hydra+pci
+
+    libpciaccess              build, link
+      when @3.3:+pci
+
+    libtool@2.4.4:            build
+      when @develop
+
+    libtool@2.4.4:            build
+      when @3.3+hwloc
+
+    libxml2                   build, link
+      when @:3.2+hydra+libxml2
+
+    libxml2                   build, link
+      when @3.3:+libxml2
+
+    llvm-amdgpu               build
+      when +rocm
+
+    llvm-amdgpu@5.2.0:        build, link
+      when amdgpu_target=gfx940
+
+    llvm-amdgpu@5.2.0:        build, link
+      when amdgpu_target=gfx1036
+
+    llvm-amdgpu@5.3.0:        build, link
+      when amdgpu_target=gfx1100
+
+    llvm-amdgpu@5.3.0:        build, link
+      when amdgpu_target=gfx1101
+
+    llvm-amdgpu@5.3.0:        build, link
+      when amdgpu_target=gfx1102
+
+    llvm-amdgpu@5.3.0:        build, link
+      when amdgpu_target=gfx1103
+
+    llvm-amdgpu@5.7.0:        build, link
+      when amdgpu_target=gfx941
+
+    llvm-amdgpu@5.7.0:        build, link
+      when amdgpu_target=gfx942
+
+    m4                        build
+      when @develop
+
+    m4                        build
+      when @3.3+hwloc
+
+    mxm                       build, link
+      when netmod=mxm
+
+    oneapi-level-zero         build, link
+      when +level_zero
+
+    pkgconfig                 build
+
+    pmix                      build, link
+      when pmi=pmix
+
+    python@3.0:               build
+      when @5:
+
+    slurm                     build, link
+      when +slurm
+
+    ucx                       build, link
+      when netmod=ucx
+
+    ucx+cuda                  build, link
+      when +cuda netmod=ucx
+
+    xpmem                     build, link
+      when +xpmem
+
+    yaksa                     build, link
+      when @4.0:4.3 datatype-engine=auto device=ch4
+
+    yaksa                     build, link
+      when @4.0:4.3 datatype-engine=yaksa device=ch4
+
+    yaksa+cuda                build, link
+      when @4.0:4.3+cuda datatype-engine=auto device=ch4
+
+    yaksa+cuda                build, link
+      when @4.0:4.3+cuda datatype-engine=yaksa device=ch4
+
+    yaksa+rocm                build, link
+      when @4.0:4.3+rocm datatype-engine=auto device=ch4
+
+    yaksa+rocm                build, link
+      when @4.0:4.3+rocm datatype-engine=yaksa device=ch4
+
+
+Licenses:
+    mpich2
+
+

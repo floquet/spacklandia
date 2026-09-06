@@ -1,0 +1,96 @@
+[ ] uxquprd openblas@0.3.34 staging (0s)
+[ ] uxquprd openblas@0.3.34 edit (0s)
+[ ] uxquprd openblas@0.3.34 build (0s)
+[x] uxquprd openblas@0.3.34 failed: /var/tmp/dantopa/spack-stage/spack-stage-openblas-0.3.34-uxquprdvkgrzexkkanw75v3clxhpttdv-g00c8xo3.log (1s)
+-- lines 6 to 94 --
+  ==> openblas: Executing phase: 'build'
+  ==> [2026-09-06-09:15:13.414891] /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gmake-4.4.1-mkyma5432d3gsulsfbayigyxf2ftrhen/bin/make -s CC=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc FC=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gfortran MAKE_NB_JOBS=0 ARCH=x86_64 TARGET=SKYLAKEX NO_AVX512=1 NO_AVX512=1 DYNAMIC_ARCH=1 USE_LOCKING=1 USE_OPENMP=0 USE_THREAD=0 RANLIB=ranlib
+  ./c_check: 272: printf: printf: I/O error
+  ./c_check: 371: printf: printf: I/O error
+  ./c_check: 272: printf: printf: I/O error
+  ./c_check: 371: printf: printf: I/O error
+> getarch.c:2211:1: fatal error: error writing to /tmp/cc1PuQeY.s: Disk quota exceeded
+   2211 | }
+        | ^
+  compilation terminated.
+> cpuid.S:75: fatal error: when writing output to /tmp/cc1PuQeY.s: Disk quota exceeded
+  compilation terminated.
+> make[1]: *** [Makefile.prebuild:104: getarch] Error 1
+  In file included from axpy.c:39:
+> /usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory
+     28 | #include <bits/libc-header-start.h>
+        |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+  compilation terminated.
+  In file included from swap.c:39:
+> /usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory
+     28 | #include <bits/libc-header-start.h>
+        |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+  compilation terminated.
+> make[1]: *** [Makefile:885: saxpy.o] Error 1
+  make[1]: *** Waiting for unfinished jobs....
+> make[1]: *** [Makefile:957: sswap.o] Error 1
+  In file included from dot.c:39:
+> /usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory
+     28 | #include <bits/libc-header-start.h>
+        |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+  compilation terminated.
+  In file included from copy.c:39:
+> /usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory
+     28 | #include <bits/libc-header-start.h>
+        |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+  compilation terminated.
+  In file included from scal.c:40:
+> /usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory
+     28 | #include <bits/libc-header-start.h>
+        |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+  compilation terminated.
+> make[1]: *** [Makefile:858: sdot.o] Error 1
+> make[1]: *** [Makefile:939: scopy.o] Error 1
+> make[1]: *** [Makefile:912: sscal.o] Error 1
+  In file included from sdsdot.c:39:
+> /usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory
+     28 | #include <bits/libc-header-start.h>
+        |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+  compilation terminated.
+  In file included from dsdot.c:39:
+> /usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory
+     28 | #include <bits/libc-header-start.h>
+        |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+  compilation terminated.
+  In file included from sum.c:39:
+> /usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory
+     28 | #include <bits/libc-header-start.h>
+        |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+  compilation terminated.
+  In file included from asum.c:39:
+> /usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory
+     28 | #include <bits/libc-header-start.h>
+        |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+  compilation terminated.
+  In file included from nrm2.c:39:
+> /usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory
+     28 | #include <bits/libc-header-start.h>
+        |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+  compilation terminated.
+> make[1]: *** [Makefile:840: dsdot.o] Error 1
+> make[1]: *** [Makefile:837: sdsdot.o] Error 1
+> make[1]: *** [Makefile:693: ssum.o] Error 1
+> make[1]: *** [Makefile:675: sasum.o] Error 1
+> make[1]: *** [Makefile:711: snrm2.o] Error 1
+  In file included from max.c:39:
+> /usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory
+     28 | #include <bits/libc-header-start.h>
+        |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+  compilation terminated.
+  In file included from max.c:39:
+> /usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory
+     28 | #include <bits/libc-header-start.h>
+        |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+  compilation terminated.
+> make[1]: *** [Makefile:765: smax.o] Error 1
+> make[1]: *** [Makefile:729: samax.o] Error 1
+> make: *** [Makefile:205: libs] Error 1
+  Command exited with status 2:
+      /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gmake-4.4.1-mkyma5432d3gsulsfbayigyxf2ftrhen/bin/make -s CC=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc FC=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gfortran MAKE_NB_JOBS=0 ARCH=x86_64 TARGET=SKYLAKEX NO_AVX512=1 NO_AVX512=1 DYNAMIC_ARCH=1 USE_LOCKING=1 USE_OPENMP=0 USE_THREAD=0 RANLIB=ranlib
+==> Error: The following packages failed to install:
+openblas@0.3.34/uxquprdvkgrzexkkanw75v3clxhpttdv: /var/tmp/dantopa/spack-stage/spack-stage-openblas-0.3.34-uxquprdvkgrzexkkanw75v3clxhpttdv-g00c8xo3.log

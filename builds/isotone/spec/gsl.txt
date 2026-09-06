@@ -1,4 +1,4 @@
-[+]  gsl@2.8~external-cblas+pic+shared build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -   gsl@2.8~external-cblas+pic+shared build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
 [+]      ^compiler-wrapper@1.1.0 build_system=generic platform=linux os=ubuntu26.04 target=skylake
 [e]      ^gcc@16.0.1+binutils+bootstrap+futex~graphite+libsanitizer~mold~nvptx~piclibs~profiled~strip build_system=autotools build_type=RelWithDebInfo languages:='c,c++,fortran' platform=linux os=ubuntu26.04 target=x86_64
 [+]      ^gcc-runtime@16.0.1 build_system=generic platform=linux os=ubuntu26.04 target=skylake

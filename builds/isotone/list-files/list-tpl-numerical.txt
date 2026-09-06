@@ -1,0 +1,45 @@
+# Arbitrary / multiple precision arithmetic
+gmp
+mpfr
+mpc
+
+# General numerical libraries
+gsl
+boost
+eigen
+
+# Dense linear algebra
+blas
+lapack
+openblas
+
+# FFT
+fftw
+
+# Sparse linear algebra
+suite-sparse
+superlu
+superlu-dist
+mumps
+
+# Distributed linear algebra
+scalapack
+
+# Solver frameworks
+petsc
+trilinos
+sundials
+
+# Optimization
+nlopt
+ipopt
+
+# Scientific data
+hdf5
+netcdf-c
+netcdf-fortran
+
+# Graph / partitioning
+metis
+parmetis
+scotch

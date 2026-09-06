@@ -1,3 +1,1 @@
--- linux-ubuntu26.04-skylake / %c,cxx,fortran=gcc@16.0.1 --------
-openblas@0.3.34
-openblas@0.3.34
+==> Error: No package matches the query: blas

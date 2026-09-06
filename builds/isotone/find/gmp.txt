@@ -1,2 +1,1 @@
--- linux-ubuntu26.04-skylake / %c,cxx=gcc@16.0.1 ----------------
-gmp@6.3.0
+==> Error: No package matches the query: gmp

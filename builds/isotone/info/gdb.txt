@@ -1,0 +1,133 @@
+AutotoolsPackage:   gdb
+
+Description:
+    GDB, the GNU Project debugger, allows you to see what is going on
+    'inside' another program while it executes -- or what another program
+    was doing at the moment it crashed.
+
+Homepage: https://www.gnu.org/software/gdb
+
+Preferred version:  
+    17.1      https://ftpmirror.gnu.org/gdb/gdb-17.1.tar.gz
+
+Safe versions:  
+    17.1      https://ftpmirror.gnu.org/gdb/gdb-17.1.tar.gz
+    16.2      https://ftpmirror.gnu.org/gdb/gdb-16.2.tar.gz
+    15.2      https://ftpmirror.gnu.org/gdb/gdb-15.2.tar.gz
+    14.2      https://ftpmirror.gnu.org/gdb/gdb-14.2.tar.gz
+    14.1      https://ftpmirror.gnu.org/gdb/gdb-14.1.tar.gz
+    13.2      https://ftpmirror.gnu.org/gdb/gdb-13.2.tar.gz
+    13.1      https://ftpmirror.gnu.org/gdb/gdb-13.1.tar.gz
+    12.1      https://ftpmirror.gnu.org/gdb/gdb-12.1.tar.gz
+    11.2      https://ftpmirror.gnu.org/gdb/gdb-11.2.tar.gz
+    11.1      https://ftpmirror.gnu.org/gdb/gdb-11.1.tar.gz
+    10.2      https://ftpmirror.gnu.org/gdb/gdb-10.2.tar.gz
+    10.1      https://ftpmirror.gnu.org/gdb/gdb-10.1.tar.gz
+    9.2       https://ftpmirror.gnu.org/gdb/gdb-9.2.tar.gz
+    9.1       https://ftpmirror.gnu.org/gdb/gdb-9.1.tar.gz
+    8.3.1     https://ftpmirror.gnu.org/gdb/gdb-8.3.1.tar.gz
+    8.3       https://ftpmirror.gnu.org/gdb/gdb-8.3.tar.gz
+    8.2.1     https://ftpmirror.gnu.org/gdb/gdb-8.2.1.tar.gz
+    8.2       https://ftpmirror.gnu.org/gdb/gdb-8.2.tar.gz
+    8.1       https://ftpmirror.gnu.org/gdb/gdb-8.1.tar.gz
+    8.0.1     https://ftpmirror.gnu.org/gdb/gdb-8.0.1.tar.gz
+    8.0       https://ftpmirror.gnu.org/gdb/gdb-8.0.tar.gz
+    7.12.1    https://ftpmirror.gnu.org/gdb/gdb-7.12.1.tar.gz
+    7.11.1    https://ftpmirror.gnu.org/gdb/gdb-7.11.1.tar.gz
+    7.10.1    https://ftpmirror.gnu.org/gdb/gdb-7.10.1.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    build_system [autotools]        autotools
+        Build systems supported by the package
+
+    debuginfod [true]               false, true
+      when @10.1:
+        Enable debuginfod support
+
+    gold [false]                    false, true
+        Enable gold linker
+
+    ld [false]                      false, true
+        Enable ld
+
+    lto [false]                     false, true
+        Enable lto
+
+    python [true]                   false, true
+      when @9.3:
+        Compile with Python support
+
+    quad [false]                    false, true
+        Enable quad
+
+    source-highlight [false]        false, true
+        Compile with source-highlight support
+
+    tui [false]                     false, true
+        Enable tui
+
+    xz [true]                       false, true
+        Compile with lzma support
+
+
+Dependencies:
+    c                                 build
+
+    cxx                               build
+
+    elfutils@0.179:+debuginfod        build, link
+      when @10.1:+debuginfod
+
+    fortran                           build
+
+    gmake                             build
+      when build_system=autotools
+
+    gmp                               build, link
+      when @11.1:
+
+    gnuconfig                         build
+      when build_system=autotools target=ppc64le:
+
+    gnuconfig                         build
+      when build_system=autotools target=aarch64:
+
+    gnuconfig                         build
+      when build_system=autotools target=riscv64:
+
+    mpfr@4.2:                         build, link
+      when @14:
+
+    ncurses                           build, link
+      when +tui
+
+    pkgconfig                         build
+      when @13.1:
+
+    python                            build, link, run
+      when +python
+
+    python@:3.12                      build, link, run
+      when @:14.2+python
+
+    source-highlight                  build, link
+      when +source-highlight
+
+    texinfo                           build
+
+    xz                                build, link
+      when +xz
+
+    zlib-api                          build, link
+
+    zstd                              build, link
+      when @13.1:
+
+
+Licenses:
+    GPL-3.0-or-later AND LGPL-3.0-or-later
+
+

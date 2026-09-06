@@ -1,1 +1,71 @@
-[+] tmo5ib3 boost@1.90.0 /home/dantopa/spackticity/spack-isotone/opt/spack/linux-skylake/boost-1.90.0-tmo5ib3n2r63fv7epdx66jiwozeala5h (0s)
+[ ] to23qfz boost@1.90.0 staging (0s)
+[ ] to23qfz boost@1.90.0 install (27s)
+[x] to23qfz boost@1.90.0 failed: /var/tmp/dantopa/spack-stage/spack-stage-boost-1.90.0-to23qfz4acu3vryr2xhx6qd7x2gcfkj2-u2olp2xu.log (28s)
+-- lines 1 to 44 --
+  ==> Applied patch /home/dantopa/.spack/package_repos/fncqgg4/repos/spack_repo/builtin/packages/boost/bootstrap-compiler.patch
+  ==> Ran patch() for boost
+  ==> boost: Executing phase: 'install'
+  ==> [2026-09-06-09:14:33.112175] ./bootstrap.sh --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/boost-1.90.0-to23qfz4acu3vryr2xhx6qd7x2gcfkj2 --with-toolset=gcc --with-libraries=headers --without-icu
+  Building B2 engine..
+> ls: cannot access '/opt/IBM/openxlC/17.*/bin/ibm-clang++_r': No such file or directory
+  
+  A C++11 capable compiler is required for building the B2 engine.
+  Toolset 'gcc' does not appear to support C++11.
+  
+  > /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/g++ -x c++ -std=c++11 -pthread  check_clib.cpp check_cxx11.cpp
+> check_clib.cpp:19:1: fatal error: error closing /tmp/ccCkrO9o.s: Disk quota exceeded
+     19 | }
+        | ^
+  compilation terminated.
+> check_cxx11.cpp:49:1: fatal error: error writing to /tmp/ccCkrO9o.s: Disk quota exceeded
+     49 | }
+        | ^
+  compilation terminated.
+  > /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/g++ -x c++ -std=c++11  check_clib.cpp check_cxx11.cpp
+> check_clib.cpp:19:1: fatal error: error closing /tmp/ccjRfAYJ.s: Disk quota exceeded
+     19 | }
+        | ^
+  compilation terminated.
+> check_cxx11.cpp:49:1: fatal error: error writing to /tmp/ccjRfAYJ.s: Disk quota exceeded
+     49 | }
+        | ^
+  compilation terminated.
+  > /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/g++ -x c++ -std=c++11 -D_GNU_SOURCE  check_clib.cpp check_cxx11.cpp
+> check_clib.cpp:19:1: fatal error: error closing /tmp/ccUUVyms.s: Disk quota exceeded
+     19 | }
+        | ^
+  compilation terminated.
+> check_cxx11.cpp:49:1: fatal error: error writing to /tmp/ccUUVyms.s: Disk quota exceeded
+     49 | }
+        | ^
+  compilation terminated.
+> ls: cannot access '/opt/IBM/openxlC/17.*/bin/ibm-clang++_r': No such file or directory
+  
+  
+  ** Note, the C++11 capable compiler is _only_ required for building the B2
+  ** engine. The B2 build system allows for using any C++ level and any other
+  ** supported language and resource in your projects.
+  
+-- lines 57 to 76 --
+  A special toolset; cxx, is available which is used as a fallback when a more
+  specific toolset is not found and the cxx command is detected. The 'cxx'
+  toolset will use the '--cxx' and '--cxxflags' options, if present.
+  
+  Options:
+      --help                  Show this help message.
+      --verbose               Show messages about what this script is doing.
+      --debug                 Build b2 with debug information, and no
+                              optimizations.
+      --guess-toolset         Print the toolset we can detect for building.
+      --cxx=CXX               The compiler exec to use instead of the detected
+                              compiler exec.
+      --cxxflags=CXXFLAGS     The compiler flags to use in addition to the
+                              flags for the detected compiler.
+  
+  
+  
+  Failed to build B2 build engine
+  Command exited with status 1:
+      ./bootstrap.sh --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/boost-1.90.0-to23qfz4acu3vryr2xhx6qd7x2gcfkj2 --with-toolset=gcc --with-libraries=headers --without-icu
+==> Error: The following packages failed to install:
+boost@1.90.0/to23qfz4acu3vryr2xhx6qd7x2gcfkj2: /var/tmp/dantopa/spack-stage/spack-stage-boost-1.90.0-to23qfz4acu3vryr2xhx6qd7x2gcfkj2-u2olp2xu.log

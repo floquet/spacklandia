@@ -1,0 +1,18 @@
+[ ] pgbm3we strace@6.15 staging (0s)
+[ ] pgbm3we strace@6.15 autoreconf (1s)
+[ ] pgbm3we strace@6.15 configure (1s)
+[x] pgbm3we strace@6.15 failed: /var/tmp/dantopa/spack-stage/spack-stage-strace-6.15-pgbm3we3rx2mo7ccnny2kgu6gfp7e2qi-geofzevu.log (2s)
+-- lines 18 to 28 --
+  checking build system type... cat: -: Disk quota exceeded
+  sed: couldn't flush stdout: Disk quota exceeded
+  x86_64-pc-linux-gnu
+  checking host system type... x86_64-pc-linux-gnu
+  checking for gcc... /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc
+  checking whether the C compiler works... no
+> configure: error: in `/var/tmp/dantopa/spack-stage/spack-stage-strace-6.15-pgbm3we3rx2mo7ccnny2kgu6gfp7e2qi/spack-src':
+> configure: error: C compiler cannot create executables
+  See `config.log' for more details
+  Command exited with status 77:
+      /var/tmp/dantopa/spack-stage/spack-stage-strace-6.15-pgbm3we3rx2mo7ccnny2kgu6gfp7e2qi/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/strace-6.15-pgbm3we3rx2mo7ccnny2kgu6gfp7e2qi --enable-mpers=no
+==> Error: The following packages failed to install:
+strace@6.15/pgbm3we3rx2mo7ccnny2kgu6gfp7e2qi: /var/tmp/dantopa/spack-stage/spack-stage-strace-6.15-pgbm3we3rx2mo7ccnny2kgu6gfp7e2qi-geofzevu.log

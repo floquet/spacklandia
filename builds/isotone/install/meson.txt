@@ -1,0 +1,1 @@
+[+] gzb2ewr meson@1.11.1 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/meson-1.11.1-gzb2ewrvjvxbkyuzljwmrvpzooqvktak (0s)

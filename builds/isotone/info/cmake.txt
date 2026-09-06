@@ -1,0 +1,241 @@
+Package:   cmake
+
+Description:
+    A cross-platform, open-source build system. CMake is a family of tools
+    designed to build, test and package software.
+
+Homepage: https://www.cmake.org
+
+Preferred version:  
+    3.31.12     https://github.com/Kitware/CMake/releases/download/v3.31.12/cmake-3.31.12.tar.gz
+
+Safe versions:  
+    master      [git] https://gitlab.kitware.com/cmake/cmake.git on branch master
+    4.4.3       https://github.com/Kitware/CMake/releases/download/v4.4.3/cmake-4.4.3.tar.gz
+    4.4.2       https://github.com/Kitware/CMake/releases/download/v4.4.2/cmake-4.4.2.tar.gz
+    4.4.1       https://github.com/Kitware/CMake/releases/download/v4.4.1/cmake-4.4.1.tar.gz
+    4.3.4       https://github.com/Kitware/CMake/releases/download/v4.3.4/cmake-4.3.4.tar.gz
+    4.3.3       https://github.com/Kitware/CMake/releases/download/v4.3.3/cmake-4.3.3.tar.gz
+    4.2.4       https://github.com/Kitware/CMake/releases/download/v4.2.4/cmake-4.2.4.tar.gz
+    4.2.3       https://github.com/Kitware/CMake/releases/download/v4.2.3/cmake-4.2.3.tar.gz
+    4.1.5       https://github.com/Kitware/CMake/releases/download/v4.1.5/cmake-4.1.5.tar.gz
+    4.0.6       https://github.com/Kitware/CMake/releases/download/v4.0.6/cmake-4.0.6.tar.gz
+    3.31.12     https://github.com/Kitware/CMake/releases/download/v3.31.12/cmake-3.31.12.tar.gz
+    3.31.11     https://github.com/Kitware/CMake/releases/download/v3.31.11/cmake-3.31.11.tar.gz
+    3.30.9      https://github.com/Kitware/CMake/releases/download/v3.30.9/cmake-3.30.9.tar.gz
+    3.29.6      https://github.com/Kitware/CMake/releases/download/v3.29.6/cmake-3.29.6.tar.gz
+    3.28.6      https://github.com/Kitware/CMake/releases/download/v3.28.6/cmake-3.28.6.tar.gz
+    3.27.9      https://github.com/Kitware/CMake/releases/download/v3.27.9/cmake-3.27.9.tar.gz
+    3.26.6      https://github.com/Kitware/CMake/releases/download/v3.26.6/cmake-3.26.6.tar.gz
+    3.25.3      https://github.com/Kitware/CMake/releases/download/v3.25.3/cmake-3.25.3.tar.gz
+    3.24.4      https://github.com/Kitware/CMake/releases/download/v3.24.4/cmake-3.24.4.tar.gz
+    3.23.5      https://github.com/Kitware/CMake/releases/download/v3.23.5/cmake-3.23.5.tar.gz
+    3.22.6      https://github.com/Kitware/CMake/releases/download/v3.22.6/cmake-3.22.6.tar.gz
+    3.21.7      https://github.com/Kitware/CMake/releases/download/v3.21.7/cmake-3.21.7.tar.gz
+    3.20.6      https://github.com/Kitware/CMake/releases/download/v3.20.6/cmake-3.20.6.tar.gz
+    3.19.8      https://github.com/Kitware/CMake/releases/download/v3.19.8/cmake-3.19.8.tar.gz
+    3.18.6      https://github.com/Kitware/CMake/releases/download/v3.18.6/cmake-3.18.6.tar.gz
+    3.17.5      https://github.com/Kitware/CMake/releases/download/v3.17.5/cmake-3.17.5.tar.gz
+    3.16.9      https://github.com/Kitware/CMake/releases/download/v3.16.9/cmake-3.16.9.tar.gz
+    3.15.7      https://github.com/Kitware/CMake/releases/download/v3.15.7/cmake-3.15.7.tar.gz
+    3.14.7      https://github.com/Kitware/CMake/releases/download/v3.14.7/cmake-3.14.7.tar.gz
+    3.13.5      https://github.com/Kitware/CMake/releases/download/v3.13.5/cmake-3.13.5.tar.gz
+    3.12.4      https://github.com/Kitware/CMake/releases/download/v3.12.4/cmake-3.12.4.tar.gz
+    3.11.4      https://github.com/Kitware/CMake/releases/download/v3.11.4/cmake-3.11.4.tar.gz
+    3.10.3      https://github.com/Kitware/CMake/releases/download/v3.10.3/cmake-3.10.3.tar.gz
+    3.9.6       https://github.com/Kitware/CMake/releases/download/v3.9.6/cmake-3.9.6.tar.gz
+    3.8.2       https://github.com/Kitware/CMake/releases/download/v3.8.2/cmake-3.8.2.tar.gz
+    3.7.2       https://github.com/Kitware/CMake/releases/download/v3.7.2/cmake-3.7.2.tar.gz
+    3.6.1       https://github.com/Kitware/CMake/releases/download/v3.6.1/cmake-3.6.1.tar.gz
+    3.5.2       https://github.com/Kitware/CMake/releases/download/v3.5.2/cmake-3.5.2.tar.gz
+    3.4.3       https://github.com/Kitware/CMake/releases/download/v3.4.3/cmake-3.4.3.tar.gz
+    3.3.1       https://github.com/Kitware/CMake/releases/download/v3.3.1/cmake-3.3.1.tar.gz
+    3.1.0       https://github.com/Kitware/CMake/releases/download/v3.1.0/cmake-3.1.0.tar.gz
+    3.0.2       https://github.com/Kitware/CMake/releases/download/v3.0.2/cmake-3.0.2.tar.gz
+    2.8.10.2    https://github.com/Kitware/CMake/releases/download/v2.8.10.2/cmake-2.8.10.2.tar.gz
+
+Deprecated versions:  
+    4.2.2       https://github.com/Kitware/CMake/releases/download/v4.2.2/cmake-4.2.2.tar.gz
+    4.2.0       https://github.com/Kitware/CMake/releases/download/v4.2.0/cmake-4.2.0.tar.gz
+    4.1.2       https://github.com/Kitware/CMake/releases/download/v4.1.2/cmake-4.1.2.tar.gz
+    4.1.1       https://github.com/Kitware/CMake/releases/download/v4.1.1/cmake-4.1.1.tar.gz
+    4.0.4       https://github.com/Kitware/CMake/releases/download/v4.0.4/cmake-4.0.4.tar.gz
+    3.31.9      https://github.com/Kitware/CMake/releases/download/v3.31.9/cmake-3.31.9.tar.gz
+
+Variants:
+    build_system [generic]        generic
+        Build systems supported by the package
+
+    build_type [Release]          Debug, MinSizeRel, RelWithDebInfo, Release
+        CMake build type
+
+    doc [false]                   false, true
+        Enables the generation of html and man page documentation
+
+    ncurses [true]                false, true
+      when platform=freebsd
+        Enables the build of the ncurses gui
+
+    ncurses [true]                false, true
+      when platform=linux
+        Enables the build of the ncurses gui
+
+    ncurses [true]                false, true
+      when platform=darwin
+        Enables the build of the ncurses gui
+
+    ownlibs [true]                false, true
+        Use CMake-provided third-party libraries
+
+    qtgui [false]                 false, true
+        Enables the build of the Qt GUI
+
+
+Dependencies:
+    c                                                 build
+
+    curl                                              build, link
+      when platform=linux
+
+    curl                                              build, link
+      when platform=darwin
+
+    curl                                              build, link
+      when platform=freebsd
+
+    curl                                              build, link
+      when ~ownlibs platform=windows
+
+    curl@:8.15                                        build, link
+      when @:3.25 platform=linux
+
+    curl@:8.15                                        build, link
+      when @:3.25 platform=darwin
+
+    curl@:8.15                                        build, link
+      when @:3.25 platform=freebsd
+
+    cxx                                               build
+
+    expat                                             build, link
+      when ~ownlibs
+
+    gmake                                             build, run
+      when platform=linux
+
+    gmake                                             build, run
+      when platform=darwin
+
+    gmake                                             build, run
+      when platform=freebsd
+
+    jsoncpp build_system=meson                        build, link
+      when @3.2:~ownlibs platform=darwin
+
+    jsoncpp build_system=meson                        build, link
+      when @3.2:~ownlibs platform=linux
+
+    jsoncpp build_system=meson                        build, link
+      when @3.2:~ownlibs platform=freebsd
+
+    libarchive@3.1.0: compression=bz2lib,lzma,zlib,zstd xar=expat
+                                                      build, link
+      when ~ownlibs platform=darwin
+
+    libarchive@3.1.0: compression=bz2lib,lzma,zlib,zstd xar=expat
+                                                      build, link
+      when ~ownlibs platform=linux
+
+    libarchive@3.1.0: compression=bz2lib,lzma,zlib,zstd xar=expat
+                                                      build, link
+      when ~ownlibs platform=freebsd
+
+    libarchive@3.3.3:                                 build, link
+      when @3.15.0:~ownlibs platform=darwin
+
+    libarchive@3.3.3:                                 build, link
+      when @3.15.0:~ownlibs platform=linux
+
+    libarchive@3.3.3:                                 build, link
+      when @3.15.0:~ownlibs platform=freebsd
+
+    libmng build_system=autotools                     build, link
+      when +qtgui platform=linux
+
+    libmng build_system=autotools                     build, link
+      when +qtgui platform=darwin
+
+    libmng build_system=autotools                     build, link
+      when +qtgui platform=freebsd
+
+    libuv@1.0.0:1.10                                  build, link
+      when @3.7.0:3.10.3~ownlibs platform=darwin
+
+    libuv@1.0.0:1.10                                  build, link
+      when @3.7.0:3.10.3~ownlibs platform=linux
+
+    libuv@1.0.0:1.10                                  build, link
+      when @3.7.0:3.10.3~ownlibs platform=freebsd
+
+    libuv@1.10.0:1.10                                 build, link
+      when @3.11.0:3.11~ownlibs platform=darwin
+
+    libuv@1.10.0:1.10                                 build, link
+      when @3.11.0:3.11~ownlibs platform=linux
+
+    libuv@1.10.0:1.10                                 build, link
+      when @3.11.0:3.11~ownlibs platform=freebsd
+
+    libuv@1.10.0:                                     build, link
+      when @3.12.0:~ownlibs platform=darwin
+
+    libuv@1.10.0:                                     build, link
+      when @3.12.0:~ownlibs platform=linux
+
+    libuv@1.10.0:                                     build, link
+      when @3.12.0:~ownlibs platform=freebsd
+
+    ncurses                                           build, link
+      when +ncurses
+
+    ninja                                             build, link
+      when platform=windows
+
+    py-sphinx                                         build
+      when +doc
+
+    python@2.7.11:                                    build
+      when +doc
+
+    qt                                                build, link
+      when +qtgui
+
+    rhash                                             build, link
+      when @3.8.0:~ownlibs platform=darwin
+
+    rhash                                             build, link
+      when @3.8.0:~ownlibs platform=linux
+
+    rhash                                             build, link
+      when @3.8.0:~ownlibs platform=freebsd
+
+    zlib-api                                          build, link
+      when platform=linux
+
+    zlib-api                                          build, link
+      when platform=darwin
+
+    zlib-api                                          build, link
+      when platform=freebsd
+
+    zlib-api                                          build, link
+      when ~ownlibs platform=windows
+
+
+Licenses:
+    BSD-3-Clause
+
+
+==> cmake has many complex dependencies; consider this for a simpler view:
+  spack info cmake+ownlibs
+

@@ -1,0 +1,1 @@
+[+] jaab3zz cmake@3.31.12 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/cmake-3.31.12-jaab3zzqx7tblwnlniedxqfitwh27bha (0s)

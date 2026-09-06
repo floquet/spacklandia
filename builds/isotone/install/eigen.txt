@@ -1,0 +1,46 @@
+[ ] r4m2puh eigen@5.0.1 staging (0s)
+[ ] r4m2puh eigen@5.0.1 cmake (1s)
+[x] r4m2puh eigen@5.0.1 failed: /var/tmp/dantopa/spack-stage/spack-stage-eigen-5.0.1-r4m2puh55zelfe4j2lnlvvtknok2sejj-f0f60xhz.log (1s)
+-- lines 4 to 16 --
+  -- The C compiler identification is unknown
+  -- The CXX compiler identification is unknown
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - failed
+  -- Check for working C compiler: /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc
+  -- Check for working C compiler: /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc - broken
+> CMake Error at /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/cmake-3.31.12-jaab3zzqx7tblwnlniedxqfitwh27bha/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:67 (message):
+    The C compiler
+  
+      "/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc"
+  
+    is not able to compile a simple test program.
+  
+-- lines 20 to 45 --
+  
+      Run Build Command(s): /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/cmake-3.31.12-jaab3zzqx7tblwnlniedxqfitwh27bha/bin/cmake -E env VERBOSE=1 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gmake-4.4.1-mkyma5432d3gsulsfbayigyxf2ftrhen/bin/gmake -f Makefile cmTC_54e26/fast
+      /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gmake-4.4.1-mkyma5432d3gsulsfbayigyxf2ftrhen/bin/gmake  -f CMakeFiles/cmTC_54e26.dir/build.make CMakeFiles/cmTC_54e26.dir/build
+      gmake[1]: Entering directory '/var/tmp/dantopa/spack-stage/spack-stage-eigen-5.0.1-r4m2puh55zelfe4j2lnlvvtknok2sejj/spack-build-r4m2puh/CMakeFiles/CMakeScratch/TryCompile-J5WJMK'
+      Building C object CMakeFiles/cmTC_54e26.dir/testCCompiler.c.o
+      /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc    -o CMakeFiles/cmTC_54e26.dir/testCCompiler.c.o -c /var/tmp/dantopa/spack-stage/spack-stage-eigen-5.0.1-r4m2puh55zelfe4j2lnlvvtknok2sejj/spack-build-r4m2puh/CMakeFiles/CMakeScratch/TryCompile-J5WJMK/testCCompiler.c
+>     /var/tmp/dantopa/spack-stage/spack-stage-eigen-5.0.1-r4m2puh55zelfe4j2lnlvvtknok2sejj/spack-build-r4m2puh/CMakeFiles/CMakeScratch/TryCompile-J5WJMK/testCCompiler.c:11:1: fatal error: error closing /tmp/ccjFsQVU.s: Disk quota exceeded
+         11 | { (void)argv; return argc-1;}
+            | ^
+      compilation terminated.
+>     gmake[1]: *** [CMakeFiles/cmTC_54e26.dir/build.make:81: CMakeFiles/cmTC_54e26.dir/testCCompiler.c.o] Error 1
+      gmake[1]: Leaving directory '/var/tmp/dantopa/spack-stage/spack-stage-eigen-5.0.1-r4m2puh55zelfe4j2lnlvvtknok2sejj/spack-build-r4m2puh/CMakeFiles/CMakeScratch/TryCompile-J5WJMK'
+>     gmake: *** [Makefile:134: cmTC_54e26/fast] Error 2
+  
+  
+  
+  
+  
+    CMake will not be able to correctly generate this project.
+  Call Stack (most recent call first):
+    CMakeLists.txt:41 (project)
+  
+  
+  -- Configuring incomplete, errors occurred!
+  Command exited with status 1:
+      /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/cmake-3.31.12-jaab3zzqx7tblwnlniedxqfitwh27bha/bin/cmake -G 'Unix Makefiles' -DCMAKE_INSTALL_PREFIX:STRING=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/eigen-5.0.1-r4m2puh55zelfe4j2lnlvvtknok2sejj -DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON '-DCMAKE_INSTALL_RPATH:STRING=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/eigen-5.0.1-r4m2puh55zelfe4j2lnlvvtknok2sejj/lib;/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/eigen-5.0.1-r4m2puh55zelfe4j2lnlvvtknok2sejj/lib64' '-DCMAKE_PREFIX_PATH:STRING=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/cmake-3.31.12-jaab3zzqx7tblwnlniedxqfitwh27bha;/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r;/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gcc-runtime-16.0.1-ucq2opimto2x34zcrvdlow55lnwhuhnj;/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gmake-4.4.1-mkyma5432d3gsulsfbayigyxf2ftrhen' -DCMAKE_BUILD_TYPE:STRING=Release -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON -DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF -DCMAKE_POLICY_DEFAULT_CMP0090:STRING=NEW -DCMAKE_FIND_USE_PACKAGE_REGISTRY:BOOL=OFF -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON -DEIGEN_BUILD_TESTING:BOOL=OFF -DEIGEN_LEAVE_TEST_IN_ALL_TARGET:BOOL=OFF -DEIGEN_BUILD_BLAS:BOOL=OFF -DEIGEN_BUILD_LAPACK:BOOL=OFF /var/tmp/dantopa/spack-stage/spack-stage-eigen-5.0.1-r4m2puh55zelfe4j2lnlvvtknok2sejj/spack-src
+==> Error: The following packages failed to install:
+eigen@5.0.1/r4m2puh55zelfe4j2lnlvvtknok2sejj: /var/tmp/dantopa/spack-stage/spack-stage-eigen-5.0.1-r4m2puh55zelfe4j2lnlvvtknok2sejj-f0f60xhz.log

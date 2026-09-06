@@ -1,0 +1,2 @@
+-- linux-ubuntu26.04-skylake / no compilers ---------------------
+meson@1.11.1

@@ -1,0 +1,101 @@
+AutotoolsPackage:   valgrind
+
+Description:
+    An instrumentation framework for building dynamic analysis. There are
+    Valgrind tools that can automatically detect many memory management and
+    threading bugs, and profile your programs in detail. You can also use
+    Valgrind to build new tools. Valgrind is Open Source / Free Software,
+    and is freely available under the GNU General Public License, version 2.
+
+Homepage: https://valgrind.org/
+
+Preferred version:  
+    3.27.1     https://sourceware.org/pub/valgrind/valgrind-3.27.1.tar.bz2
+
+Safe versions:  
+    develop    [git] git://sourceware.org/git/valgrind.git on branch master
+    3.27.1     https://sourceware.org/pub/valgrind/valgrind-3.27.1.tar.bz2
+    3.26.0     https://sourceware.org/pub/valgrind/valgrind-3.26.0.tar.bz2
+    3.25.1     https://sourceware.org/pub/valgrind/valgrind-3.25.1.tar.bz2
+    3.24.0     https://sourceware.org/pub/valgrind/valgrind-3.24.0.tar.bz2
+    3.23.0     https://sourceware.org/pub/valgrind/valgrind-3.23.0.tar.bz2
+    3.22.0     https://sourceware.org/pub/valgrind/valgrind-3.22.0.tar.bz2
+    3.21.0     https://sourceware.org/pub/valgrind/valgrind-3.21.0.tar.bz2
+    3.20.0     https://sourceware.org/pub/valgrind/valgrind-3.20.0.tar.bz2
+    3.19.0     https://sourceware.org/pub/valgrind/valgrind-3.19.0.tar.bz2
+    3.18.1     https://sourceware.org/pub/valgrind/valgrind-3.18.1.tar.bz2
+    3.18.0     https://sourceware.org/pub/valgrind/valgrind-3.18.0.tar.bz2
+    3.17.0     https://sourceware.org/pub/valgrind/valgrind-3.17.0.tar.bz2
+    3.16.1     https://sourceware.org/pub/valgrind/valgrind-3.16.1.tar.bz2
+    3.15.0     https://sourceware.org/pub/valgrind/valgrind-3.15.0.tar.bz2
+    3.14.0     https://sourceware.org/pub/valgrind/valgrind-3.14.0.tar.bz2
+    3.13.0     https://sourceware.org/pub/valgrind/valgrind-3.13.0.tar.bz2
+    3.12.0     https://sourceware.org/pub/valgrind/valgrind-3.12.0.tar.bz2
+    3.11.0     https://sourceware.org/pub/valgrind/valgrind-3.11.0.tar.bz2
+    3.10.1     https://sourceware.org/pub/valgrind/valgrind-3.10.1.tar.bz2
+    3.10.0     https://sourceware.org/pub/valgrind/valgrind-3.10.0.tar.bz2
+
+Deprecated versions:  
+    None
+
+Variants:
+    boost [true]                    false, true
+        Activates boost support for valgrind
+
+    build_system [autotools]        autotools
+        Build systems supported by the package
+
+    libs [shared,static]            shared, static
+        Build shared libs, static libs or both
+
+    mpi [true]                      false, true
+        Activates MPI support for valgrind
+
+    only64bit [true]                false, true
+        Sets --enable-only64bit option for valgrind
+
+    ubsan [false]                   false, true
+        Activates ubsan support for valgrind
+
+
+Dependencies:
+    autoconf                                          build
+      when @develop
+
+    automake                                          build
+      when @develop
+
+    boost+atomic+chrono+exception+system+thread       build, link
+      when +boost
+
+    c                                                 build
+
+    cxx                                               build
+
+    gmake                                             build
+      when build_system=autotools
+
+    gnuconfig                                         build
+      when build_system=autotools target=ppc64le:
+
+    gnuconfig                                         build
+      when build_system=autotools target=aarch64:
+
+    gnuconfig                                         build
+      when build_system=autotools target=riscv64:
+
+    libtool                                           build
+      when @develop
+
+    mpi                                               build, link
+      when +mpi
+
+
+Licenses:
+    GPL-3.0-only
+      when @3.26:
+
+    GPL-2.0-or-later
+      when @:3.25
+
+

@@ -1,0 +1,2 @@
+-- linux-ubuntu26.04-skylake / %c=gcc@16.0.1 --------------------
+pkgconf@2.5.1

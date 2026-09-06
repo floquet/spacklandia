@@ -1,0 +1,1 @@
+[+] 34zvrca pkgconf@2.5.1 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/pkgconf-2.5.1-34zvrca6lveickopvtlbrswlnb5lf2i4 (0s)

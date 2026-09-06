@@ -1,0 +1,6 @@
+ninja
+py-pip
+py-setuptools
+py-wheel
+python
+python-venv

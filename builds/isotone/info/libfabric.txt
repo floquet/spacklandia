@@ -1,0 +1,399 @@
+AutotoolsPackage:   libfabric
+
+Description:
+    The Open Fabrics Interfaces (OFI) is a framework focused on exporting
+    fabric communication services to applications.
+
+Homepage: https://libfabric.org/
+
+Preferred version:  
+    2.6.0     https://github.com/ofiwg/libfabric/releases/download/v2.6.0/libfabric-2.6.0.tar.bz2
+
+Safe versions:  
+    main      [git] https://github.com/ofiwg/libfabric.git on branch main
+    2.6.0     https://github.com/ofiwg/libfabric/releases/download/v2.6.0/libfabric-2.6.0.tar.bz2
+    2.5.1     https://github.com/ofiwg/libfabric/releases/download/v2.5.1/libfabric-2.5.1.tar.bz2
+    2.5.0     https://github.com/ofiwg/libfabric/releases/download/v2.5.0/libfabric-2.5.0.tar.bz2
+    2.4.0     https://github.com/ofiwg/libfabric/releases/download/v2.4.0/libfabric-2.4.0.tar.bz2
+    2.3.1     https://github.com/ofiwg/libfabric/releases/download/v2.3.1/libfabric-2.3.1.tar.bz2
+    2.3.0     https://github.com/ofiwg/libfabric/releases/download/v2.3.0/libfabric-2.3.0.tar.bz2
+    2.2.0     https://github.com/ofiwg/libfabric/releases/download/v2.2.0/libfabric-2.2.0.tar.bz2
+    2.1.0     https://github.com/ofiwg/libfabric/releases/download/v2.1.0/libfabric-2.1.0.tar.bz2
+    2.0.0     https://github.com/ofiwg/libfabric/releases/download/v2.0.0/libfabric-2.0.0.tar.bz2
+    1.22.0    https://github.com/ofiwg/libfabric/releases/download/v1.22.0/libfabric-1.22.0.tar.bz2
+    1.21.1    https://github.com/ofiwg/libfabric/releases/download/v1.21.1/libfabric-1.21.1.tar.bz2
+    1.21.0    https://github.com/ofiwg/libfabric/releases/download/v1.21.0/libfabric-1.21.0.tar.bz2
+    1.20.2    https://github.com/ofiwg/libfabric/releases/download/v1.20.2/libfabric-1.20.2.tar.bz2
+    1.20.1    https://github.com/ofiwg/libfabric/releases/download/v1.20.1/libfabric-1.20.1.tar.bz2
+    1.20.0    https://github.com/ofiwg/libfabric/releases/download/v1.20.0/libfabric-1.20.0.tar.bz2
+    1.19.1    https://github.com/ofiwg/libfabric/releases/download/v1.19.1/libfabric-1.19.1.tar.bz2
+    1.19.0    https://github.com/ofiwg/libfabric/releases/download/v1.19.0/libfabric-1.19.0.tar.bz2
+    1.18.2    https://github.com/ofiwg/libfabric/releases/download/v1.18.2/libfabric-1.18.2.tar.bz2
+    1.18.1    https://github.com/ofiwg/libfabric/releases/download/v1.18.1/libfabric-1.18.1.tar.bz2
+    1.18.0    https://github.com/ofiwg/libfabric/releases/download/v1.18.0/libfabric-1.18.0.tar.bz2
+    1.17.1    https://github.com/ofiwg/libfabric/releases/download/v1.17.1/libfabric-1.17.1.tar.bz2
+    1.17.0    https://github.com/ofiwg/libfabric/releases/download/v1.17.0/libfabric-1.17.0.tar.bz2
+    1.16.1    https://github.com/ofiwg/libfabric/releases/download/v1.16.1/libfabric-1.16.1.tar.bz2
+    1.16.0    https://github.com/ofiwg/libfabric/releases/download/v1.16.0/libfabric-1.16.0.tar.bz2
+    1.15.2    https://github.com/ofiwg/libfabric/releases/download/v1.15.2/libfabric-1.15.2.tar.bz2
+    1.15.1    https://github.com/ofiwg/libfabric/releases/download/v1.15.1/libfabric-1.15.1.tar.bz2
+    1.15.0    https://github.com/ofiwg/libfabric/releases/download/v1.15.0/libfabric-1.15.0.tar.bz2
+    1.14.1    https://github.com/ofiwg/libfabric/releases/download/v1.14.1/libfabric-1.14.1.tar.bz2
+    1.14.0    https://github.com/ofiwg/libfabric/releases/download/v1.14.0/libfabric-1.14.0.tar.bz2
+    1.13.2    https://github.com/ofiwg/libfabric/releases/download/v1.13.2/libfabric-1.13.2.tar.bz2
+    1.13.1    https://github.com/ofiwg/libfabric/releases/download/v1.13.1/libfabric-1.13.1.tar.bz2
+    1.12.1    https://github.com/ofiwg/libfabric/releases/download/v1.12.1/libfabric-1.12.1.tar.bz2
+    1.12.0    https://github.com/ofiwg/libfabric/releases/download/v1.12.0/libfabric-1.12.0.tar.bz2
+    1.11.2    https://github.com/ofiwg/libfabric/releases/download/v1.11.2/libfabric-1.11.2.tar.bz2
+    1.11.1    https://github.com/ofiwg/libfabric/releases/download/v1.11.1/libfabric-1.11.1.tar.bz2
+    1.11.0    https://github.com/ofiwg/libfabric/releases/download/v1.11.0/libfabric-1.11.0.tar.bz2
+    1.10.1    https://github.com/ofiwg/libfabric/releases/download/v1.10.1/libfabric-1.10.1.tar.bz2
+    1.10.0    https://github.com/ofiwg/libfabric/releases/download/v1.10.0/libfabric-1.10.0.tar.bz2
+    1.9.1     https://github.com/ofiwg/libfabric/releases/download/v1.9.1/libfabric-1.9.1.tar.bz2
+    1.9.0     https://github.com/ofiwg/libfabric/releases/download/v1.9.0/libfabric-1.9.0.tar.bz2
+    1.8.1     https://github.com/ofiwg/libfabric/releases/download/v1.8.1/libfabric-1.8.1.tar.bz2
+    1.8.0     https://github.com/ofiwg/libfabric/releases/download/v1.8.0/libfabric-1.8.0.tar.bz2
+    1.7.1     https://github.com/ofiwg/libfabric/releases/download/v1.7.1/libfabric-1.7.1.tar.bz2
+    1.7.0     https://github.com/ofiwg/libfabric/releases/download/v1.7.0/libfabric-1.7.0.tar.bz2
+    1.6.2     https://github.com/ofiwg/libfabric/releases/download/v1.6.2/libfabric-1.6.2.tar.bz2
+    1.6.1     https://github.com/ofiwg/libfabric/releases/download/v1.6.1/libfabric-1.6.1.tar.bz2
+    1.6.0     https://github.com/ofiwg/libfabric/releases/download/v1.6.0/libfabric-1.6.0.tar.bz2
+    1.5.3     https://github.com/ofiwg/libfabric/releases/download/v1.5.3/libfabric-1.5.3.tar.bz2
+    1.5.0     https://github.com/ofiwg/libfabric/releases/download/v1.5.0/libfabric-1.5.0.tar.bz2
+    1.4.2     https://github.com/ofiwg/libfabric/releases/download/v1.4.2/libfabric-1.4.2.tar.bz2
+
+Deprecated versions:  
+    None
+
+Variants:
+    amdgpu_target [none]             none, gfx1010, gfx1011, gfx1012, gfx1013,
+                                     gfx1030, gfx1031, gfx1032, gfx1033,
+                                     gfx1034, gfx1035, gfx1036, gfx1100,
+                                     gfx1101, gfx1102, gfx1103, gfx1150,
+                                     gfx1151, gfx1152, gfx1153, gfx1200,
+                                     gfx1201, gfx1250, gfx1251, gfx701,
+                                     gfx801, gfx802, gfx803, gfx900,
+                                     gfx900:xnack-, gfx902, gfx904, gfx906,
+                                     gfx906:xnack-, gfx908, gfx908:xnack-,
+                                     gfx909, gfx90a, gfx90a:xnack+,
+                                     gfx90a:xnack-, gfx90c, gfx940, gfx941,
+                                     gfx942, gfx950
+      when +rocm
+        AMD GPU architecture
+
+    asan [false]                     false, true
+      when @1.12:
+        Enable AddressSanitizer (ASan)
+
+    build_system [autotools]         autotools
+        Build systems supported by the package
+
+    cuda [false]                     false, true
+        Build with CUDA
+
+    cuda_arch [none]                 none, 10, 100, 100a, 100f, 101, 101a,
+                                     101f, 103, 103a, 103f, 11, 110, 110a,
+                                     110f, 12, 120, 120a, 120f, 121, 121a,
+                                     121f, 13, 20, 21, 30, 32, 35, 37, 50, 52,
+                                     53, 60, 61, 62, 70, 72, 75, 80, 86, 87,
+                                     89, 90, 90a
+      when +cuda
+        CUDA architecture
+
+    cuda_dlopen [false]              false, true
+      when +cuda
+        Enable dlopen of CUDA libraries
+
+    debug [false]                    false, true
+        Enable debugging
+
+    fabrics [sockets,tcp,udp]        cxi, efa, gni, lnx, mlx, mrail, opx, psm,
+                                     psm2, psm3, rxd, rxm, shm, sockets, tcp,
+                                     ucx, udp, usnic, verbs, xpmem
+        A list of enabled fabrics
+
+    gdrcopy [false]                  false, true
+      when @1.12:+cuda
+        Enable gdrcopy support
+
+    gdrcopy_dlopen [false]           false, true
+      when +gdrcopy
+        Enable dlopen of gdr libraries
+
+    kdreg [false]                    false, true
+        Enable kdreg2 on supported Cray platforms
+
+    level_zero [false]               false, true
+        Enable Level Zero support
+
+    lsan [false]                     false, true
+      when @1.20:
+        Enable LeakSanitizer (LSan)
+
+    rocm [false]                     false, true
+        Enable ROCm support
+
+    tsan [false]                     false, true
+      when @1.20:
+        Enable ThreadSanitizer (TSan)
+
+    ubsan [false]                    false, true
+      when @1.20:
+        Enable UndefinedBehaviorSanitizer (UBSan)
+
+    uring [false]                    false, true
+      when @1.17.0:
+        Enable uring support
+
+
+Dependencies:
+    autoconf                  build
+      when @main
+
+    automake                  build
+      when @main
+
+    c                         build
+
+    cassini-headers           build, link
+      when fabrics=cxi
+
+    cuda                      build, link
+      when +cuda
+
+    cuda@:6.0                 build, link
+      when cuda_arch=10
+
+    cuda@:6.5                 build, link
+      when cuda_arch=11
+
+    cuda@2.1:6.5              build, link
+      when cuda_arch=12
+
+    cuda@2.1:6.5              build, link
+      when cuda_arch=13
+
+    cuda@3.0:8.0              build, link
+      when cuda_arch=20
+
+    cuda@3.2:8.0              build, link
+      when cuda_arch=21
+
+    cuda@5.0:10.2             build, link
+      when cuda_arch=30
+
+    cuda@5.0:10.2             build, link
+      when cuda_arch=32
+
+    cuda@5.0:11.8             build, link
+      when cuda_arch=35
+
+    cuda@6.0:12.9             build, link
+      when cuda_arch=50
+
+    cuda@6.5:11.8             build, link
+      when cuda_arch=37
+
+    cuda@6.5:12.9             build, link
+      when cuda_arch=52
+
+    cuda@6.5:12.9             build, link
+      when cuda_arch=53
+
+    cuda@8.0:12.9             build, link
+      when cuda_arch=60
+
+    cuda@8.0:12.9             build, link
+      when cuda_arch=61
+
+    cuda@8.0:12.9             build, link
+      when cuda_arch=62
+
+    cuda@9.0:12.9             build, link
+      when cuda_arch=70
+
+    cuda@9.0:                 build, link
+      when cuda_arch=72
+
+    cuda@10.0:                build, link
+      when cuda_arch=75
+
+    cuda@11.0:                build, link
+      when cuda_arch=80
+
+    cuda@11.1:                build, link
+      when cuda_arch=86
+
+    cuda@11.4:                build, link
+      when cuda_arch=87
+
+    cuda@11.8:                build, link
+      when cuda_arch=89
+
+    cuda@12.0:                build, link
+      when cuda_arch=90
+
+    cuda@12.0:                build, link
+      when cuda_arch=90a
+
+    cuda@12.8:12.9            build, link
+      when cuda_arch=101
+
+    cuda@12.8:12.9            build, link
+      when cuda_arch=101a
+
+    cuda@12.8:                build, link
+      when cuda_arch=100
+
+    cuda@12.8:                build, link
+      when cuda_arch=100a
+
+    cuda@12.8:                build, link
+      when cuda_arch=120
+
+    cuda@12.8:                build, link
+      when cuda_arch=120a
+
+    cuda@12.9                 build, link
+      when cuda_arch=101f
+
+    cuda@12.9:                build, link
+      when cuda_arch=100f
+
+    cuda@12.9:                build, link
+      when cuda_arch=103
+
+    cuda@12.9:                build, link
+      when cuda_arch=103a
+
+    cuda@12.9:                build, link
+      when cuda_arch=103f
+
+    cuda@12.9:                build, link
+      when cuda_arch=120f
+
+    cuda@12.9:                build, link
+      when cuda_arch=121
+
+    cuda@12.9:                build, link
+      when cuda_arch=121a
+
+    cuda@12.9:                build, link
+      when cuda_arch=121f
+
+    cuda@13.0:                build, link
+      when cuda_arch=110
+
+    cuda@13.0:                build, link
+      when cuda_arch=110a
+
+    cuda@13.0:                build, link
+      when cuda_arch=110f
+
+    curl                      build, link
+      when fabrics=cxi
+
+    cxi-driver                build, link
+      when fabrics=cxi
+
+    gdrcopy                   build, link
+      when +gdrcopy
+
+    gmake                     build
+      when build_system=autotools
+
+    gnuconfig                 build
+      when build_system=autotools target=ppc64le:
+
+    gnuconfig                 build
+      when build_system=autotools target=aarch64:
+
+    gnuconfig                 build
+      when build_system=autotools target=riscv64:
+
+    hip+rocm                  build, link
+      when +rocm
+
+    hsa-rocr-dev              build, link
+      when +rocm
+
+    json-c                    build, link
+      when fabrics=cxi
+
+    libcxi                    build, link
+      when fabrics=cxi
+
+    libcxi@14:                build, link
+      when @2.5.0 fabrics=cxi
+
+    libtool                   build
+      when @main
+
+    liburing@2.1:             build, link
+      when +uring
+
+    llvm-amdgpu               build
+      when +rocm
+
+    llvm-amdgpu@5.2.0:        build, link
+      when amdgpu_target=gfx940
+
+    llvm-amdgpu@5.2.0:        build, link
+      when amdgpu_target=gfx1036
+
+    llvm-amdgpu@5.3.0:        build, link
+      when amdgpu_target=gfx1100
+
+    llvm-amdgpu@5.3.0:        build, link
+      when amdgpu_target=gfx1101
+
+    llvm-amdgpu@5.3.0:        build, link
+      when amdgpu_target=gfx1102
+
+    llvm-amdgpu@5.3.0:        build, link
+      when amdgpu_target=gfx1103
+
+    llvm-amdgpu@5.7.0:        build, link
+      when amdgpu_target=gfx941
+
+    llvm-amdgpu@5.7.0:        build, link
+      when amdgpu_target=gfx942
+
+    m4                        build
+      when @main
+
+    numactl                   build, link
+      when fabrics=opx
+
+    oneapi-level-zero         build, link
+      when +level_zero
+
+    opa-psm2                  build, link
+      when fabrics=psm2
+
+    psm                       build, link
+      when fabrics=psm
+
+    rdma-core                 build, link
+      when fabrics=verbs
+
+    rdma-core                 build, link
+      when @1.10.0: fabrics=efa
+
+    ucx                       build, link
+      when fabrics=mlx
+
+    ucx                       build, link
+      when @1.18.0: fabrics=ucx
+
+    uuid                      build, link
+      when fabrics=opx
+
+    xpmem                     build, link
+      when fabrics=xpmem
+
+
+Licenses:
+    BSD-2-Clause OR GPL-2.0-only
+
+
