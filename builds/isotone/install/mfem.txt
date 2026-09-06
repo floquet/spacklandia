@@ -1,43 +1,43 @@
 [ ] i24adbm libpciaccess@0.17 staging (0s)
-[ ] syauj64 file@5.46 staging (0s)
 [ ] kbmqata libevent@2.1.12 staging (0s)
+[ ] syauj64 file@5.46 staging (0s)
 [ ] s4wbwui libedit@3.1-20251016 staging (0s)
 [ ] qxobt7d m4@1.4.21 staging (0s)
 [ ] wom6nux libxcrypt@4.5.2 staging (0s)
 [ ] i24adbm libpciaccess@0.17 autoreconf (0s)
 [ ] i24adbm libpciaccess@0.17 configure (0s)
-[ ] s4wbwui libedit@3.1-20251016 autoreconf (0s)
-[ ] s4wbwui libedit@3.1-20251016 configure (0s)
-[ ] 6heiqlp metis@5.1.0 staging (0s)
-[ ] jplcnbx findutils@4.10.0 staging (0s)
-[ ] syauj64 file@5.46 autoreconf (0s)
-[ ] syauj64 file@5.46 configure (0s)
-[ ] kbmqata libevent@2.1.12 autoreconf (0s)
-[ ] kbmqata libevent@2.1.12 configure (0s)
-[ ] wom6nux libxcrypt@4.5.2 autoreconf (0s)
-[ ] wom6nux libxcrypt@4.5.2 configure (0s)
+[ ] s4wbwui libedit@3.1-20251016 autoreconf (1s)
+[ ] s4wbwui libedit@3.1-20251016 configure (1s)
+[ ] kbmqata libevent@2.1.12 autoreconf (1s)
+[ ] kbmqata libevent@2.1.12 configure (1s)
+[ ] jplcnbx findutils@4.10.0 staging (1s)
+[ ] 6heiqlp metis@5.1.0 staging (1s)
+[ ] syauj64 file@5.46 autoreconf (1s)
+[ ] syauj64 file@5.46 configure (1s)
+[ ] wom6nux libxcrypt@4.5.2 autoreconf (1s)
+[ ] wom6nux libxcrypt@4.5.2 configure (1s)
 [ ] qxobt7d m4@1.4.21 autoreconf (1s)
 [ ] qxobt7d m4@1.4.21 configure (1s)
 [ ] 6heiqlp metis@5.1.0 cmake (1s)
 [ ] jplcnbx findutils@4.10.0 autoreconf (1s)
 [ ] jplcnbx findutils@4.10.0 configure (1s)
 [ ] uxquprd openblas@0.3.34 staging (1s)
-[x] s4wbwui libedit@3.1-20251016 failed: /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du-cqh69h0_.log (1s)
-[x] i24adbm libpciaccess@0.17 failed: /var/tmp/dantopa/spack-stage/spack-stage-libpciaccess-0.17-i24adbment5laku45odxcz7dhmgrm7ps-pbb5s82y.log (2s)
+[x] s4wbwui libedit@3.1-20251016 failed: /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du-lp2zo0lf.log (1s)
+[x] i24adbm libpciaccess@0.17 failed: /var/tmp/dantopa/spack-stage/spack-stage-libpciaccess-0.17-i24adbment5laku45odxcz7dhmgrm7ps-ahf3ma7y.log (2s)
 [ ] uxquprd openblas@0.3.34 edit (2s)
 [ ] uxquprd openblas@0.3.34 build (2s)
-[x] kbmqata libevent@2.1.12 failed: /var/tmp/dantopa/spack-stage/spack-stage-libevent-2.1.12-kbmqataog5sjr55lmwtteudg2hp5ua66-l62f39z4.log (2s)
-[x] syauj64 file@5.46 failed: /var/tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n-adduq_1z.log (2s)
-[x] qxobt7d m4@1.4.21 failed: /var/tmp/dantopa/spack-stage/spack-stage-m4-1.4.21-qxobt7dodmyai3yhin37umsnjoj4jphg-adsa1ipe.log (2s)
-[x] jplcnbx findutils@4.10.0 failed: /var/tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7-qsbtkqw7.log (2s)
-[x] wom6nux libxcrypt@4.5.2 failed: /var/tmp/dantopa/spack-stage/spack-stage-libxcrypt-4.5.2-wom6nuxi2yj4v3phjqs7aimgm5ofdzqv-qzb5q36v.log (2s)
-[x] 6heiqlp metis@5.1.0 failed: /var/tmp/dantopa/spack-stage/spack-stage-metis-5.1.0-6heiqlpcubefp5cy4xcj5y7rxtrny2ui-wxkzi_ag.log (2s)
-[x] uxquprd openblas@0.3.34 failed: /var/tmp/dantopa/spack-stage/spack-stage-openblas-0.3.34-uxquprdvkgrzexkkanw75v3clxhpttdv-pnnzpf8k.log (2s)
+[x] kbmqata libevent@2.1.12 failed: /var/tmp/dantopa/spack-stage/spack-stage-libevent-2.1.12-kbmqataog5sjr55lmwtteudg2hp5ua66-xmgzaers.log (2s)
+[x] syauj64 file@5.46 failed: /var/tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n-plro9w2t.log (2s)
+[x] qxobt7d m4@1.4.21 failed: /var/tmp/dantopa/spack-stage/spack-stage-m4-1.4.21-qxobt7dodmyai3yhin37umsnjoj4jphg-6y6gs7kl.log (2s)
+[x] jplcnbx findutils@4.10.0 failed: /var/tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7-ppabp_p6.log (2s)
+[x] wom6nux libxcrypt@4.5.2 failed: /var/tmp/dantopa/spack-stage/spack-stage-libxcrypt-4.5.2-wom6nuxi2yj4v3phjqs7aimgm5ofdzqv-t5yztojg.log (2s)
+[x] 6heiqlp metis@5.1.0 failed: /var/tmp/dantopa/spack-stage/spack-stage-metis-5.1.0-6heiqlpcubefp5cy4xcj5y7rxtrny2ui-jnete38j.log (2s)
+[x] uxquprd openblas@0.3.34 failed: /var/tmp/dantopa/spack-stage/spack-stage-openblas-0.3.34-uxquprdvkgrzexkkanw75v3clxhpttdv-vpc1z_h4.log (2s)
 -- lines 8 to 18 --
-  ==> [2026-09-06-14:17:24.419673] FILTER FILE: /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du/spack-src/configure [replacing "^(\s*test x-R = )("\$p")(; then\s*)$"]
-  ==> [2026-09-06-14:17:24.474716] FILTER FILE: /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du/spack-src/configure [replacing "^(\s*test \$p = "-R")(; then\s*)$"]
-  ==> [2026-09-06-14:17:24.535914] FILTER FILE: /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du/spack-src/configure [replacing "lt_cv_apple_cc_single_mod=no"]
-  ==> [2026-09-06-14:17:24.568609] /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du ac_cv_lib_curses_tgetent=no ac_cv_lib_termcap_tgetent=no ac_cv_lib_ncurses_tgetent=no
+  ==> [2026-09-06-16:24:55.570641] FILTER FILE: /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du/spack-src/configure [replacing "^(\s*test x-R = )("\$p")(; then\s*)$"]
+  ==> [2026-09-06-16:24:55.617940] FILTER FILE: /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du/spack-src/configure [replacing "^(\s*test \$p = "-R")(; then\s*)$"]
+  ==> [2026-09-06-16:24:55.670363] FILTER FILE: /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du/spack-src/configure [replacing "lt_cv_apple_cc_single_mod=no"]
+  ==> [2026-09-06-16:24:55.725015] /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du ac_cv_lib_curses_tgetent=no ac_cv_lib_termcap_tgetent=no ac_cv_lib_ncurses_tgetent=no
   checking for gcc... /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc
   checking whether the C compiler works... no
 > configure: error: in '/var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du/spack-src':
@@ -133,18 +133,18 @@
   
 -- lines 33 to 58 --
   
-      Run Build Command(s): /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/cmake-3.31.12-jaab3zzqx7tblwnlniedxqfitwh27bha/bin/cmake -E env VERBOSE=1 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gmake-4.4.1-mkyma5432d3gsulsfbayigyxf2ftrhen/bin/gmake -f Makefile cmTC_8a1b4/fast
-      /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gmake-4.4.1-mkyma5432d3gsulsfbayigyxf2ftrhen/bin/gmake  -f CMakeFiles/cmTC_8a1b4.dir/build.make CMakeFiles/cmTC_8a1b4.dir/build
-      gmake[1]: Entering directory '/var/tmp/dantopa/spack-stage/spack-stage-metis-5.1.0-6heiqlpcubefp5cy4xcj5y7rxtrny2ui/spack-build-6heiqlp/CMakeFiles/CMakeScratch/TryCompile-BGpBdw'
-      Building C object CMakeFiles/cmTC_8a1b4.dir/testCCompiler.c.o
-      /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc    -o CMakeFiles/cmTC_8a1b4.dir/testCCompiler.c.o -c /var/tmp/dantopa/spack-stage/spack-stage-metis-5.1.0-6heiqlpcubefp5cy4xcj5y7rxtrny2ui/spack-build-6heiqlp/CMakeFiles/CMakeScratch/TryCompile-BGpBdw/testCCompiler.c
->     /var/tmp/dantopa/spack-stage/spack-stage-metis-5.1.0-6heiqlpcubefp5cy4xcj5y7rxtrny2ui/spack-build-6heiqlp/CMakeFiles/CMakeScratch/TryCompile-BGpBdw/testCCompiler.c:11:1: fatal error: error closing /tmp/ccFM2sBK.s: Disk quota exceeded
+      Run Build Command(s): /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/cmake-3.31.12-jaab3zzqx7tblwnlniedxqfitwh27bha/bin/cmake -E env VERBOSE=1 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gmake-4.4.1-mkyma5432d3gsulsfbayigyxf2ftrhen/bin/gmake -f Makefile cmTC_a32ca/fast
+      /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gmake-4.4.1-mkyma5432d3gsulsfbayigyxf2ftrhen/bin/gmake  -f CMakeFiles/cmTC_a32ca.dir/build.make CMakeFiles/cmTC_a32ca.dir/build
+      gmake[1]: Entering directory '/var/tmp/dantopa/spack-stage/spack-stage-metis-5.1.0-6heiqlpcubefp5cy4xcj5y7rxtrny2ui/spack-build-6heiqlp/CMakeFiles/CMakeScratch/TryCompile-9TqBQG'
+      Building C object CMakeFiles/cmTC_a32ca.dir/testCCompiler.c.o
+      /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc    -o CMakeFiles/cmTC_a32ca.dir/testCCompiler.c.o -c /var/tmp/dantopa/spack-stage/spack-stage-metis-5.1.0-6heiqlpcubefp5cy4xcj5y7rxtrny2ui/spack-build-6heiqlp/CMakeFiles/CMakeScratch/TryCompile-9TqBQG/testCCompiler.c
+>     /var/tmp/dantopa/spack-stage/spack-stage-metis-5.1.0-6heiqlpcubefp5cy4xcj5y7rxtrny2ui/spack-build-6heiqlp/CMakeFiles/CMakeScratch/TryCompile-9TqBQG/testCCompiler.c:11:1: fatal error: error closing /tmp/ccJOEpkh.s: Disk quota exceeded
          11 | { (void)argv; return argc-1;}
             | ^
       compilation terminated.
->     gmake[1]: *** [CMakeFiles/cmTC_8a1b4.dir/build.make:81: CMakeFiles/cmTC_8a1b4.dir/testCCompiler.c.o] Error 1
-      gmake[1]: Leaving directory '/var/tmp/dantopa/spack-stage/spack-stage-metis-5.1.0-6heiqlpcubefp5cy4xcj5y7rxtrny2ui/spack-build-6heiqlp/CMakeFiles/CMakeScratch/TryCompile-BGpBdw'
->     gmake: *** [Makefile:134: cmTC_8a1b4/fast] Error 2
+>     gmake[1]: *** [CMakeFiles/cmTC_a32ca.dir/build.make:81: CMakeFiles/cmTC_a32ca.dir/testCCompiler.c.o] Error 1
+      gmake[1]: Leaving directory '/var/tmp/dantopa/spack-stage/spack-stage-metis-5.1.0-6heiqlpcubefp5cy4xcj5y7rxtrny2ui/spack-build-6heiqlp/CMakeFiles/CMakeScratch/TryCompile-9TqBQG'
+>     gmake: *** [Makefile:134: cmTC_a32ca/fast] Error 2
   
   
   
@@ -158,18 +158,18 @@
   -- Configuring incomplete, errors occurred!
   Command exited with status 1:
       /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/cmake-3.31.12-jaab3zzqx7tblwnlniedxqfitwh27bha/bin/cmake -G 'Unix Makefiles' -DCMAKE_INSTALL_PREFIX:STRING=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/metis-5.1.0-6heiqlpcubefp5cy4xcj5y7rxtrny2ui -DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON '-DCMAKE_INSTALL_RPATH:STRING=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/metis-5.1.0-6heiqlpcubefp5cy4xcj5y7rxtrny2ui/lib;/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/metis-5.1.0-6heiqlpcubefp5cy4xcj5y7rxtrny2ui/lib64' '-DCMAKE_PREFIX_PATH:STRING=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/cmake-3.31.12-jaab3zzqx7tblwnlniedxqfitwh27bha;/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r;/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gcc-runtime-16.0.1-ucq2opimto2x34zcrvdlow55lnwhuhnj;/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gmake-4.4.1-mkyma5432d3gsulsfbayigyxf2ftrhen' -DCMAKE_BUILD_TYPE:STRING=Release -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON -DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF -DCMAKE_POLICY_DEFAULT_CMP0090:STRING=NEW -DCMAKE_FIND_USE_PACKAGE_REGISTRY:BOOL=OFF -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON -DSHARED:BOOL=ON -DGDB:BOOL=OFF /var/tmp/dantopa/spack-stage/spack-stage-metis-5.1.0-6heiqlpcubefp5cy4xcj5y7rxtrny2ui/spack-src
--- lines 6 to 94 --
+-- lines 6 to 82 --
   ==> openblas: Executing phase: 'build'
-  ==> [2026-09-06-14:17:25.656062] /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gmake-4.4.1-mkyma5432d3gsulsfbayigyxf2ftrhen/bin/make -s CC=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc FC=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gfortran MAKE_NB_JOBS=0 ARCH=x86_64 TARGET=SKYLAKEX NO_AVX512=1 NO_AVX512=1 DYNAMIC_ARCH=1 USE_LOCKING=1 USE_OPENMP=0 USE_THREAD=0 RANLIB=ranlib
+  ==> [2026-09-06-16:24:56.786307] /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gmake-4.4.1-mkyma5432d3gsulsfbayigyxf2ftrhen/bin/make -s CC=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc FC=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gfortran MAKE_NB_JOBS=0 ARCH=x86_64 TARGET=SKYLAKEX NO_AVX512=1 NO_AVX512=1 DYNAMIC_ARCH=1 USE_LOCKING=1 USE_OPENMP=0 USE_THREAD=0 RANLIB=ranlib
   ./c_check: 272: printf: printf: I/O error
   ./c_check: 371: printf: printf: I/O error
   ./c_check: 272: printf: printf: I/O error
   ./c_check: 371: printf: printf: I/O error
-> getarch.c:2211:1: fatal error: error writing to /tmp/ccrtBc33.s: Disk quota exceeded
+> getarch.c:2211:1: fatal error: error writing to /tmp/ccsP535n.s: Disk quota exceeded
    2211 | }
         | ^
   compilation terminated.
-> cpuid.S:75: fatal error: when writing output to /tmp/ccrtBc33.s: Disk quota exceeded
+> cpuid.S:75: fatal error: when writing output to /tmp/ccsP535n.s: Disk quota exceeded
   compilation terminated.
 > make[1]: *** [Makefile.prebuild:104: getarch] Error 1
   In file included from axpy.c:39:
@@ -177,12 +177,9 @@
      28 | #include <bits/libc-header-start.h>
         |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
   compilation terminated.
+> make[1]: *** [Makefile:885: saxpy.o] Error 1
+  make[1]: *** Waiting for unfinished jobs....
   In file included from copy.c:39:
-> /usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory
-     28 | #include <bits/libc-header-start.h>
-        |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
-  compilation terminated.
-  In file included from swap.c:39:
 > /usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory
      28 | #include <bits/libc-header-start.h>
         |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -192,8 +189,11 @@
      28 | #include <bits/libc-header-start.h>
         |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
   compilation terminated.
-> make[1]: *** [Makefile:885: saxpy.o] Error 1
-  make[1]: *** Waiting for unfinished jobs....
+  In file included from swap.c:39:
+> /usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory
+     28 | #include <bits/libc-header-start.h>
+        |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+  compilation terminated.
   In file included from dot.c:39:
 > /usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory
      28 | #include <bits/libc-header-start.h>
@@ -203,16 +203,18 @@
 > make[1]: *** [Makefile:957: sswap.o] Error 1
 > make[1]: *** [Makefile:912: sscal.o] Error 1
 > make[1]: *** [Makefile:858: sdot.o] Error 1
-  In file included from sdsdot.c:39:
-> /usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory
-     28 | #include <bits/libc-header-start.h>
-        |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
-  compilation terminated.
   In file included from dsdot.c:39:
 > /usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory
      28 | #include <bits/libc-header-start.h>
         |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
   compilation terminated.
+  In file included from sdsdot.c:39:
+> /usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory
+     28 | #include <bits/libc-header-start.h>
+        |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+  compilation terminated.
+> make[1]: *** [Makefile:840: dsdot.o] Error 1
+> make[1]: *** [Makefile:837: sdsdot.o] Error 1
   In file included from sum.c:39:
 > /usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory
      28 | #include <bits/libc-header-start.h>
@@ -222,39 +224,25 @@
 > /usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory
      28 | #include <bits/libc-header-start.h>
         |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+  compilation terminated.
   In file included from nrm2.c:39:
 > /usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory
      28 | #include <bits/libc-header-start.h>
         |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
   compilation terminated.
-  compilation terminated.
-  In file included from max.c:39:
-> /usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory
-     28 | #include <bits/libc-header-start.h>
-        |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
-  compilation terminated.
-> make[1]: *** [Makefile:840: dsdot.o] Error 1
-> make[1]: *** [Makefile:837: sdsdot.o] Error 1
 > make[1]: *** [Makefile:693: ssum.o] Error 1
-> make[1]: *** [Makefile:711: snrm2.o] Error 1
 > make[1]: *** [Makefile:675: sasum.o] Error 1
-> make[1]: *** [Makefile:765: smax.o] Error 1
-  In file included from max.c:39:
-> /usr/include/stdio.h:28:10: fatal error: bits/libc-header-start.h: No such file or directory
-     28 | #include <bits/libc-header-start.h>
-        |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
-  compilation terminated.
-> make[1]: *** [Makefile:729: samax.o] Error 1
+> make[1]: *** [Makefile:711: snrm2.o] Error 1
 > make: *** [Makefile:205: libs] Error 1
   Command exited with status 2:
       /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gmake-4.4.1-mkyma5432d3gsulsfbayigyxf2ftrhen/bin/make -s CC=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc FC=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gfortran MAKE_NB_JOBS=0 ARCH=x86_64 TARGET=SKYLAKEX NO_AVX512=1 NO_AVX512=1 DYNAMIC_ARCH=1 USE_LOCKING=1 USE_OPENMP=0 USE_THREAD=0 RANLIB=ranlib
 ==> Error: The following packages failed to install:
-libedit@3.1-20251016/s4wbwui7kvkknqfrfpsbgipkiqvhv7du: /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du-cqh69h0_.log
-libpciaccess@0.17/i24adbment5laku45odxcz7dhmgrm7ps: /var/tmp/dantopa/spack-stage/spack-stage-libpciaccess-0.17-i24adbment5laku45odxcz7dhmgrm7ps-pbb5s82y.log
-libevent@2.1.12/kbmqataog5sjr55lmwtteudg2hp5ua66: /var/tmp/dantopa/spack-stage/spack-stage-libevent-2.1.12-kbmqataog5sjr55lmwtteudg2hp5ua66-l62f39z4.log
-file@5.46/syauj647c7jo3bsebuqx6r3tmmntjy7n: /var/tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n-adduq_1z.log
-m4@1.4.21/qxobt7dodmyai3yhin37umsnjoj4jphg: /var/tmp/dantopa/spack-stage/spack-stage-m4-1.4.21-qxobt7dodmyai3yhin37umsnjoj4jphg-adsa1ipe.log
-findutils@4.10.0/jplcnbxh55wbticij6q25vbqkd5e4sp7: /var/tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7-qsbtkqw7.log
-libxcrypt@4.5.2/wom6nuxi2yj4v3phjqs7aimgm5ofdzqv: /var/tmp/dantopa/spack-stage/spack-stage-libxcrypt-4.5.2-wom6nuxi2yj4v3phjqs7aimgm5ofdzqv-qzb5q36v.log
-metis@5.1.0/6heiqlpcubefp5cy4xcj5y7rxtrny2ui: /var/tmp/dantopa/spack-stage/spack-stage-metis-5.1.0-6heiqlpcubefp5cy4xcj5y7rxtrny2ui-wxkzi_ag.log
-openblas@0.3.34/uxquprdvkgrzexkkanw75v3clxhpttdv: /var/tmp/dantopa/spack-stage/spack-stage-openblas-0.3.34-uxquprdvkgrzexkkanw75v3clxhpttdv-pnnzpf8k.log
+libedit@3.1-20251016/s4wbwui7kvkknqfrfpsbgipkiqvhv7du: /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du-lp2zo0lf.log
+libpciaccess@0.17/i24adbment5laku45odxcz7dhmgrm7ps: /var/tmp/dantopa/spack-stage/spack-stage-libpciaccess-0.17-i24adbment5laku45odxcz7dhmgrm7ps-ahf3ma7y.log
+libevent@2.1.12/kbmqataog5sjr55lmwtteudg2hp5ua66: /var/tmp/dantopa/spack-stage/spack-stage-libevent-2.1.12-kbmqataog5sjr55lmwtteudg2hp5ua66-xmgzaers.log
+file@5.46/syauj647c7jo3bsebuqx6r3tmmntjy7n: /var/tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n-plro9w2t.log
+m4@1.4.21/qxobt7dodmyai3yhin37umsnjoj4jphg: /var/tmp/dantopa/spack-stage/spack-stage-m4-1.4.21-qxobt7dodmyai3yhin37umsnjoj4jphg-6y6gs7kl.log
+findutils@4.10.0/jplcnbxh55wbticij6q25vbqkd5e4sp7: /var/tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7-ppabp_p6.log
+libxcrypt@4.5.2/wom6nuxi2yj4v3phjqs7aimgm5ofdzqv: /var/tmp/dantopa/spack-stage/spack-stage-libxcrypt-4.5.2-wom6nuxi2yj4v3phjqs7aimgm5ofdzqv-t5yztojg.log
+metis@5.1.0/6heiqlpcubefp5cy4xcj5y7rxtrny2ui: /var/tmp/dantopa/spack-stage/spack-stage-metis-5.1.0-6heiqlpcubefp5cy4xcj5y7rxtrny2ui-jnete38j.log
+openblas@0.3.34/uxquprdvkgrzexkkanw75v3clxhpttdv: /var/tmp/dantopa/spack-stage/spack-stage-openblas-0.3.34-uxquprdvkgrzexkkanw75v3clxhpttdv-vpc1z_h4.log
