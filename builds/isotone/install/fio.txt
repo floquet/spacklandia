@@ -1,0 +1,27 @@
+[ ] ysdbbvi fio@3.37 staging (0s)
+[ ] ysdbbvi fio@3.37 autoreconf (1s)
+[ ] ysdbbvi fio@3.37 configure (1s)
+[x] ysdbbvi fio@3.37 failed: /var/tmp/dantopa/spack-stage/spack-stage-fio-3.37-ysdbbvist6oy764gsgq7we6qw7m6bdx4-f33xkqer.log (1s)
+-- lines 14 to 33 --
+  cat: -: Disk quota exceeded
+  cat: -: Disk quota exceeded
+  cat: -: Disk quota exceeded
+  cat: -: Disk quota exceeded
+  cat: -: Disk quota exceeded
+  cat: -: Disk quota exceeded
+  cat: -: Disk quota exceeded
+  cat: -: Disk quota exceeded
+  cat: -: Disk quota exceeded
+  cat: -: Disk quota exceeded
+  cat: -: Disk quota exceeded
+  cat: -: Disk quota exceeded
+  cat: -: Disk quota exceeded
+  cat: -: Disk quota exceeded
+  cat: -: Disk quota exceeded
+  cat: -: Disk quota exceeded
+  compile test failed
+  Configure failed, check config.log and/or the above output
+  Command exited with status 1:
+      /var/tmp/dantopa/spack-stage/spack-stage-fio-3.37-ysdbbvist6oy764gsgq7we6qw7m6bdx4/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/fio-3.37-ysdbbvist6oy764gsgq7we6qw7m6bdx4 --disable-native
+==> Error: The following packages failed to install:
+fio@3.37/ysdbbvist6oy764gsgq7we6qw7m6bdx4: /var/tmp/dantopa/spack-stage/spack-stage-fio-3.37-ysdbbvist6oy764gsgq7we6qw7m6bdx4-f33xkqer.log
