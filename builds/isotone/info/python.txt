@@ -1,1 +1,210 @@
-environment: line 89: spack: command not found
+Package:   python
+
+Description:
+    The Python programming language.
+
+Homepage: https://www.python.org/
+
+Preferred version:  
+    3.14.5     https://www.python.org/ftp/python/3.14.5/Python-3.14.5.tgz
+
+Safe versions:  
+    3.14.5     https://www.python.org/ftp/python/3.14.5/Python-3.14.5.tgz
+    3.13.13    https://www.python.org/ftp/python/3.13.13/Python-3.13.13.tgz
+    3.12.13    https://www.python.org/ftp/python/3.12.13/Python-3.12.13.tgz
+    3.11.15    https://www.python.org/ftp/python/3.11.15/Python-3.11.15.tgz
+    3.10.20    https://www.python.org/ftp/python/3.10.20/Python-3.10.20.tgz
+
+Deprecated versions:  
+    3.14.4     https://www.python.org/ftp/python/3.14.4/Python-3.14.4.tgz
+    3.14.3     https://www.python.org/ftp/python/3.14.3/Python-3.14.3.tgz
+    3.14.2     https://www.python.org/ftp/python/3.14.2/Python-3.14.2.tgz
+    3.14.0     https://www.python.org/ftp/python/3.14.0/Python-3.14.0.tgz
+    3.13.12    https://www.python.org/ftp/python/3.13.12/Python-3.13.12.tgz
+    3.13.11    https://www.python.org/ftp/python/3.13.11/Python-3.13.11.tgz
+    3.13.8     https://www.python.org/ftp/python/3.13.8/Python-3.13.8.tgz
+    3.13.7     https://www.python.org/ftp/python/3.13.7/Python-3.13.7.tgz
+    3.13.5     https://www.python.org/ftp/python/3.13.5/Python-3.13.5.tgz
+    3.13.4     https://www.python.org/ftp/python/3.13.4/Python-3.13.4.tgz
+    3.13.3     https://www.python.org/ftp/python/3.13.3/Python-3.13.3.tgz
+    3.13.2     https://www.python.org/ftp/python/3.13.2/Python-3.13.2.tgz
+    3.13.1     https://www.python.org/ftp/python/3.13.1/Python-3.13.1.tgz
+    3.13.0     https://www.python.org/ftp/python/3.13.0/Python-3.13.0.tgz
+    3.12.12    https://www.python.org/ftp/python/3.12.12/Python-3.12.12.tgz
+    3.12.11    https://www.python.org/ftp/python/3.12.11/Python-3.12.11.tgz
+    3.12.9     https://www.python.org/ftp/python/3.12.9/Python-3.12.9.tgz
+    3.12.8     https://www.python.org/ftp/python/3.12.8/Python-3.12.8.tgz
+    3.12.7     https://www.python.org/ftp/python/3.12.7/Python-3.12.7.tgz
+    3.11.14    https://www.python.org/ftp/python/3.11.14/Python-3.11.14.tgz
+    3.11.13    https://www.python.org/ftp/python/3.11.13/Python-3.11.13.tgz
+    3.11.11    https://www.python.org/ftp/python/3.11.11/Python-3.11.11.tgz
+    3.10.19    https://www.python.org/ftp/python/3.10.19/Python-3.10.19.tgz
+    3.10.18    https://www.python.org/ftp/python/3.10.18/Python-3.10.18.tgz
+    3.10.16    https://www.python.org/ftp/python/3.10.16/Python-3.10.16.tgz
+    3.9.25     https://www.python.org/ftp/python/3.9.25/Python-3.9.25.tgz
+    3.9.24     https://www.python.org/ftp/python/3.9.24/Python-3.9.24.tgz
+    3.9.23     https://www.python.org/ftp/python/3.9.23/Python-3.9.23.tgz
+    3.9.21     https://www.python.org/ftp/python/3.9.21/Python-3.9.21.tgz
+    3.8.20     https://www.python.org/ftp/python/3.8.20/Python-3.8.20.tgz
+    3.7.17     https://www.python.org/ftp/python/3.7.17/Python-3.7.17.tgz
+    3.6.15     https://www.python.org/ftp/python/3.6.15/Python-3.6.15.tgz
+
+Variants:
+    build_system [generic]        generic
+        Build systems supported by the package
+
+    bz2 [true]                    false, true
+        Build bz2 module
+
+    crypt [true]                  false, true
+      when @:3.12 platform=linux
+        Build crypt module
+
+    crypt [true]                  false, true
+      when @:3.12 platform=darwin
+        Build crypt module
+
+    ctypes [true]                 false, true
+        Build ctypes module
+
+    dbm [true]                    false, true
+        Build dbm module
+
+    debug [false]                 false, true
+        debug build with extra checks (this is high overhead)
+
+    freethreading [false]         false, true
+      when @3.13:
+        Removes the Global Interpreter Lock
+
+    libxml2 [true]                false, true
+        Use a gettext library build with libxml2
+
+    lzma [true]                   false, true
+        Build lzma module
+
+    optimizations [false]         false, true
+        Enable expensive build-time optimizations, if available
+
+    pic [true]                    false, true
+        Produce position-independent code (for shared libs)
+
+    pyexpat [true]                false, true
+        Build pyexpat module
+
+    pythoncmd [true]              false, true
+        Symlink 'python3' executable to 'python' (not PEP 394 compliant)
+
+    readline [true]               false, true
+        Build readline module
+
+    shared [true]                 false, true
+        Enable shared libraries
+
+    sqlite3 [true]                false, true
+        Build sqlite3 module
+
+    ssl [true]                    false, true
+        Build ssl module
+
+    static [false]                false, true
+        Enable static libraries
+
+    tests [false]                 false, true
+        Build and install tests
+
+    tix [false]                   false, true
+      when +tkinter
+        Build Tix module
+
+    tkinter [false]               false, true
+        Build tkinter module
+
+    uuid [true]                   false, true
+        Build uuid module
+
+    zlib [true]                   false, true
+        Build zlib module
+
+    zstd [true]                   false, true
+      when @3.14:
+        Build zstd module
+
+
+Dependencies:
+    bzip2                   build, link
+      when +bz2
+
+    c                       build
+
+    cxx                     build
+
+    expat                   build, link
+      when +pyexpat
+
+    gdbm                    build, link
+      when +dbm
+
+    gettext~libxml2         build, link
+      when ~libxml2 ^iconv=libiconv
+
+    gettext+libxml2         build, link
+      when +libxml2
+
+    gmake                   build
+
+    iconv                   build, link
+      when ~libxml2
+
+    libffi                  build, link
+      when +ctypes
+
+    libxcrypt               build, link
+      when +crypt
+
+    ncurses                 build, link
+      when +readline
+
+    openssl@1.0.2:          build, link
+      when +ssl
+
+    openssl@1.1.1:          build, link
+      when @3.10:+ssl
+
+    pkgconfig               build
+
+    readline                build, link
+      when +readline
+
+    sqlite@3.0.8:           build, link
+      when @:3.9+sqlite3
+
+    sqlite@3.7.15:          build, link
+      when @3.10:+sqlite3
+
+    tcl                     build, link
+      when +tkinter
+
+    tix                     build, link
+      when +tix
+
+    tk                      build, link
+      when +tkinter
+
+    uuid                    build, link
+      when +uuid
+
+    xz libs=shared          build, link
+      when +lzma
+
+    zlib-api                build, link
+      when +zlib
+
+    zstd libs=shared        build, link
+      when +zstd
+
+
+Licenses:
+    0BSD
+
+
