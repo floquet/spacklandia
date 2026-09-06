@@ -3,13 +3,13 @@
 [ ] i24adbm libpciaccess@0.17 autoreconf (0s)
 [ ] i24adbm libpciaccess@0.17 configure (0s)
 [ ] jplcnbx findutils@4.10.0 staging (0s)
-[ ] jplcnbx findutils@4.10.0 autoreconf (0s)
-[ ] jplcnbx findutils@4.10.0 configure (0s)
-[x] i24adbm libpciaccess@0.17 failed: /var/tmp/dantopa/spack-stage/spack-stage-libpciaccess-0.17-i24adbment5laku45odxcz7dhmgrm7ps-rzv7nlmg.log (1s)
-[ ] 6lkkc6p libfabric@2.6.0 autoreconf (1s)
-[ ] 6lkkc6p libfabric@2.6.0 configure (1s)
-[x] jplcnbx findutils@4.10.0 failed: /var/tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7-ehbx66p7.log (1s)
-[x] 6lkkc6p libfabric@2.6.0 failed: /var/tmp/dantopa/spack-stage/spack-stage-libfabric-2.6.0-6lkkc6pdbwpap2d7w3gexcmcewonavg3-10ekf956.log (2s)
+[ ] jplcnbx findutils@4.10.0 autoreconf (1s)
+[ ] jplcnbx findutils@4.10.0 configure (1s)
+[x] i24adbm libpciaccess@0.17 failed: /var/tmp/dantopa/spack-stage/spack-stage-libpciaccess-0.17-i24adbment5laku45odxcz7dhmgrm7ps-y1fj9qt3.log (2s)
+[ ] 6lkkc6p libfabric@2.6.0 autoreconf (2s)
+[ ] 6lkkc6p libfabric@2.6.0 configure (2s)
+[x] jplcnbx findutils@4.10.0 failed: /var/tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7-2fw4rsuh.log (2s)
+[x] 6lkkc6p libfabric@2.6.0 failed: /var/tmp/dantopa/spack-stage/spack-stage-libfabric-2.6.0-6lkkc6pdbwpap2d7w3gexcmcewonavg3-z1_uv9ma.log (2s)
 -- lines 15 to 25 --
   checking for gawk... gawk
   checking whether make sets $(MAKE)... yes
@@ -34,13 +34,13 @@
   See 'config.log' for more details
   Command exited with status 77:
       /var/tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7
--- lines 5 to 17 --
-  ==> [2026-09-06-10:48:19.785386] Find complete: ['/var/tmp/dantopa/spack-stage/spack-stage-libfabric-2.6.0-6lkkc6pdbwpap2d7w3gexcmcewonavg3/spack-src'] ['configure']
-  ==> [2026-09-06-10:48:19.785547] FILTER FILE: /var/tmp/dantopa/spack-stage/spack-stage-libfabric-2.6.0-6lkkc6pdbwpap2d7w3gexcmcewonavg3/spack-src/configure [replacing "^(\s*if test x-L = )("\$p" \|\|\s*)$"]
-  ==> [2026-09-06-10:48:19.845822] FILTER FILE: /var/tmp/dantopa/spack-stage/spack-stage-libfabric-2.6.0-6lkkc6pdbwpap2d7w3gexcmcewonavg3/spack-src/configure [replacing "^(\s*test x-R = )("\$p")(; then\s*)$"]
-  ==> [2026-09-06-10:48:19.904866] FILTER FILE: /var/tmp/dantopa/spack-stage/spack-stage-libfabric-2.6.0-6lkkc6pdbwpap2d7w3gexcmcewonavg3/spack-src/configure [replacing "^(\s*test \$p = "-R")(; then\s*)$"]
-  ==> [2026-09-06-10:48:19.963597] FILTER FILE: /var/tmp/dantopa/spack-stage/spack-stage-libfabric-2.6.0-6lkkc6pdbwpap2d7w3gexcmcewonavg3/spack-src/configure [replacing "lt_cv_apple_cc_single_mod=no"]
-  ==> [2026-09-06-10:48:20.025402] /var/tmp/dantopa/spack-stage/spack-stage-libfabric-2.6.0-6lkkc6pdbwpap2d7w3gexcmcewonavg3/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/libfabric-2.6.0-6lkkc6pdbwpap2d7w3gexcmcewonavg3 --disable-debug --disable-asan --disable-lsan --disable-tsan --disable-ubsan --without-uring --without-cuda --without-ze --without-rocr --disable-cxi --disable-efa --disable-gni --disable-lnx --disable-mlx --disable-mrail --disable-opx --disable-psm --disable-psm2 --disable-psm3 --disable-rxm --disable-rxd --disable-shm --enable-sockets --enable-tcp --disable-ucx --enable-udp --disable-usnic --disable-verbs --disable-xpmem
+-- lines 6 to 18 --
+  ==> [2026-09-06-11:52:12.965380] Find complete: ['/var/tmp/dantopa/spack-stage/spack-stage-libfabric-2.6.0-6lkkc6pdbwpap2d7w3gexcmcewonavg3/spack-src'] ['configure']
+  ==> [2026-09-06-11:52:12.965547] FILTER FILE: /var/tmp/dantopa/spack-stage/spack-stage-libfabric-2.6.0-6lkkc6pdbwpap2d7w3gexcmcewonavg3/spack-src/configure [replacing "^(\s*if test x-L = )("\$p" \|\|\s*)$"]
+  ==> [2026-09-06-11:52:13.020968] FILTER FILE: /var/tmp/dantopa/spack-stage/spack-stage-libfabric-2.6.0-6lkkc6pdbwpap2d7w3gexcmcewonavg3/spack-src/configure [replacing "^(\s*test x-R = )("\$p")(; then\s*)$"]
+  ==> [2026-09-06-11:52:13.075003] FILTER FILE: /var/tmp/dantopa/spack-stage/spack-stage-libfabric-2.6.0-6lkkc6pdbwpap2d7w3gexcmcewonavg3/spack-src/configure [replacing "^(\s*test \$p = "-R")(; then\s*)$"]
+  ==> [2026-09-06-11:52:13.129446] FILTER FILE: /var/tmp/dantopa/spack-stage/spack-stage-libfabric-2.6.0-6lkkc6pdbwpap2d7w3gexcmcewonavg3/spack-src/configure [replacing "lt_cv_apple_cc_single_mod=no"]
+  ==> [2026-09-06-11:52:13.187883] /var/tmp/dantopa/spack-stage/spack-stage-libfabric-2.6.0-6lkkc6pdbwpap2d7w3gexcmcewonavg3/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/libfabric-2.6.0-6lkkc6pdbwpap2d7w3gexcmcewonavg3 --disable-debug --disable-asan --disable-lsan --disable-tsan --disable-ubsan --without-uring --without-cuda --without-ze --without-rocr --disable-cxi --disable-efa --disable-gni --disable-lnx --disable-mlx --disable-mrail --disable-opx --disable-psm --disable-psm2 --disable-psm3 --disable-rxm --disable-rxd --disable-shm --enable-sockets --enable-tcp --disable-ucx --enable-udp --disable-usnic --disable-verbs --disable-xpmem
 > configure: WARNING: unrecognized options: --disable-gni, --disable-mlx, --disable-psm
   checking for a BSD-compatible install... /usr/bin/install -c
   checking whether build environment is sane... yes
@@ -48,7 +48,7 @@
   checking for gawk... gawk
   checking whether make sets $(MAKE)... yes
   checking whether make supports nested variables... no
--- lines 20 to 30 --
+-- lines 21 to 31 --
   checking build system type... cat: -: Disk quota exceeded
   x86_64-pc-linux-gnu
   checking host system type... x86_64-pc-linux-gnu
@@ -61,6 +61,6 @@
   Command exited with status 77:
       /var/tmp/dantopa/spack-stage/spack-stage-libfabric-2.6.0-6lkkc6pdbwpap2d7w3gexcmcewonavg3/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/libfabric-2.6.0-6lkkc6pdbwpap2d7w3gexcmcewonavg3 --disable-debug --disable-asan --disable-lsan --disable-tsan --disable-ubsan --without-uring --without-cuda --without-ze --without-rocr --disable-cxi --disable-efa --disable-gni --disable-lnx --disable-mlx --disable-mrail --disable-opx --disable-psm --disable-psm2 --disable-psm3 --disable-rxm --disable-rxd --disable-shm --enable-sockets --enable-tcp --disable-ucx --enable-udp --disable-usnic --disable-verbs --disable-xpmem
 ==> Error: The following packages failed to install:
-libpciaccess@0.17/i24adbment5laku45odxcz7dhmgrm7ps: /var/tmp/dantopa/spack-stage/spack-stage-libpciaccess-0.17-i24adbment5laku45odxcz7dhmgrm7ps-rzv7nlmg.log
-findutils@4.10.0/jplcnbxh55wbticij6q25vbqkd5e4sp7: /var/tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7-ehbx66p7.log
-libfabric@2.6.0/6lkkc6pdbwpap2d7w3gexcmcewonavg3: /var/tmp/dantopa/spack-stage/spack-stage-libfabric-2.6.0-6lkkc6pdbwpap2d7w3gexcmcewonavg3-10ekf956.log
+libpciaccess@0.17/i24adbment5laku45odxcz7dhmgrm7ps: /var/tmp/dantopa/spack-stage/spack-stage-libpciaccess-0.17-i24adbment5laku45odxcz7dhmgrm7ps-y1fj9qt3.log
+findutils@4.10.0/jplcnbxh55wbticij6q25vbqkd5e4sp7: /var/tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7-2fw4rsuh.log
+libfabric@2.6.0/6lkkc6pdbwpap2d7w3gexcmcewonavg3: /var/tmp/dantopa/spack-stage/spack-stage-libfabric-2.6.0-6lkkc6pdbwpap2d7w3gexcmcewonavg3-z1_uv9ma.log
