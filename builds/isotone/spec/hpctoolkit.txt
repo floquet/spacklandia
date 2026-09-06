@@ -19,13 +19,13 @@
 [e]      ^gcc@16.0.1+binutils+bootstrap+futex~graphite+libsanitizer~mold~nvptx~piclibs~profiled~strip build_system=autotools build_type=RelWithDebInfo languages:='c,c++,fortran' platform=linux os=ubuntu26.04 target=x86_64
 [+]      ^gcc-runtime@16.0.1 build_system=generic platform=linux os=ubuntu26.04 target=skylake
 [e]      ^glibc@2.43 build_system=autotools platform=linux os=ubuntu26.04 target=x86_64
- -       ^hpcviewer@2026.2.1 build_system=generic platform=linux os=ubuntu26.04 target=skylake
+[+]      ^hpcviewer@2026.2.1 build_system=generic platform=linux os=ubuntu26.04 target=skylake
  -       ^intel-tbb@2022.3.0~ipo+shared+tm build_system=cmake build_type=Release cxxstd=default generator=make platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
  -           ^hwloc@2.13.0~cairo~cuda~gl~level_zero~libudev+libxml2~nvml~opencl+pci~rocm build_system=autotools libs:=shared,static patches=b4db98b platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
  -               ^libpciaccess@0.17 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
 [+]                  ^util-macros@1.20.2 build_system=autotools platform=linux os=ubuntu26.04 target=skylake
 [+]              ^libxml2@2.15.3+pic~python+shared build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
- -       ^intel-xed@2025.06.08~debug~deprecated-includes~examples+optimize+pic build_system=generic commit=dc6bdbe036515c7ef55d3b2d50bafc5232bfe534 platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+[+]      ^intel-xed@2025.06.08~debug~deprecated-includes~examples+optimize+pic build_system=generic commit=dc6bdbe036515c7ef55d3b2d50bafc5232bfe534 platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
 [+]          ^python@3.14.5+bz2+ctypes+dbm~debug~freethreading+libxml2+lzma~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~static~tests~tkinter+uuid+zlib+zstd build_system=generic platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
 [+]              ^expat@2.8.3+libbsd+pic build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
 [+]                  ^libbsd@0.12.2 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
@@ -56,7 +56,7 @@
 [+]              ^less@692 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
 [+]      ^patchelf@0.17.2 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
 [+]      ^pkgconf@2.5.1 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
- -       ^py-docutils@0.22.4 build_system=python_pip platform=linux os=ubuntu26.04 target=skylake
+[+]      ^py-docutils@0.22.4 build_system=python_pip platform=linux os=ubuntu26.04 target=skylake
 [+]          ^py-flit-core@3.12.0 build_system=python_pip platform=linux os=ubuntu26.04 target=skylake
  -       ^xerces-c@3.3.0 build_system=autotools cxxstd=default netaccessor=curl transcoder=iconv platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
  -       ^xxhash@0.8.3+pic build_system=makefile platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1

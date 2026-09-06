@@ -1,8 +1,8 @@
 [ ] nitn2p6 gperftools@2.18.1 staging (0s)
 [ ] nitn2p6 gperftools@2.18.1 autoreconf (0s)
 [ ] nitn2p6 gperftools@2.18.1 configure (0s)
-[x] nitn2p6 gperftools@2.18.1 failed: /var/tmp/dantopa/spack-stage/spack-stage-gperftools-2.18.1-nitn2p6s5jofprfctjrlw45rxi2mzrqq-iux25bn_.log (2s)
--- lines 29 to 39 --
+[x] nitn2p6 gperftools@2.18.1 failed: /var/tmp/dantopa/spack-stage/spack-stage-gperftools-2.18.1-nitn2p6s5jofprfctjrlw45rxi2mzrqq-ry09x01j.log (1s)
+-- lines 30 to 40 --
   checking whether GID '1000' is supported by ustar format... yes
   checking how to create a ustar tar archive... gnutar
   checking whether to enable maintainer-specific portions of Makefiles... no
@@ -15,4 +15,4 @@
   Command exited with status 77:
       /var/tmp/dantopa/spack-stage/spack-stage-gperftools-2.18.1-nitn2p6s5jofprfctjrlw45rxi2mzrqq/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gperftools-2.18.1-nitn2p6s5jofprfctjrlw45rxi2mzrqq
 ==> Error: The following packages failed to install:
-gperftools@2.18.1/nitn2p6s5jofprfctjrlw45rxi2mzrqq: /var/tmp/dantopa/spack-stage/spack-stage-gperftools-2.18.1-nitn2p6s5jofprfctjrlw45rxi2mzrqq-iux25bn_.log
+gperftools@2.18.1/nitn2p6s5jofprfctjrlw45rxi2mzrqq: /var/tmp/dantopa/spack-stage/spack-stage-gperftools-2.18.1-nitn2p6s5jofprfctjrlw45rxi2mzrqq-ry09x01j.log

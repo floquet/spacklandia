@@ -1,6 +1,6 @@
  -   caliper@2.15.0+adiak~cuda~fortran+gotcha~ipo+kokkos+libdw~libpfm+libunwind+mpi+papi~python~rocm+sampler+shared~tests+tools~variorum~vtune build_system=cmake build_type=Release generator=make platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
  -       ^adiak@0.5.0~ipo+mpi~python+shared~tests build_system=cmake build_type=Release commit=f08c8375c613e13e9b9c6a1db271cbf8f0d3f3e3 generator=make platform=linux os=ubuntu26.04 target=skylake %c,cxx,fortran=gcc@16.0.1
- -           ^blt@0.7.2 build_system=generic platform=linux os=ubuntu26.04 target=skylake
+[+]          ^blt@0.7.2 build_system=generic platform=linux os=ubuntu26.04 target=skylake
 [+]      ^cmake@3.31.12~doc+ncurses+ownlibs~qtgui build_system=generic build_type=Release platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
 [+]          ^curl@8.21.0~gssapi~ldap~libidn2~librtmp~libssh~libssh2+nghttp2 build_system=autotools libs:=shared,static tls:=openssl platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
 [+]              ^nghttp2@1.67.1 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1

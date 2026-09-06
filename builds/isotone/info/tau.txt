@@ -1,0 +1,332 @@
+Package:   tau
+
+Description:
+    A portable profiling and tracing toolkit for performance analysis of
+    parallel programs written in Fortran, C, C++, UPC, Java, Python.
+
+Homepage: https://www.cs.uoregon.edu/research/tau
+
+Preferred version:  
+    2.35.2      https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.35.2.tar.gz
+
+Safe versions:  
+    master      [git] https://github.com/UO-OACISS/tau2 on branch master
+    2.35.2      https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.35.2.tar.gz
+    2.35.1      https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.35.1.tar.gz
+    2.35        https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.35.tar.gz
+    2.34.1      https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.34.1.tar.gz
+    2.34        https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.34.tar.gz
+    2.33.2      https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.33.2.tar.gz
+    2.33.1      https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.33.1.tar.gz
+    2.33        https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.33.tar.gz
+    2.32.1      https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.32.1.tar.gz
+    2.32        https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.32.tar.gz
+    2.31.1      https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.31.1.tar.gz
+    2.31        https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.31.tar.gz
+    2.30.2      https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.30.2.tar.gz
+    2.30.1      https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.30.1.tar.gz
+    2.30        https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.30.tar.gz
+    2.29.1      https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.29.1.tar.gz
+    2.29        https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.29.tar.gz
+    2.28.2      https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.28.2.tar.gz
+    2.28.1      https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.28.1.tar.gz
+    2.28        https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.28.tar.gz
+    2.27.2p1    https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.27.2p1.tar.gz
+    2.27.2      https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.27.2.tar.gz
+    2.27.1      https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.27.1.tar.gz
+    2.27        https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.27.tar.gz
+    2.26.3      https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.26.3.tar.gz
+    2.26.2      https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.26.2.tar.gz
+    2.26.1      https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.26.1.tar.gz
+    2.26        https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.26.tar.gz
+    2.25        https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.25.tar.gz
+    2.24.1      https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.24.1.tar.gz
+    2.24        https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.24.tar.gz
+    2.23.1      https://www.cs.uoregon.edu/research/tau/tau_releases/tau-2.23.1.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    adios2 [false]                 false, true
+      when @2.26.3:
+        Activates ADIOS2 output support
+
+    binutils [true]                false, true
+        Activates support of BFD GNU Binutils
+
+    build_system [generic]         generic
+        Build systems supported by the package
+
+    comm [false]                   false, true
+        Generate profiles with MPI communicator info
+
+    craycnl [false]                false, true
+        Build for Cray compute nodes
+
+    cuda [false]                   false, true
+        Activates CUDA support
+
+    disable-no-pie [false]         false, true
+        Do not add -no-pie while linking with Ubuntu.
+
+    dyninst [false]                false, true
+        Activates dyninst support
+
+    elf [true]                     false, true
+        Activates support of elf
+
+    force-legacy-l0 [false]        false, true
+      when @2.35:
+        Use of Legacy L0 profiler. Option required for old drivers/GPU.
+
+    fortran [true]                 false, true
+        Activates Fortran support
+
+    gasnet [false]                 false, true
+        Activates GASNET support
+
+    io [true]                      false, true
+        Activates POSIX I/O support
+
+    ittnotify [false]              false, true
+      when @2.35:
+        Activates Intel ITTNotify collector
+
+    julia [false]                  false, true
+      when @2.35.1:
+        Activate Julia support
+
+    level_zero [false]             false, true
+      when @2.30:
+        Activates Intel OneAPI Level Zero support
+
+    libdwarf [true]                false, true
+        Activates support of libdwarf
+
+    libunwind [shared]             none, shared, static
+        Activates support of libunwind
+
+    likwid [false]                 false, true
+      when @2.27
+        Activates LIKWID support
+
+    mpi [false]                    false, true
+        Specify use of TAU MPI wrapper library
+
+    ompt [false]                   false, true
+        Activates OMPT instrumentation
+
+    opari [false]                  false, true
+        Activates Opari2 instrumentation
+
+    openacc [false]                false, true
+        Activates OpenACC support
+
+    opencl [false]                 false, true
+        Activates OpenCL support
+
+    openmp [false]                 false, true
+        Use OpenMP threads
+
+    otf2 [true]                    false, true
+        Activates support of Open Trace Format (OTF)
+
+    papi [true]                    false, true
+        Activates Performance API
+
+    pdt [true]                     false, true
+        Use PDT for source code instrumentation
+
+    perfetto [true]                false, true
+      when @2.35:
+        Activates Perfetto tracing support
+
+    phase [false]                  false, true
+        Generate phase based profiles
+
+    ppc64le [false]                false, true
+        Build for IBM Power LE nodes
+
+    profileparam [false]           false, true
+        Generate profiles with parameter mapped event data
+
+    pthreads [true]                false, true
+        Use POSIX threads
+
+    python [false]                 false, true
+      when @2.31.1:
+        Activates Python support
+
+    rocm [false]                   false, true
+      when @2.28:
+        Activates ROCm support
+
+    rocprofiler [false]            false, true
+      when @2.29.1:
+        Activates ROCm rocprofiler support
+
+    rocprofiler-sdk [false]        false, true
+      when @2.34.1:
+        Activates ROCm rocprofiler-sdk support
+
+    rocprofv2 [false]              false, true
+      when @2.34:
+        Activates ROCm rocprofiler support
+
+    roctracer [false]              false, true
+      when @2.28.1:
+        Activates ROCm roctracer support
+
+    salt [false]                   false, true
+      when @2.34:
+        Activates SALT source instrumentation
+
+    scorep [false]                 false, true
+        Activates SCOREP support
+
+    shmem [false]                  false, true
+        Activates SHMEM support
+
+    sqlite [false]                 false, true
+        Activates SQLite3 output support
+
+    syscall [false]                false, true
+      when @2.33:
+        Activates syscall wrapper
+
+    x86_64 [false]                 false, true
+        Force build for x86 Linux instead of auto-detect
+
+
+Dependencies:
+    adios2                                    build, link
+      when +adios2
+
+    binutils+headers+libiberty+plugins        build, link
+      when +binutils
+
+    c                                         build
+
+    cmake@3.14:                               build
+      when %clang
+
+    cmake@3.14:                               build
+      when %aocc
+
+    cmake@3.20:                               build
+      when +python ^python@3.12:
+
+    comgr                                     build, link
+      when +rocprofiler-sdk
+
+    cuda                                      build, link
+      when +cuda
+
+    cxx                                       build
+
+    dyninst@12.3.0:                           build, link
+      when +dyninst
+
+    elf                                       build, link
+      when +elf
+
+    elfutils                                  build, link
+      when +rocprofiler-sdk
+
+    fortran                                   build
+
+    gasnet                                    build, link
+      when +gasnet
+
+    gmake                                     build
+
+    hip                                       build, link
+      when +rocprofiler-sdk
+
+    hip                                       build, link
+      when @2.34:+roctracer
+
+    hsa-rocr-dev                              build, link
+      when +rocm
+
+    hwloc                                     build, link
+
+    intel-oneapi-compilers                    build, link
+      when @2.35.2:~force-legacy-l0+level_zero
+
+    java                                      run
+
+    julia@1.6:                                build, link
+      when +julia
+
+    libdwarf                                  build, link
+      when +libdwarf
+
+    libunwind libs=shared                     build, link
+      when libunwind=shared
+
+    libunwind+pic libs=static                 build, link
+      when libunwind=static
+
+    likwid                                    build, link
+      when +likwid
+
+    mpi                                       build, link, run
+      when +mpi
+
+    oneapi-level-zero                         build, link
+      when +level_zero
+
+    otf2@2.1:2.3                              build, link
+      when @:2.33.0+otf2
+
+    otf2@3:                                   build, link
+      when @2.33.1:+otf2
+
+    papi                                      build, link
+      when +papi
+
+    pdt                                       build, link
+      when +pdt
+
+    python@:3.10                              build, link
+      when @:2.32.1+python
+
+    python@2.7:                               build, link
+      when +python
+
+    rocm-core                                 build, link
+      when @2.34:+rocm
+
+    rocm-smi-lib                              build, link
+      when @2.32.1:+rocm
+
+    rocprofiler-dev                           build, link
+      when +rocprofiler
+
+    rocprofiler-dev@6.0.0:                    build, link
+      when @2.34:+rocprofv2
+
+    rocprofiler-sdk@6.2.4:                    build, link
+      when +rocprofiler-sdk
+
+    roctracer-dev                             build, link
+      when +roctracer
+
+    saltfm                                    run
+      when +salt
+
+    scorep                                    build, link
+      when +scorep
+
+    sqlite                                    build, link
+      when +sqlite
+
+    zlib-api                                  link
+
+
+Licenses:
+    MIT
+
+

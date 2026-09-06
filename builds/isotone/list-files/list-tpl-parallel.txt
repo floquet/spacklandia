@@ -1,0 +1,26 @@
+# Debuggers
+gdb
+valgrind
+
+# Performance analysis and profiling
+hpctoolkit
+tau
+scorep
+scalasca
+caliper
+adiak
+
+# Performance tools / libraries
+gperftools
+papi
+
+# Parallel runtimes / programming models
+openmpi
+mpich
+open-coarrays
+kokkos
+tbb
+
+# Parallel utilities
+hwloc
+numactl

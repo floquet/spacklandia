@@ -1,0 +1,70 @@
+AutotoolsPackage:   scalasca
+
+Description:
+    Scalasca is a software tool that supports the performance optimization
+    of parallel programs by measuring and analyzing their runtime behavior.
+    The analysis identifies potential performance bottlenecks - in
+    particular those concerning communication and synchronization - and
+    offers guidance in exploring their causes.
+
+Homepage: https://www.scalasca.org
+
+Preferred version:  
+    2.6.2    http://apps.fz-juelich.de/scalasca/releases/scalasca/2.6/dist/scalasca-2.6.2.tar.gz
+
+Safe versions:  
+    2.6.2    http://apps.fz-juelich.de/scalasca/releases/scalasca/2.6/dist/scalasca-2.6.2.tar.gz
+    2.6.1    http://apps.fz-juelich.de/scalasca/releases/scalasca/2.6/dist/scalasca-2.6.1.tar.gz
+    2.6      http://apps.fz-juelich.de/scalasca/releases/scalasca/2.6/dist/scalasca-2.6.tar.gz
+    2.5      http://apps.fz-juelich.de/scalasca/releases/scalasca/2.5/dist/scalasca-2.5.tar.gz
+    2.4      http://apps.fz-juelich.de/scalasca/releases/scalasca/2.4/dist/scalasca-2.4.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    build_system [autotools]        autotools
+        Build systems supported by the package
+
+
+Dependencies:
+    c                    build
+
+    cubew@4.4:4.7        build, link
+      when @2.4:2.6.0
+
+    cubew@4.8:           build, link
+      when @2.6.1:
+
+    cxx                  build
+
+    gmake                build
+      when build_system=autotools
+
+    gnuconfig            build
+      when build_system=autotools target=ppc64le:
+
+    gnuconfig            build
+      when build_system=autotools target=aarch64:
+
+    gnuconfig            build
+      when build_system=autotools target=riscv64:
+
+    mpi                  build, link
+
+    otf2@2:2.99          build, link
+      when @2.3:2.6.0
+
+    otf2@3:              build, link
+      when @2.6.1:
+
+    scorep@6.0:7         run
+      when @2.4:2.6.0
+
+    scorep@8:            run
+      when @2.6.1:
+
+
+Licenses:
+    None
+

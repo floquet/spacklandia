@@ -1,0 +1,54 @@
+[ ] gh6otti kokkos@5.2.1 staging (0s)
+[ ] gh6otti kokkos@5.2.1 cmake (0s)
+[x] gh6otti kokkos@5.2.1 failed: /var/tmp/dantopa/spack-stage/spack-stage-kokkos-5.2.1-gh6ottiqzotvpcduszzj6aghzlmqhbz6-rlwyo_im.log (1s)
+-- lines 1 to 21 --
+  ==> Using cached archive: /home/dantopa/spacktivity/spack-isotone/var/spack/cache/_source-cache/archive/3f/3f754c99aa6130b1dd6520d904db7b2fd44ed618cd91e0dfd921956f23f6812d.tar.gz
+  ==> No patches needed for kokkos
+  ==> kokkos: Executing phase: 'cmake'
+  ==> [2026-09-06-11:52:28.202333] /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/cmake-3.31.12-jaab3zzqx7tblwnlniedxqfitwh27bha/bin/cmake -G 'Unix Makefiles' -DCMAKE_INSTALL_PREFIX:STRING=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/kokkos-5.2.1-gh6ottiqzotvpcduszzj6aghzlmqhbz6 -DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON '-DCMAKE_INSTALL_RPATH:STRING=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/kokkos-5.2.1-gh6ottiqzotvpcduszzj6aghzlmqhbz6/lib;/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/kokkos-5.2.1-gh6ottiqzotvpcduszzj6aghzlmqhbz6/lib64' '-DCMAKE_PREFIX_PATH:STRING=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/cmake-3.31.12-jaab3zzqx7tblwnlniedxqfitwh27bha;/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r;/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gcc-runtime-16.0.1-ucq2opimto2x34zcrvdlow55lnwhuhnj;/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gmake-4.4.1-mkyma5432d3gsulsfbayigyxf2ftrhen' -DCMAKE_BUILD_TYPE:STRING=Release -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON -DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF -DCMAKE_POLICY_DEFAULT_CMP0090:STRING=NEW -DCMAKE_FIND_USE_PACKAGE_REGISTRY:BOOL=OFF -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF -DCMAKE_CXX_STANDARD:STRING=20 -DBUILD_SHARED_LIBS:BOOL=ON -DKokkos_ENABLE_COMPILE_AS_CMAKE_LANGUAGE:BOOL=OFF -DKokkos_ENABLE_DEPRECATED_CODE_5:BOOL=ON -DKokkos_ARCH_SKL:BOOL=ON -DKokkos_ENABLE_CUDA:BOOL=OFF -DKokkos_ENABLE_OPENMP:BOOL=OFF -DKokkos_ENABLE_THREADS:BOOL=OFF -DKokkos_ENABLE_SERIAL:BOOL=ON -DKokkos_ENABLE_HIP:BOOL=OFF -DKokkos_ENABLE_SYCL:BOOL=OFF -DKokkos_ENABLE_AGGRESSIVE_VECTORIZATION:BOOL=OFF -DKokkos_ENABLE_COMPLEX_ALIGN:BOOL=ON -DKokkos_ENABLE_HIP_RELOCATABLE_DEVICE_CODE:BOOL=OFF -DKokkos_ENABLE_DEBUG:BOOL=OFF -DKokkos_ENABLE_DEBUG_BOUNDS_CHECK:BOOL=OFF -DKokkos_ENABLE_DEPRECATED_CODE:BOOL=ON -DKokkos_ENABLE_TUNING:BOOL=OFF -DKokkos_ENABLE_TESTS:BOOL=OFF -DKokkos_ENABLE_HPX:BOOL=OFF -DKokkos_ENABLE_HWLOC:BOOL=OFF '' /var/tmp/dantopa/spack-stage/spack-stage-kokkos-5.2.1-gh6ottiqzotvpcduszzj6aghzlmqhbz6/spack-src
+> CMake Warning:
+    Ignoring empty string ("") provided on the command line.
+  
+  
+  -- Setting default Kokkos CXX standard to 20
+  -- The CXX compiler identification is unknown
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - failed
+  -- Check for working CXX compiler: /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/g++
+  -- Check for working CXX compiler: /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/g++ - broken
+> CMake Error at /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/cmake-3.31.12-jaab3zzqx7tblwnlniedxqfitwh27bha/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:73 (message):
+    The C++ compiler
+  
+      "/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/g++"
+  
+    is not able to compile a simple test program.
+  
+-- lines 25 to 50 --
+  
+      Run Build Command(s): /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/cmake-3.31.12-jaab3zzqx7tblwnlniedxqfitwh27bha/bin/cmake -E env VERBOSE=1 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gmake-4.4.1-mkyma5432d3gsulsfbayigyxf2ftrhen/bin/gmake -f Makefile cmTC_f9897/fast
+      /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gmake-4.4.1-mkyma5432d3gsulsfbayigyxf2ftrhen/bin/gmake  -f CMakeFiles/cmTC_f9897.dir/build.make CMakeFiles/cmTC_f9897.dir/build
+      gmake[1]: Entering directory '/var/tmp/dantopa/spack-stage/spack-stage-kokkos-5.2.1-gh6ottiqzotvpcduszzj6aghzlmqhbz6/spack-build-gh6otti/CMakeFiles/CMakeScratch/TryCompile-qaCTWk'
+      Building CXX object CMakeFiles/cmTC_f9897.dir/testCXXCompiler.cxx.o
+      /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/g++    -o CMakeFiles/cmTC_f9897.dir/testCXXCompiler.cxx.o -c /var/tmp/dantopa/spack-stage/spack-stage-kokkos-5.2.1-gh6ottiqzotvpcduszzj6aghzlmqhbz6/spack-build-gh6otti/CMakeFiles/CMakeScratch/TryCompile-qaCTWk/testCXXCompiler.cxx
+>     /var/tmp/dantopa/spack-stage/spack-stage-kokkos-5.2.1-gh6ottiqzotvpcduszzj6aghzlmqhbz6/spack-build-gh6otti/CMakeFiles/CMakeScratch/TryCompile-qaCTWk/testCXXCompiler.cxx:4:21: fatal error: error closing /tmp/ccQp2TWw.s: Disk quota exceeded
+          4 | int main(){return 0;}
+            |                     ^
+      compilation terminated.
+>     gmake[1]: *** [CMakeFiles/cmTC_f9897.dir/build.make:81: CMakeFiles/cmTC_f9897.dir/testCXXCompiler.cxx.o] Error 1
+      gmake[1]: Leaving directory '/var/tmp/dantopa/spack-stage/spack-stage-kokkos-5.2.1-gh6ottiqzotvpcduszzj6aghzlmqhbz6/spack-build-gh6otti/CMakeFiles/CMakeScratch/TryCompile-qaCTWk'
+>     gmake: *** [Makefile:134: cmTC_f9897/fast] Error 2
+  
+  
+  
+  
+  
+    CMake will not be able to correctly generate this project.
+  Call Stack (most recent call first):
+    CMakeLists.txt:106 (project)
+  
+  
+  -- Configuring incomplete, errors occurred!
+  Command exited with status 1:
+      /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/cmake-3.31.12-jaab3zzqx7tblwnlniedxqfitwh27bha/bin/cmake -G 'Unix Makefiles' -DCMAKE_INSTALL_PREFIX:STRING=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/kokkos-5.2.1-gh6ottiqzotvpcduszzj6aghzlmqhbz6 -DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON '-DCMAKE_INSTALL_RPATH:STRING=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/kokkos-5.2.1-gh6ottiqzotvpcduszzj6aghzlmqhbz6/lib;/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/kokkos-5.2.1-gh6ottiqzotvpcduszzj6aghzlmqhbz6/lib64' '-DCMAKE_PREFIX_PATH:STRING=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/cmake-3.31.12-jaab3zzqx7tblwnlniedxqfitwh27bha;/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r;/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gcc-runtime-16.0.1-ucq2opimto2x34zcrvdlow55lnwhuhnj;/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gmake-4.4.1-mkyma5432d3gsulsfbayigyxf2ftrhen' -DCMAKE_BUILD_TYPE:STRING=Release -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON -DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF -DCMAKE_POLICY_DEFAULT_CMP0090:STRING=NEW -DCMAKE_FIND_USE_PACKAGE_REGISTRY:BOOL=OFF -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF -DCMAKE_CXX_STANDARD:STRING=20 -DBUILD_SHARED_LIBS:BOOL=ON -DKokkos_ENABLE_COMPILE_AS_CMAKE_LANGUAGE:BOOL=OFF -DKokkos_ENABLE_DEPRECATED_CODE_5:BOOL=ON -DKokkos_ARCH_SKL:BOOL=ON -DKokkos_ENABLE_CUDA:BOOL=OFF -DKokkos_ENABLE_OPENMP:BOOL=OFF -DKokkos_ENABLE_THREADS:BOOL=OFF -DKokkos_ENABLE_SERIAL:BOOL=ON -DKokkos_ENABLE_HIP:BOOL=OFF -DKokkos_ENABLE_SYCL:BOOL=OFF -DKokkos_ENABLE_AGGRESSIVE_VECTORIZATION:BOOL=OFF -DKokkos_ENABLE_COMPLEX_ALIGN:BOOL=ON -DKokkos_ENABLE_HIP_RELOCATABLE_DEVICE_CODE:BOOL=OFF -DKokkos_ENABLE_DEBUG:BOOL=OFF -DKokkos_ENABLE_DEBUG_BOUNDS_CHECK:BOOL=OFF -DKokkos_ENABLE_DEPRECATED_CODE:BOOL=ON -DKokkos_ENABLE_TUNING:BOOL=OFF -DKokkos_ENABLE_TESTS:BOOL=OFF -DKokkos_ENABLE_HPX:BOOL=OFF -DKokkos_ENABLE_HWLOC:BOOL=OFF '' /var/tmp/dantopa/spack-stage/spack-stage-kokkos-5.2.1-gh6ottiqzotvpcduszzj6aghzlmqhbz6/spack-src
+==> Error: The following packages failed to install:
+kokkos@5.2.1/gh6ottiqzotvpcduszzj6aghzlmqhbz6: /var/tmp/dantopa/spack-stage/spack-stage-kokkos-5.2.1-gh6ottiqzotvpcduszzj6aghzlmqhbz6-rlwyo_im.log
