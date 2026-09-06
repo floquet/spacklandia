@@ -1,0 +1,1 @@
+[+] tmo5ib3 boost@1.90.0 /home/dantopa/spackticity/spack-isotone/opt/spack/linux-skylake/boost-1.90.0-tmo5ib3n2r63fv7epdx66jiwozeala5h (0s)

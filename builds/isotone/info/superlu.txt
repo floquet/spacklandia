@@ -1,0 +1,70 @@
+CMakePackage:   superlu
+
+Description:
+    SuperLU is a general purpose library for the direct solution of large,
+    sparse, nonsymmetric systems of linear equations on high performance
+    machines. SuperLU is designed for sequential machines.
+
+Homepage: https://portal.nersc.gov/project/sparse/superlu/
+
+Preferred version:  
+    7.0.1    https://github.com/xiaoyeli/superlu/archive/refs/tags/v7.0.1.tar.gz
+
+Safe versions:  
+    7.0.1    https://github.com/xiaoyeli/superlu/archive/refs/tags/v7.0.1.tar.gz
+    7.0.0    https://github.com/xiaoyeli/superlu/archive/refs/tags/v7.0.0.tar.gz
+    6.0.1    https://github.com/xiaoyeli/superlu/archive/refs/tags/v6.0.1.tar.gz
+    6.0.0    https://github.com/xiaoyeli/superlu/archive/refs/tags/v6.0.0.tar.gz
+    5.3.0    https://github.com/xiaoyeli/superlu/archive/refs/tags/v5.3.0.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    build_system [cmake]        cmake
+        Build systems supported by the package
+
+    build_type [Release]        Debug, MinSizeRel, RelWithDebInfo, Release
+      when build_system=cmake
+        CMake build type
+
+    fortran [true]              false, true
+        Build fortran interface
+
+    generator [make]            none
+      when build_system=cmake
+        the build system generator to use
+
+    ipo [false]                 false, true
+      when build_system=cmake %cmake@3.9:
+        CMake interprocedural optimization
+
+    pic [true]                  false, true
+        Build with position independent code
+
+
+Dependencies:
+    blas           build, link
+
+    c              build
+
+    cmake          build
+      when build_system=cmake
+
+    fortran        build
+      when +fortran
+
+    gmake          build
+      when build_system=cmake generator=make
+
+    metis          build, link
+      when @6:
+
+    ninja          build
+      when build_system=cmake generator=ninja
+
+
+Licenses:
+    BSD-3-Clause
+
+

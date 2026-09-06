@@ -1,0 +1,17 @@
+acfl
+aocc
+autoconf
+automake
+cce
+fj
+gcc
+gmake
+gnuconfig
+intel-oneapi-compilers
+intel-oneapi-compilers-classic
+libtool
+llvm
+llvm-amdgpu
+m4
+nvhpc
+xl

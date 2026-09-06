@@ -1,0 +1,146 @@
+CMakePackage:   openblas
+
+Description:
+    OpenBLAS: An optimized BLAS library
+
+Homepage: https://www.openblas.net
+
+Preferred version:  
+    0.3.34     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.34/OpenBLAS-0.3.34.tar.gz
+
+Safe versions:  
+    develop    [git] https://github.com/OpenMathLib/OpenBLAS.git on branch develop
+    0.3.34     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.34/OpenBLAS-0.3.34.tar.gz
+    0.3.33     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.33/OpenBLAS-0.3.33.tar.gz
+    0.3.32     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.32/OpenBLAS-0.3.32.tar.gz
+    0.3.30     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.30/OpenBLAS-0.3.30.tar.gz
+    0.3.29     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.29/OpenBLAS-0.3.29.tar.gz
+    0.3.28     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.28/OpenBLAS-0.3.28.tar.gz
+    0.3.27     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.27/OpenBLAS-0.3.27.tar.gz
+    0.3.26     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.26/OpenBLAS-0.3.26.tar.gz
+    0.3.25     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.25/OpenBLAS-0.3.25.tar.gz
+    0.3.24     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.24/OpenBLAS-0.3.24.tar.gz
+    0.3.23     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.23/OpenBLAS-0.3.23.tar.gz
+    0.3.22     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.22/OpenBLAS-0.3.22.tar.gz
+    0.3.21     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.21/OpenBLAS-0.3.21.tar.gz
+    0.3.20     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.20/OpenBLAS-0.3.20.tar.gz
+
+Deprecated versions:  
+    0.3.19     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.19/OpenBLAS-0.3.19.tar.gz
+    0.3.18     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.18/OpenBLAS-0.3.18.tar.gz
+    0.3.17     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.17/OpenBLAS-0.3.17.tar.gz
+    0.3.16     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.16/OpenBLAS-0.3.16.tar.gz
+    0.3.15     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.15/OpenBLAS-0.3.15.tar.gz
+    0.3.14     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.14/OpenBLAS-0.3.14.tar.gz
+    0.3.13     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.13/OpenBLAS-0.3.13.tar.gz
+    0.3.12     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.12/OpenBLAS-0.3.12.tar.gz
+    0.3.11     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.11/OpenBLAS-0.3.11.tar.gz
+    0.3.10     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.10/OpenBLAS-0.3.10.tar.gz
+    0.3.9      https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.9/OpenBLAS-0.3.9.tar.gz
+    0.3.8      https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.8/OpenBLAS-0.3.8.tar.gz
+    0.3.7      https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.7/OpenBLAS-0.3.7.tar.gz
+    0.3.6      https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.6/OpenBLAS-0.3.6.tar.gz
+    0.3.5      https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.5/OpenBLAS-0.3.5.tar.gz
+    0.3.4      https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.4/OpenBLAS-0.3.4.tar.gz
+    0.3.3      https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.3/OpenBLAS-0.3.3.tar.gz
+    0.3.2      https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.2/OpenBLAS-0.3.2.tar.gz
+    0.3.1      https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.1/OpenBLAS-0.3.1.tar.gz
+    0.3.0      https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.0/OpenBLAS-0.3.0.tar.gz
+    0.2.20     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.2.20/OpenBLAS-0.2.20.tar.gz
+    0.2.19     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.2.19/OpenBLAS-0.2.19.tar.gz
+    0.2.18     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.2.18/OpenBLAS-0.2.18.tar.gz
+    0.2.17     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.2.17/OpenBLAS-0.2.17.tar.gz
+    0.2.16     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.2.16/OpenBLAS-0.2.16.tar.gz
+    0.2.15     https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.2.15/OpenBLAS-0.2.15.tar.gz
+
+Variants:
+    bignuma [false]                 false, true
+        Enable experimental support for up to 1024 CPUs/Cores and 128 numa
+        nodes
+
+    build_system [makefile]         cmake, makefile
+        Build systems supported by the package
+
+    build_type [Release]            Debug, MinSizeRel, RelWithDebInfo, Release
+      when build_system=cmake
+        CMake build type
+
+    consistent_fpcsr [false]        false, true
+        Synchronize FP CSR between threads (x86/x86_64 only)
+
+    dynamic_dispatch [true]         false, true
+        Enable runtime cpu detection for best kernel selection
+
+    fortran [true]                  false, true
+      when @0.3.21:
+        w/o a Fortran compiler, OpenBLAS will build an f2c-converted LAPACK
+
+    generator [make]                none
+      when build_system=cmake
+        the build system generator to use
+
+    ilp64 [false]                   false, true
+        Force 64-bit Fortran native integers
+
+    ipo [false]                     false, true
+      when build_system=cmake %cmake@3.9:
+        CMake interprocedural optimization
+
+    locking [true]                  false, true
+        Build with thread safety
+
+    max_num_threads [512]           none
+      when threads=openmp
+        Set the default number of threads for OpenBLAS
+
+    max_num_threads [512]           none
+      when threads=pthreads
+        Set the default number of threads for OpenBLAS
+
+    pic [true]                      false, true
+        Build position independent code
+
+    shared [true]                   false, true
+        Build shared libraries
+
+    static [false]                  false, true
+        Build static libraries
+
+    symbol_suffix [none]            none
+        Set a symbol suffix
+
+    threads [none]                  none, openmp, pthreads
+        Multithreading support
+
+
+Dependencies:
+    c              build
+
+    cmake          build
+      when build_system=cmake
+
+    cxx            build
+
+    fortran        build
+      when +fortran
+
+    fortran        build
+      when @:0.3.20
+
+    gmake          build
+      when build_system=makefile
+
+    gmake          build
+      when build_system=cmake generator=make
+
+    ninja          build
+      when build_system=cmake generator=ninja
+
+    perl           build
+      when @:0.3.20
+
+
+Licenses:
+    BSD-3-Clause
+
+

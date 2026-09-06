@@ -1,0 +1,19 @@
+[x] jghls6i nlopt@2.9.1 failed: /tmp/dantopa/spack-stage/spack-stage-nlopt-2.9.1-jghls6i3qxzrkkmddor3ctey4yebhzor-ndgonp1e.log (0s)
+-- lines 1 to 15 --
+  Traceback (most recent call last):
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/build_environment.py", line 772, in setup_package
+      setup_context.set_all_package_py_globals()
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/build_environment.py", line 1044, in set_all_package_py_globals
+      pkg.setup_dependent_package(dependent_module, spec)
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/home/dantopa/.spack/package_repos/fncqgg4/repos/spack_repo/builtin/packages/python/package.py", line 1354, in setup_dependent_package
+      module.python = self.command
+                      ^^^^^^^^^^^^
+    File "/home/dantopa/.spack/package_repos/fncqgg4/repos/spack_repo/builtin/packages/python/package.py", line 931, in command
+      raise RuntimeError(
+          f"cannot locate the '{self.name}' command in {root} or its subdirectories"
+      )
+  RuntimeError: cannot locate the 'python' command in /home/dantopa/spackticity/spack-isotone/opt/spack/linux-skylake/python-3.14.5-iqi3j3s6i54ihptht3aqloe7zsf7saom/bin or its subdirectories
+==> Error: The following packages failed to install:
+nlopt@2.9.1/jghls6i3qxzrkkmddor3ctey4yebhzor: /tmp/dantopa/spack-stage/spack-stage-nlopt-2.9.1-jghls6i3qxzrkkmddor3ctey4yebhzor-ndgonp1e.log

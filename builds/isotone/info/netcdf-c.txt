@@ -1,0 +1,284 @@
+CMakePackage:   netcdf-c
+
+Description:
+    NetCDF (network Common Data Form) is a set of software libraries and
+    machine-independent data formats that support the creation, access, and
+    sharing of array-oriented scientific data. This is the C distribution.
+
+Homepage: https://www.unidata.ucar.edu/software/netcdf
+
+Preferred version:  
+    4.10.0     https://github.com/Unidata/netcdf-c/archive/refs/tags/v4.10.0.tar.gz
+
+Safe versions:  
+    main       [git] https://github.com/Unidata/netcdf-c.git on branch main
+    4.10.0     https://github.com/Unidata/netcdf-c/archive/refs/tags/v4.10.0.tar.gz
+    4.9.3      https://github.com/Unidata/netcdf-c/archive/refs/tags/v4.9.3.tar.gz
+    4.9.2      https://github.com/Unidata/netcdf-c/archive/refs/tags/v4.9.2.tar.gz
+    4.9.0      https://github.com/Unidata/netcdf-c/archive/refs/tags/v4.9.0.tar.gz
+    4.8.1      https://github.com/Unidata/netcdf-c/archive/refs/tags/v4.8.1.tar.gz
+    4.8.0      https://github.com/Unidata/netcdf-c/archive/refs/tags/v4.8.0.tar.gz
+    4.7.4      https://github.com/Unidata/netcdf-c/archive/refs/tags/v4.7.4.tar.gz
+    4.7.3      https://github.com/Unidata/netcdf-c/archive/refs/tags/v4.7.3.tar.gz
+    4.7.2      https://github.com/Unidata/netcdf-c/archive/refs/tags/v4.7.2.tar.gz
+    4.7.1      https://github.com/Unidata/netcdf-c/archive/refs/tags/v4.7.1.tar.gz
+    4.7.0      https://github.com/Unidata/netcdf-c/archive/refs/tags/v4.7.0.tar.gz
+
+Deprecated versions:  
+    4.6.3      https://github.com/Unidata/netcdf-c/archive/refs/tags/v4.6.3.tar.gz
+    4.6.2      https://github.com/Unidata/netcdf-c/archive/refs/tags/v4.6.2.tar.gz
+    4.6.1      https://github.com/Unidata/netcdf-c/archive/refs/tags/v4.6.1.tar.gz
+    4.6.0      https://github.com/Unidata/netcdf-c/archive/refs/tags/v4.6.0.tar.gz
+    4.5.0      https://github.com/Unidata/netcdf-c/archive/refs/tags/v4.5.0.tar.gz
+    4.4.1.1    https://github.com/Unidata/netcdf-c/archive/refs/tags/v4.4.1.1.tar.gz
+    4.4.1      https://github.com/Unidata/netcdf-c/archive/refs/tags/v4.4.1.tar.gz
+    4.4.0      https://github.com/Unidata/netcdf-c/archive/refs/tags/v4.4.0.tar.gz
+    4.3.3.1    https://github.com/Unidata/netcdf-c/archive/refs/tags/v4.3.3.1.tar.gz
+    4.3.3      https://github.com/Unidata/netcdf-c/archive/refs/tags/v4.3.3.tar.gz
+
+Variants:
+    blosc [true]                    false, true
+        Enable Blosc compression plugin
+
+    build_system [autotools]        autotools, cmake
+        Build systems supported by the package
+
+    build_type [Release]            Debug, MinSizeRel, RelWithDebInfo, Release
+      when build_system=cmake
+        CMake build type
+
+    byterange [false]               false, true
+        Enable byte-range I/O
+
+    dap [false]                     false, true
+        Enable DAP support
+
+    examples [true]                 false, true
+        Build example programs
+
+    fsync [false]                   false, true
+        Enable fsync support
+
+    generator [make]                none
+      when build_system=cmake
+        the build system generator to use
+
+    hdf4 [false]                    false, true
+        Enable HDF4 support
+
+    ipo [false]                     false, true
+      when build_system=cmake %cmake@3.9:
+        CMake interprocedural optimization
+
+    jna [false]                     false, true
+        Enable JNA support
+
+    logging [false]                 false, true
+        Enable logging
+
+    mpi [true]                      false, true
+        Enable parallel I/O for netcdf-4
+
+    nczarr_zip [false]              false, true
+        Enable NCZarr zipfile format storage
+
+    optimize [true]                 false, true
+        Enable -O2 for a more optimized lib
+
+    parallel-netcdf [false]         false, true
+        Enable parallel I/O for classic files
+
+    pic [true]                      false, true
+        Produce position-independent code (for shared libs)
+
+    shared [true]                   false, true
+        Enable shared library
+
+    szip [true]                     false, true
+        Enable Szip compression plugin
+
+    tests [true]                    false, true
+        Build test programs
+
+    utilities [true]                false, true
+        Build command-line utilities
+
+    zstd [true]                     false, true
+        Enable Zstandard compression plugin
+
+
+Dependencies:
+    autoconf                       build
+      when @main build_system=autotools
+
+    autoconf                       build
+      when @4.7.3:4.7.4+parallel-netcdf build_system=autotools
+
+    autoconf                       build
+      when @4.8.1 build_system=autotools
+
+    autoconf                       build
+      when @4.9.2~dap build_system=autotools platform=darwin
+
+    automake                       build
+      when @main build_system=autotools
+
+    automake                       build
+      when @4.7.3:4.7.4+parallel-netcdf build_system=autotools
+
+    automake                       build
+      when @4.8.1 build_system=autotools
+
+    automake                       build
+      when @4.9.2~dap build_system=autotools platform=darwin
+
+    bzip2                          build, link
+      when @4.9.0:+shared platform=darwin
+
+    bzip2                          build, link
+      when @4.9.0:+shared platform=linux
+
+    c                              build
+
+    c-blosc                        build, link
+      when +blosc
+
+    cmake                          build
+      when build_system=cmake
+
+    cmake@2.8.11:                  build
+      when @4.4.0: build_system=cmake
+
+    cmake@2.8.12:                  build
+      when @4.3.3:4.3 build_system=cmake
+
+    cmake@3.6.1:                   build
+      when @4.5.0: build_system=cmake
+
+    cmake@3.12:                    build
+      when @4.9.0: build_system=cmake
+
+    cmake@3.20:                    test
+      when @4.9.1: build_system=cmake
+
+    curl@7.18.0:                   build, link
+      when +dap
+
+    curl@7.18.0:                   build, link
+      when +byterange
+
+    curl@7.18.0:                   build, link
+      when @:4.9.2 build_system=cmake
+
+    cxx                            build
+      when build_system=cmake
+
+    gmake                          build
+      when build_system=autotools
+
+    gmake                          build
+      when build_system=cmake generator=make
+
+    gnuconfig                      build
+      when build_system=autotools target=ppc64le:
+
+    gnuconfig                      build
+      when build_system=autotools target=aarch64:
+
+    gnuconfig                      build
+      when build_system=autotools target=riscv64:
+
+    hdf~netcdf                     build, link
+      when +hdf4
+
+    hdf5@:1.10                     build, link
+      when @:4.7.3
+
+    hdf5@:1.10                     build, link
+      when @4.8.0
+
+    hdf5@:1.12                     build, link
+      when @:4.9.1+byterange
+
+    hdf5+mpi                       build, link
+      when +mpi
+
+    hdf5@1.8.9:+hl                 build, link
+
+    hdf5@1.8.15:1.9,1.10.2:        build, link
+      when +byterange
+
+    libtool                        build
+      when @main build_system=autotools
+
+    libtool                        build
+      when @4.7.3:4.7.4+parallel-netcdf build_system=autotools
+
+    libtool                        build
+      when @4.8.1 build_system=autotools
+
+    libtool                        build
+      when @4.9.2~dap build_system=autotools platform=darwin
+
+    libxml2                        build, link
+      when @4.9.0:+dap
+
+    libzip                         build, link
+      when +nczarr_zip
+
+    m4                             build
+      when @4.7.3:4.7.4+parallel-netcdf build_system=autotools
+
+    m4                             build
+      when @4.8.1 build_system=autotools
+
+    m4                             build
+      when @4.9.2~dap build_system=autotools platform=darwin
+
+    m4                             build
+      when @main
+
+    m4                             build
+      when build_system=cmake platform=darwin
+
+    m4                             build
+      when @:4.4 build_system=autotools platform=darwin
+
+    m4                             build
+      when build_system=cmake platform=linux
+
+    m4                             build
+      when @:4.4 build_system=autotools platform=linux
+
+    mpi                            build, link
+      when +parallel-netcdf
+
+    mpi                            build, link
+      when +mpi
+
+    mpi                            build, link
+      when ^hdf5+mpi~shared
+
+    ninja                          build
+      when build_system=cmake generator=ninja
+
+    parallel-netcdf                build, link
+      when +parallel-netcdf
+
+    szip                           build, link
+      when +szip
+
+    zlib@1.2.5:                    build, link
+      when ^zlib-api=zlib
+
+    zlib-api                       build, link
+      when @4.9.0:+shared
+
+    zstd                           build, link
+      when +zstd
+
+
+Licenses:
+    BSD-3-Clause
+
+

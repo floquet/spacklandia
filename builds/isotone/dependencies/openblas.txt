@@ -1,0 +1,16 @@
+acfl
+aocc
+cce
+cmake
+fj
+gcc
+gmake
+intel-oneapi-compilers
+intel-oneapi-compilers-classic
+llvm
+llvm-amdgpu
+nag
+ninja
+nvhpc
+perl
+xl

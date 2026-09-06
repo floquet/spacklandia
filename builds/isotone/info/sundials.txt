@@ -1,0 +1,938 @@
+CMakePackage:   sundials
+
+Description:
+    SUNDIALS (SUite of Nonlinear and DIfferential/ALgebraic equation
+    Solvers)
+
+Homepage: https://computing.llnl.gov/projects/sundials
+
+Preferred version:  
+    7.8.0      [git] https://github.com/LLNL/sundials.git at commit aedc088437064dd55b35c000145f7f5db6ee49e3
+
+Safe versions:  
+    develop    [git] https://github.com/LLNL/sundials.git on branch develop
+    main       [git] https://github.com/LLNL/sundials.git on branch main
+    7.8.0      [git] https://github.com/LLNL/sundials.git at commit aedc088437064dd55b35c000145f7f5db6ee49e3
+    7.7.0      [git] https://github.com/LLNL/sundials.git at commit 0a1024b7fb902a5eae3142adf8c13561c6989543
+    7.6.0      [git] https://github.com/LLNL/sundials.git at commit ddf5daba8397ea89287a0fec6f1b3bc3fe6c548b
+    7.5.0      [git] https://github.com/LLNL/sundials.git at commit c8dabcea90ca8bf195474da120e4f3dd39aa711f
+    7.4.0      [git] https://github.com/LLNL/sundials.git at commit 8e17876d3b4d682b4098684b07a85b005a122f81
+    7.3.0      [git] https://github.com/LLNL/sundials.git at commit cb681a4e3a46bcad903fb966284d6f53e85bdb94
+    7.2.1      [git] https://github.com/LLNL/sundials.git at commit 2dcb3e018b4c4cfe824bff09eb52184ed083e368
+    7.2.0      [git] https://github.com/LLNL/sundials.git at commit 71a4cc9ad5e7bc8b4e33a1ca9795b4e96883f9a6
+    7.1.1      [git] https://github.com/LLNL/sundials.git at commit c28eaa3764a03705d61decb6025b409360e9d53f
+    7.0.0      https://github.com/LLNL/sundials/releases/download/v7.0.0/sundials-7.0.0.tar.gz
+    6.7.0      https://github.com/LLNL/sundials/releases/download/v6.7.0/sundials-6.7.0.tar.gz
+    6.6.2      https://github.com/LLNL/sundials/releases/download/v6.6.2/sundials-6.6.2.tar.gz
+    6.6.1      https://github.com/LLNL/sundials/releases/download/v6.6.1/sundials-6.6.1.tar.gz
+    6.6.0      https://github.com/LLNL/sundials/releases/download/v6.6.0/sundials-6.6.0.tar.gz
+    6.5.1      https://github.com/LLNL/sundials/releases/download/v6.5.1/sundials-6.5.1.tar.gz
+    6.5.0      https://github.com/LLNL/sundials/releases/download/v6.5.0/sundials-6.5.0.tar.gz
+    6.4.1      https://github.com/LLNL/sundials/releases/download/v6.4.1/sundials-6.4.1.tar.gz
+    6.4.0      https://github.com/LLNL/sundials/releases/download/v6.4.0/sundials-6.4.0.tar.gz
+    6.3.0      https://github.com/LLNL/sundials/releases/download/v6.3.0/sundials-6.3.0.tar.gz
+    6.2.0      https://github.com/LLNL/sundials/releases/download/v6.2.0/sundials-6.2.0.tar.gz
+    6.1.1      https://github.com/LLNL/sundials/releases/download/v6.1.1/sundials-6.1.1.tar.gz
+    6.1.0      https://github.com/LLNL/sundials/releases/download/v6.1.0/sundials-6.1.0.tar.gz
+    6.0.0      https://github.com/LLNL/sundials/releases/download/v6.0.0/sundials-6.0.0.tar.gz
+    5.8.0      https://github.com/LLNL/sundials/releases/download/v5.8.0/sundials-5.8.0.tar.gz
+    5.7.0      https://github.com/LLNL/sundials/releases/download/v5.7.0/sundials-5.7.0.tar.gz
+    5.6.1      https://github.com/LLNL/sundials/releases/download/v5.6.1/sundials-5.6.1.tar.gz
+    5.6.0      https://github.com/LLNL/sundials/releases/download/v5.6.0/sundials-5.6.0.tar.gz
+    5.5.0      https://github.com/LLNL/sundials/releases/download/v5.5.0/sundials-5.5.0.tar.gz
+    5.4.0      https://github.com/LLNL/sundials/releases/download/v5.4.0/sundials-5.4.0.tar.gz
+    5.3.0      https://github.com/LLNL/sundials/releases/download/v5.3.0/sundials-5.3.0.tar.gz
+    5.2.0      https://github.com/LLNL/sundials/releases/download/v5.2.0/sundials-5.2.0.tar.gz
+    5.1.0      https://github.com/LLNL/sundials/releases/download/v5.1.0/sundials-5.1.0.tar.gz
+    5.0.0      https://github.com/LLNL/sundials/releases/download/v5.0.0/sundials-5.0.0.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    ARKODE [true]                  false, true
+        Enable ARKODE solver
+
+    CVODE [true]                   false, true
+        Enable CVODE solver
+
+    CVODES [true]                  false, true
+        Enable CVODES solver
+
+    IDA [true]                     false, true
+        Enable IDA solver
+
+    IDAS [true]                    false, true
+        Enable IDAS solver
+
+    KINSOL [true]                  false, true
+        Enable KINSOL solver
+
+    amdgpu_target [none]           none, gfx1010, gfx1011, gfx1012, gfx1013,
+                                   gfx1030, gfx1031, gfx1032, gfx1033,
+                                   gfx1034, gfx1035, gfx1036, gfx1100,
+                                   gfx1101, gfx1102, gfx1103, gfx1150,
+                                   gfx1151, gfx1152, gfx1153, gfx1200,
+                                   gfx1201, gfx1250, gfx1251, gfx701, gfx801,
+                                   gfx802, gfx803, gfx900, gfx900:xnack-,
+                                   gfx902, gfx904, gfx906, gfx906:xnack-,
+                                   gfx908, gfx908:xnack-, gfx909, gfx90a,
+                                   gfx90a:xnack+, gfx90a:xnack-, gfx90c,
+                                   gfx940, gfx941, gfx942, gfx950
+      when +rocm
+        AMD GPU architecture
+
+    build_system [cmake]           cmake
+        Build systems supported by the package
+
+    build_type [Release]           Debug, MinSizeRel, RelWithDebInfo, Release
+      when build_system=cmake
+        CMake build type
+
+    caliper [false]                false, true
+      when @6.0.0:+profiling
+        Enable Caliper instrumentation/profiling
+
+    cstd [99]                      11, 17, 90, 99
+        C language standard
+
+    cuda [false]                   false, true
+        Build with CUDA
+
+    cuda_arch [none]               none, 10, 100, 100a, 100f, 101, 101a, 101f,
+                                   103, 103a, 103f, 11, 110, 110a, 110f, 12,
+                                   120, 120a, 120f, 121, 121a, 121f, 13, 20,
+                                   21, 30, 32, 35, 37, 50, 52, 53, 60, 61, 62,
+                                   70, 72, 75, 80, 86, 87, 89, 90, 90a
+      when +cuda
+        CUDA architecture
+
+    cxxstd [14]                    11, 14, 17, 99
+        C++ language standard
+
+    examples [true]                false, true
+        Enable examples
+
+    examples-install [true]        false, true
+        Install examples
+
+    f2003 [false]                  false, true
+        Enable Fortran 2003 interface
+
+    fcmix [false]                  false, true
+        Enable Fortran 77 interface
+
+    generator [make]               none
+      when build_system=cmake
+        the build system generator to use
+
+    generic-math [true]            false, true
+      when @:6.7.0
+        Use generic (std-c) math libraries on unix systems
+
+    ginkgo [false]                 false, true
+      when @6.4.0:
+        Enable Ginkgo interfaces
+
+    hypre [false]                  false, true
+        Enable Hypre MPI parallel vector
+
+    int64 [false]                  false, true
+        Use 64bit integers for indices
+
+    ipo [false]                    false, true
+      when build_system=cmake %cmake@3.9:
+        CMake interprocedural optimization
+
+    klu [false]                    false, true
+        Enable KLU sparse, direct solver
+
+    kokkos [false]                 false, true
+      when @6.4.0:
+        Enable Kokkos vector
+
+    kokkos-kernels [false]         false, true
+      when @6.4.0:
+        Enable KokkosKernels based matrix and linear solver
+
+    lapack [false]                 false, true
+        Enable LAPACK direct solvers
+
+    logging-level [2]              0, 1, 2, 3, 4, 5
+      when @6.2.0:
+        logging level
+         0 = no logging,
+         1 = errors,
+         2 = errors + warnings,
+         3 = errors + warnings + info,
+         4 = errors + warnings + info + debugging,
+         5 = all of the above + more
+
+    logging-mpi [OFF]              none
+      when @6.2.0:6.7.0
+        enable MPI support in the logger
+
+    magma [false]                  false, true
+      when @5.7.0:
+        Enable MAGMA interface
+
+    monitoring [false]             false, true
+      when @5.5.0:
+        Build with simulation monitoring capabilities
+
+    mpi [true]                     false, true
+        Enable MPI parallel vector
+
+    openmp [false]                 false, true
+        Enable OpenMP parallel vector
+
+    petsc [false]                  false, true
+        Enable PETSc interfaces
+
+    precision [double]             double, extended, single
+        real type precision
+
+    profiling [false]              false, true
+      when @6.0.0:
+        Build with profiling capabilities
+
+    pthread [false]                false, true
+        Enable Pthreads parallel vector
+
+    raja [false]                   false, true
+        Enable RAJA vector
+
+    rocm [false]                   false, true
+        Enable ROCm support
+
+    shared [true]                  false, true
+        Build shared libraries
+
+    static [true]                  false, true
+        Build static libraries
+
+    superlu-dist [false]           false, true
+        Enable SuperLU_DIST sparse, direct solver
+
+    superlu-mt [false]             false, true
+        Enable SuperLU_MT sparse, direct solver
+
+    sycl [false]                   false, true
+      when @5.7.0:
+        Enable SYCL vector
+
+    trilinos [false]               false, true
+        Enable Trilinos interfaces
+
+
+Dependencies:
+    blas                                              build, link
+      when +lapack
+
+    c                                                 build
+
+    caliper                                           build, link
+      when +caliper
+
+    cmake@3.18:                                       build
+
+    cuda                                              build, link
+      when +cuda
+
+    cuda@:6.0                                         build, link
+      when cuda_arch=10
+
+    cuda@:6.5                                         build, link
+      when cuda_arch=11
+
+    cuda@2.1:6.5                                      build, link
+      when cuda_arch=12
+
+    cuda@2.1:6.5                                      build, link
+      when cuda_arch=13
+
+    cuda@3.0:8.0                                      build, link
+      when cuda_arch=20
+
+    cuda@3.2:8.0                                      build, link
+      when cuda_arch=21
+
+    cuda@5.0:10.2                                     build, link
+      when cuda_arch=30
+
+    cuda@5.0:10.2                                     build, link
+      when cuda_arch=32
+
+    cuda@5.0:11.8                                     build, link
+      when cuda_arch=35
+
+    cuda@6.0:12.9                                     build, link
+      when cuda_arch=50
+
+    cuda@6.5:11.8                                     build, link
+      when cuda_arch=37
+
+    cuda@6.5:12.9                                     build, link
+      when cuda_arch=52
+
+    cuda@6.5:12.9                                     build, link
+      when cuda_arch=53
+
+    cuda@8.0:12.9                                     build, link
+      when cuda_arch=60
+
+    cuda@8.0:12.9                                     build, link
+      when cuda_arch=61
+
+    cuda@8.0:12.9                                     build, link
+      when cuda_arch=62
+
+    cuda@9.0:12.9                                     build, link
+      when cuda_arch=70
+
+    cuda@9.0:                                         build, link
+      when cuda_arch=72
+
+    cuda@10.0:                                        build, link
+      when cuda_arch=75
+
+    cuda@11.0:                                        build, link
+      when cuda_arch=80
+
+    cuda@11.1:                                        build, link
+      when cuda_arch=86
+
+    cuda@11.4:                                        build, link
+      when cuda_arch=87
+
+    cuda@11.8:                                        build, link
+      when cuda_arch=89
+
+    cuda@12.0:                                        build, link
+      when cuda_arch=90
+
+    cuda@12.0:                                        build, link
+      when cuda_arch=90a
+
+    cuda@12.8:12.9                                    build, link
+      when cuda_arch=101
+
+    cuda@12.8:12.9                                    build, link
+      when cuda_arch=101a
+
+    cuda@12.8:                                        build, link
+      when cuda_arch=100
+
+    cuda@12.8:                                        build, link
+      when cuda_arch=100a
+
+    cuda@12.8:                                        build, link
+      when cuda_arch=120
+
+    cuda@12.8:                                        build, link
+      when cuda_arch=120a
+
+    cuda@12.9                                         build, link
+      when cuda_arch=101f
+
+    cuda@12.9:                                        build, link
+      when cuda_arch=100f
+
+    cuda@12.9:                                        build, link
+      when cuda_arch=103
+
+    cuda@12.9:                                        build, link
+      when cuda_arch=103a
+
+    cuda@12.9:                                        build, link
+      when cuda_arch=103f
+
+    cuda@12.9:                                        build, link
+      when cuda_arch=120f
+
+    cuda@12.9:                                        build, link
+      when cuda_arch=121
+
+    cuda@12.9:                                        build, link
+      when cuda_arch=121a
+
+    cuda@12.9:                                        build, link
+      when cuda_arch=121f
+
+    cuda@13.0:                                        build, link
+      when cuda_arch=110
+
+    cuda@13.0:                                        build, link
+      when cuda_arch=110a
+
+    cuda@13.0:                                        build, link
+      when cuda_arch=110f
+
+    cxx                                               build
+
+    fortran                                           build
+
+    ginkgo@1.5.0:                                     build, link
+      when +ginkgo
+
+    gmake                                             build
+      when build_system=cmake generator=make
+
+    hip+rocm                                          build, link
+      when +rocm
+
+    hsa-rocr-dev                                      build, link
+      when +rocm
+
+    hypre@:2.22.0~int64+mpi                           build, link
+      when @:5.7.0+hypre~int64
+
+    hypre@:2.22.0+int64+mpi                           build, link
+      when @:5.7.0+hypre+int64
+
+    hypre~int64+mpi                                   build, link
+      when @5.7.1:+hypre~int64
+
+    hypre+int64+mpi                                   build, link
+      when @5.7.1:+hypre+int64
+
+    kokkos                                            build, link
+      when +kokkos
+
+    kokkos+rocm amdgpu_target=gfx1010                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1010
+
+    kokkos+rocm amdgpu_target=gfx1011                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1011
+
+    kokkos+rocm amdgpu_target=gfx1012                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1012
+
+    kokkos+rocm amdgpu_target=gfx1013                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1013
+
+    kokkos+rocm amdgpu_target=gfx1030                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1030
+
+    kokkos+rocm amdgpu_target=gfx1031                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1031
+
+    kokkos+rocm amdgpu_target=gfx1032                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1032
+
+    kokkos+rocm amdgpu_target=gfx1033                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1033
+
+    kokkos+rocm amdgpu_target=gfx1034                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1034
+
+    kokkos+rocm amdgpu_target=gfx1035                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1035
+
+    kokkos+rocm amdgpu_target=gfx1036                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1036
+
+    kokkos+rocm amdgpu_target=gfx1100                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1100
+
+    kokkos+rocm amdgpu_target=gfx1101                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1101
+
+    kokkos+rocm amdgpu_target=gfx1102                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1102
+
+    kokkos+rocm amdgpu_target=gfx1103                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1103
+
+    kokkos+rocm amdgpu_target=gfx1150                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1150
+
+    kokkos+rocm amdgpu_target=gfx1151                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1151
+
+    kokkos+rocm amdgpu_target=gfx1152                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1152
+
+    kokkos+rocm amdgpu_target=gfx1153                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1153
+
+    kokkos+rocm amdgpu_target=gfx1200                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1200
+
+    kokkos+rocm amdgpu_target=gfx1201                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1201
+
+    kokkos+rocm amdgpu_target=gfx1250                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1250
+
+    kokkos+rocm amdgpu_target=gfx1251                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1251
+
+    kokkos+rocm amdgpu_target=gfx701                  build, link
+      when +kokkos+rocm amdgpu_target=gfx701
+
+    kokkos+rocm amdgpu_target=gfx801                  build, link
+      when +kokkos+rocm amdgpu_target=gfx801
+
+    kokkos+rocm amdgpu_target=gfx802                  build, link
+      when +kokkos+rocm amdgpu_target=gfx802
+
+    kokkos+rocm amdgpu_target=gfx803                  build, link
+      when +kokkos+rocm amdgpu_target=gfx803
+
+    kokkos+rocm amdgpu_target=gfx900                  build, link
+      when +kokkos+rocm amdgpu_target=gfx900
+
+    kokkos+rocm amdgpu_target='gfx900:xnack-'         build, link
+      when +kokkos+rocm amdgpu_target='gfx900:xnack-'
+
+    kokkos+rocm amdgpu_target=gfx902                  build, link
+      when +kokkos+rocm amdgpu_target=gfx902
+
+    kokkos+rocm amdgpu_target=gfx904                  build, link
+      when +kokkos+rocm amdgpu_target=gfx904
+
+    kokkos+rocm amdgpu_target=gfx906                  build, link
+      when +kokkos+rocm amdgpu_target=gfx906
+
+    kokkos+rocm amdgpu_target='gfx906:xnack-'         build, link
+      when +kokkos+rocm amdgpu_target='gfx906:xnack-'
+
+    kokkos+rocm amdgpu_target=gfx908                  build, link
+      when +kokkos+rocm amdgpu_target=gfx908
+
+    kokkos+rocm amdgpu_target='gfx908:xnack-'         build, link
+      when +kokkos+rocm amdgpu_target='gfx908:xnack-'
+
+    kokkos+rocm amdgpu_target=gfx909                  build, link
+      when +kokkos+rocm amdgpu_target=gfx909
+
+    kokkos+rocm amdgpu_target=gfx90a                  build, link
+      when +kokkos+rocm amdgpu_target=gfx90a
+
+    kokkos+rocm amdgpu_target='gfx90a:xnack+'         build, link
+      when +kokkos+rocm amdgpu_target='gfx90a:xnack+'
+
+    kokkos+rocm amdgpu_target='gfx90a:xnack-'         build, link
+      when +kokkos+rocm amdgpu_target='gfx90a:xnack-'
+
+    kokkos+rocm amdgpu_target=gfx90c                  build, link
+      when +kokkos+rocm amdgpu_target=gfx90c
+
+    kokkos+rocm amdgpu_target=gfx940                  build, link
+      when +kokkos+rocm amdgpu_target=gfx940
+
+    kokkos+rocm amdgpu_target=gfx941                  build, link
+      when +kokkos+rocm amdgpu_target=gfx941
+
+    kokkos+rocm amdgpu_target=gfx942                  build, link
+      when +kokkos+rocm amdgpu_target=gfx942
+
+    kokkos+rocm amdgpu_target=gfx950                  build, link
+      when +kokkos+rocm amdgpu_target=gfx950
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=10
+                                                      build, link
+      when +cuda+kokkos cuda_arch=10
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=100
+                                                      build, link
+      when +cuda+kokkos cuda_arch=100
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=100a
+                                                      build, link
+      when +cuda+kokkos cuda_arch=100a
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=100f
+                                                      build, link
+      when +cuda+kokkos cuda_arch=100f
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=101
+                                                      build, link
+      when +cuda+kokkos cuda_arch=101
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=101a
+                                                      build, link
+      when +cuda+kokkos cuda_arch=101a
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=101f
+                                                      build, link
+      when +cuda+kokkos cuda_arch=101f
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=103
+                                                      build, link
+      when +cuda+kokkos cuda_arch=103
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=103a
+                                                      build, link
+      when +cuda+kokkos cuda_arch=103a
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=103f
+                                                      build, link
+      when +cuda+kokkos cuda_arch=103f
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=11
+                                                      build, link
+      when +cuda+kokkos cuda_arch=11
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=110
+                                                      build, link
+      when +cuda+kokkos cuda_arch=110
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=110a
+                                                      build, link
+      when +cuda+kokkos cuda_arch=110a
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=110f
+                                                      build, link
+      when +cuda+kokkos cuda_arch=110f
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=12
+                                                      build, link
+      when +cuda+kokkos cuda_arch=12
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=120
+                                                      build, link
+      when +cuda+kokkos cuda_arch=120
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=120a
+                                                      build, link
+      when +cuda+kokkos cuda_arch=120a
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=120f
+                                                      build, link
+      when +cuda+kokkos cuda_arch=120f
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=121
+                                                      build, link
+      when +cuda+kokkos cuda_arch=121
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=121a
+                                                      build, link
+      when +cuda+kokkos cuda_arch=121a
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=121f
+                                                      build, link
+      when +cuda+kokkos cuda_arch=121f
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=13
+                                                      build, link
+      when +cuda+kokkos cuda_arch=13
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=20
+                                                      build, link
+      when +cuda+kokkos cuda_arch=20
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=21
+                                                      build, link
+      when +cuda+kokkos cuda_arch=21
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=30
+                                                      build, link
+      when +cuda+kokkos cuda_arch=30
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=32
+                                                      build, link
+      when +cuda+kokkos cuda_arch=32
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=35
+                                                      build, link
+      when +cuda+kokkos cuda_arch=35
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=37
+                                                      build, link
+      when +cuda+kokkos cuda_arch=37
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=50
+                                                      build, link
+      when +cuda+kokkos cuda_arch=50
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=52
+                                                      build, link
+      when +cuda+kokkos cuda_arch=52
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=53
+                                                      build, link
+      when +cuda+kokkos cuda_arch=53
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=60
+                                                      build, link
+      when +cuda+kokkos cuda_arch=60
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=61
+                                                      build, link
+      when +cuda+kokkos cuda_arch=61
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=62
+                                                      build, link
+      when +cuda+kokkos cuda_arch=62
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=70
+                                                      build, link
+      when +cuda+kokkos cuda_arch=70
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=72
+                                                      build, link
+      when +cuda+kokkos cuda_arch=72
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=75
+                                                      build, link
+      when +cuda+kokkos cuda_arch=75
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=80
+                                                      build, link
+      when +cuda+kokkos cuda_arch=80
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=86
+                                                      build, link
+      when +cuda+kokkos cuda_arch=86
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=87
+                                                      build, link
+      when +cuda+kokkos cuda_arch=87
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=89
+                                                      build, link
+      when +cuda+kokkos cuda_arch=89
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=90
+                                                      build, link
+      when +cuda+kokkos cuda_arch=90
+
+    kokkos+cuda+cuda_constexpr+cuda_lambda cuda_arch=90a
+                                                      build, link
+      when +cuda+kokkos cuda_arch=90a
+
+    kokkos-kernels                                    build, link
+      when +kokkos-kernels
+
+    kokkos-kernels+cuda cuda_arch=10                  build, link
+      when +cuda+kokkos-kernels cuda_arch=10
+
+    kokkos-kernels+cuda cuda_arch=100                 build, link
+      when +cuda+kokkos-kernels cuda_arch=100
+
+    kokkos-kernels+cuda cuda_arch=100a                build, link
+      when +cuda+kokkos-kernels cuda_arch=100a
+
+    kokkos-kernels+cuda cuda_arch=100f                build, link
+      when +cuda+kokkos-kernels cuda_arch=100f
+
+    kokkos-kernels+cuda cuda_arch=101                 build, link
+      when +cuda+kokkos-kernels cuda_arch=101
+
+    kokkos-kernels+cuda cuda_arch=101a                build, link
+      when +cuda+kokkos-kernels cuda_arch=101a
+
+    kokkos-kernels+cuda cuda_arch=101f                build, link
+      when +cuda+kokkos-kernels cuda_arch=101f
+
+    kokkos-kernels+cuda cuda_arch=103                 build, link
+      when +cuda+kokkos-kernels cuda_arch=103
+
+    kokkos-kernels+cuda cuda_arch=103a                build, link
+      when +cuda+kokkos-kernels cuda_arch=103a
+
+    kokkos-kernels+cuda cuda_arch=103f                build, link
+      when +cuda+kokkos-kernels cuda_arch=103f
+
+    kokkos-kernels+cuda cuda_arch=11                  build, link
+      when +cuda+kokkos-kernels cuda_arch=11
+
+    kokkos-kernels+cuda cuda_arch=110                 build, link
+      when +cuda+kokkos-kernels cuda_arch=110
+
+    kokkos-kernels+cuda cuda_arch=110a                build, link
+      when +cuda+kokkos-kernels cuda_arch=110a
+
+    kokkos-kernels+cuda cuda_arch=110f                build, link
+      when +cuda+kokkos-kernels cuda_arch=110f
+
+    kokkos-kernels+cuda cuda_arch=12                  build, link
+      when +cuda+kokkos-kernels cuda_arch=12
+
+    kokkos-kernels+cuda cuda_arch=120                 build, link
+      when +cuda+kokkos-kernels cuda_arch=120
+
+    kokkos-kernels+cuda cuda_arch=120a                build, link
+      when +cuda+kokkos-kernels cuda_arch=120a
+
+    kokkos-kernels+cuda cuda_arch=120f                build, link
+      when +cuda+kokkos-kernels cuda_arch=120f
+
+    kokkos-kernels+cuda cuda_arch=121                 build, link
+      when +cuda+kokkos-kernels cuda_arch=121
+
+    kokkos-kernels+cuda cuda_arch=121a                build, link
+      when +cuda+kokkos-kernels cuda_arch=121a
+
+    kokkos-kernels+cuda cuda_arch=121f                build, link
+      when +cuda+kokkos-kernels cuda_arch=121f
+
+    kokkos-kernels+cuda cuda_arch=13                  build, link
+      when +cuda+kokkos-kernels cuda_arch=13
+
+    kokkos-kernels+cuda cuda_arch=20                  build, link
+      when +cuda+kokkos-kernels cuda_arch=20
+
+    kokkos-kernels+cuda cuda_arch=21                  build, link
+      when +cuda+kokkos-kernels cuda_arch=21
+
+    kokkos-kernels+cuda cuda_arch=30                  build, link
+      when +cuda+kokkos-kernels cuda_arch=30
+
+    kokkos-kernels+cuda cuda_arch=32                  build, link
+      when +cuda+kokkos-kernels cuda_arch=32
+
+    kokkos-kernels+cuda cuda_arch=35                  build, link
+      when +cuda+kokkos-kernels cuda_arch=35
+
+    kokkos-kernels+cuda cuda_arch=37                  build, link
+      when +cuda+kokkos-kernels cuda_arch=37
+
+    kokkos-kernels+cuda cuda_arch=50                  build, link
+      when +cuda+kokkos-kernels cuda_arch=50
+
+    kokkos-kernels+cuda cuda_arch=52                  build, link
+      when +cuda+kokkos-kernels cuda_arch=52
+
+    kokkos-kernels+cuda cuda_arch=53                  build, link
+      when +cuda+kokkos-kernels cuda_arch=53
+
+    kokkos-kernels+cuda cuda_arch=60                  build, link
+      when +cuda+kokkos-kernels cuda_arch=60
+
+    kokkos-kernels+cuda cuda_arch=61                  build, link
+      when +cuda+kokkos-kernels cuda_arch=61
+
+    kokkos-kernels+cuda cuda_arch=62                  build, link
+      when +cuda+kokkos-kernels cuda_arch=62
+
+    kokkos-kernels+cuda cuda_arch=70                  build, link
+      when +cuda+kokkos-kernels cuda_arch=70
+
+    kokkos-kernels+cuda cuda_arch=72                  build, link
+      when +cuda+kokkos-kernels cuda_arch=72
+
+    kokkos-kernels+cuda cuda_arch=75                  build, link
+      when +cuda+kokkos-kernels cuda_arch=75
+
+    kokkos-kernels+cuda cuda_arch=80                  build, link
+      when +cuda+kokkos-kernels cuda_arch=80
+
+    kokkos-kernels+cuda cuda_arch=86                  build, link
+      when +cuda+kokkos-kernels cuda_arch=86
+
+    kokkos-kernels+cuda cuda_arch=87                  build, link
+      when +cuda+kokkos-kernels cuda_arch=87
+
+    kokkos-kernels+cuda cuda_arch=89                  build, link
+      when +cuda+kokkos-kernels cuda_arch=89
+
+    kokkos-kernels+cuda cuda_arch=90                  build, link
+      when +cuda+kokkos-kernels cuda_arch=90
+
+    kokkos-kernels+cuda cuda_arch=90a                 build, link
+      when +cuda+kokkos-kernels cuda_arch=90a
+
+    lapack                                            build, link
+      when +lapack
+
+    llvm-amdgpu                                       build
+      when +rocm
+
+    llvm-amdgpu@5.2.0:                                build, link
+      when amdgpu_target=gfx940
+
+    llvm-amdgpu@5.2.0:                                build, link
+      when amdgpu_target=gfx1036
+
+    llvm-amdgpu@5.3.0:                                build, link
+      when amdgpu_target=gfx1100
+
+    llvm-amdgpu@5.3.0:                                build, link
+      when amdgpu_target=gfx1101
+
+    llvm-amdgpu@5.3.0:                                build, link
+      when amdgpu_target=gfx1102
+
+    llvm-amdgpu@5.3.0:                                build, link
+      when amdgpu_target=gfx1103
+
+    llvm-amdgpu@5.7.0:                                build, link
+      when amdgpu_target=gfx941
+
+    llvm-amdgpu@5.7.0:                                build, link
+      when amdgpu_target=gfx942
+
+    magma                                             build, link
+      when +magma
+
+    mpi                                               build, link
+      when +mpi
+
+    mpi                                               build, link
+      when +hypre
+
+    mpi                                               build, link
+      when +petsc
+
+    mpi                                               build, link
+      when +superlu-dist
+
+    ninja                                             build
+      when build_system=cmake generator=ninja
+
+    petsc~complex~double                              build, link
+      when +petsc precision=single
+
+    petsc~complex+double                              build, link
+      when +petsc precision=double
+
+    petsc~int64                                       build, link
+      when ~int64+petsc
+
+    petsc+int64                                       build, link
+      when +int64+petsc
+
+    petsc+mpi                                         build, link
+      when +petsc
+
+    raja                                              build, link
+      when +raja
+
+    raja+cuda                                         build, link
+      when +cuda+raja
+
+    raja+rocm                                         build, link
+      when +raja+rocm
+
+    suite-sparse                                      build, link
+      when +klu
+
+    superlu-dist+int64                                build, link
+      when +int64+superlu-dist
+
+    superlu-dist@6.1.1:                               build, link
+      when @:5.4.0+superlu-dist
+
+    superlu-dist@6.3.0:                               build, link
+      when @5.5.0:6.3+superlu-dist
+
+    superlu-dist@7:                                   build, link
+      when @6.4:+superlu-dist
+
+    superlu-mt+blas                                   build, link
+      when +superlu-mt
+
+    trilinos+tpetra                                   build, link
+      when +trilinos
+
+
+Licenses:
+    BSD-3-Clause
+
+
+==> sundials has many complex dependencies; consider this for a simpler view:
+  spack info sundials~cuda~kokkos~kokkos-kernels~rocm
+

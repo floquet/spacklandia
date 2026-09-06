@@ -1,0 +1,1 @@
+[+] bbxzfdb suite-sparse@7.8.3 /home/dantopa/spackticity/spack-isotone/opt/spack/linux-skylake/suite-sparse-7.8.3-bbxzfdb4iriebca4z4syoertspt3lgva (0s)

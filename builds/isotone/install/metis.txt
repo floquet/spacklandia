@@ -1,0 +1,1 @@
+[+] ll5hjke metis@5.1.0 /home/dantopa/spackticity/spack-isotone/opt/spack/linux-skylake/metis-5.1.0-ll5hjke36m5fhdriwiewij354ihxokfa (0s)

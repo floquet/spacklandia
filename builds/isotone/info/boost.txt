@@ -1,0 +1,305 @@
+Package:   boost
+
+Description:
+    Boost provides free peer-reviewed portable C++ source libraries,
+    emphasizing libraries that work well with the C++ Standard Library.
+    Boost libraries are intended to be widely useful, and usable across a
+    broad spectrum of applications. The Boost license encourages both
+    commercial and non-commercial use.
+
+Homepage: https://www.boost.org
+
+Preferred version:  
+    1.90.0     https://archives.boost.io/release/1.90.0/source/boost_1_90_0.tar.bz2
+
+Safe versions:  
+    develop    [git] https://github.com/boostorg/boost.git on branch develop
+    1.90.0     https://archives.boost.io/release/1.90.0/source/boost_1_90_0.tar.bz2
+    1.89.0     https://archives.boost.io/release/1.89.0/source/boost_1_89_0.tar.bz2
+    1.88.0     https://archives.boost.io/release/1.88.0/source/boost_1_88_0.tar.bz2
+    1.87.0     https://archives.boost.io/release/1.87.0/source/boost_1_87_0.tar.bz2
+    1.86.0     https://archives.boost.io/release/1.86.0/source/boost_1_86_0.tar.bz2
+    1.85.0     https://archives.boost.io/release/1.85.0/source/boost_1_85_0.tar.bz2
+    1.84.0     https://archives.boost.io/release/1.84.0/source/boost_1_84_0.tar.bz2
+    1.83.0     https://archives.boost.io/release/1.83.0/source/boost_1_83_0.tar.bz2
+    1.82.0     https://archives.boost.io/release/1.82.0/source/boost_1_82_0.tar.bz2
+    1.81.0     https://archives.boost.io/release/1.81.0/source/boost_1_81_0.tar.bz2
+    1.80.0     https://archives.boost.io/release/1.80.0/source/boost_1_80_0.tar.bz2
+    1.79.0     https://archives.boost.io/release/1.79.0/source/boost_1_79_0.tar.bz2
+    1.78.0     https://archives.boost.io/release/1.78.0/source/boost_1_78_0.tar.bz2
+    1.77.0     https://archives.boost.io/release/1.77.0/source/boost_1_77_0.tar.bz2
+    1.76.0     https://archives.boost.io/release/1.76.0/source/boost_1_76_0.tar.bz2
+    1.75.0     https://archives.boost.io/release/1.75.0/source/boost_1_75_0.tar.bz2
+    1.74.0     https://archives.boost.io/release/1.74.0/source/boost_1_74_0.tar.bz2
+    1.73.0     https://archives.boost.io/release/1.73.0/source/boost_1_73_0.tar.bz2
+    1.72.0     https://archives.boost.io/release/1.72.0/source/boost_1_72_0.tar.bz2
+    1.71.0     https://archives.boost.io/release/1.71.0/source/boost_1_71_0.tar.bz2
+    1.70.0     https://archives.boost.io/release/1.70.0/source/boost_1_70_0.tar.bz2
+    1.69.0     https://archives.boost.io/release/1.69.0/source/boost_1_69_0.tar.bz2
+    1.68.0     https://archives.boost.io/release/1.68.0/source/boost_1_68_0.tar.bz2
+    1.67.0     https://archives.boost.io/release/1.67.0/source/boost_1_67_0.tar.bz2
+    1.66.0     https://archives.boost.io/release/1.66.0/source/boost_1_66_0.tar.bz2
+    1.65.1     https://archives.boost.io/release/1.65.1/source/boost_1_65_1.tar.bz2
+    1.65.0     https://archives.boost.io/release/1.65.0/source/boost_1_65_0.tar.bz2
+    1.64.0     https://archives.boost.io/release/1.64.0/source/boost_1_64_0.tar.bz2
+    1.63.0     https://archives.boost.io/release/1.63.0/source/boost_1_63_0.tar.bz2
+    1.62.0     https://downloads.sourceforge.net/project/boost/boost/1.62.0/boost_1_62_0.tar.bz2
+    1.61.0     https://downloads.sourceforge.net/project/boost/boost/1.61.0/boost_1_61_0.tar.bz2
+    1.60.0     https://downloads.sourceforge.net/project/boost/boost/1.60.0/boost_1_60_0.tar.bz2
+    1.59.0     https://downloads.sourceforge.net/project/boost/boost/1.59.0/boost_1_59_0.tar.bz2
+    1.58.0     https://downloads.sourceforge.net/project/boost/boost/1.58.0/boost_1_58_0.tar.bz2
+    1.57.0     https://downloads.sourceforge.net/project/boost/boost/1.57.0/boost_1_57_0.tar.bz2
+    1.56.0     https://downloads.sourceforge.net/project/boost/boost/1.56.0/boost_1_56_0.tar.bz2
+    1.55.0     https://downloads.sourceforge.net/project/boost/boost/1.55.0/boost_1_55_0.tar.bz2
+    1.54.0     https://downloads.sourceforge.net/project/boost/boost/1.54.0/boost_1_54_0.tar.bz2
+    1.53.0     https://downloads.sourceforge.net/project/boost/boost/1.53.0/boost_1_53_0.tar.bz2
+    1.52.0     https://downloads.sourceforge.net/project/boost/boost/1.52.0/boost_1_52_0.tar.bz2
+    1.51.0     https://downloads.sourceforge.net/project/boost/boost/1.51.0/boost_1_51_0.tar.bz2
+    1.50.0     https://downloads.sourceforge.net/project/boost/boost/1.50.0/boost_1_50_0.tar.bz2
+    1.49.0     https://downloads.sourceforge.net/project/boost/boost/1.49.0/boost_1_49_0.tar.bz2
+    1.48.0     https://downloads.sourceforge.net/project/boost/boost/1.48.0/boost_1_48_0.tar.bz2
+    1.47.0     https://downloads.sourceforge.net/project/boost/boost/1.47.0/boost_1_47_0.tar.bz2
+    1.46.1     https://downloads.sourceforge.net/project/boost/boost/1.46.1/boost_1_46_1.tar.bz2
+    1.46.0     https://downloads.sourceforge.net/project/boost/boost/1.46.0/boost_1_46_0.tar.bz2
+    1.45.0     https://downloads.sourceforge.net/project/boost/boost/1.45.0/boost_1_45_0.tar.bz2
+    1.44.0     https://downloads.sourceforge.net/project/boost/boost/1.44.0/boost_1_44_0.tar.bz2
+    1.43.0     https://downloads.sourceforge.net/project/boost/boost/1.43.0/boost_1_43_0.tar.bz2
+    1.42.0     https://downloads.sourceforge.net/project/boost/boost/1.42.0/boost_1_42_0.tar.bz2
+    1.41.0     https://downloads.sourceforge.net/project/boost/boost/1.41.0/boost_1_41_0.tar.bz2
+    1.40.0     https://downloads.sourceforge.net/project/boost/boost/1.40.0/boost_1_40_0.tar.bz2
+    1.39.0     https://downloads.sourceforge.net/project/boost/boost/1.39.0/boost_1_39_0.tar.bz2
+
+Deprecated versions:  
+    None
+
+Variants:
+    atomic [false]                 false, true
+      when @1.53:
+        Compile with atomic library
+
+    build_system [generic]         generic
+        Build systems supported by the package
+
+    charconv [false]               false, true
+      when @1.85:
+        Compile with charconv library
+
+    chrono [false]                 false, true
+      when @1.47:
+        Compile with chrono library
+
+    clanglibcpp [false]            false, true
+        Compile with clang libc++ instead of libstdc++
+
+    cobalt [false]                 false, true
+      when @1.84:
+        Compile with cobalt library
+
+    container [false]              false, true
+      when @1.56:
+        Compile with container library
+
+    context [false]                false, true
+      when @1.51:
+        Compile with context library
+
+    context-impl [fcontext]        fcontext, ucontext, winfib
+      when @1.65.0:+context
+        Use the specified backend for boost-context
+
+    contract [false]               false, true
+      when @1.67:
+        Compile with contract library
+
+    conversion [false]             false, true
+        Compile with conversion library
+
+    coroutine [false]              false, true
+      when @1.54:1.66
+        Compile with coroutine library
+
+    cxxstd [11]                    11, 14, 17, 20, 23, 26, 2a, 98
+        Use the specified C++ standard when building.
+
+    date_time [false]              false, true
+        Compile with date_time library
+
+    debug [false]                  false, true
+        Switch to the debug version of Boost
+
+    exception [false]              false, true
+        Compile with exception library
+
+    fiber [false]                  false, true
+      when @1.62:
+        Compile with fiber library
+
+    filesystem [false]             false, true
+        Compile with filesystem library
+
+    graph [false]                  false, true
+        Compile with graph library
+
+    graph_parallel [false]         false, true
+        Compile with graph_parallel library
+
+    icu [false]                    false, true
+        Build with Unicode and ICU suport
+
+    iostreams [false]              false, true
+        Compile with iostreams library
+
+    json [false]                   false, true
+      when @1.75:
+        Compile with json library
+
+    locale [false]                 false, true
+      when @1.48:
+        Compile with locale library
+
+    log [false]                    false, true
+        Compile with log library
+
+    math [false]                   false, true
+        Compile with math library
+
+    mpi [false]                    false, true
+        Compile with mpi library
+
+    mqtt5 [false]                  false, true
+      when @1.88:
+        Compile with mqtt5 library
+
+    multithreaded [true]           false, true
+        Build multi-threaded versions of libraries
+
+    nowide [false]                 false, true
+      when @1.73:
+        Compile with nowide library
+
+    numpy [false]                  false, true
+        Build the Boost NumPy library (requires +python)
+
+    openmethod [false]             false, true
+      when @1.90:
+        Compile with openmethod library
+
+    pic [false]                    false, true
+        Generate position-independent code (PIC), useful for building static
+        libraries
+
+    program_options [false]        false, true
+        Compile with program_options library
+
+    python [false]                 false, true
+        Compile with python library
+
+    random [false]                 false, true
+        Compile with random library
+
+    regex [false]                  false, true
+        Compile with regex library
+
+    serialization [false]          false, true
+        Compile with serialization library
+
+    shared [true]                  false, true
+        Additionally build shared libraries
+
+    signals [false]                false, true
+      when @:1.68
+        Compile with signals library
+
+    signals2 [false]               false, true
+      when @1.87:
+        Compile with signals2 library
+
+    singlethreaded [false]         false, true
+        Build single-threaded versions of libraries
+
+    stacktrace [false]             false, true
+      when @1.65:
+        Compile with stacktrace library
+
+    system [false]                 false, true
+        Compile with system library
+
+    taggedlayout [false]           false, true
+        Augment library names with build options
+
+    test [false]                   false, true
+        Compile with test library
+
+    thread [false]                 false, true
+        Compile with thread library
+
+    timer [false]                  false, true
+        Compile with timer library
+
+    type_erasure [false]           false, true
+      when @1.60:
+        Compile with type_erasure library
+
+    url [false]                    false, true
+      when @1.81:
+        Compile with url library
+
+    versionedlayout [false]        false, true
+        Augment library layout with versioned subdirs
+
+    visibility [hidden]            global, hidden, protected
+        Default symbol visibility in compiled libraries (1.69.0 or later)
+
+    wave [false]                   false, true
+        Compile with wave library
+
+
+Dependencies:
+    bzip2                  build, link
+      when +iostreams
+
+    c                      build
+
+    cxx                    build
+
+    icu4c                  build, link
+      when +icu
+
+    icu4c cxxstd=11        build, link
+      when +icu cxxstd=11
+
+    icu4c cxxstd=14        build, link
+      when +icu cxxstd=14
+
+    icu4c cxxstd=17        build, link
+      when +icu cxxstd=17
+
+    mpi                    build, link
+      when +mpi
+
+    py-numpy               build, run
+      when +numpy
+
+    py-numpy@:1            build, run
+      when @:1.86+numpy
+
+    python                 build, link
+      when +python
+
+    python@:3.9            build, link
+      when @:1.75+python
+
+    xz                     build, link
+      when +iostreams
+
+    zlib-api               build, link
+      when +iostreams
+
+    zstd                   build, link
+      when +iostreams
+
+
+Licenses:
+    BSL-1.0
+
+

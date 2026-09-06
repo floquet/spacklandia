@@ -1,0 +1,20 @@
+[x] 4ltrcb3 parmetis@4.0.3 failed: /tmp/dantopa/spack-stage/spack-stage-parmetis-4.0.3-4ltrcb3n3swrga3qyevw5pzcvowqks5b-d2bq6k0o.log (0s)
+-- lines 1 to 16 --
+  Traceback (most recent call last):
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/installer/build.py", line 724, in _install
+      env_mods = spack.build_environment.setup_package(pkg, dirty=request.dirty)
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/build_environment.py", line 784, in setup_package
+      set_wrapper_variables(pkg, env_mods)
+      ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/build_environment.py", line 547, in set_wrapper_variables
+      include_dirs[:0] = query.headers.directories
+                         ^^^^^^^^^^^^^
+    File "/home/dantopa/spacktivity/spack-isotone/lib/spack/spack/spec.py", line 1517, in __get__
+      raise AttributeError(message)
+  AttributeError: Query of package 'openmpi' for 'headers' failed
+  	prefix : /home/dantopa/spackticity/spack-isotone/opt/spack/linux-skylake/openmpi-5.0.10-g4wo4pplenepw6xnv4fpdjdut3m6sz6h
+  	spec : openmpi@5.0.10/g4wo4pplenepw6xnv4fpdjdut3m6sz6h
+  	queried as : openmpi
+  	extra parameters : []
+==> Error: The following packages failed to install:
+parmetis@4.0.3/4ltrcb3n3swrga3qyevw5pzcvowqks5b: /tmp/dantopa/spack-stage/spack-stage-parmetis-4.0.3-4ltrcb3n3swrga3qyevw5pzcvowqks5b-d2bq6k0o.log

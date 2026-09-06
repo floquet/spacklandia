@@ -1,0 +1,80 @@
+AutotoolsPackage:   netcdf-fortran
+
+Description:
+    NetCDF (network Common Data Form) is a set of software libraries and
+    machine-independent data formats that support the creation, access, and
+    sharing of array-oriented scientific data. This is the Fortran
+    distribution.
+
+Homepage: https://www.unidata.ucar.edu/software/netcdf
+
+Preferred version:  
+    4.6.2    https://downloads.unidata.ucar.edu/netcdf-fortran/4.6.2/netcdf-fortran-4.6.2.tar.gz
+
+Safe versions:  
+    4.6.2    https://downloads.unidata.ucar.edu/netcdf-fortran/4.6.2/netcdf-fortran-4.6.2.tar.gz
+    4.6.1    https://downloads.unidata.ucar.edu/netcdf-fortran/4.6.1/netcdf-fortran-4.6.1.tar.gz
+    4.6.0    https://downloads.unidata.ucar.edu/netcdf-fortran/4.6.0/netcdf-fortran-4.6.0.tar.gz
+    4.5.4    https://downloads.unidata.ucar.edu/netcdf-fortran/4.5.4/netcdf-fortran-4.5.4.tar.gz
+    4.5.3    https://downloads.unidata.ucar.edu/netcdf-fortran/4.5.3/netcdf-fortran-4.5.3.tar.gz
+    4.5.2    https://downloads.unidata.ucar.edu/netcdf-fortran/4.5.2/netcdf-fortran-4.5.2.tar.gz
+    4.4.5    https://downloads.unidata.ucar.edu/netcdf-fortran/4.4.5/netcdf-fortran-4.4.5.tar.gz
+    4.4.4    https://downloads.unidata.ucar.edu/netcdf-fortran/4.4.4/netcdf-fortran-4.4.4.tar.gz
+    4.4.3    https://downloads.unidata.ucar.edu/netcdf-fortran/4.4.3/netcdf-fortran-4.4.3.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    build_system [autotools]        autotools
+        Build systems supported by the package
+
+    doc [false]                     false, true
+        Enable building docs
+
+    pic [true]                      false, true
+        Produce position-independent code (for shared libs)
+
+    shared [true]                   false, true
+        Enable shared library
+
+
+Dependencies:
+    c                      build
+
+    doxygen                build
+      when +doc
+
+    fortran                build
+
+    gmake                  build
+      when build_system=autotools
+
+    gnuconfig              build
+      when build_system=autotools target=ppc64le:
+
+    gnuconfig              build
+      when build_system=autotools target=aarch64:
+
+    gnuconfig              build
+      when build_system=autotools target=riscv64:
+
+    mpi                    build, link
+      when ^netcdf-c+mpi ^netcdf-c~shared
+
+    mpi                    build, link
+      when ^netcdf-c+parallel-netcdf ^netcdf-c~shared
+
+    mpi                    build, link
+      when ^hdf5+mpi~shared ^netcdf-c~shared
+
+    netcdf-c               build, link
+
+    netcdf-c@4.7.4:        build, link
+      when @4.5.3:
+
+
+Licenses:
+    Apache-2.0
+
+

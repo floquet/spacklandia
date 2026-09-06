@@ -1,0 +1,1 @@
+[+] xnimnhj mpc@1.4.1 /home/dantopa/spackticity/spack-isotone/opt/spack/linux-skylake/mpc-1.4.1-xnimnhjjxkgbj2pii527jjnzq3t74o3a (0s)
