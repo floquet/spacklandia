@@ -1,4 +1,79 @@
 [ ] a35yjg3 octave@11.1.0 staging (0s)
-[ ] a35yjg3 octave@11.1.0 autoreconf (3s)
-[ ] a35yjg3 octave@11.1.0 configure (3s)
-[x] a35yjg3 octave@11.1.0 failed: /tmp/dantopa/spack-stage/spack-stage-octave-11.1.0-a35yjg34ki26ex3jlwkk6rxicdjidycg-3z0c_v78.log (21s)
+[ ] a35yjg3 octave@11.1.0 autoreconf (2s)
+[ ] a35yjg3 octave@11.1.0 configure (2s)
+[x] a35yjg3 octave@11.1.0 failed: /tmp/dantopa/spack-stage/spack-stage-octave-11.1.0-a35yjg34ki26ex3jlwkk6rxicdjidycg-c9g3vako.log (19s)
+-- lines 122 to 153 --
+  checking for egrep... /usr/bin/grep -E
+  checking for gfind... no
+  checking for find... find
+  checking for a usable sed... /usr/bin//sed
+  checking for perl... perl
+  checking for gperf... no
+> configure: WARNING:
+  
+  I didn't find gperf, but it's only a problem if you need to
+  reconstruct oct-gperf.h
+  
+  checking for flex... no
+  checking for lex... no
+> configure: WARNING:
+  
+  I didn't find flex, but it's only a problem if you need to reconstruct
+  lex.cc, which is the case if you're building from VCS sources.
+  
+  checking for bison... no
+> configure: WARNING:
+  
+  I wasn't able to find a suitable style for declaring the api prefix
+  in a bison input file so I'm disabling bison.  We expect bison to
+  understand the '%define api.prefix { PREFIX }' syntax.
+  
+> configure: WARNING:
+  
+  I didn't find bison, or the version of bison that I found does not
+  support all the features that are required, but it's only a problem
+  if you need to reconstruct parse.cc, which is the case if you're
+  building from VCS sources.
+  
+-- lines 156 to 184 --
+  checking for texi2dvi... texi2dvi
+  checking for texi2pdf... texi2pdf
+  checking for options to make reproducible archives with GNU tar... --owner=0 --group=0 --numeric-owner --sort=name
+  checking whether ln -s works... yes
+  checking for gs... gs
+  checking for gnuplot... no
+> configure: WARNING:
+  
+  gnuplot not found.  It isn't necessary to have gnuplot installed, but
+  without native graphics or gnuplot you won't be able to use any of
+  Octave's plotting commands.
+  
+  checking for less... less
+  checking for python3... python3
+  checking for icotool... no
+> configure: WARNING:
+  
+  I didn't find icotool, but it's only a problem if you need to
+  reconstruct octave-logo.ico, which is the case if you're building from
+  VCS sources.
+  
+  checking for rsvg-convert... no
+> configure: WARNING:
+  
+  I didn't find rsvg-convert, but it's only a problem if you need to
+  reconstruct octave-logo-*.png, which is the case if you're building
+  from VCS sources.
+  
+  checking whether the compiler supports GNU C++... yes
+-- lines 312 to 320 --
+  checking for sgemm_ in -lflexiblas... no
+  checking for sgemm_ in -lopenblas... yes
+  checking whether BLAS functions with single precision return value work correctly... yes
+  checking BLAS library integer size... 4
+  checking for cheev_ in -L/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openblas-0.3.34-j5qwtq7opm47pmesxkkkmv442jrltws7/lib -lopenblas64_... yes
+  checking default size of Fortran INTEGER... 8
+> configure: error: your Fortran compiler must have an option for setting the default integer size to be the same size as your BLAS library uses (4 bytes).  See the file INSTALL for more information.
+  Command exited with status 1:
+      /tmp/dantopa/spack-stage/spack-stage-octave-11.1.0-a35yjg34ki26ex3jlwkk6rxicdjidycg/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/octave-11.1.0-a35yjg34ki26ex3jlwkk6rxicdjidycg '--with-blas=-L/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openblas-0.3.34-j5qwtq7opm47pmesxkkkmv442jrltws7/lib -lopenblas64_' '--with-lapack=-L/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openblas-0.3.34-j5qwtq7opm47pmesxkkkmv442jrltws7/lib -lopenblas64_' --enable-readline --with-bz2-includedir=/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/bzip2-1.0.8-gntzth7ce3wjxipptw33l4ieuotvvfzo/include --with-bz2-libdir=/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/bzip2-1.0.8-gntzth7ce3wjxipptw33l4ieuotvvfzo/lib --without-arpack --without-curl --without-fftw3 --without-fftw3f --without-fltk --without-glpk --without-magick --without-hdf5 --disable-java --without-opengl --without-framework-opengl --without-qhull_r --without-qrupdate --without-qscintilla --without-z F77_INTEGER_8_FLAG=-fdefault-integer-8 --enable-fortran-calling-convention=gfortran
+==> Error: The following packages failed to install:
+octave@11.1.0/a35yjg34ki26ex3jlwkk6rxicdjidycg: /tmp/dantopa/spack-stage/spack-stage-octave-11.1.0-a35yjg34ki26ex3jlwkk6rxicdjidycg-c9g3vako.log

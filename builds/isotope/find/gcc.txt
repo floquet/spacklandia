@@ -1,0 +1,5 @@
+-- linux-ubuntu26.04-ivybridge / %c,cxx=gcc@15.2.0 --------------
+gcc@16.2.0
+
+-- linux-ubuntu26.04-x86_64 / no compilers ----------------------
+gcc@15.2.0
