@@ -1,0 +1,256 @@
+[ ] 27hpqpd gotcha@1.0.8 staging (0s)
+[ ] i24adbm libpciaccess@0.17 staging (0s)
+[ ] s4wbwui libedit@3.1-20251016 staging (0s)
+[ ] syauj64 file@5.46 staging (0s)
+[ ] kbmqata libevent@2.1.12 staging (0s)
+[ ] wom6nux libxcrypt@4.5.2 staging (0s)
+[ ] qxobt7d m4@1.4.21 staging (0s)
+[ ] agwl7cx binutils@2.47 staging (0s)
+[ ] ey2o2v4 cubew@4.9.1 staging (0s)
+[ ] i24adbm libpciaccess@0.17 autoreconf (0s)
+[ ] i24adbm libpciaccess@0.17 configure (0s)
+[ ] s4wbwui libedit@3.1-20251016 autoreconf (0s)
+[ ] s4wbwui libedit@3.1-20251016 configure (0s)
+[ ] s4mwmqe opari2@2.0.10 staging (0s)
+[ ] yoyrkj7 cubelib@4.9.1 staging (0s)
+[ ] syauj64 file@5.46 autoreconf (0s)
+[ ] syauj64 file@5.46 configure (0s)
+[ ] kbmqata libevent@2.1.12 autoreconf (0s)
+[ ] kbmqata libevent@2.1.12 configure (1s)
+[ ] jplcnbx findutils@4.10.0 staging (1s)
+[ ] wom6nux libxcrypt@4.5.2 autoreconf (1s)
+[ ] wom6nux libxcrypt@4.5.2 configure (1s)
+[ ] qxobt7d m4@1.4.21 autoreconf (1s)
+[ ] qxobt7d m4@1.4.21 configure (1s)
+[ ] ey2o2v4 cubew@4.9.1 autoreconf (1s)
+[ ] jplcnbx findutils@4.10.0 autoreconf (1s)
+[ ] jplcnbx findutils@4.10.0 configure (1s)
+[ ] ey2o2v4 cubew@4.9.1 configure (1s)
+[ ] s4mwmqe opari2@2.0.10 autoreconf (1s)
+[ ] s4mwmqe opari2@2.0.10 configure (1s)
+[x] s4wbwui libedit@3.1-20251016 failed: /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du-vhgf3x3l.log (2s)
+[x] kbmqata libevent@2.1.12 failed: /var/tmp/dantopa/spack-stage/spack-stage-libevent-2.1.12-kbmqataog5sjr55lmwtteudg2hp5ua66-57verx1i.log (3s)
+[x] i24adbm libpciaccess@0.17 failed: /var/tmp/dantopa/spack-stage/spack-stage-libpciaccess-0.17-i24adbment5laku45odxcz7dhmgrm7ps-np4qe91g.log (3s)
+[ ] yoyrkj7 cubelib@4.9.1 autoreconf (3s)
+[ ] yoyrkj7 cubelib@4.9.1 configure (3s)
+[x] qxobt7d m4@1.4.21 failed: /var/tmp/dantopa/spack-stage/spack-stage-m4-1.4.21-qxobt7dodmyai3yhin37umsnjoj4jphg-7cw6dwaz.log (3s)
+[x] syauj64 file@5.46 failed: /var/tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n-j4yk1y0m.log (3s)
+[ ] kneashf papi@7.2.0 staging (1s)
+[ ] kneashf papi@7.2.0 autoreconf (1s)
+[ ] kneashf papi@7.2.0 configure (1s)
+[x] jplcnbx findutils@4.10.0 failed: /var/tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7-wl9va_8q.log (3s)
+[x] wom6nux libxcrypt@4.5.2 failed: /var/tmp/dantopa/spack-stage/spack-stage-libxcrypt-4.5.2-wom6nuxi2yj4v3phjqs7aimgm5ofdzqv-iru315ro.log (3s)
+[x] kneashf papi@7.2.0 failed: /var/tmp/dantopa/spack-stage/spack-stage-papi-7.2.0-kneashfdx2psgbbfbuxe5uwqn23xwxld-e1zljlhq.log (1s)
+[x] s4mwmqe opari2@2.0.10 failed: /var/tmp/dantopa/spack-stage/spack-stage-opari2-2.0.10-s4mwmqe4wvpm5punxbzdyeyatq7o7gpk-cssz0y32.log (5s)
+[x] ey2o2v4 cubew@4.9.1 failed: /var/tmp/dantopa/spack-stage/spack-stage-cubew-4.9.1-ey2o2v4eq2rxqhhbe5pnckoiid5aqit4-kedbrurn.log (6s)
+[x] yoyrkj7 cubelib@4.9.1 failed: /var/tmp/dantopa/spack-stage/spack-stage-cubelib-4.9.1-yoyrkj7nwc3n6efzg37qwo2jzcyzuske-soai_33c.log (6s)
+[ ] 27hpqpd gotcha@1.0.8 cmake (6s)
+[x] 27hpqpd gotcha@1.0.8 failed: /var/tmp/dantopa/spack-stage/spack-stage-gotcha-1.0.8-27hpqpddpglbdxgji4naqwk7gha6hadl-e30re_35.log (7s)
+[ ] agwl7cx binutils@2.47 autoreconf (12s)
+[ ] agwl7cx binutils@2.47 configure (12s)
+[x] agwl7cx binutils@2.47 failed: /var/tmp/dantopa/spack-stage/spack-stage-binutils-2.47-agwl7cx5botsb7sjjrphs4nwuvcyvgfp-xbvd41c1.log (14s)
+-- lines 8 to 18 --
+  ==> [2026-09-06-10:55:20.532290] FILTER FILE: /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du/spack-src/configure [replacing "^(\s*test x-R = )("\$p")(; then\s*)$"]
+  ==> [2026-09-06-10:55:20.558543] FILTER FILE: /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du/spack-src/configure [replacing "^(\s*test \$p = "-R")(; then\s*)$"]
+  ==> [2026-09-06-10:55:20.584225] FILTER FILE: /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du/spack-src/configure [replacing "lt_cv_apple_cc_single_mod=no"]
+  ==> [2026-09-06-10:55:20.618647] /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du ac_cv_lib_curses_tgetent=no ac_cv_lib_termcap_tgetent=no ac_cv_lib_ncurses_tgetent=no
+  checking for gcc... /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc
+  checking whether the C compiler works... no
+> configure: error: in '/var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du/spack-src':
+> configure: error: C compiler cannot create executables
+  See 'config.log' for more details
+  Command exited with status 77:
+      /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du ac_cv_lib_curses_tgetent=no ac_cv_lib_termcap_tgetent=no ac_cv_lib_ncurses_tgetent=no
+-- lines 16 to 26 --
+  checking whether make sets $(MAKE)... yes
+  checking whether make supports nested variables... no
+  checking whether make supports nested variables... (cached) no
+  checking whether make supports the include directive... yes (GNU style)
+  checking for gcc... /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc
+  checking whether the C compiler works... no
+> configure: error: in `/var/tmp/dantopa/spack-stage/spack-stage-libevent-2.1.12-kbmqataog5sjr55lmwtteudg2hp5ua66/spack-src':
+> configure: error: C compiler cannot create executables
+  See `config.log' for more details
+  Command exited with status 77:
+      /var/tmp/dantopa/spack-stage/spack-stage-libevent-2.1.12-kbmqataog5sjr55lmwtteudg2hp5ua66/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/libevent-2.1.12-kbmqataog5sjr55lmwtteudg2hp5ua66 --enable-openssl
+-- lines 15 to 25 --
+  checking for gawk... gawk
+  checking whether make sets $(MAKE)... yes
+  checking whether make supports nested variables... no
+  checking whether make supports the include directive... yes (GNU style)
+  checking for gcc... /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc
+  checking whether the C compiler works... no
+> configure: error: in `/var/tmp/dantopa/spack-stage/spack-stage-libpciaccess-0.17-i24adbment5laku45odxcz7dhmgrm7ps/spack-src':
+> configure: error: C compiler cannot create executables
+  See `config.log' for more details
+  Command exited with status 77:
+      /var/tmp/dantopa/spack-stage/spack-stage-libpciaccess-0.17-i24adbment5laku45odxcz7dhmgrm7ps/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/libpciaccess-0.17-i24adbment5laku45odxcz7dhmgrm7ps
+-- lines 17 to 27 --
+  checking xargs -n works... yes
+  checking whether UID '1000' is supported by ustar format... yes
+  checking whether GID '1000' is supported by ustar format... yes
+  checking how to create a ustar tar archive... gnutar
+  checking for gcc... /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc
+  checking whether the C compiler works... no
+> configure: error: in '/var/tmp/dantopa/spack-stage/spack-stage-m4-1.4.21-qxobt7dodmyai3yhin37umsnjoj4jphg/spack-src/spack-build':
+> configure: error: C compiler cannot create executables
+  See 'config.log' for more details
+  Command exited with status 77:
+      /var/tmp/dantopa/spack-stage/spack-stage-m4-1.4.21-qxobt7dodmyai3yhin37umsnjoj4jphg/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/m4-1.4.21-qxobt7dodmyai3yhin37umsnjoj4jphg --enable-c++ --with-libsigsegv-prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/libsigsegv-2.15-gvnb75a6ajsi5seegvnrl2hiiarqemq3
+-- lines 28 to 38 --
+  checking for file formats in man section 5... yes
+  checking build system type... cat: -: Disk quota exceeded
+  x86_64-pc-linux-gnu
+  checking host system type... x86_64-pc-linux-gnu
+  checking for gcc... /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc
+  checking whether the C compiler works... no
+> configure: error: in '/var/tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n/spack-src':
+> configure: error: C compiler cannot create executables
+  See 'config.log' for more details
+  Command exited with status 77:
+      /var/tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n --disable-dependency-tracking --enable-fsect-man5 --enable-zlib --enable-bzlib --enable-xzlib --enable-zstdlib --disable-lzlib --enable-static
+-- lines 17 to 27 --
+  sed: couldn't flush stdout: Disk quota exceeded
+  x86_64-pc-linux-gnu
+  checking host system type... x86_64-pc-linux-gnu
+  checking for leaf optimisation... yes
+  checking for gcc... /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc
+  checking whether the C compiler works... no
+> configure: error: in '/var/tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7/spack-src/spack-build':
+> configure: error: C compiler cannot create executables
+  See 'config.log' for more details
+  Command exited with status 77:
+      /var/tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7
+-- lines 22 to 32 --
+  checking build system type... cat: -: Disk quota exceeded
+  sed: couldn't flush stdout: Disk quota exceeded
+  x86_64-pc-linux-gnu
+  checking host system type... x86_64-pc-linux-gnu
+  checking for gcc... /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc
+  checking whether the C compiler works... no
+> configure: error: in '/var/tmp/dantopa/spack-stage/spack-stage-libxcrypt-4.5.2-wom6nuxi2yj4v3phjqs7aimgm5ofdzqv/spack-src':
+> configure: error: C compiler cannot create executables
+  See 'config.log' for more details
+  Command exited with status 77:
+      /var/tmp/dantopa/spack-stage/spack-stage-libxcrypt-4.5.2-wom6nuxi2yj4v3phjqs7aimgm5ofdzqv/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/libxcrypt-4.5.2-wom6nuxi2yj4v3phjqs7aimgm5ofdzqv 'ac_cv_path_python3_passlib=not found' --disable-werror --disable-obsolete-api
+-- lines 21 to 31 --
+  checking for OS... linux
+  checking for OS version... 7.0.0-30-generic
+  checking for perf_event workaround level... autodetect
+  checking for if MIC should be used... no
+  checking for if NEC should be used... no
+  checking whether the C compiler works... no
+> configure: error: in `/var/tmp/dantopa/spack-stage/spack-stage-papi-7.2.0-kneashfdx2psgbbfbuxe5uwqn23xwxld/spack-src/src':
+> configure: error: C compiler cannot create executables
+  See `config.log' for more details
+  Command exited with status 77:
+      /var/tmp/dantopa/spack-stage/spack-stage-papi-7.2.0-kneashfdx2psgbbfbuxe5uwqn23xwxld/spack-src/src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/papi-7.2.0-kneashfdx2psgbbfbuxe5uwqn23xwxld MPICC=: --with-components=example --with-shared-lib=yes --enable-perfevent-rdpmc=yes --with-tests=no
+-- lines 46 to 57 --
+  checking whether make supports nested variables... no
+  checking how to create a pax tar archive... gnutar
+  checking whether make supports nested variables... (cached) no
+  checking for style of include used by make... GNU
+  checking for gcc... gcc
+  checking whether the C compiler works... no
+> configure: error: in `/var/tmp/dantopa/spack-stage/spack-stage-opari2-2.0.10-s4mwmqe4wvpm5punxbzdyeyatq7o7gpk/spack-src/build-frontend':
+> configure: error: C compiler cannot create executables
+  See `config.log' for more details
+> configure: error: ./configure failed for build-frontend
+  Command exited with status 77:
+      /var/tmp/dantopa/spack-stage/spack-stage-opari2-2.0.10-s4mwmqe4wvpm5punxbzdyeyatq7o7gpk/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/opari2-2.0.10-s4mwmqe4wvpm5punxbzdyeyatq7o7gpk --enable-shared
+-- lines 49 to 60 --
+  checking how to create a pax tar archive... gnutar
+  checking whether make supports nested variables... (cached) no
+  checking Git controlled... no
+  checking whether to enable maintainer-specific portions of Makefiles... no
+  checking for gcc... gcc
+  checking whether the C compiler works... no
+> : error: in `/var/tmp/dantopa/spack-stage/spack-stage-cubew-4.9.1-ey2o2v4eq2rxqhhbe5pnckoiid5aqit4/spack-src/build-backend':
+> : error: C compiler cannot create executables
+  See `config.log' for more details
+> : error: ./configure failed for build-backend
+  Command exited with status 77:
+      /var/tmp/dantopa/spack-stage/spack-stage-cubew-4.9.1-ey2o2v4eq2rxqhhbe5pnckoiid5aqit4/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/cubew-4.9.1-ey2o2v4eq2rxqhhbe5pnckoiid5aqit4 --enable-shared --with-frontend-zlib=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/zlib-ng-2.3.3-k4azvsxv5amp7s5lubxehggwowae4ddj/lib --with-backend-zlib=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/zlib-ng-2.3.3-k4azvsxv5amp7s5lubxehggwowae4ddj/lib
+-- lines 45 to 56 --
+  checking how to create a pax tar archive... gnutar
+  checking whether make supports nested variables... (cached) no
+  checking Git controlled... no
+  checking whether to enable maintainer-specific portions of Makefiles... no
+  checking for gcc... gcc
+  checking whether the C compiler works... no
+> configure: error: in `/var/tmp/dantopa/spack-stage/spack-stage-cubelib-4.9.1-yoyrkj7nwc3n6efzg37qwo2jzcyzuske/spack-src/build-frontend':
+> configure: error: C compiler cannot create executables
+  See `config.log' for more details
+> configure: error: ./configure failed for build-frontend
+  Command exited with status 77:
+      /var/tmp/dantopa/spack-stage/spack-stage-cubelib-4.9.1-yoyrkj7nwc3n6efzg37qwo2jzcyzuske/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/cubelib-4.9.1-yoyrkj7nwc3n6efzg37qwo2jzcyzuske --enable-shared --with-frontend-zlib=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/zlib-ng-2.3.3-k4azvsxv5amp7s5lubxehggwowae4ddj/lib --with-nocross-compiler-suite=gcc
+-- lines 14 to 26 --
+  -- The C compiler identification is unknown
+  -- The CXX compiler identification is unknown
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - failed
+  -- Check for working C compiler: /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc
+  -- Check for working C compiler: /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc - broken
+> CMake Error at /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/cmake-3.31.12-jaab3zzqx7tblwnlniedxqfitwh27bha/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:67 (message):
+    The C compiler
+  
+      "/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc"
+  
+    is not able to compile a simple test program.
+  
+-- lines 30 to 55 --
+  
+      Run Build Command(s): /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/cmake-3.31.12-jaab3zzqx7tblwnlniedxqfitwh27bha/bin/cmake -E env VERBOSE=1 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gmake-4.4.1-mkyma5432d3gsulsfbayigyxf2ftrhen/bin/gmake -f Makefile cmTC_93fd5/fast
+      /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gmake-4.4.1-mkyma5432d3gsulsfbayigyxf2ftrhen/bin/gmake  -f CMakeFiles/cmTC_93fd5.dir/build.make CMakeFiles/cmTC_93fd5.dir/build
+      gmake[1]: Entering directory '/var/tmp/dantopa/spack-stage/spack-stage-gotcha-1.0.8-27hpqpddpglbdxgji4naqwk7gha6hadl/spack-build-27hpqpd/CMakeFiles/CMakeScratch/TryCompile-LX6b5N'
+      Building C object CMakeFiles/cmTC_93fd5.dir/testCCompiler.c.o
+      /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc    -o CMakeFiles/cmTC_93fd5.dir/testCCompiler.c.o -c /var/tmp/dantopa/spack-stage/spack-stage-gotcha-1.0.8-27hpqpddpglbdxgji4naqwk7gha6hadl/spack-build-27hpqpd/CMakeFiles/CMakeScratch/TryCompile-LX6b5N/testCCompiler.c
+>     /var/tmp/dantopa/spack-stage/spack-stage-gotcha-1.0.8-27hpqpddpglbdxgji4naqwk7gha6hadl/spack-build-27hpqpd/CMakeFiles/CMakeScratch/TryCompile-LX6b5N/testCCompiler.c:11:1: fatal error: error closing /tmp/ccMCByn8.s: Disk quota exceeded
+         11 | { (void)argv; return argc-1;}
+            | ^
+      compilation terminated.
+>     gmake[1]: *** [CMakeFiles/cmTC_93fd5.dir/build.make:81: CMakeFiles/cmTC_93fd5.dir/testCCompiler.c.o] Error 1
+      gmake[1]: Leaving directory '/var/tmp/dantopa/spack-stage/spack-stage-gotcha-1.0.8-27hpqpddpglbdxgji4naqwk7gha6hadl/spack-build-27hpqpd/CMakeFiles/CMakeScratch/TryCompile-LX6b5N'
+>     gmake: *** [Makefile:134: cmTC_93fd5/fast] Error 2
+  
+  
+  
+  
+  
+    CMake will not be able to correctly generate this project.
+  Call Stack (most recent call first):
+    CMakeLists.txt:4 (project)
+  
+  
+  -- Configuring incomplete, errors occurred!
+  Command exited with status 1:
+      /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/cmake-3.31.12-jaab3zzqx7tblwnlniedxqfitwh27bha/bin/cmake -G 'Unix Makefiles' -DCMAKE_INSTALL_PREFIX:STRING=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gotcha-1.0.8-27hpqpddpglbdxgji4naqwk7gha6hadl -DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON '-DCMAKE_INSTALL_RPATH:STRING=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gotcha-1.0.8-27hpqpddpglbdxgji4naqwk7gha6hadl/lib;/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gotcha-1.0.8-27hpqpddpglbdxgji4naqwk7gha6hadl/lib64' '-DCMAKE_PREFIX_PATH:STRING=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/cmake-3.31.12-jaab3zzqx7tblwnlniedxqfitwh27bha;/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r;/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gcc-runtime-16.0.1-ucq2opimto2x34zcrvdlow55lnwhuhnj;/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/gmake-4.4.1-mkyma5432d3gsulsfbayigyxf2ftrhen' -DCMAKE_BUILD_TYPE:STRING=Release -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON -DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF -DCMAKE_POLICY_DEFAULT_CMP0090:STRING=NEW -DCMAKE_FIND_USE_PACKAGE_REGISTRY:BOOL=OFF -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON /var/tmp/dantopa/spack-stage/spack-stage-gotcha-1.0.8-27hpqpddpglbdxgji4naqwk7gha6hadl/spack-src
+-- lines 67 to 80 --
+  checking target system type... x86_64-pc-linux-gnu
+  checking for a BSD-compatible install... /usr/bin/install -c
+  checking whether ln works... yes
+  checking whether ln -s works... yes
+  checking for a sed that does not truncate output... /usr/bin/sed
+  checking for gawk... gawk
+> configure: WARNING: neither ld nor gold are enabled
+  checking for gcc... /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc
+  checking whether the C compiler works... no
+> configure: error: in `/var/tmp/dantopa/spack-stage/spack-stage-binutils-2.47-agwl7cx5botsb7sjjrphs4nwuvcyvgfp/spack-src':
+> configure: error: C compiler cannot create executables
+  See `config.log' for more details
+  Command exited with status 77:
+      /var/tmp/dantopa/spack-stage/spack-stage-binutils-2.47-agwl7cx5botsb7sjjrphs4nwuvcyvgfp/spack-src/configure 'CFLAGS=-O3 -g0' 'CXXFLAGS=-O3 -g0' --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/binutils-2.47-agwl7cx5botsb7sjjrphs4nwuvcyvgfp --disable-dependency-tracking --disable-werror --enable-64-bit-bfd --enable-deterministic-archives --enable-multilib --enable-pic --enable-targets=x86_64-linux-gnu --with-sysroot=/ --with-system-zlib --disable-gas --disable-gprofng --disable-install-libiberty --disable-interwork --disable-ld --enable-shared --enable-static --disable-lto --disable-nls --enable-plugins --without-debuginfod --disable-pgo-build --enable-compressed-debug-sections=all --enable-default-compressed-debug-sections-algorithm=zlib
+==> Error: The following packages failed to install:
+libedit@3.1-20251016/s4wbwui7kvkknqfrfpsbgipkiqvhv7du: /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du-vhgf3x3l.log
+libevent@2.1.12/kbmqataog5sjr55lmwtteudg2hp5ua66: /var/tmp/dantopa/spack-stage/spack-stage-libevent-2.1.12-kbmqataog5sjr55lmwtteudg2hp5ua66-57verx1i.log
+libpciaccess@0.17/i24adbment5laku45odxcz7dhmgrm7ps: /var/tmp/dantopa/spack-stage/spack-stage-libpciaccess-0.17-i24adbment5laku45odxcz7dhmgrm7ps-np4qe91g.log
+m4@1.4.21/qxobt7dodmyai3yhin37umsnjoj4jphg: /var/tmp/dantopa/spack-stage/spack-stage-m4-1.4.21-qxobt7dodmyai3yhin37umsnjoj4jphg-7cw6dwaz.log
+file@5.46/syauj647c7jo3bsebuqx6r3tmmntjy7n: /var/tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n-j4yk1y0m.log
+findutils@4.10.0/jplcnbxh55wbticij6q25vbqkd5e4sp7: /var/tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7-wl9va_8q.log
+libxcrypt@4.5.2/wom6nuxi2yj4v3phjqs7aimgm5ofdzqv: /var/tmp/dantopa/spack-stage/spack-stage-libxcrypt-4.5.2-wom6nuxi2yj4v3phjqs7aimgm5ofdzqv-iru315ro.log
+papi@7.2.0/kneashfdx2psgbbfbuxe5uwqn23xwxld: /var/tmp/dantopa/spack-stage/spack-stage-papi-7.2.0-kneashfdx2psgbbfbuxe5uwqn23xwxld-e1zljlhq.log
+opari2@2.0.10/s4mwmqe4wvpm5punxbzdyeyatq7o7gpk: /var/tmp/dantopa/spack-stage/spack-stage-opari2-2.0.10-s4mwmqe4wvpm5punxbzdyeyatq7o7gpk-cssz0y32.log
+cubew@4.9.1/ey2o2v4eq2rxqhhbe5pnckoiid5aqit4: /var/tmp/dantopa/spack-stage/spack-stage-cubew-4.9.1-ey2o2v4eq2rxqhhbe5pnckoiid5aqit4-kedbrurn.log
+cubelib@4.9.1/yoyrkj7nwc3n6efzg37qwo2jzcyzuske: /var/tmp/dantopa/spack-stage/spack-stage-cubelib-4.9.1-yoyrkj7nwc3n6efzg37qwo2jzcyzuske-soai_33c.log
+gotcha@1.0.8/27hpqpddpglbdxgji4naqwk7gha6hadl: /var/tmp/dantopa/spack-stage/spack-stage-gotcha-1.0.8-27hpqpddpglbdxgji4naqwk7gha6hadl-e30re_35.log
+binutils@2.47/agwl7cx5botsb7sjjrphs4nwuvcyvgfp: /var/tmp/dantopa/spack-stage/spack-stage-binutils-2.47-agwl7cx5botsb7sjjrphs4nwuvcyvgfp-xbvd41c1.log
