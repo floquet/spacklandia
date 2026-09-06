@@ -57,6 +57,8 @@ new_step "build directory structure"
               mkdir -p ${repo}/install
     sub_step "mkdir -p ${repo}/spec"
               mkdir -p ${repo}/spec
+    sub_step "mkdir -p ${repo}/list-files"
+              mkdir -p ${repo}/list-files
 
 new_step "begin loop over packages"
 while IFS= read -r package; do
@@ -82,18 +84,29 @@ new_step "install package ${package}"
   sub_step "spack install  ${package}"
             spack install "${package}" > "${repo}/install/${package}.txt" 2>&1
 
+  sub_step "wait for all probe commands to finish writing"
+	    wait
+
+  sub_step "git add ${repo}"
+            git add ${repo}"
+
+  sub_step "git commit -m '${package}'
+	    git commtt -m  ${package}
+
 done < "${file}"
 
-new_step "Wait for parallel processes to complete"
-          wait
+# new_step "Wait for parallel processes to complete"
+#          wait
 
 new_step "Add results to git repo"
+    sub_step "store list file"
+	      cp "${file}" "${repo}/list-file/."
     sub_step "git add  ${repo}"
               git add "${repo}"
-    sub_step "git commit -m 'builds from  ${file}'"
-              git commit -m 'builds from "${file}'
+    sub_step "git commit -m 'builds from ${file}'"
+              git commit -m 'builds from ${file}'
 
-printf "to push:\n cd $repo"
+printf "to push:\n cd $repo\n"
 
 display_total_elapsed_time()
 
