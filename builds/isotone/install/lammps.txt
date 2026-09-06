@@ -1,36 +1,36 @@
-[ ] i24adbm libpciaccess@0.17 staging (0s)
-[ ] kbmqata libevent@2.1.12 staging (0s)
-[ ] s4wbwui libedit@3.1-20251016 staging (0s)
 [ ] qxobt7d m4@1.4.21 staging (0s)
-[ ] i24adbm libpciaccess@0.17 autoreconf (0s)
-[ ] i24adbm libpciaccess@0.17 configure (0s)
-[ ] syauj64 file@5.46 staging (0s)
 [ ] wom6nux libxcrypt@4.5.2 staging (0s)
+[ ] s4wbwui libedit@3.1-20251016 staging (0s)
+[ ] kbmqata libevent@2.1.12 staging (0s)
+[ ] syauj64 file@5.46 staging (0s)
+[ ] i24adbm libpciaccess@0.17 staging (0s)
 [ ] s4wbwui libedit@3.1-20251016 autoreconf (0s)
 [ ] s4wbwui libedit@3.1-20251016 configure (0s)
-[ ] kbmqata libevent@2.1.12 autoreconf (0s)
-[ ] kbmqata libevent@2.1.12 configure (0s)
 [ ] jplcnbx findutils@4.10.0 staging (0s)
-[ ] syauj64 file@5.46 autoreconf (0s)
-[ ] syauj64 file@5.46 configure (0s)
-[ ] wom6nux libxcrypt@4.5.2 autoreconf (0s)
-[ ] wom6nux libxcrypt@4.5.2 configure (0s)
-[ ] qxobt7d m4@1.4.21 autoreconf (0s)
-[ ] qxobt7d m4@1.4.21 configure (0s)
+[ ] i24adbm libpciaccess@0.17 autoreconf (0s)
+[ ] i24adbm libpciaccess@0.17 configure (0s)
+[ ] wom6nux libxcrypt@4.5.2 autoreconf (1s)
+[ ] kbmqata libevent@2.1.12 autoreconf (1s)
+[ ] wom6nux libxcrypt@4.5.2 configure (1s)
+[ ] kbmqata libevent@2.1.12 configure (1s)
+[ ] syauj64 file@5.46 autoreconf (1s)
+[ ] syauj64 file@5.46 configure (1s)
+[ ] qxobt7d m4@1.4.21 autoreconf (1s)
+[ ] qxobt7d m4@1.4.21 configure (1s)
 [ ] jplcnbx findutils@4.10.0 autoreconf (1s)
 [ ] jplcnbx findutils@4.10.0 configure (1s)
-[x] s4wbwui libedit@3.1-20251016 failed: /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du-w6mn7oma.log (1s)
-[x] i24adbm libpciaccess@0.17 failed: /var/tmp/dantopa/spack-stage/spack-stage-libpciaccess-0.17-i24adbment5laku45odxcz7dhmgrm7ps-rqh6y294.log (2s)
-[x] kbmqata libevent@2.1.12 failed: /var/tmp/dantopa/spack-stage/spack-stage-libevent-2.1.12-kbmqataog5sjr55lmwtteudg2hp5ua66-6h6767o_.log (2s)
-[x] qxobt7d m4@1.4.21 failed: /var/tmp/dantopa/spack-stage/spack-stage-m4-1.4.21-qxobt7dodmyai3yhin37umsnjoj4jphg-0stpojct.log (2s)
-[x] jplcnbx findutils@4.10.0 failed: /var/tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7-tus67e82.log (2s)
-[x] syauj64 file@5.46 failed: /var/tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n-0lx982bp.log (2s)
-[x] wom6nux libxcrypt@4.5.2 failed: /var/tmp/dantopa/spack-stage/spack-stage-libxcrypt-4.5.2-wom6nuxi2yj4v3phjqs7aimgm5ofdzqv-comxrwep.log (2s)
+[x] s4wbwui libedit@3.1-20251016 failed: /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du-doucn9hg.log (1s)
+[x] i24adbm libpciaccess@0.17 failed: /var/tmp/dantopa/spack-stage/spack-stage-libpciaccess-0.17-i24adbment5laku45odxcz7dhmgrm7ps-xo29efdt.log (2s)
+[x] kbmqata libevent@2.1.12 failed: /var/tmp/dantopa/spack-stage/spack-stage-libevent-2.1.12-kbmqataog5sjr55lmwtteudg2hp5ua66-m2uw_ewb.log (2s)
+[x] qxobt7d m4@1.4.21 failed: /var/tmp/dantopa/spack-stage/spack-stage-m4-1.4.21-qxobt7dodmyai3yhin37umsnjoj4jphg-wlr0f6ty.log (2s)
+[x] jplcnbx findutils@4.10.0 failed: /var/tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7-z4dp8ks5.log (2s)
+[x] syauj64 file@5.46 failed: /var/tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n-dhh5y5bz.log (2s)
+[x] wom6nux libxcrypt@4.5.2 failed: /var/tmp/dantopa/spack-stage/spack-stage-libxcrypt-4.5.2-wom6nuxi2yj4v3phjqs7aimgm5ofdzqv-1sq4owv7.log (2s)
 -- lines 8 to 18 --
-  ==> [2026-09-06-14:19:15.308634] FILTER FILE: /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du/spack-src/configure [replacing "^(\s*test x-R = )("\$p")(; then\s*)$"]
-  ==> [2026-09-06-14:19:15.358577] FILTER FILE: /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du/spack-src/configure [replacing "^(\s*test \$p = "-R")(; then\s*)$"]
-  ==> [2026-09-06-14:19:15.408528] FILTER FILE: /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du/spack-src/configure [replacing "lt_cv_apple_cc_single_mod=no"]
-  ==> [2026-09-06-14:19:15.458439] /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du ac_cv_lib_curses_tgetent=no ac_cv_lib_termcap_tgetent=no ac_cv_lib_ncurses_tgetent=no
+  ==> [2026-09-06-16:26:26.527359] FILTER FILE: /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du/spack-src/configure [replacing "^(\s*test x-R = )("\$p")(; then\s*)$"]
+  ==> [2026-09-06-16:26:26.572145] FILTER FILE: /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du/spack-src/configure [replacing "^(\s*test \$p = "-R")(; then\s*)$"]
+  ==> [2026-09-06-16:26:26.622421] FILTER FILE: /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du/spack-src/configure [replacing "lt_cv_apple_cc_single_mod=no"]
+  ==> [2026-09-06-16:26:26.667469] /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du ac_cv_lib_curses_tgetent=no ac_cv_lib_termcap_tgetent=no ac_cv_lib_ncurses_tgetent=no
   checking for gcc... /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc
   checking whether the C compiler works... no
 > configure: error: in '/var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du/spack-src':
@@ -111,10 +111,10 @@
   Command exited with status 77:
       /var/tmp/dantopa/spack-stage/spack-stage-libxcrypt-4.5.2-wom6nuxi2yj4v3phjqs7aimgm5ofdzqv/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/libxcrypt-4.5.2-wom6nuxi2yj4v3phjqs7aimgm5ofdzqv 'ac_cv_path_python3_passlib=not found' --disable-werror --disable-obsolete-api
 ==> Error: The following packages failed to install:
-libedit@3.1-20251016/s4wbwui7kvkknqfrfpsbgipkiqvhv7du: /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du-w6mn7oma.log
-libpciaccess@0.17/i24adbment5laku45odxcz7dhmgrm7ps: /var/tmp/dantopa/spack-stage/spack-stage-libpciaccess-0.17-i24adbment5laku45odxcz7dhmgrm7ps-rqh6y294.log
-libevent@2.1.12/kbmqataog5sjr55lmwtteudg2hp5ua66: /var/tmp/dantopa/spack-stage/spack-stage-libevent-2.1.12-kbmqataog5sjr55lmwtteudg2hp5ua66-6h6767o_.log
-m4@1.4.21/qxobt7dodmyai3yhin37umsnjoj4jphg: /var/tmp/dantopa/spack-stage/spack-stage-m4-1.4.21-qxobt7dodmyai3yhin37umsnjoj4jphg-0stpojct.log
-findutils@4.10.0/jplcnbxh55wbticij6q25vbqkd5e4sp7: /var/tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7-tus67e82.log
-file@5.46/syauj647c7jo3bsebuqx6r3tmmntjy7n: /var/tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n-0lx982bp.log
-libxcrypt@4.5.2/wom6nuxi2yj4v3phjqs7aimgm5ofdzqv: /var/tmp/dantopa/spack-stage/spack-stage-libxcrypt-4.5.2-wom6nuxi2yj4v3phjqs7aimgm5ofdzqv-comxrwep.log
+libedit@3.1-20251016/s4wbwui7kvkknqfrfpsbgipkiqvhv7du: /var/tmp/dantopa/spack-stage/spack-stage-libedit-3.1-20251016-s4wbwui7kvkknqfrfpsbgipkiqvhv7du-doucn9hg.log
+libpciaccess@0.17/i24adbment5laku45odxcz7dhmgrm7ps: /var/tmp/dantopa/spack-stage/spack-stage-libpciaccess-0.17-i24adbment5laku45odxcz7dhmgrm7ps-xo29efdt.log
+libevent@2.1.12/kbmqataog5sjr55lmwtteudg2hp5ua66: /var/tmp/dantopa/spack-stage/spack-stage-libevent-2.1.12-kbmqataog5sjr55lmwtteudg2hp5ua66-m2uw_ewb.log
+m4@1.4.21/qxobt7dodmyai3yhin37umsnjoj4jphg: /var/tmp/dantopa/spack-stage/spack-stage-m4-1.4.21-qxobt7dodmyai3yhin37umsnjoj4jphg-wlr0f6ty.log
+findutils@4.10.0/jplcnbxh55wbticij6q25vbqkd5e4sp7: /var/tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7-z4dp8ks5.log
+file@5.46/syauj647c7jo3bsebuqx6r3tmmntjy7n: /var/tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n-dhh5y5bz.log
+libxcrypt@4.5.2/wom6nuxi2yj4v3phjqs7aimgm5ofdzqv: /var/tmp/dantopa/spack-stage/spack-stage-libxcrypt-4.5.2-wom6nuxi2yj4v3phjqs7aimgm5ofdzqv-1sq4owv7.log
