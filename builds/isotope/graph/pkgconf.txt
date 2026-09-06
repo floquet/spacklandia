@@ -1,0 +1,23 @@
+o pkgconf@2.5.1/7iav2bb
+|\
+| |\
+| | |\
+| | | |\
+o | | | | gmake@4.4.1/6bd66sb
+|\| | | | 
+|\ \ \ \ \
+| |_|/ / /
+|/| | | | 
+| |\ \ \ \
+| | |_|/ /
+| |/| | | 
+| | |/ /
+| | o | compiler-wrapper@1.1.0/3chgylu
+| |  /
+o | | gcc-runtime@15.2.0/r4dyi7x
+|\| | 
+| |/
+|/| 
+| o gcc@15.2.0/f6cbwvv
+| 
+o glibc@2.43/ublhg65

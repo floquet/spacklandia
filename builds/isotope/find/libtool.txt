@@ -1,0 +1,2 @@
+-- linux-ubuntu26.04-ivybridge / %c=gcc@15.2.0 ------------------
+libtool@2.5.4

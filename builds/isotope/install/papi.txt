@@ -1,1 +1,0 @@
-[+] 6cw7clg papi@7.2.0 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/papi-7.2.0-6cw7clguf46ds257eegk5ytfywjh7vv5 (0s)

@@ -1,4 +1,4 @@
- -   hdf5@1.14.6~cxx~fortran~hl~ipo~java~map+mpi+shared~subfiling~szip~threadsafe+tools api=default build_system=cmake build_type=Release generator=make platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
+[+]  hdf5@1.14.6~cxx~fortran~hl~ipo~java~map+mpi+shared~subfiling~szip~threadsafe+tools api=default build_system=cmake build_type=Release generator=make platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0
 [+]      ^cmake@3.31.12~doc+ncurses+ownlibs~qtgui build_system=generic build_type=Release platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
 [+]          ^curl@8.21.0~gssapi~ldap~libidn2~librtmp~libssh+libssh2+nghttp2 build_system=autotools libs:=shared,static tls:=openssl platform=linux os=ubuntu26.04 target=ivybridge %c,cxx=gcc@15.2.0
 [+]              ^libssh2@1.11.1+shared build_system=autotools crypto=openssl platform=linux os=ubuntu26.04 target=ivybridge %c=gcc@15.2.0

@@ -1,0 +1,1 @@
+[+] yprajxe libtool@2.5.4 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/libtool-2.5.4-yprajxeg6g5pelpee36pdncv7u7yzfld (0s)

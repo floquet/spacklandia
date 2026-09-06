@@ -1,0 +1,55 @@
+AutotoolsPackage:   m4
+
+Description:
+    GNU M4 is an implementation of the traditional Unix macro processor.
+
+Homepage: https://www.gnu.org/software/m4/m4.html
+
+Preferred version:  
+    1.4.21    https://ftpmirror.gnu.org/m4/m4-1.4.21.tar.gz
+
+Safe versions:  
+    1.4.21    https://ftpmirror.gnu.org/m4/m4-1.4.21.tar.gz
+    1.4.20    https://ftpmirror.gnu.org/m4/m4-1.4.20.tar.gz
+    1.4.19    https://ftpmirror.gnu.org/m4/m4-1.4.19.tar.gz
+    1.4.18    https://ftpmirror.gnu.org/m4/m4-1.4.18.tar.gz
+    1.4.17    https://ftpmirror.gnu.org/m4/m4-1.4.17.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    build_system [autotools]        autotools
+        Build systems supported by the package
+
+    sigsegv [true]                  false, true
+        Build the libsigsegv dependency
+
+
+Dependencies:
+    c                 build
+
+    cxx               build
+
+    diffutils         build
+
+    gmake             build
+      when build_system=autotools
+
+    gnuconfig         build
+      when build_system=autotools target=ppc64le:
+
+    gnuconfig         build
+      when build_system=autotools target=aarch64:
+
+    gnuconfig         build
+      when build_system=autotools target=riscv64:
+
+    libsigsegv        build, link
+      when +sigsegv
+
+
+Licenses:
+    GPL-3.0-or-later
+
+

@@ -1,0 +1,1 @@
+[+] c55uh2i autoconf@2.72 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/autoconf-2.72-c55uh2i3hsunj34srxiqbl4oflvomixi (0s)

@@ -1,27 +1,17 @@
-[ ] guczab2 cubew@4.9.1 staging (1s)
-[ ] ndzvglq opari2@2.0.10 staging (1s)
-[ ] wyuac4i gotcha@1.0.8 staging (1s)
-[ ] p2e4t7p cubelib@4.9.1 staging (1s)
-[ ] ndzvglq opari2@2.0.10 autoreconf (1s)
-[ ] ndzvglq opari2@2.0.10 configure (1s)
-[ ] guczab2 cubew@4.9.1 autoreconf (1s)
-[ ] guczab2 cubew@4.9.1 configure (1s)
-[ ] p2e4t7p cubelib@4.9.1 autoreconf (2s)
-[ ] p2e4t7p cubelib@4.9.1 configure (2s)
-[ ] wyuac4i gotcha@1.0.8 cmake (3s)
-[ ] wyuac4i gotcha@1.0.8 build (4s)
-[ ] wyuac4i gotcha@1.0.8 install (5s)
-[+] wyuac4i gotcha@1.0.8 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/gotcha-1.0.8-wyuac4illdthibd5qus6vjodvvljtqlx (5s)
-[ ] ndzvglq opari2@2.0.10 build (17s)
-[ ] guczab2 cubew@4.9.1 build (18s)
-[ ] ndzvglq opari2@2.0.10 install (23s)
-[+] ndzvglq opari2@2.0.10 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/opari2-2.0.10-ndzvglqzn4vsq6vyqfb3rfvovpwj5t4r (24s)
-[ ] guczab2 cubew@4.9.1 install (26s)
-[+] guczab2 cubew@4.9.1 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/cubew-4.9.1-guczab2dnn33bel2e76kev6ed3aszclj (26s)
-[ ] p2e4t7p cubelib@4.9.1 build (35s)
-[ ] p2e4t7p cubelib@4.9.1 install (2m43s)
-[+] p2e4t7p cubelib@4.9.1 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/cubelib-4.9.1-p2e4t7pkbtr7437y2wfdhfuijyxfwa73 (2m54s)
-[ ] zp5qcwj scorep@10.1 staging (0s)
+[ ] zp5qcwj scorep@10.1 staging (1s)
 [ ] zp5qcwj scorep@10.1 autoreconf (2s)
 [ ] zp5qcwj scorep@10.1 configure (2s)
-[x] zp5qcwj scorep@10.1 failed: /tmp/dantopa/spack-stage/spack-stage-scorep-10.1-zp5qcwjoaeislzto2w7ufchix6kd5rlc-v1iqwxw4.log (50s)
+[x] zp5qcwj scorep@10.1 failed: /tmp/dantopa/spack-stage/spack-stage-scorep-10.1-zp5qcwjoaeislzto2w7ufchix6kd5rlc-ln3yommj.log (49s)
+-- lines 392 to 401 --
+  checking for GCC C++ plug-in headers... no
+  checking for working GCC C++ plug-in support... no
+  checking for C++14 support... yes
+  checking for gcc-plugin.h... no
+  checking for GCC Fortran plug-in headers... no
+  checking for working GCC Fortran plug-in support... no
+> configure: error: Request to enable the GCC plug-in could not be fulfilled. Run configure with --disable-gcc-plugin or run without --enable-gcc-plugin to see the reason.
+> configure: error: ./configure failed for build-gcc-plugin
+  Command exited with status 1:
+      /tmp/dantopa/spack-stage/spack-stage-scorep-10.1-zp5qcwjoaeislzto2w7ufchix6kd5rlc/spack-src/configure --prefix=/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/scorep-10.1-zp5qcwjoaeislzto2w7ufchix6kd5rlc --with-otf2=/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/otf2-3.2-3y365ppgoxaj6j3lcjbu2zjcredx7thz/bin --with-opari2=/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/opari2-2.0.10-ndzvglqzn4vsq6vyqfb3rfvovpwj5t4r/bin --enable-shared --with-nocross-compiler-suite=gcc --with-cubew=/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/cubew-4.9.1-guczab2dnn33bel2e76kev6ed3aszclj/bin --with-cubelib=/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/cubelib-4.9.1-p2e4t7pkbtr7437y2wfdhfuijyxfwa73/bin --with-papi-header=/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/papi-7.2.0-6cw7clguf46ds257eegk5ytfywjh7vv5/include --with-papi-lib=/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/papi-7.2.0-6cw7clguf46ds257eegk5ytfywjh7vv5/lib --without-libunwind --without-rocm --with-libgotcha=/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/gotcha-1.0.8-wyuac4illdthibd5qus6vjodvvljtqlx --enable-gcc-plugin --enable-mpi_f08 --enable-fortran --without-shmem --with-mpi=openmpi --with-libbfd=/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/binutils-2.47-vfagecgo243iayug7sxjt354s72mvqwv CFLAGS=-fPIC CXXFLAGS=-fPIC MPICC=/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-7eoxwoqj5uv3xmzy5d3rkxw5shgwoevr/bin/mpicc MPICXX=/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-7eoxwoqj5uv3xmzy5d3rkxw5shgwoevr/bin/mpic++ MPIF77=/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-7eoxwoqj5uv3xmzy5d3rkxw5shgwoevr/bin/mpif77 MPIFC=/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-7eoxwoqj5uv3xmzy5d3rkxw5shgwoevr/bin/mpif90
+==> Error: The following packages failed to install:
+scorep@10.1/zp5qcwjoaeislzto2w7ufchix6kd5rlc: /tmp/dantopa/spack-stage/spack-stage-scorep-10.1-zp5qcwjoaeislzto2w7ufchix6kd5rlc-ln3yommj.log

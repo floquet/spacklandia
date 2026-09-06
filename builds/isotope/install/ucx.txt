@@ -1,0 +1,6 @@
+[ ] czs24bb ucx@1.22.0 staging (0s)
+[ ] czs24bb ucx@1.22.0 autoreconf (1s)
+[ ] czs24bb ucx@1.22.0 configure (1s)
+[ ] czs24bb ucx@1.22.0 build (29s)
+[ ] czs24bb ucx@1.22.0 install (3m55s)
+[+] czs24bb ucx@1.22.0 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/ucx-1.22.0-czs24bbmzgw3nawg2ftnbyfgxnwkbxob (4m00s)

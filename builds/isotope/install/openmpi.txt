@@ -1,1 +1,0 @@
-[+] 7eoxwoq openmpi@5.0.10 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-7eoxwoqj5uv3xmzy5d3rkxw5shgwoevr (0s)

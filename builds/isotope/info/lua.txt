@@ -1,0 +1,70 @@
+MakefilePackage:   lua
+
+Description:
+    The Lua programming language interpreter and library.
+
+Homepage: https://www.lua.org
+
+Preferred version:  
+    5.4.8    https://www.lua.org/ftp/lua-5.4.8.tar.gz
+
+Safe versions:  
+    5.4.8    https://www.lua.org/ftp/lua-5.4.8.tar.gz
+    5.4.6    https://www.lua.org/ftp/lua-5.4.6.tar.gz
+    5.4.4    https://www.lua.org/ftp/lua-5.4.4.tar.gz
+    5.4.3    https://www.lua.org/ftp/lua-5.4.3.tar.gz
+    5.4.2    https://www.lua.org/ftp/lua-5.4.2.tar.gz
+    5.4.1    https://www.lua.org/ftp/lua-5.4.1.tar.gz
+    5.4.0    https://www.lua.org/ftp/lua-5.4.0.tar.gz
+    5.3.6    https://www.lua.org/ftp/lua-5.3.6.tar.gz
+    5.3.5    https://www.lua.org/ftp/lua-5.3.5.tar.gz
+    5.3.4    https://www.lua.org/ftp/lua-5.3.4.tar.gz
+    5.3.2    https://www.lua.org/ftp/lua-5.3.2.tar.gz
+    5.3.1    https://www.lua.org/ftp/lua-5.3.1.tar.gz
+    5.3.0    https://www.lua.org/ftp/lua-5.3.0.tar.gz
+    5.2.4    https://www.lua.org/ftp/lua-5.2.4.tar.gz
+    5.2.3    https://www.lua.org/ftp/lua-5.2.3.tar.gz
+    5.2.2    https://www.lua.org/ftp/lua-5.2.2.tar.gz
+    5.2.1    https://www.lua.org/ftp/lua-5.2.1.tar.gz
+    5.2.0    https://www.lua.org/ftp/lua-5.2.0.tar.gz
+    5.1.5    https://www.lua.org/ftp/lua-5.1.5.tar.gz
+    5.1.4    https://www.lua.org/ftp/lua-5.1.4.tar.gz
+    5.1.3    https://www.lua.org/ftp/lua-5.1.3.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    build_system [makefile]        makefile
+        Build systems supported by the package
+
+    fetcher [curl]                 curl, wget
+        Fetcher to use in the LuaRocks package manager
+
+    shared [true]                  false, true
+        Builds a shared version of the library
+
+
+Dependencies:
+    c                      build
+
+    curl                   run
+      when fetcher=curl
+
+    gmake                  build
+      when build_system=makefile
+
+    ncurses+termlib        build, link
+
+    readline               build, link
+
+    unzip                  build, run
+
+    wget                   run
+      when fetcher=wget
+
+
+Licenses:
+    MIT
+
+

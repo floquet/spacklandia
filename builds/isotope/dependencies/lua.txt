@@ -1,0 +1,17 @@
+acfl
+aocc
+cce
+curl
+fj
+gcc
+gmake
+intel-oneapi-compilers
+intel-oneapi-compilers-classic
+llvm
+llvm-amdgpu
+ncurses
+nvhpc
+readline
+unzip
+wget
+xl

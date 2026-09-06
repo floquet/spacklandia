@@ -1,0 +1,1 @@
+[+] zlyytfx cmake@3.31.12 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/cmake-3.31.12-zlyytfx75y2yxzfieatl2degkm2mnzj3 (0s)
