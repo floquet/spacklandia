@@ -1,0 +1,57 @@
+AutotoolsPackage:   automake
+
+Description:
+    Automake -- make file builder part of autotools
+
+Homepage: https://www.gnu.org/software/automake/
+
+Preferred version:  
+    1.18.1    https://ftpmirror.gnu.org/automake/automake-1.18.1.tar.gz
+
+Safe versions:  
+    1.18.1    https://ftpmirror.gnu.org/automake/automake-1.18.1.tar.gz
+    1.16.5    https://ftpmirror.gnu.org/automake/automake-1.16.5.tar.gz
+    1.16.3    https://ftpmirror.gnu.org/automake/automake-1.16.3.tar.gz
+    1.16.2    https://ftpmirror.gnu.org/automake/automake-1.16.2.tar.gz
+    1.16.1    https://ftpmirror.gnu.org/automake/automake-1.16.1.tar.gz
+    1.15.1    https://ftpmirror.gnu.org/automake/automake-1.15.1.tar.gz
+    1.15      https://ftpmirror.gnu.org/automake/automake-1.15.tar.gz
+    1.14.1    https://ftpmirror.gnu.org/automake/automake-1.14.1.tar.gz
+    1.13.4    https://ftpmirror.gnu.org/automake/automake-1.13.4.tar.gz
+    1.11.6    https://ftpmirror.gnu.org/automake/automake-1.11.6.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    build_system [autotools]        autotools
+        Build systems supported by the package
+
+
+Dependencies:
+    autoconf@2.62:        build
+
+    autoconf@2.65:        build
+      when @1.13.4:
+
+    c                     build
+
+    gmake                 build
+      when build_system=autotools
+
+    gnuconfig             build
+      when build_system=autotools target=ppc64le:
+
+    gnuconfig             build
+      when build_system=autotools target=aarch64:
+
+    gnuconfig             build
+      when build_system=autotools target=riscv64:
+
+    perl+threads          build, run
+
+
+Licenses:
+    GPL-2.0-or-later
+
+
