@@ -91,7 +91,7 @@ new_step "install package ${package}"
             git add ${repo}"
 
   sub_step "git commit -m '${package}'
-	    git commtt -m  ${package}
+	       git commit -m  ${package}
 
 done < "${file}"
 
