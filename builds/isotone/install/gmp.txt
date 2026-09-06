@@ -1,1 +1,62 @@
-[+] pjr55vx gmp@6.3.0 /home/dantopa/spackticity/spack-isotone/opt/spack/linux-skylake/gmp-6.3.0-pjr55vxsxgy5jxktslfn7z5xeqmeqa5d (0s)
+[ ] gvnb75a libsigsegv@2.15 staging (1s)
+[ ] syauj64 file@5.46 staging (1s)
+[ ] jplcnbx findutils@4.10.0 staging (1s)
+[ ] gvnb75a libsigsegv@2.15 autoreconf (1s)
+[ ] gvnb75a libsigsegv@2.15 configure (1s)
+[ ] syauj64 file@5.46 autoreconf (1s)
+[ ] syauj64 file@5.46 configure (1s)
+[ ] jplcnbx findutils@4.10.0 autoreconf (1s)
+[ ] jplcnbx findutils@4.10.0 configure (1s)
+[ ] gvnb75a libsigsegv@2.15 build (5s)
+[ ] gvnb75a libsigsegv@2.15 install (6s)
+[+] gvnb75a libsigsegv@2.15 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/libsigsegv-2.15-gvnb75a6ajsi5seegvnrl2hiiarqemq3 (6s)
+[ ] qxobt7d m4@1.4.21 staging (0s)
+[x] qxobt7d m4@1.4.21 failed: /tmp/dantopa/spack-stage/spack-stage-m4-1.4.21-qxobt7dodmyai3yhin37umsnjoj4jphg-0p790r8u.log (0s)
+[x] jplcnbx findutils@4.10.0 failed: /tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7-k1eo_cno.log (6s)
+[x] syauj64 file@5.46 failed: /tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n-yrnk55vv.log (6s)
+-- lines 149 to 168 --
+  checking for alloca... yes
+  checking whether the preprocessor supports include_next... yes
+  checking whether source code line length is unlimited... yes
+  checking whether <wchar.h> uses 'inline' correctly... yes
+  checking for nl_langinfo and CODESET... yes
+  checking for a traditional french locale... none
+  checking whether char8_t is correctly defined... yes
+  checking whether char16_t is correctly defined... yes
+  checking whether char32_t is correctly defined... yes
+  checking for bit size of wchar_t... 32
+  checking for mbstate_t... yes
+  checking for a traditional japanese locale... none
+  checking for a french Unicode locale... none
+  checking for a transitional chinese locale... cat: confdefs.h: Disk quota exceeded
+  cat: -: Disk quota exceeded
+  /tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7/spack-src/configure: line 12468: printf: write error: Disk quota exceeded
+  /tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7/spack-src/configure: line 12520: printf: write error: Disk quota exceeded
+  none
+  /tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7/spack-src/configure: line 12547: printf: write error: Disk quota exceeded
+  checking whether mbrtowc handles incomplete charac
+-- lines 182 to 201 --
+  checking for pipe2... yes
+  checking for posix_spawnp... yes
+  checking for getopt_long... yes
+  checking for asprintf... yes
+  checking for vasprintf... yes
+  checking for strlcpy... yes
+  checking for strlcat... yes
+  checking for getline... yes
+  checking for ctime_r... yes
+  checking for asctime_r... yes
+  checking for localtime_r... yes
+  checking for gmtime_r... cat: confdefs.h: Disk quota exceeded
+  cat: -: Disk quota exceeded
+  no
+  checking for pread... cat: confdefs.h: Disk quota exceeded
+  cat: -: Disk quota exceeded
+  /tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n/spack-src/configure: line 1672: printf: write error: Disk quota exceeded
+  /tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n/spack-src/configure: line 1680: printf: write error: Disk quota exceeded
+  /tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n/spack-src/configure: line 1691: printf: write error: Disk quota exceeded
+  /tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n/spack-src/configure: line 180
+==> Error: The following packages failed to install:
+m4@1.4.21/qxobt7dodmyai3yhin37umsnjoj4jphg: /tmp/dantopa/spack-stage/spack-stage-m4-1.4.21-qxobt7dodmyai3yhin37umsnjoj4jphg-0p790r8u.log
+findutils@4.10.0/jplcnbxh55wbticij6q25vbqkd5e4sp7: /tmp/dantopa/spack-stage/spack-stage-findutils-4.10.0-jplcnbxh55wbticij6q25vbqkd5e4sp7-k1eo_cno.log
+file@5.46/syauj647c7jo3bsebuqx6r3tmmntjy7n: /tmp/dantopa/spack-stage/spack-stage-file-5.46-syauj647c7jo3bsebuqx6r3tmmntjy7n-yrnk55vv.log
