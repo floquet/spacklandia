@@ -1,0 +1,18 @@
+[ ] kneashf papi@7.2.0 staging (0s)
+[ ] kneashf papi@7.2.0 autoreconf (1s)
+[ ] kneashf papi@7.2.0 configure (1s)
+[x] kneashf papi@7.2.0 failed: /var/tmp/dantopa/spack-stage/spack-stage-papi-7.2.0-kneashfdx2psgbbfbuxe5uwqn23xwxld-jz2uoetk.log (2s)
+-- lines 20 to 30 --
+  checking for OS... linux
+  checking for OS version... 7.0.0-30-generic
+  checking for perf_event workaround level... autodetect
+  checking for if MIC should be used... no
+  checking for if NEC should be used... no
+  checking whether the C compiler works... no
+> configure: error: in `/var/tmp/dantopa/spack-stage/spack-stage-papi-7.2.0-kneashfdx2psgbbfbuxe5uwqn23xwxld/spack-src/src':
+> configure: error: C compiler cannot create executables
+  See `config.log' for more details
+  Command exited with status 77:
+      /var/tmp/dantopa/spack-stage/spack-stage-papi-7.2.0-kneashfdx2psgbbfbuxe5uwqn23xwxld/spack-src/src/configure --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/papi-7.2.0-kneashfdx2psgbbfbuxe5uwqn23xwxld MPICC=: --with-components=example --with-shared-lib=yes --enable-perfevent-rdpmc=yes --with-tests=no
+==> Error: The following packages failed to install:
+papi@7.2.0/kneashfdx2psgbbfbuxe5uwqn23xwxld: /var/tmp/dantopa/spack-stage/spack-stage-papi-7.2.0-kneashfdx2psgbbfbuxe5uwqn23xwxld-jz2uoetk.log

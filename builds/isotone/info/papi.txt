@@ -1,0 +1,188 @@
+AutotoolsPackage:   papi
+
+Description:
+    PAPI provides the tool designer and application engineer with a
+    consistent interface and methodology for use of the performance counter
+    hardware found in most major microprocessors. PAPI enables software
+    engineers to see, in near real time, the relation between software
+    performance and processor events. In addition Component PAPI provides
+    access to a collection of components that expose performance measurement
+    opportunities across the hardware and software stack.
+
+Homepage: https://icl.utk.edu/papi/
+
+Preferred version:  
+    7.2.0      https://icl.utk.edu/projects/papi/downloads/papi-7.2.0.tar.gz
+
+Safe versions:  
+    master     [git] https://github.com/icl-utk-edu/papi on branch master
+    7.2.0      https://icl.utk.edu/projects/papi/downloads/papi-7.2.0.tar.gz
+    7.1.0      https://icl.utk.edu/projects/papi/downloads/papi-7.1.0.tar.gz
+    7.0.1      https://icl.utk.edu/projects/papi/downloads/papi-7.0.1.tar.gz
+    6.0.0.1    https://icl.utk.edu/projects/papi/downloads/papi-6.0.0.1.tar.gz
+    6.0.0      https://icl.utk.edu/projects/papi/downloads/papi-6.0.0.tar.gz
+    5.7.0      https://icl.utk.edu/projects/papi/downloads/papi-5.7.0.tar.gz
+    5.6.0      https://icl.utk.edu/projects/papi/downloads/papi-5.6.0.tar.gz
+    5.5.1      https://icl.utk.edu/projects/papi/downloads/papi-5.5.1.tar.gz
+    5.5.0      https://icl.utk.edu/projects/papi/downloads/papi-5.5.0.tar.gz
+    5.4.3      https://icl.utk.edu/projects/papi/downloads/papi-5.4.3.tar.gz
+    5.4.1      https://icl.utk.edu/projects/papi/downloads/papi-5.4.1.tar.gz
+    5.3.0      https://icl.utk.edu/projects/papi/downloads/papi-5.3.0.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    amdgpu_target [none]            none, gfx1010, gfx1011, gfx1012, gfx1013,
+                                    gfx1030, gfx1031, gfx1032, gfx1033,
+                                    gfx1034, gfx1035, gfx1036, gfx1100,
+                                    gfx1101, gfx1102, gfx1103, gfx1150,
+                                    gfx1151, gfx1152, gfx1153, gfx1200,
+                                    gfx1201, gfx1250, gfx1251, gfx701, gfx801,
+                                    gfx802, gfx803, gfx900, gfx900:xnack-,
+                                    gfx902, gfx904, gfx906, gfx906:xnack-,
+                                    gfx908, gfx908:xnack-, gfx909, gfx90a,
+                                    gfx90a:xnack+, gfx90a:xnack-, gfx90c,
+                                    gfx940, gfx941, gfx942, gfx950
+      when +rocm
+        AMD GPU architecture
+
+    build_system [autotools]        autotools
+        Build systems supported by the package
+
+    cuda [false]                    false, true
+        Enable CUDA support
+
+    debug [false]                   false, true
+        Enable debug symbols in PAPI
+
+    example [true]                  false, true
+        Install the example files
+
+    infiniband [false]              false, true
+        Enable Infiniband support
+
+    lmsensors [false]               false, true
+        Enable lm_sensors support
+
+    nvml [false]                    false, true
+        Enable NVML support
+
+    powercap [false]                false, true
+        Enable powercap interface support
+
+    rapl [false]                    false, true
+        Enable RAPL support
+
+    rdpmc [true]                    false, true
+      when @6.0.0:
+        Enable use of rdpmc for reading counters, when possible
+
+    rocm [false]                    false, true
+        Enable ROCm support
+
+    rocm_smi [false]                false, true
+        Enable ROCm SMI support
+
+    rocp_sdk [false]                false, true
+      when @7.2:
+        Enable ROCp support
+
+    sde [false]                     false, true
+        Enable software defined events
+
+    shared [true]                   false, true
+        Build shared libraries
+
+    static_tools [false]            false, true
+        Statically link the PAPI tools
+
+    topdown [false]                 false, true
+      when @7.2:
+        Enable topdown support
+
+
+Dependencies:
+    bc                        build
+      when +cuda
+
+    c                         build
+
+    cuda                      build, link
+      when +cuda
+
+    cuda                      build, link
+      when +nvml
+
+    cxx                       build
+
+    fortran                   build
+
+    gmake                     build
+      when build_system=autotools
+
+    gnuconfig                 build
+      when build_system=autotools target=ppc64le:
+
+    gnuconfig                 build
+      when build_system=autotools target=aarch64:
+
+    gnuconfig                 build
+      when build_system=autotools target=riscv64:
+
+    hip+rocm                  build, link
+      when +rocm
+
+    hsa-rocr-dev              build, link
+      when +rocm
+
+    llvm-amdgpu               build, link
+      when +rocm
+
+    llvm-amdgpu@5.2.0:        build, link
+      when amdgpu_target=gfx940
+
+    llvm-amdgpu@5.2.0:        build, link
+      when amdgpu_target=gfx1036
+
+    llvm-amdgpu@5.3.0:        build, link
+      when amdgpu_target=gfx1100
+
+    llvm-amdgpu@5.3.0:        build, link
+      when amdgpu_target=gfx1101
+
+    llvm-amdgpu@5.3.0:        build, link
+      when amdgpu_target=gfx1102
+
+    llvm-amdgpu@5.3.0:        build, link
+      when amdgpu_target=gfx1103
+
+    llvm-amdgpu@5.7.0:        build, link
+      when amdgpu_target=gfx941
+
+    llvm-amdgpu@5.7.0:        build, link
+      when amdgpu_target=gfx942
+
+    lm-sensors                build, link
+      when +lmsensors
+
+    perl                      build
+      when @7.1.0:
+
+    rocm-openmp-extras        build, link
+      when +rocm
+
+    rocm-smi-lib              build, link
+      when +rocm_smi
+
+    rocprofiler-dev           build, link
+      when +rocm
+
+    rocprofiler-sdk           build, link
+      when +rocp_sdk
+
+
+Licenses:
+    BSD-3-Clause
+
+
