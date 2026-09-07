@@ -1,1 +1,2 @@
-==> Error: No package matches the query: hypre
+-- linux-ubuntu26.04-skylake / %c=gcc@16.0.1 --------------------
+hypre@3.2.0
