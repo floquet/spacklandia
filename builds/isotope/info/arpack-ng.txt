@@ -1,0 +1,118 @@
+CMakePackage:   arpack-ng
+
+Description:
+    ARPACK-NG is a collection of Fortran77 subroutines designed to solve
+    large scale eigenvalue problems. Important Features: * Reverse
+    Communication Interface. * Single and Double Precision Real Arithmetic
+    Versions for Symmetric, Non-symmetric, Standard or Generalized Problems.
+    * Single and Double Precision Complex Arithmetic Versions for Standard
+    or Generalized Problems. * Routines for Banded Matrices - Standard or
+    Generalized Problems. * Routines for The Singular Value Decomposition. *
+    Example driver routines that may be used as templates to implement
+    numerous Shift-Invert strategies for all problem types, data types and
+    precision. This project is a joint project between Debian, Octave and
+    Scilab in order to provide a common and maintained version of arpack.
+    Indeed, no single release has been published by Rice university for the
+    last few years and since many software (Octave, Scilab, R, Matlab...)
+    forked it and implemented their own modifications, arpack-ng aims to
+    tackle this by providing a common repository and maintained versions.
+    arpack-ng is replacing arpack almost everywhere.
+
+Homepage: https://github.com/opencollab/arpack-ng
+
+Preferred version:  
+    3.9.1      https://github.com/opencollab/arpack-ng/archive/3.9.1.tar.gz
+
+Safe versions:  
+    develop    [git] https://github.com/opencollab/arpack-ng.git on branch master
+    3.9.1      https://github.com/opencollab/arpack-ng/archive/3.9.1.tar.gz
+    3.9.0      https://github.com/opencollab/arpack-ng/archive/3.9.0.tar.gz
+    3.8.0      https://github.com/opencollab/arpack-ng/archive/3.8.0.tar.gz
+    3.7.0      https://github.com/opencollab/arpack-ng/archive/3.7.0.tar.gz
+    3.6.3      https://github.com/opencollab/arpack-ng/archive/3.6.3.tar.gz
+    3.6.2      https://github.com/opencollab/arpack-ng/archive/3.6.2.tar.gz
+    3.6.0      https://github.com/opencollab/arpack-ng/archive/3.6.0.tar.gz
+    3.5.0      https://github.com/opencollab/arpack-ng/archive/3.5.0.tar.gz
+    3.4.0      https://github.com/opencollab/arpack-ng/archive/3.4.0.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    build_system [cmake]        autotools, cmake
+        Build systems supported by the package
+
+    build_type [Release]        Debug, MinSizeRel, RelWithDebInfo, Release
+      when build_system=cmake
+        CMake build type
+
+    generator [make]            none
+      when build_system=cmake
+        the build system generator to use
+
+    icb [false]                 false, true
+      when @3.6:
+        Activates iso_c_binding support
+
+    ipo [false]                 false, true
+      when build_system=cmake %cmake@3.9:
+        CMake interprocedural optimization
+
+    mpi [true]                  false, true
+        Activates MPI support
+
+    shared [true]               false, true
+        Enables the build of shared libraries
+
+
+Dependencies:
+    autoconf              build
+      when build_system=autotools
+
+    automake              build
+      when build_system=autotools
+
+    blas                  build, link
+
+    c                     build
+
+    cmake                 build
+      when build_system=cmake
+
+    cxx                   build
+
+    fortran               build
+
+    gmake                 build
+      when build_system=autotools
+
+    gmake                 build
+      when build_system=cmake generator=make
+
+    gnuconfig             build
+      when build_system=autotools target=ppc64le:
+
+    gnuconfig             build
+      when build_system=autotools target=aarch64:
+
+    gnuconfig             build
+      when build_system=autotools target=riscv64:
+
+    lapack                build, link
+
+    libtool@2.4.2:        build
+      when build_system=autotools
+
+    mpi                   build, link
+      when +mpi
+
+    ninja                 build
+      when build_system=cmake generator=ninja
+
+    pkgconfig             build
+      when build_system=autotools
+
+
+Licenses:
+    None
+
