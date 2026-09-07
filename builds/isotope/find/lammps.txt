@@ -1,1 +1,2 @@
-==> Error: No package matches the query: lammps
+-- linux-ubuntu26.04-ivybridge / %c,cxx=gcc@15.2.0 --------------
+lammps@20250722.4
