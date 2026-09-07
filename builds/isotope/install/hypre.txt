@@ -1,1 +1,0 @@
-[+] qtttdnw hypre@3.2.0 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hypre-3.2.0-qtttdnwv7y4mhgtjnm5elywh6lc3wlr5 (0s)
