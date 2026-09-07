@@ -1,0 +1,442 @@
+CMakePackage:   hypre
+
+Description:
+    Hypre is a library of high performance preconditioners that features
+    parallel multigrid methods for both structured and unstructured grid
+    problems.
+
+Homepage: https://llnl.gov/casc/hypre
+
+Preferred version:  
+    3.2.0      https://github.com/hypre-space/hypre/archive/v3.2.0.tar.gz
+
+Safe versions:  
+    develop    [git] https://github.com/hypre-space/hypre.git on branch master
+    3.2.0      https://github.com/hypre-space/hypre/archive/v3.2.0.tar.gz
+    3.1.0      https://github.com/hypre-space/hypre/archive/v3.1.0.tar.gz
+    3.0.0      https://github.com/hypre-space/hypre/archive/v3.0.0.tar.gz
+    2.33.0     https://github.com/hypre-space/hypre/archive/v2.33.0.tar.gz
+    2.32.0     https://github.com/hypre-space/hypre/archive/v2.32.0.tar.gz
+    2.31.0     https://github.com/hypre-space/hypre/archive/v2.31.0.tar.gz
+    2.30.0     https://github.com/hypre-space/hypre/archive/v2.30.0.tar.gz
+    2.29.0     https://github.com/hypre-space/hypre/archive/v2.29.0.tar.gz
+    2.28.0     https://github.com/hypre-space/hypre/archive/v2.28.0.tar.gz
+    2.27.0     https://github.com/hypre-space/hypre/archive/v2.27.0.tar.gz
+    2.26.0     https://github.com/hypre-space/hypre/archive/v2.26.0.tar.gz
+    2.25.0     https://github.com/hypre-space/hypre/archive/v2.25.0.tar.gz
+    2.24.0     https://github.com/hypre-space/hypre/archive/v2.24.0.tar.gz
+    2.23.0     https://github.com/hypre-space/hypre/archive/v2.23.0.tar.gz
+    2.22.1     https://github.com/hypre-space/hypre/archive/v2.22.1.tar.gz
+    2.22.0     https://github.com/hypre-space/hypre/archive/v2.22.0.tar.gz
+    2.21.0     https://github.com/hypre-space/hypre/archive/v2.21.0.tar.gz
+    2.20.0     https://github.com/hypre-space/hypre/archive/v2.20.0.tar.gz
+    2.19.0     https://github.com/hypre-space/hypre/archive/v2.19.0.tar.gz
+    2.18.2     https://github.com/hypre-space/hypre/archive/v2.18.2.tar.gz
+    2.18.1     https://github.com/hypre-space/hypre/archive/v2.18.1.tar.gz
+    2.18.0     https://github.com/hypre-space/hypre/archive/v2.18.0.tar.gz
+    2.17.0     https://github.com/hypre-space/hypre/archive/v2.17.0.tar.gz
+    2.16.0     https://github.com/hypre-space/hypre/archive/v2.16.0.tar.gz
+    2.15.1     https://github.com/hypre-space/hypre/archive/v2.15.1.tar.gz
+    2.15.0     https://github.com/hypre-space/hypre/archive/v2.15.0.tar.gz
+    2.14.0     https://github.com/hypre-space/hypre/archive/v2.14.0.tar.gz
+    2.13.0     https://github.com/hypre-space/hypre/archive/v2.13.0.tar.gz
+    2.12.1     https://github.com/hypre-space/hypre/archive/v2.12.1.tar.gz
+    2.11.2     http://computing.llnl.gov/project/linear_solvers/download/hypre-2.11.2.tar.gz
+    2.11.1     http://computing.llnl.gov/project/linear_solvers/download/hypre-2.11.1.tar.gz
+    2.10.1     http://computing.llnl.gov/project/linear_solvers/download/hypre-2.10.1.tar.gz
+    2.10.0b    http://computing.llnl.gov/project/linear_solvers/download/hypre-2.10.0b.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    amdgpu_target [none]            none, gfx1010, gfx1011, gfx1012, gfx1013,
+                                    gfx1030, gfx1031, gfx1032, gfx1033,
+                                    gfx1034, gfx1035, gfx1036, gfx1100,
+                                    gfx1101, gfx1102, gfx1103, gfx1150,
+                                    gfx1151, gfx1152, gfx1153, gfx1200,
+                                    gfx1201, gfx1250, gfx1251, gfx701, gfx801,
+                                    gfx802, gfx803, gfx900, gfx900:xnack-,
+                                    gfx902, gfx904, gfx906, gfx906:xnack-,
+                                    gfx908, gfx908:xnack-, gfx909, gfx90a,
+                                    gfx90a:xnack+, gfx90a:xnack-, gfx90c,
+                                    gfx940, gfx941, gfx942, gfx950
+      when +rocm
+        AMD GPU architecture
+
+    build_system [cmake]            autotools, cmake
+        Build systems supported by the package
+
+    build_type [Release]            Debug, MinSizeRel, RelWithDebInfo, Release
+      when build_system=cmake
+        CMake build type
+
+    caliper [false]                 false, true
+        Enable Caliper support
+
+    complex [false]                 false, true
+        Use complex values
+
+    cuda [false]                    false, true
+        Build with CUDA
+
+    cuda_arch [none]                none, 10, 100, 100a, 100f, 101, 101a,
+                                    101f, 103, 103a, 103f, 11, 110, 110a,
+                                    110f, 12, 120, 120a, 120f, 121, 121a,
+                                    121f, 13, 20, 21, 30, 32, 35, 37, 50, 52,
+                                    53, 60, 61, 62, 70, 72, 75, 80, 86, 87,
+                                    89, 90, 90a
+      when +cuda
+        CUDA architecture
+
+    cxxstd [17]                     11, 14, 17, 20, 23
+        C++ language standard (for GPU builds)
+
+    debug [false]                   false, true
+        Build debug instead of optimized version
+
+    fortran [false]                 false, true
+        Enables fortran bindings
+
+    generator [make]                none
+      when build_system=cmake
+        the build system generator to use
+
+    gptune [false]                  false, true
+        Add the GPTune hookup code
+
+    gpu-aware-mpi [false]           false, true
+      when @2.18:
+        Enable GPU-aware MPI support
+
+    gpu-profiling [false]           false, true
+      when @2.21:
+        Enable GPU profiling markers support
+
+    int64 [false]                   false, true
+        Use 64bit integers
+
+    internal-superlu [false]        false, true
+      when @:2.12.1
+        Use internal SuperLU routines
+
+    ipo [false]                     false, true
+      when build_system=cmake %cmake@3.9:
+        CMake interprocedural optimization
+
+    lapack [true]                   false, true
+        Use external blas/lapack
+
+    magma [false]                   false, true
+      when @2.29:
+        Enable MAGMA interface
+
+    mixedint [false]                false, true
+      when @2.16:
+        Use 64bit integers while reducing memory use
+
+    mpi [true]                      false, true
+        Enable MPI support
+
+    openmp [false]                  false, true
+        Enable OpenMP support
+
+    pic [false]                     false, true
+      when @2.21:~shared
+        Build position independent code
+
+    precision [double]              double, longdouble, mixed, single
+      when @2.12.1:
+        Floating point precision
+
+    rocm [false]                    false, true
+        Enable ROCm support
+
+    shared [true]                   false, true
+        Build shared library (disables static library)
+
+    superlu-dist [false]            false, true
+      when @2.13:
+        Activates support for SuperLU_Dist library
+
+    sycl [false]                    false, true
+      when @2.24:
+        Enable SYCL support
+
+    umpire [false]                  false, true
+      when @2.21:
+        Enable Umpire support
+
+    unified-memory [false]          false, true
+        Use unified memory
+
+
+Dependencies:
+    blas                          build, link
+      when +lapack
+
+    c                             build
+
+    caliper                       build, link
+      when +caliper
+
+    cmake@3.21:                   build
+      when build_system=cmake
+
+    cuda                          build, link
+      when +cuda
+
+    cuda@:6.0                     build, link
+      when cuda_arch=10
+
+    cuda@:6.5                     build, link
+      when cuda_arch=11
+
+    cuda@:11                      build, link
+      when @:2.28.0+cuda
+
+    cuda@2.1:6.5                  build, link
+      when cuda_arch=12
+
+    cuda@2.1:6.5                  build, link
+      when cuda_arch=13
+
+    cuda@3.0:8.0                  build, link
+      when cuda_arch=20
+
+    cuda@3.2:8.0                  build, link
+      when cuda_arch=21
+
+    cuda@5.0:10.2                 build, link
+      when cuda_arch=30
+
+    cuda@5.0:10.2                 build, link
+      when cuda_arch=32
+
+    cuda@5.0:11.8                 build, link
+      when cuda_arch=35
+
+    cuda@6.0:12.9                 build, link
+      when cuda_arch=50
+
+    cuda@6.5:11.8                 build, link
+      when cuda_arch=37
+
+    cuda@6.5:12.9                 build, link
+      when cuda_arch=52
+
+    cuda@6.5:12.9                 build, link
+      when cuda_arch=53
+
+    cuda@8.0:12.9                 build, link
+      when cuda_arch=60
+
+    cuda@8.0:12.9                 build, link
+      when cuda_arch=61
+
+    cuda@8.0:12.9                 build, link
+      when cuda_arch=62
+
+    cuda@9.0:12.9                 build, link
+      when cuda_arch=70
+
+    cuda@9.0:                     build, link
+      when cuda_arch=72
+
+    cuda@10.0:                    build, link
+      when cuda_arch=75
+
+    cuda@11.0:                    build, link
+      when cuda_arch=80
+
+    cuda@11.1:                    build, link
+      when cuda_arch=86
+
+    cuda@11.4:                    build, link
+      when cuda_arch=87
+
+    cuda@11.8:                    build, link
+      when cuda_arch=89
+
+    cuda@12.0:                    build, link
+      when cuda_arch=90
+
+    cuda@12.0:                    build, link
+      when cuda_arch=90a
+
+    cuda@12.8:12.9                build, link
+      when cuda_arch=101
+
+    cuda@12.8:12.9                build, link
+      when cuda_arch=101a
+
+    cuda@12.8:                    build, link
+      when cuda_arch=100
+
+    cuda@12.8:                    build, link
+      when cuda_arch=100a
+
+    cuda@12.8:                    build, link
+      when cuda_arch=120
+
+    cuda@12.8:                    build, link
+      when cuda_arch=120a
+
+    cuda@12.9                     build, link
+      when cuda_arch=101f
+
+    cuda@12.9:                    build, link
+      when cuda_arch=100f
+
+    cuda@12.9:                    build, link
+      when cuda_arch=103
+
+    cuda@12.9:                    build, link
+      when cuda_arch=103a
+
+    cuda@12.9:                    build, link
+      when cuda_arch=103f
+
+    cuda@12.9:                    build, link
+      when cuda_arch=120f
+
+    cuda@12.9:                    build, link
+      when cuda_arch=121
+
+    cuda@12.9:                    build, link
+      when cuda_arch=121a
+
+    cuda@12.9:                    build, link
+      when cuda_arch=121f
+
+    cuda@13.0:                    build, link
+      when cuda_arch=110
+
+    cuda@13.0:                    build, link
+      when cuda_arch=110a
+
+    cuda@13.0:                    build, link
+      when cuda_arch=110f
+
+    cxx                           build
+      when +rocm
+
+    cxx                           build
+      when +cuda
+
+    cxx                           build
+      when +sycl
+
+    cxx                           build
+      when +caliper
+
+    fortran                       build
+      when +fortran
+
+    gmake                         build
+      when build_system=autotools
+
+    gmake                         build
+      when build_system=cmake generator=make
+
+    gnuconfig                     build
+      when build_system=autotools target=ppc64le:
+
+    gnuconfig                     build
+      when build_system=autotools target=aarch64:
+
+    gnuconfig                     build
+      when build_system=autotools target=riscv64:
+
+    hip@:6                        build, link
+      when @:3.0.0+rocm
+
+    hip+rocm                      build, link
+      when +rocm
+
+    hipblas                       build, link
+      when +rocm+superlu-dist
+
+    hsa-rocr-dev                  build, link
+      when +rocm
+
+    intel-oneapi-compilers        build, link
+      when +sycl
+
+    intel-oneapi-dpl              build, link
+      when +sycl
+
+    intel-oneapi-mkl              build, link
+      when +sycl
+
+    lapack                        build, link
+      when +lapack
+
+    llvm-amdgpu                   build
+      when +rocm
+
+    llvm-amdgpu@5.2.0:            build, link
+      when amdgpu_target=gfx940
+
+    llvm-amdgpu@5.2.0:            build, link
+      when amdgpu_target=gfx1036
+
+    llvm-amdgpu@5.3.0:            build, link
+      when amdgpu_target=gfx1100
+
+    llvm-amdgpu@5.3.0:            build, link
+      when amdgpu_target=gfx1101
+
+    llvm-amdgpu@5.3.0:            build, link
+      when amdgpu_target=gfx1102
+
+    llvm-amdgpu@5.3.0:            build, link
+      when amdgpu_target=gfx1103
+
+    llvm-amdgpu@5.7.0:            build, link
+      when amdgpu_target=gfx941
+
+    llvm-amdgpu@5.7.0:            build, link
+      when amdgpu_target=gfx942
+
+    magma                         build, link
+      when +magma
+
+    mpi                           build, link
+      when +mpi
+
+    ninja                         build
+      when build_system=cmake generator=ninja
+
+    rocblas                       build, link
+      when @2.29.0:+rocm
+
+    rocprim                       build, link
+      when +rocm
+
+    rocrand                       build, link
+      when +rocm
+
+    rocsolver                     build, link
+      when @2.29.0:+rocm
+
+    rocsparse                     build, link
+      when +rocm
+
+    rocthrust                     build, link
+      when +rocm
+
+    superlu-dist                  build, link
+      when +mpi+superlu-dist
+
+    umpire+c+cuda                 build, link
+      when @3:+cuda
+
+    umpire+c+rocm                 build, link
+      when @3:+rocm
+
+
+Licenses:
+    Apache-2.0 OR MIT
+
+
