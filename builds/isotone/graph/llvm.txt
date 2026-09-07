@@ -1,1 +1,1 @@
-o llvm@21.1.8/b2kgk3i
+environment: line 89: spack: command not found
