@@ -1,0 +1,5 @@
+[ ] c7wuo6y lammps@20250722.4 staging (1s)
+[ ] c7wuo6y lammps@20250722.4 cmake (10s)
+[ ] c7wuo6y lammps@20250722.4 build (16s)
+[ ] c7wuo6y lammps@20250722.4 install (2m49s)
+[+] c7wuo6y lammps@20250722.4 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/lammps-20250722.4-c7wuo6yhisoiqc5hhbyyqpkbqnbmyddj (2m53s)
