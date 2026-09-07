@@ -42,7 +42,7 @@
 [+]              ^python@3.14.5+bz2+ctypes+dbm~debug~freethreading+libxml2+lzma~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~static~tests~tkinter+uuid+zlib+zstd build_system=generic platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
 [+]                  ^openssl@3.6.1~docs+shared build_system=generic certs=mozilla platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
 [+]              ^re2c@4.4 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
- -           ^perl-data-dumper@2.173 build_system=perl platform=linux os=ubuntu26.04 target=skylake
+[+]          ^perl-data-dumper@2.173 build_system=perl platform=linux os=ubuntu26.04 target=skylake
  -           ^swig@4.5.0+pcre build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
  -               ^bison@3.8.2~color build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
  -       ^mpfr@4.2.2 build_system=autotools libs:=shared,static platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
@@ -53,7 +53,7 @@
  -       ^openlibm@0.8.7 build_system=makefile platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
  -       ^openssl@3.5.5~docs+shared build_system=generic certs=mozilla platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
 [+]          ^ca-certificates-mozilla@2026-05-14 build_system=generic platform=linux os=ubuntu26.04 target=skylake
- -       ^p7zip@17.06 build_system=makefile platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+[+]      ^p7zip@17.06 build_system=makefile platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
 [+]      ^patchelf@0.17.2 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
  -       ^pcre2@10.44~jit+multibyte+pic build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
 [+]      ^perl@5.42.2+cpanm+opcode+open+shared+threads build_system=generic platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
