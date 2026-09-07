@@ -1,0 +1,45 @@
+# Build infrastructure
+cmake
+ninja
+meson
+pkgconf
+autoconf
+automake
+libtool
+m4
+
+# Languages / scripting
+python
+perl
+lua
+
+# Parallelism
+openmpi
+mpich
+open-coarrays
+libfabric
+ucx
+
+# Numerical foundations
+gmp
+mpfr
+mpc
+
+# Data / serialization
+hdf5
+netcdf-c
+netcdf-fortran
+adios2
+
+# Performance
+papi
+gperftools
+hpctoolkit
+scorep
+caliper
+
+# Developer tools
+gdb
+valgrind
+strace
+binutils

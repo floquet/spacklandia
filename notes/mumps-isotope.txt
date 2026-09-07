@@ -1,0 +1,5 @@
+dantopa@isotope:~/spacktivity/spack-isotope$ spack install mumps ^openblas~ilp64
+[+] eqcbhww openblas@0.3.34 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openblas-0.3.34-eqcbhwwhomqrzfypf2sf6uzvtkanixyn (13m13s)
+[+] ezuo2pb netlib-scalapack@2.2.3 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/netlib-scalapack-2.2.3-ezuo2pb5lqu3khrdyuu2mi5drxeussal (1m10s)
+[+] hezjl52 mumps@5.9.1 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/mumps-5.9.1-hezjl52hdqk77mf4y4pjjglfwigeh2qf (3m17s)
+

@@ -1,2 +1,3 @@
 -- linux-ubuntu26.04-ivybridge / no compilers -------------------
 meson@1.11.1
+meson@1.11.1
