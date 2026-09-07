@@ -1,0 +1,1 @@
+[+] survjpn patchelf@0.17.2 /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/patchelf-0.17.2-survjpnmb6wspgfyofksqv7xmmtr4dmg (0s)

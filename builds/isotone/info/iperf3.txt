@@ -1,0 +1,54 @@
+AutotoolsPackage:   iperf3
+
+Description:
+    The iperf series of tools perform active measurements to determine the
+    maximum achievable bandwidth on IP networks. iperf2 is a separately
+    maintained project.
+
+Homepage: https://software.es.net/iperf/
+
+Preferred version:  
+    3.21      https://downloads.es.net/pub/iperf/iperf-3.21.tar.gz
+
+Safe versions:  
+    3.21      https://downloads.es.net/pub/iperf/iperf-3.21.tar.gz
+    3.20      https://downloads.es.net/pub/iperf/iperf-3.20.tar.gz
+    3.19.1    https://downloads.es.net/pub/iperf/iperf-3.19.1.tar.gz
+    3.19      https://downloads.es.net/pub/iperf/iperf-3.19.tar.gz
+    3.18      https://downloads.es.net/pub/iperf/iperf-3.18.tar.gz
+    3.17.1    https://downloads.es.net/pub/iperf/iperf-3.17.1.tar.gz
+    3.17      https://downloads.es.net/pub/iperf/iperf-3.17.tar.gz
+    3.16      https://downloads.es.net/pub/iperf/iperf-3.16.tar.gz
+    3.14      https://downloads.es.net/pub/iperf/iperf-3.14.tar.gz
+    3.12      https://downloads.es.net/pub/iperf/iperf-3.12.tar.gz
+    3.9       https://downloads.es.net/pub/iperf/iperf-3.9.tar.gz
+    3.6       https://downloads.es.net/pub/iperf/iperf-3.6.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    build_system [autotools]        autotools
+        Build systems supported by the package
+
+
+Dependencies:
+    c                build
+
+    gmake            build
+      when build_system=autotools
+
+    gnuconfig        build
+      when build_system=autotools target=ppc64le:
+
+    gnuconfig        build
+      when build_system=autotools target=aarch64:
+
+    gnuconfig        build
+      when build_system=autotools target=riscv64:
+
+
+Licenses:
+    BSD-3-Clause-LBNL
+
+

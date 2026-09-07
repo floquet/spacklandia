@@ -1,0 +1,121 @@
+ -   gmsh@4.15.1+alglib~cairo+cgns+compression~eigen~external+fltk+gmp~hdf5~ipo+med+metis+mmg~mpi+netgen~opencascade~openmp~petsc~privateapi+shared~slepc~tetgen+voropp build_system=cmake build_type=Release generator=make platform=linux os=ubuntu26.04 target=skylake %c,cxx,fortran=gcc@16.0.1
+ -       ^cgns@4.5.0~base_scope~fortran+hdf5~int64~ipo~legacy~mem_debug+mpi~pic+scoping+shared~static~testing~tools build_system=cmake build_type=Release generator=make patches=0ecd9e4 platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -           ^hdf5@1.12.3~cxx~fortran~hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_system=cmake build_type=Release generator=make patches=f42732a platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+[+]              ^pkgconf@2.5.1 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -           ^openmpi@5.0.10+atomics~cuda~debug+fortran~gpfs~internal-hwloc~internal-libevent~internal-pmix~ipv6~java~lustre~memchecker~openshmem~rocm~romio+rsh~static~two_level_namespace+vt+wrapper-rpath build_system=autotools fabrics:=none patches=646eb1a,caecbd6 romio-filesystem:=none schedulers:=none platform=linux os=ubuntu26.04 target=skylake %c,cxx,fortran=gcc@16.0.1
+ -               ^hwloc@2.13.0~cairo~cuda~gl~level_zero~libudev+libxml2~nvml~opencl+pci~rocm build_system=autotools libs:=shared,static patches=b4db98b platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+ -                   ^libpciaccess@0.17 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -               ^libevent@2.1.12+openssl build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -               ^numactl@2.0.19 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -               ^openssh@10.3p1+gssapi build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+ -                   ^krb5@1.22.2+shared build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+ -                   ^libedit@3.1-20251016 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -                   ^libxcrypt@4.5.2~obsolete_api build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -               ^perl@5.42.2+cpanm+opcode+open+shared+threads build_system=generic platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+[+]                  ^berkeley-db@18.1.40+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+[+]                  ^gdbm@1.26 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+[+]                  ^less@692 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -               ^pmix@6.1.0~munge~python build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -               ^prrte@4.1.0 build_system=autotools patches=64faa1a,91b28f5 schedulers:=none platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -       ^cmake@3.31.12~doc+ncurses+ownlibs~qtgui build_system=generic build_type=Release platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+ -           ^curl@8.21.0~gssapi~ldap~libidn2~librtmp~libssh~libssh2+nghttp2 build_system=autotools libs:=shared,static tls:=openssl platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+[+]              ^nghttp2@1.67.1 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+ -               ^openssl@3.6.1~docs+shared build_system=generic certs=mozilla platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+[+]                  ^ca-certificates-mozilla@2026-05-14 build_system=generic platform=linux os=ubuntu26.04 target=skylake
+[+]          ^ncurses@6.6~symlinks+termlib abi=none build_system=autotools patches=7a351bc platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+[+]      ^compiler-wrapper@1.1.0 build_system=generic platform=linux os=ubuntu26.04 target=skylake
+ -       ^fltk@1.4.4+gl+shared~xft build_system=generic platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+ -           ^autoconf@2.72 build_system=autotools platform=linux os=ubuntu26.04 target=skylake
+ -           ^automake@1.18.1 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -           ^freetype@2.14.3+pic+shared build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+[+]              ^bzip2@1.0.8~debug~pic+shared build_system=generic platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -           ^libtool@2.5.4 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -               ^file@5.46+static build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+[+]                  ^xz@5.8.3~pic build_system=autotools libs:=shared,static platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+[+]                  ^zstd@1.5.7+programs build_system=makefile compression:=none libs:=shared,static platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+ -               ^findutils@4.10.0 build_system=autotools patches=440b954 platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -           ^libx11@1.8.13 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -               ^inputproto@2.3.2 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -               ^kbproto@1.0.7 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -               ^libxcb@1.17.0 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -                   ^libpthread-stubs@0.5 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -                   ^libxau@1.0.12 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -                   ^libxdmcp@1.1.5 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -                   ^xcb-proto@1.17.0 build_system=autotools platform=linux os=ubuntu26.04 target=skylake
+[+]              ^util-macros@1.20.2 build_system=autotools platform=linux os=ubuntu26.04 target=skylake
+ -               ^xextproto@7.3.0 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -               ^xproto@7.0.31 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -               ^xtrans@1.6.0 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+[e]      ^gcc@16.0.1+binutils+bootstrap+futex~graphite+libsanitizer~mold~nvptx~piclibs~profiled~strip build_system=autotools build_type=RelWithDebInfo languages:='c,c++,fortran' platform=linux os=ubuntu26.04 target=x86_64
+[+]      ^gcc-runtime@16.0.1 build_system=generic platform=linux os=ubuntu26.04 target=skylake
+[e]      ^glibc@2.43 build_system=autotools platform=linux os=ubuntu26.04 target=x86_64
+ -       ^glx@1.4 build_system=bundle platform=linux os=ubuntu26.04 target=skylake
+ -           ^mesa@25.0.5~egl+glx+llvm+opengl~opengles+osmesa~strip build_system=meson buildtype=release default_library:=shared platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+ -               ^bison@3.8.2~color build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+ -               ^dri2proto@2.8 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+[+]              ^expat@2.8.3+libbsd+pic build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+[+]                  ^libbsd@0.12.2 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+[+]                      ^libmd@1.1.0 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -               ^flex@2.6.4+lex~nls build_system=autotools patches=f8b85a0 platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+ -                   ^help2man@1.49.3 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -               ^gettext@1.0+bzip2+curses+git~libunistring+libxml2+pic+shared+tar+xz build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+[+]                  ^libiconv@1.18 build_system=autotools libs:=shared,static platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -                   ^tar@1.35 build_system=autotools patches=85cb6b4 zip=pigz platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -                       ^pigz@2.8 build_system=makefile platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -               ^glproto@1.4.17 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -               ^libunwind@1.8.3~block_signals~conservative_checks~cxx_exceptions~debug~debug_frame+docs~pic+tests+weak_backtrace~xz~zlib build_system=autotools components:=none libs:=shared,static patches=4562c23 platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+ -               ^libxext@1.3.7 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -               ^libxml2@2.15.3+pic~python+shared build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -               ^libxshmfence@1.3.3 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -               ^libxt@1.3.1 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -                   ^libice@1.1.2 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -                   ^libsm@1.2.6 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+[e]              ^llvm@21.1.8+clang~cuda+flang~gold+libomptarget~libomptarget_debug~link_llvm_dylib~lld~lldb+llvm_dylib+lua~mlir+offload+polly~python~split_dwarf~utils~z3~zstd build_system=cmake build_type=Release compiler-rt=runtime generator=ninja libcxx=runtime libunwind=runtime openmp=runtime shlib_symbol_version=none targets:=aarch64,amdgpu,nvptx,x86 version_suffix=none platform=linux os=ubuntu26.04 target=x86_64
+ -               ^meson@1.11.1 build_system=python_pip patches=0f0b1bd platform=linux os=ubuntu26.04 target=skylake
+ -                   ^py-pip@26.1.2 build_system=generic platform=linux os=ubuntu26.04 target=skylake
+ -                   ^py-setuptools@83.0.0 build_system=generic platform=linux os=ubuntu26.04 target=skylake
+ -                   ^py-wheel@0.45.1 build_system=generic platform=linux os=ubuntu26.04 target=skylake
+ -                   ^python-venv@1.0 build_system=generic platform=linux os=ubuntu26.04 target=skylake
+[+]              ^ninja@1.13.2+re2c build_system=generic platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+[+]                  ^python@3.14.5+bz2+ctypes+dbm~debug~freethreading+libxml2+lzma~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~static~tests~tkinter+uuid+zlib+zstd build_system=generic platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+[+]                      ^gettext@1.0+bzip2+curses+git~libunistring+libxml2+pic+shared+tar+xz build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+[+]                          ^libxml2@2.15.3+pic~python+shared build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+[+]                          ^tar@1.35 build_system=autotools patches=85cb6b4 zip=pigz platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+[+]                              ^pigz@2.8 build_system=makefile platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+[+]                      ^openssl@3.6.1~docs+shared build_system=generic certs=mozilla platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+[+]                          ^perl@5.42.2+cpanm+opcode+open+shared+threads build_system=generic platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+[+]                      ^sqlite@3.53.1+column_metadata+fts+rtree build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+[+]                      ^zlib-ng@2.3.3+compat+new_strategies+opt+pic+shared build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+[+]                  ^re2c@4.4 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+ -               ^py-mako@1.3.10 build_system=python_pip platform=linux os=ubuntu26.04 target=skylake
+ -                   ^py-markupsafe@3.0.3 build_system=python_pip platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -               ^py-packaging@26.2 build_system=python_pip platform=linux os=ubuntu26.04 target=skylake
+ -                   ^py-flit-core@3.12.0 build_system=python_pip platform=linux os=ubuntu26.04 target=skylake
+ -               ^py-pyyaml@6.0.3+libyaml build_system=python_pip platform=linux os=ubuntu26.04 target=skylake
+ -                   ^libyaml@0.2.5 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -                   ^py-cython@3.2.4 build_system=python_pip platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+ -               ^python@3.14.5+bz2+ctypes+dbm~debug~freethreading+libxml2+lzma~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~static~tests~tkinter+uuid+zlib+zstd build_system=generic platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+[+]                  ^libffi@3.5.2 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+[+]                  ^readline@8.3 build_system=autotools patches=21f0a03,72dee13,e273643 platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -                   ^sqlite@3.53.1+column_metadata+fts+rtree build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+[+]                  ^util-linux-uuid@2.41 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -               ^xrandr@1.5.3 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -                   ^libxrandr@1.5.5 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -                       ^renderproto@0.11.1 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -                   ^libxrender@0.9.12 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -                   ^randrproto@1.5.0 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+[+]      ^gmake@4.4.1~guile build_system=generic platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -       ^gmp@6.3.0+cxx build_system=autotools libs:=shared,static patches=28a6673 platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+ -           ^m4@1.4.21+sigsegv build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+[+]              ^diffutils@3.12 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+[+]              ^libsigsegv@2.15 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -       ^libjpeg-turbo@3.1.3~ipo~jpeg8~partial_decoder+pic build_system=cmake build_type=Release generator=make libs:=shared,static platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+ -           ^nasm@2.16.03 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
+ -       ^libpng@1.6.58~ipo~pic build_system=cmake build_type=Release generator=make libs:=shared,static platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+ -       ^med@5.0.0+api23~doc~fortran~int64~ipo+mpi~python~shared build_system=cmake build_type=Release generator=make platform=linux os=ubuntu26.04 target=skylake %c,cxx,fortran=gcc@16.0.1
+ -       ^mesa-glu@9.0.2 build_system=autotools patches=3d03e55 platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+ -       ^mmg@5.8.0~doc~elas~ipo~private_headers+scotch+shared~vtk build_system=cmake build_type=Release generator=make platform=linux os=ubuntu26.04 target=skylake %c,cxx,fortran=gcc@16.0.1
+ -           ^scotch@7.0.13+compression~esmumps+fortran~int64~ipo~metis+mpi~mpi_thread~noarch+shared+threads build_system=cmake build_type=Release determinism=FIXED_SEED generator=make platform=linux os=ubuntu26.04 target=skylake %c,cxx,fortran=gcc@16.0.1
+ -       ^openblas@0.3.34~bignuma~consistent_fpcsr+dynamic_dispatch+fortran~ilp64+locking+pic+shared~static build_system=makefile patches=e192335 symbol_suffix=none threads=none platform=linux os=ubuntu26.04 target=skylake %c,cxx,fortran=gcc@16.0.1
+ -       ^zlib-ng@2.3.3+compat~new_strategies+opt+pic+shared build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
+

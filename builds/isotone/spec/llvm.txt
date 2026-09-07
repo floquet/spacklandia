@@ -1,2 +1,1 @@
-[e]  llvm@21.1.8+clang~cuda+flang~gold+libomptarget~libomptarget_debug~link_llvm_dylib~lld~lldb+llvm_dylib+lua~mlir+offload+polly~python~split_dwarf~utils~z3~zstd build_system=cmake build_type=Release compiler-rt=runtime generator=ninja libcxx=runtime libunwind=runtime openmp=runtime shlib_symbol_version=none targets:=aarch64,amdgpu,nvptx,x86 version_suffix=none platform=linux os=ubuntu26.04 target=x86_64
-
+environment: line 89: spack: command not found

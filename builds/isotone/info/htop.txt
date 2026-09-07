@@ -1,0 +1,82 @@
+AutotoolsPackage:   htop
+
+Description:
+    htop is an interactive text-mode process viewer for Unix systems.
+
+Homepage: https://github.com/htop-dev/htop/
+
+Preferred version:  
+    3.4.1    https://github.com/htop-dev/htop/archive/refs/tags/3.4.1.tar.gz
+
+Safe versions:  
+    3.4.1    https://github.com/htop-dev/htop/archive/refs/tags/3.4.1.tar.gz
+    3.4.0    https://github.com/htop-dev/htop/archive/refs/tags/3.4.0.tar.gz
+    3.3.0    https://github.com/htop-dev/htop/archive/refs/tags/3.3.0.tar.gz
+    3.2.2    https://github.com/htop-dev/htop/archive/refs/tags/3.2.2.tar.gz
+    3.2.1    https://github.com/htop-dev/htop/archive/refs/tags/3.2.1.tar.gz
+    3.2.0    https://github.com/htop-dev/htop/archive/refs/tags/3.2.0.tar.gz
+    3.1.2    https://github.com/htop-dev/htop/archive/refs/tags/3.1.2.tar.gz
+    3.1.1    https://github.com/htop-dev/htop/archive/refs/tags/3.1.1.tar.gz
+    3.0.5    https://github.com/htop-dev/htop/archive/refs/tags/3.0.5.tar.gz
+    2.2.0    https://hisham.hm/htop/releases/2.2.0/htop-2.2.0.tar.gz
+    2.0.2    https://hisham.hm/htop/releases/2.0.2/htop-2.0.2.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    build_system [autotools]        autotools
+        Build systems supported by the package
+
+    debug [false]                   false, true
+        Enable asserts and internal sanity checks
+
+    hwloc [false]                   false, true
+        Enable hwloc support for CPU affinity
+
+    unicode [true]                  false, true
+        Enable Unicode support dependency
+
+
+Dependencies:
+    autoconf                build
+      when @3:
+
+    automake                build
+      when @3:
+
+    c                       build
+
+    gmake                   build
+      when build_system=autotools
+
+    gnuconfig               build
+      when build_system=autotools target=ppc64le:
+
+    gnuconfig               build
+      when build_system=autotools target=aarch64:
+
+    gnuconfig               build
+      when build_system=autotools target=riscv64:
+
+    hwloc                   build, link
+      when +hwloc
+
+    libtool                 build
+      when @3:
+
+    m4                      build
+      when @3:
+
+    ncurses                 build, link
+
+    ncurses@6:              build, link
+      when @3:
+
+    python+pythoncmd        build
+
+
+Licenses:
+    GPL-2.0-or-later
+
+

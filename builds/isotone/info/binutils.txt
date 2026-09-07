@@ -1,0 +1,135 @@
+AutotoolsPackage:   binutils
+
+Description:
+    GNU binutils, which contain the linker, assembler, objdump and others
+
+Homepage: https://www.gnu.org/software/binutils/
+
+Preferred version:  
+    2.47      https://ftpmirror.gnu.org/binutils/binutils-2.47.tar.bz2
+
+Safe versions:  
+    2.47      https://ftpmirror.gnu.org/binutils/binutils-2.47.tar.bz2
+    2.46.1    https://ftpmirror.gnu.org/binutils/binutils-2.46.1.tar.bz2
+    2.46.0    https://ftpmirror.gnu.org/binutils/binutils-2.46.0.tar.bz2
+    2.45.1    https://ftpmirror.gnu.org/binutils/binutils-2.45.1.tar.bz2
+    2.45      https://ftpmirror.gnu.org/binutils/binutils-2.45.tar.bz2
+    2.44      https://ftpmirror.gnu.org/binutils/binutils-2.44.tar.bz2
+    2.43.1    https://ftpmirror.gnu.org/binutils/binutils-2.43.1.tar.bz2
+    2.43      https://ftpmirror.gnu.org/binutils/binutils-2.43.tar.bz2
+    2.42      https://ftpmirror.gnu.org/binutils/binutils-2.42.tar.bz2
+    2.41      https://ftpmirror.gnu.org/binutils/binutils-2.41.tar.bz2
+    2.40      https://ftpmirror.gnu.org/binutils/binutils-2.40.tar.bz2
+    2.39      https://ftpmirror.gnu.org/binutils/binutils-2.39.tar.bz2
+    2.38      https://ftpmirror.gnu.org/binutils/binutils-2.38.tar.bz2
+    2.37      https://ftpmirror.gnu.org/binutils/binutils-2.37.tar.bz2
+    2.36.1    https://ftpmirror.gnu.org/binutils/binutils-2.36.1.tar.bz2
+    2.35.2    https://ftpmirror.gnu.org/binutils/binutils-2.35.2.tar.bz2
+    2.35.1    https://ftpmirror.gnu.org/binutils/binutils-2.35.1.tar.bz2
+    2.35      https://ftpmirror.gnu.org/binutils/binutils-2.35.tar.bz2
+    2.34      https://ftpmirror.gnu.org/binutils/binutils-2.34.tar.bz2
+    2.33.1    https://ftpmirror.gnu.org/binutils/binutils-2.33.1.tar.bz2
+    2.32      https://ftpmirror.gnu.org/binutils/binutils-2.32.tar.bz2
+    2.31.1    https://ftpmirror.gnu.org/binutils/binutils-2.31.1.tar.bz2
+    2.30      https://ftpmirror.gnu.org/binutils/binutils-2.30.tar.bz2
+
+Deprecated versions:  
+    None
+
+Variants:
+    build_system [autotools]              autotools
+        Build systems supported by the package
+
+    compress_debug_sections [zlib]        none, zlib, zstd
+        Enable debug section compression by default in ld, gas, gold.
+
+    debuginfod [false]                    false, true
+      when @2.34:
+        Enable debuginfod HTTP server support for readelf and objdump
+
+    gas [false]                           false, true
+        Enable as assembler.
+
+    gold [false]                          false, true
+      when @:2.43+ld
+        Build the gold linker.
+
+    gprofng [false]                       false, true
+      when @2.39:
+        Enable gprofng.
+
+    headers [false]                       false, true
+        Install extra headers (e.g. ELF)
+
+    interwork [false]                     false, true
+        Enable interwork.
+
+    ld [false]                            false, true
+        Enable ld.
+
+    libiberty [false]                     false, true
+        Also install libiberty.
+
+    libs [shared,static]                  shared, static
+        Build shared libs, static libs or both
+
+    lto [false]                           false, true
+        Enable lto.
+
+    nls [false]                           false, true
+        Enable Native Language Support
+
+    pgo [false]                           false, true
+      when @2.37:
+        Build with profile-guided optimization (slow)
+
+    plugins [true]                        false, true
+        enable plugins, needed for gold linker
+
+
+Dependencies:
+    bison@3.0.4:               build
+      when +gprofng
+
+    c                          build
+
+    cxx                        build
+
+    dejagnu                    build
+      when +pgo
+
+    diffutils                  build
+
+    elfutils+debuginfod        build, link
+      when +debuginfod
+
+    gettext                    build, link
+      when +nls
+
+    gmake                      build
+      when build_system=autotools
+
+    gnuconfig                  build
+      when build_system=autotools target=ppc64le:
+
+    gnuconfig                  build
+      when build_system=autotools target=aarch64:
+
+    gnuconfig                  build
+      when build_system=autotools target=riscv64:
+
+    pkgconfig                  build
+
+    texinfo                    build
+      when @2.34:2.40
+
+    zlib-api                   build, link
+
+    zstd@1.4.0:                build, link
+      when @2.40:
+
+
+Licenses:
+    GPL-2.0-or-later AND LGPL-2.1-or-later AND GPL-3.0-or-later AND LGPL-3.0-or-later
+
+

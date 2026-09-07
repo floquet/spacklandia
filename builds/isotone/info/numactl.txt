@@ -1,0 +1,55 @@
+AutotoolsPackage:   numactl
+
+Description:
+    NUMA support for Linux
+
+Homepage: https://github.com/numactl/numactl
+
+Preferred version:  
+    2.0.19    https://github.com/numactl/numactl/archive/v2.0.19.tar.gz
+
+Safe versions:  
+    2.0.19    https://github.com/numactl/numactl/archive/v2.0.19.tar.gz
+    2.0.18    https://github.com/numactl/numactl/archive/v2.0.18.tar.gz
+    2.0.17    https://github.com/numactl/numactl/archive/v2.0.17.tar.gz
+    2.0.16    https://github.com/numactl/numactl/archive/v2.0.16.tar.gz
+    2.0.14    https://github.com/numactl/numactl/archive/v2.0.14.tar.gz
+    2.0.12    https://github.com/numactl/numactl/archive/v2.0.12.tar.gz
+    2.0.11    https://github.com/numactl/numactl/archive/v2.0.11.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    build_system [autotools]        autotools
+        Build systems supported by the package
+
+
+Dependencies:
+    autoconf         build
+
+    automake         build
+
+    c                build
+
+    gmake            build
+      when build_system=autotools
+
+    gnuconfig        build
+      when build_system=autotools target=ppc64le:
+
+    gnuconfig        build
+      when build_system=autotools target=aarch64:
+
+    gnuconfig        build
+      when build_system=autotools target=riscv64:
+
+    libtool          build
+
+    m4               build
+
+
+Licenses:
+    LGPL-2.1-only
+
+

@@ -1,0 +1,64 @@
+AutotoolsPackage:   file
+
+Description:
+    The file command is "a file type guesser", that is, a command-line tool
+    that tells you in words what kind of data a file contains
+
+Homepage: https://www.darwinsys.com/file/
+
+Preferred version:  
+    5.46    https://astron.com/pub/file/file-5.46.tar.gz
+
+Safe versions:  
+    5.46    https://astron.com/pub/file/file-5.46.tar.gz
+    5.45    https://astron.com/pub/file/file-5.45.tar.gz
+    5.44    https://astron.com/pub/file/file-5.44.tar.gz
+    5.43    https://astron.com/pub/file/file-5.43.tar.gz
+    5.42    https://astron.com/pub/file/file-5.42.tar.gz
+    5.41    https://astron.com/pub/file/file-5.41.tar.gz
+    5.40    https://astron.com/pub/file/file-5.40.tar.gz
+    5.39    https://astron.com/pub/file/file-5.39.tar.gz
+    5.38    https://astron.com/pub/file/file-5.38.tar.gz
+    5.37    https://astron.com/pub/file/file-5.37.tar.gz
+
+Deprecated versions:  
+    None
+
+Variants:
+    build_system [autotools]        autotools
+        Build systems supported by the package
+
+    static [true]                   false, true
+        Also build static libraries
+
+
+Dependencies:
+    bzip2            build, link
+
+    c                build
+
+    gmake            build
+      when build_system=autotools
+
+    gnuconfig        build
+      when build_system=autotools target=ppc64le:
+
+    gnuconfig        build
+      when build_system=autotools target=aarch64:
+
+    gnuconfig        build
+      when build_system=autotools target=riscv64:
+
+    xz               build, link
+      when @5.38:
+
+    zlib-api         build, link
+
+    zstd             build, link
+      when @5.44:
+
+
+Licenses:
+    BSD-2-Clause
+
+

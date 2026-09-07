@@ -1,0 +1,21 @@
+[ ] agwl7cx binutils@2.47 staging (1s)
+[ ] agwl7cx binutils@2.47 autoreconf (7s)
+[ ] agwl7cx binutils@2.47 configure (7s)
+[x] agwl7cx binutils@2.47 failed: /var/tmp/dantopa/spack-stage/spack-stage-binutils-2.47-agwl7cx5botsb7sjjrphs4nwuvcyvgfp-bct4j3xt.log (9s)
+-- lines 68 to 81 --
+  checking target system type... x86_64-pc-linux-gnu
+  checking for a BSD-compatible install... /usr/bin/install -c
+  checking whether ln works... yes
+  checking whether ln -s works... yes
+  checking for a sed that does not truncate output... /usr/bin/sed
+  checking for gawk... gawk
+> configure: WARNING: neither ld nor gold are enabled
+  checking for gcc... /home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/compiler-wrapper-1.1.0-cpibo47dhvrie6bmdipqmwsblxhydz6r/libexec/spack/gcc/gcc
+  checking whether the C compiler works... no
+> configure: error: in `/var/tmp/dantopa/spack-stage/spack-stage-binutils-2.47-agwl7cx5botsb7sjjrphs4nwuvcyvgfp/spack-src':
+> configure: error: C compiler cannot create executables
+  See `config.log' for more details
+  Command exited with status 77:
+      /var/tmp/dantopa/spack-stage/spack-stage-binutils-2.47-agwl7cx5botsb7sjjrphs4nwuvcyvgfp/spack-src/configure 'CFLAGS=-O3 -g0' 'CXXFLAGS=-O3 -g0' --prefix=/home/dantopa/spacktivity/spack-isotone/opt/spack/linux-skylake/binutils-2.47-agwl7cx5botsb7sjjrphs4nwuvcyvgfp --disable-dependency-tracking --disable-werror --enable-64-bit-bfd --enable-deterministic-archives --enable-multilib --enable-pic --enable-targets=x86_64-linux-gnu --with-sysroot=/ --with-system-zlib --disable-gas --disable-gprofng --disable-install-libiberty --disable-interwork --disable-ld --enable-shared --enable-static --disable-lto --disable-nls --enable-plugins --without-debuginfod --disable-pgo-build --enable-compressed-debug-sections=all --enable-default-compressed-debug-sections-algorithm=zlib
+==> Error: The following packages failed to install:
+binutils@2.47/agwl7cx5botsb7sjjrphs4nwuvcyvgfp: /var/tmp/dantopa/spack-stage/spack-stage-binutils-2.47-agwl7cx5botsb7sjjrphs4nwuvcyvgfp-bct4j3xt.log

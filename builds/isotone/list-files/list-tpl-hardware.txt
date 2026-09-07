@@ -1,0 +1,28 @@
+# Process / resource monitoring
+htop
+
+# Hardware topology
+hwloc
+numactl
+
+# CPU / hardware information
+cpuid
+
+# Storage / I/O
+fio
+
+# Network
+iperf3
+
+# System call / process tracing
+strace
+
+# File / library inspection
+file
+patchelf
+
+# Binary inspection
+binutils
+
+# Benchmarking
+hyperfine

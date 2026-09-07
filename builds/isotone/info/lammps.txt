@@ -1,0 +1,1405 @@
+CMakePackage:   lammps
+
+Description:
+    LAMMPS stands for Large-scale Atomic/Molecular Massively Parallel
+    Simulator.
+
+Homepage: https://www.lammps.org/
+
+Preferred version:  
+    20250722.4    https://github.com/lammps/lammps/archive/stable_22Jul2025_update4.tar.gz
+
+Safe versions:  
+    develop       [git] https://github.com/lammps/lammps.git on branch develop
+    20260704      https://github.com/lammps/lammps/archive/patch_4Jul2026.tar.gz
+    20260330      https://github.com/lammps/lammps/archive/patch_30Mar2026.tar.gz
+    20260211      https://github.com/lammps/lammps/archive/patch_11Feb2026.tar.gz
+    20251210      https://github.com/lammps/lammps/archive/patch_10Dec2025.tar.gz
+    20250910      https://github.com/lammps/lammps/archive/patch_10Sep2025.tar.gz
+    20250722.4    https://github.com/lammps/lammps/archive/stable_22Jul2025_update4.tar.gz
+    20240829.4    https://github.com/lammps/lammps/archive/stable_29Aug2024_update4.tar.gz
+
+Deprecated versions:  
+    20250722.3    https://github.com/lammps/lammps/archive/stable_22Jul2025_update3.tar.gz
+    20250722.2    https://github.com/lammps/lammps/archive/stable_22Jul2025_update2.tar.gz
+    20250722.1    https://github.com/lammps/lammps/archive/stable_22Jul2025_update1.tar.gz
+    20250722      https://github.com/lammps/lammps/archive/stable_22Jul2025.tar.gz
+    20250612      https://github.com/lammps/lammps/archive/patch_12Jun2025.tar.gz
+    20250402      https://github.com/lammps/lammps/archive/patch_2Apr2025.tar.gz
+    20250204      https://github.com/lammps/lammps/archive/patch_4Feb2025.tar.gz
+    20230802.4    https://github.com/lammps/lammps/archive/stable_2Aug2023_update4.tar.gz
+    20220623.4    https://github.com/lammps/lammps/archive/stable_23Jun2022_update4.tar.gz
+    20210929.3    https://github.com/lammps/lammps/archive/stable_29Sep2021_update3.tar.gz
+    20201029      https://github.com/lammps/lammps/archive/stable_29Oct2020.tar.gz
+    20200303      https://github.com/lammps/lammps/archive/stable_3Mar2020.tar.gz
+
+Variants:
+    adios [false]                   false, true
+      when @20210702:
+        Activate the adios package
+
+    amdgpu_target [none]            none, gfx1010, gfx1011, gfx1012, gfx1013,
+                                    gfx1030, gfx1031, gfx1032, gfx1033,
+                                    gfx1034, gfx1035, gfx1036, gfx1100,
+                                    gfx1101, gfx1102, gfx1103, gfx1150,
+                                    gfx1151, gfx1152, gfx1153, gfx1200,
+                                    gfx1201, gfx1250, gfx1251, gfx701, gfx801,
+                                    gfx802, gfx803, gfx900, gfx900:xnack-,
+                                    gfx902, gfx904, gfx906, gfx906:xnack-,
+                                    gfx908, gfx908:xnack-, gfx909, gfx90a,
+                                    gfx90a:xnack+, gfx90a:xnack-, gfx90c,
+                                    gfx940, gfx941, gfx942, gfx950
+      when +rocm
+        AMD GPU architecture
+
+    amoeba [false]                  false, true
+      when @20220803:
+        Activate the amoeba package
+
+    asphere [false]                 false, true
+        Activate the asphere package
+
+    atc [false]                     false, true
+      when @20210702:20250722
+        Activate the atc package
+
+    awpmd [false]                   false, true
+      when @20210702:20250722
+        Activate the awpmd package
+
+    bocs [false]                    false, true
+      when @20210702:
+        Activate the bocs package
+
+    body [false]                    false, true
+        Activate the body package
+
+    bpm [false]                     false, true
+      when @20220504:
+        Activate the bpm package
+
+    brownian [false]                false, true
+      when @20210702:
+        Activate the brownian package
+
+    build_system [cmake]            cmake
+        Build systems supported by the package
+
+    build_type [Release]            Debug, MinSizeRel, RelWithDebInfo, Release
+      when build_system=cmake
+        CMake build type
+
+    cg-dna [false]                  false, true
+      when @20210702:
+        Activate the cg-dna package
+
+    cg-sdk [false]                  false, true
+      when @20210702:20220623
+        Activate the cg-sdk package
+
+    cg-spica [false]                false, true
+      when @20220803:
+        Activate the cg-spica package
+
+    class2 [false]                  false, true
+        Activate the class2 package
+
+    colloid [false]                 false, true
+        Activate the colloid package
+
+    colvars [false]                 false, true
+      when @20210702:
+        Activate the colvars package
+
+    compress [false]                false, true
+        Activate the compress package
+
+    coreshell [false]               false, true
+        Activate the coreshell package
+
+    cuda [false]                    false, true
+        Build with CUDA
+
+    cuda_arch [none]                none, 10, 100, 100a, 100f, 101, 101a,
+                                    101f, 103, 103a, 103f, 11, 110, 110a,
+                                    110f, 12, 120, 120a, 120f, 121, 121a,
+                                    121f, 13, 20, 21, 30, 32, 35, 37, 50, 52,
+                                    53, 60, 61, 62, 70, 72, 75, 80, 86, 87,
+                                    89, 90, 90a
+      when +cuda
+        CUDA architecture
+
+    cuda_mps [false]                false, true
+        (CUDA only) Enable tweaks for running with Nvidia CUDA Multi-process
+        services daemon
+
+    curl [false]                    false, true
+      when @20240829:
+        Build with curl support
+
+    dielectric [false]              false, true
+      when @20210702:
+        Activate the dielectric package
+
+    diffraction [false]             false, true
+      when @20210702:
+        Activate the diffraction package
+
+    dipole [false]                  false, true
+        Activate the dipole package
+
+    dpd-basic [false]               false, true
+      when @20210702:
+        Activate the dpd-basic package
+
+    dpd-meso [false]                false, true
+      when @20210702:
+        Activate the dpd-meso package
+
+    dpd-react [false]               false, true
+      when @20210702:
+        Activate the dpd-react package
+
+    dpd-smooth [false]              false, true
+      when @20210702:
+        Activate the dpd-smooth package
+
+    drude [false]                   false, true
+      when @20210702:
+        Activate the drude package
+
+    eff [false]                     false, true
+      when @20210702:
+        Activate the eff package
+
+    electrode [false]               false, true
+      when @20220504:
+        Activate the electrode package
+
+    exceptions [false]              false, true
+      when @:20230802.1
+        Build with lammps exceptions
+
+    extra-command [false]           false, true
+      when @20240829:
+        Activate the extra-command package
+
+    extra-compute [false]           false, true
+      when @20210728:
+        Activate the extra-compute package
+
+    extra-dump [false]              false, true
+      when @20210728:
+        Activate the extra-dump package
+
+    extra-fix [false]               false, true
+      when @20210728:
+        Activate the extra-fix package
+
+    extra-molecule [false]          false, true
+      when @20210728:
+        Activate the extra-molecule package
+
+    extra-pair [false]              false, true
+      when @20210728:
+        Activate the extra-pair package
+
+    fep [false]                     false, true
+      when @20210702:
+        Activate the fep package
+
+    ffmpeg [false]                  false, true
+        Build with ffmpeg support
+
+    fft [fftw3]                     fftw3, kiss, mkl, nvpl
+      when +kspace
+        FFT library for KSPACE package
+
+    fft_kokkos [fftw3]              cufft, fftw3, hipfft, kiss, mkl, mkl_gpu,
+                                    nvpl
+      when @20240417:+kokkos+kspace
+        FFT library for Kokkos-enabled KSPACE package
+
+    fftw_precision [double]         double, single
+      when +kspace
+        Select FFTW precision (used by Kspace)
+
+    generator [make]                none
+      when build_system=cmake
+        the build system generator to use
+
+    gpu [true]                      false, true
+      when +cuda
+        Activate the GPU package
+
+    gpu [true]                      false, true
+      when +rocm
+        Activate the GPU package
+
+    gpu [true]                      false, true
+      when +opencl
+        Activate the GPU package
+
+    gpu_precision [mixed]           double, mixed, single
+      when +cuda+gpu
+        Select GPU precision (used by GPU package)
+
+    gpu_precision [mixed]           double, mixed, single
+      when +gpu+rocm
+        Select GPU precision (used by GPU package)
+
+    gpu_precision [mixed]           double, mixed, single
+      when +gpu+opencl
+        Select GPU precision (used by GPU package)
+
+    gransurf [false]                false, true
+      when @20260704:
+        Activate the gransurf package
+
+    granular [false]                false, true
+        Activate the granular package
+
+    graphics [false]                false, true
+      when @20260211:
+        Activate the graphics package
+
+    h5md [false]                    false, true
+      when @20210702:
+        Activate the h5md package
+
+    heffte [false]                  false, true
+      when @20240207:+kspace
+        Use heffte as distubuted FFT engine
+
+    intel [false]                   false, true
+      when @20210702:
+        Activate the intel package
+
+    interlayer [false]              false, true
+      when @20210728:
+        Activate the interlayer package
+
+    ipo [false]                     false, true
+      when build_system=cmake %cmake@3.9:
+        CMake interprocedural optimization
+
+    jpeg [false]                    false, true
+        Build with jpeg support
+
+    kim [false]                     false, true
+        Activate the kim package
+
+    kokkos [false]                  false, true
+      when @20201029:
+        Activate the kokkos package
+
+    kspace [true]                   false, true
+        Activate the kspace package
+
+    lammps_sizes [smallbig]         bigbig, smallbig, smallsmall
+        LAMMPS integer sizes (smallsmall: all 32-bit, smallbig:64-bit #atoms
+        #timesteps, bigbig: also 64-bit imageint, 64-bit atom ids)
+
+    latboltz [false]                false, true
+      when @20210702:
+        Activate the latboltz package
+
+    latte [false]                   false, true
+      when @20170922:20230328
+        Activate the latte package
+
+    lepton [false]                  false, true
+      when @20230208:
+        Activate the lepton package
+
+    lib [true]                      false, true
+        Build the liblammps in addition to the executable
+
+    machdyn [false]                 false, true
+      when @20210702:
+        Activate the machdyn package
+
+    manifold [false]                false, true
+      when @20210702:
+        Activate the manifold package
+
+    manybody [true]                 false, true
+        Activate the manybody package
+
+    mc [false]                      false, true
+        Activate the mc package
+
+    mdi [false]                     false, true
+      when @20210702:
+        Activate the mdi package
+
+    meam [false]                    false, true
+      when @:20181212,20210702:
+        Activate the meam package
+
+    mesont [false]                  false, true
+      when @20210702:
+        Activate the mesont package
+
+    mgpt [false]                    false, true
+      when @20210702:
+        Activate the mgpt package
+
+    misc [false]                    false, true
+        Activate the misc package
+
+    ml-hdnnp [false]                false, true
+      when @20210702:
+        Activate the ml-hdnnp package
+
+    ml-iap [false]                  false, true
+      when @20210702:
+        Activate the ml-iap package
+
+    ml-pace [false]                 false, true
+      when @20210702:
+        Activate the ml-pace package
+
+    ml-pod [false]                  false, true
+      when @20221222:
+        Activate the ml-pod package
+
+    ml-rann [false]                 false, true
+      when @20210702:
+        Activate the ml-rann package
+
+    ml-snap [false]                 false, true
+      when @20210702:
+        Activate the ml-snap package
+
+    ml-uf3 [false]                  false, true
+      when @20240627:
+        Activate the ml-uf3 package
+
+    mliap [false]                   false, true
+      when @20200630:20210527
+        Activate the mliap package
+
+    mofff [false]                   false, true
+      when @20210702:
+        Activate the mofff package
+
+    molecule [true]                 false, true
+        Activate the molecule package
+
+    molfile [false]                 false, true
+      when @20210702:
+        Activate the molfile package
+
+    mpi [true]                      false, true
+        Build with mpi
+
+    mpiio [false]                   false, true
+      when @:20230802.1
+        Activate the mpiio package
+
+    netcdf [false]                  false, true
+      when @20210702:
+        Activate the netcdf package
+
+    opencl [false]                  false, true
+        Build with OpenCL
+
+    openmp [true]                   false, true
+        Build with OpenMP
+
+    openmp-package [false]          false, true
+        Activate the openmp package
+
+    opt [false]                     false, true
+        Activate the opt package
+
+    orient [false]                  false, true
+      when @20210728:
+        Activate the orient package
+
+    peri [false]                    false, true
+        Activate the peri package
+
+    phonon [false]                  false, true
+      when @20210702:
+        Activate the phonon package
+
+    plugin [false]                  false, true
+      when @20210408:
+        Activate the plugin package
+
+    plumed [false]                  false, true
+      when @20210702:
+        Activate the plumed package
+
+    png [false]                     false, true
+        Build with png support
+
+    poems [false]                   false, true
+      when @:20250722
+        Activate the poems package
+
+    ptm [false]                     false, true
+      when @20210702:
+        Activate the ptm package
+
+    python [false]                  false, true
+        Activate the python package
+
+    qeq [false]                     false, true
+        Activate the qeq package
+
+    qtb [false]                     false, true
+      when @20210702:
+        Activate the qtb package
+
+    reaction [false]                false, true
+      when @20210702:
+        Activate the reaction package
+
+    reax [false]                    false, true
+      when @:20181212
+        Activate the reax package
+
+    reaxff [false]                  false, true
+      when @20210702:
+        Activate the reaxff package
+
+    replica [false]                 false, true
+        Activate the replica package
+
+    rheo [false]                    false, true
+      when @20240829:
+        Activate the rheo package
+
+    rigid [true]                    false, true
+        Activate the rigid package
+
+    rocm [false]                    false, true
+        Enable ROCm support
+
+    scafacos [false]                false, true
+      when @20210702:
+        Activate the scafacos package
+
+    shock [false]                   false, true
+        Activate the shock package
+
+    smtbq [false]                   false, true
+      when @20210702:
+        Activate the smtbq package
+
+    snap [false]                    false, true
+      when @:20210527
+        Activate the snap package
+
+    sph [false]                     false, true
+      when @20210702:
+        Activate the sph package
+
+    spin [false]                    false, true
+      when @20180629:
+        Activate the spin package
+
+    srd [false]                     false, true
+        Activate the srd package
+
+    tally [false]                   false, true
+      when @20210702:
+        Activate the tally package
+
+    tools [false]                   false, true
+        Build LAMMPS tools (msi2lmp, binary2txt, chain)
+
+    uef [false]                     false, true
+      when @20210702:
+        Activate the uef package
+
+    user-adios [false]              false, true
+      when @20190228:20210527
+        Activate the user-adios package
+
+    user-atc [false]                false, true
+      when @:20210527
+        Activate the user-atc package
+
+    user-awpmd [false]              false, true
+      when @:20210527
+        Activate the user-awpmd package
+
+    user-bocs [false]               false, true
+      when @20180511:20210527
+        Activate the user-bocs package
+
+    user-brownian [false]           false, true
+      when @20210514:20210527
+        Activate the user-brownian package
+
+    user-cgsdk [false]              false, true
+      when @20170504:20210527
+        Activate the user-cgsdk package
+
+    user-colvars [false]            false, true
+      when @:20210527
+        Activate the user-colvars package
+
+    user-diffraction [false]        false, true
+      when @:20210527
+        Activate the user-diffraction package
+
+    user-dpd [false]                false, true
+      when @:20210527
+        Activate the user-dpd package
+
+    user-drude [false]              false, true
+      when @:20210527
+        Activate the user-drude package
+
+    user-eff [false]                false, true
+      when @:20210527
+        Activate the user-eff package
+
+    user-fep [false]                false, true
+      when @:20210527
+        Activate the user-fep package
+
+    user-h5md [false]               false, true
+      when @:20210527
+        Activate the user-h5md package
+
+    user-hdnnp [false]              false, true
+      when @20210527
+        Activate the user-hdnnp package
+
+    user-intel [false]              false, true
+      when @:20210527
+        Activate the user-intel package
+
+    user-lb [false]                 false, true
+      when @:20210527
+        Activate the user-lb package
+
+    user-manifold [false]           false, true
+      when @:20210527
+        Activate the user-manifold package
+
+    user-meamc [false]              false, true
+      when @20170706:20210527
+        Activate the user-meamc package
+
+    user-mesodpd [false]            false, true
+      when @20200319:20210527
+        Activate the user-mesodpd package
+
+    user-mesont [false]             false, true
+      when @20200615:20210527
+        Activate the user-mesont package
+
+    user-mgpt [false]               false, true
+      when @:20210527
+        Activate the user-mgpt package
+
+    user-misc [false]               false, true
+      when @:20210702
+        Activate the user-misc package
+
+    user-mofff [false]              false, true
+      when @20180205:20210527
+        Activate the user-mofff package
+
+    user-molfile [false]            false, true
+      when @:20210527
+        Activate the user-molfile package
+
+    user-netcdf [false]             false, true
+      when @20170504:20210527
+        Activate the user-netcdf package
+
+    user-omp [false]                false, true
+      when @:20210527
+        Activate the user-omp package
+
+    user-phonon [false]             false, true
+      when @:20210527
+        Activate the user-phonon package
+
+    user-plumed [false]             false, true
+      when @20181109:20210527
+        Activate the user-plumed package
+
+    user-ptm [false]                false, true
+      when @20181010:20210527
+        Activate the user-ptm package
+
+    user-qtb [false]                false, true
+      when @:20210527
+        Activate the user-qtb package
+
+    user-rann [false]               false, true
+      when @20210527
+        Activate the user-rann package
+
+    user-reaction [false]           false, true
+      when @20200319:20210527
+        Activate the user-reaction package
+
+    user-reaxc [false]              false, true
+      when @:20210527
+        Activate the user-reaxc package
+
+    user-sdpd [false]               false, true
+      when @20181109:20210527
+        Activate the user-sdpd package
+
+    user-smd [false]                false, true
+      when @:20210527
+        Activate the user-smd package
+
+    user-smtbq [false]              false, true
+      when @:20210527
+        Activate the user-smtbq package
+
+    user-sph [false]                false, true
+      when @:20210527
+        Activate the user-sph package
+
+    user-tally [false]              false, true
+      when @:20210527
+        Activate the user-tally package
+
+    user-uef [false]                false, true
+      when @20171023:20210527
+        Activate the user-uef package
+
+    user-vtk [false]                false, true
+      when @20210527
+        Activate the user-vtk package
+
+    user-yaff [false]               false, true
+      when @20190201:20210527
+        Activate the user-yaff package
+
+    voronoi [false]                 false, true
+        Activate the voronoi package
+
+    vtk [false]                     false, true
+      when @20210702:
+        Activate the vtk package
+
+    yaff [false]                    false, true
+      when @20210702:
+        Activate the yaff package
+
+
+Dependencies:
+    adios2                                            build, link
+      when +user-adios
+
+    adios2                                            build, link
+      when +adios
+
+    blas                                              build, link
+      when +user-atc
+
+    blas                                              build, link
+      when +atc
+
+    blas                                              build, link
+      when +latte
+
+    c                                                 build
+
+    cmake                                             build
+      when build_system=cmake
+
+    cmake@3.16:                                       build
+      when @20231121:
+
+    cmake@3.20:                                       build
+      when @20250910:
+
+    cuda                                              build, link
+      when +cuda
+
+    cuda@:6.0                                         build, link
+      when cuda_arch=10
+
+    cuda@:6.5                                         build, link
+      when cuda_arch=11
+
+    cuda@2.1:6.5                                      build, link
+      when cuda_arch=12
+
+    cuda@2.1:6.5                                      build, link
+      when cuda_arch=13
+
+    cuda@3.0:8.0                                      build, link
+      when cuda_arch=20
+
+    cuda@3.2:8.0                                      build, link
+      when cuda_arch=21
+
+    cuda@5.0:10.2                                     build, link
+      when cuda_arch=30
+
+    cuda@5.0:10.2                                     build, link
+      when cuda_arch=32
+
+    cuda@5.0:11.8                                     build, link
+      when cuda_arch=35
+
+    cuda@6.0:12.9                                     build, link
+      when cuda_arch=50
+
+    cuda@6.5:11.8                                     build, link
+      when cuda_arch=37
+
+    cuda@6.5:12.9                                     build, link
+      when cuda_arch=52
+
+    cuda@6.5:12.9                                     build, link
+      when cuda_arch=53
+
+    cuda@8.0:12.9                                     build, link
+      when cuda_arch=60
+
+    cuda@8.0:12.9                                     build, link
+      when cuda_arch=61
+
+    cuda@8.0:12.9                                     build, link
+      when cuda_arch=62
+
+    cuda@9.0:12.9                                     build, link
+      when cuda_arch=70
+
+    cuda@9.0:                                         build, link
+      when cuda_arch=72
+
+    cuda@10.0:                                        build, link
+      when cuda_arch=75
+
+    cuda@11.0:                                        build, link
+      when cuda_arch=80
+
+    cuda@11.1:                                        build, link
+      when cuda_arch=86
+
+    cuda@11.4:                                        build, link
+      when cuda_arch=87
+
+    cuda@11.8:                                        build, link
+      when cuda_arch=89
+
+    cuda@12.0:                                        build, link
+      when cuda_arch=90
+
+    cuda@12.0:                                        build, link
+      when cuda_arch=90a
+
+    cuda@12.8:12.9                                    build, link
+      when cuda_arch=101
+
+    cuda@12.8:12.9                                    build, link
+      when cuda_arch=101a
+
+    cuda@12.8:                                        build, link
+      when cuda_arch=100
+
+    cuda@12.8:                                        build, link
+      when cuda_arch=100a
+
+    cuda@12.8:                                        build, link
+      when cuda_arch=120
+
+    cuda@12.8:                                        build, link
+      when cuda_arch=120a
+
+    cuda@12.9                                         build, link
+      when cuda_arch=101f
+
+    cuda@12.9:                                        build, link
+      when cuda_arch=100f
+
+    cuda@12.9:                                        build, link
+      when cuda_arch=103
+
+    cuda@12.9:                                        build, link
+      when cuda_arch=103a
+
+    cuda@12.9:                                        build, link
+      when cuda_arch=103f
+
+    cuda@12.9:                                        build, link
+      when cuda_arch=120f
+
+    cuda@12.9:                                        build, link
+      when cuda_arch=121
+
+    cuda@12.9:                                        build, link
+      when cuda_arch=121a
+
+    cuda@12.9:                                        build, link
+      when cuda_arch=121f
+
+    cuda@13.0:                                        build, link
+      when cuda_arch=110
+
+    cuda@13.0:                                        build, link
+      when cuda_arch=110a
+
+    cuda@13.0:                                        build, link
+      when cuda_arch=110f
+
+    curl                                              build, link
+      when @20190329:+kim
+
+    curl                                              build, link
+      when +curl
+
+    cxx                                               build
+
+    eigen@3                                           build, link
+      when +user-smd
+
+    eigen@3                                           build, link
+      when +machdyn
+
+    ffmpeg                                            build, link
+      when +ffmpeg
+
+    fftw-api@3                                        build, link
+      when +kspace fft=fftw3
+
+    fftw-api@3                                        build, link
+      when +kokkos+kspace fft_kokkos=fftw3
+
+    fortran                                           build
+      when +kim
+
+    fortran                                           build
+      when +scafacos
+
+    gmake                                             build
+      when build_system=cmake generator=make
+
+    googletest                                        test
+
+    gsl@2.6:                                          build, link
+      when +rheo
+
+    hdf5                                              build, link
+      when +user-h5md
+
+    hdf5                                              build, link
+      when +h5md
+
+    heffte                                            build, link
+      when +heffte
+
+    heffte+fftw                                       build, link
+      when +heffte fft=fftw3
+
+    heffte+mkl                                        build, link
+      when +heffte fft=mkl
+
+    hip+rocm                                          build, link
+      when +rocm
+
+    hipcub                                            build, link
+      when ~kokkos+rocm
+
+    hipcub@:6                                         build, link
+      when @:20250722~kokkos+rocm
+
+    hipfft                                            build, link
+      when +kokkos+kspace+rocm fft_kokkos=hipfft
+
+    hsa-rocr-dev                                      build, link
+      when +rocm
+
+    jpeg                                              build, link
+      when +jpeg
+
+    kim-api                                           build, link
+      when +kim
+
+    kokkos+rocm amdgpu_target=gfx1010                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1010
+
+    kokkos+rocm amdgpu_target=gfx1011                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1011
+
+    kokkos+rocm amdgpu_target=gfx1012                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1012
+
+    kokkos+rocm amdgpu_target=gfx1013                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1013
+
+    kokkos+rocm amdgpu_target=gfx1030                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1030
+
+    kokkos+rocm amdgpu_target=gfx1031                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1031
+
+    kokkos+rocm amdgpu_target=gfx1032                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1032
+
+    kokkos+rocm amdgpu_target=gfx1033                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1033
+
+    kokkos+rocm amdgpu_target=gfx1034                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1034
+
+    kokkos+rocm amdgpu_target=gfx1035                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1035
+
+    kokkos+rocm amdgpu_target=gfx1036                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1036
+
+    kokkos+rocm amdgpu_target=gfx1100                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1100
+
+    kokkos+rocm amdgpu_target=gfx1101                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1101
+
+    kokkos+rocm amdgpu_target=gfx1102                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1102
+
+    kokkos+rocm amdgpu_target=gfx1103                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1103
+
+    kokkos+rocm amdgpu_target=gfx1150                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1150
+
+    kokkos+rocm amdgpu_target=gfx1151                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1151
+
+    kokkos+rocm amdgpu_target=gfx1152                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1152
+
+    kokkos+rocm amdgpu_target=gfx1153                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1153
+
+    kokkos+rocm amdgpu_target=gfx1200                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1200
+
+    kokkos+rocm amdgpu_target=gfx1201                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1201
+
+    kokkos+rocm amdgpu_target=gfx1250                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1250
+
+    kokkos+rocm amdgpu_target=gfx1251                 build, link
+      when +kokkos+rocm amdgpu_target=gfx1251
+
+    kokkos+rocm amdgpu_target=gfx701                  build, link
+      when +kokkos+rocm amdgpu_target=gfx701
+
+    kokkos+rocm amdgpu_target=gfx801                  build, link
+      when +kokkos+rocm amdgpu_target=gfx801
+
+    kokkos+rocm amdgpu_target=gfx802                  build, link
+      when +kokkos+rocm amdgpu_target=gfx802
+
+    kokkos+rocm amdgpu_target=gfx803                  build, link
+      when +kokkos+rocm amdgpu_target=gfx803
+
+    kokkos+rocm amdgpu_target=gfx900                  build, link
+      when +kokkos+rocm amdgpu_target=gfx900
+
+    kokkos+rocm amdgpu_target='gfx900:xnack-'         build, link
+      when +kokkos+rocm amdgpu_target='gfx900:xnack-'
+
+    kokkos+rocm amdgpu_target=gfx902                  build, link
+      when +kokkos+rocm amdgpu_target=gfx902
+
+    kokkos+rocm amdgpu_target=gfx904                  build, link
+      when +kokkos+rocm amdgpu_target=gfx904
+
+    kokkos+rocm amdgpu_target=gfx906                  build, link
+      when +kokkos+rocm amdgpu_target=gfx906
+
+    kokkos+rocm amdgpu_target='gfx906:xnack-'         build, link
+      when +kokkos+rocm amdgpu_target='gfx906:xnack-'
+
+    kokkos+rocm amdgpu_target=gfx908                  build, link
+      when +kokkos+rocm amdgpu_target=gfx908
+
+    kokkos+rocm amdgpu_target='gfx908:xnack-'         build, link
+      when +kokkos+rocm amdgpu_target='gfx908:xnack-'
+
+    kokkos+rocm amdgpu_target=gfx909                  build, link
+      when +kokkos+rocm amdgpu_target=gfx909
+
+    kokkos+rocm amdgpu_target=gfx90a                  build, link
+      when +kokkos+rocm amdgpu_target=gfx90a
+
+    kokkos+rocm amdgpu_target='gfx90a:xnack+'         build, link
+      when +kokkos+rocm amdgpu_target='gfx90a:xnack+'
+
+    kokkos+rocm amdgpu_target='gfx90a:xnack-'         build, link
+      when +kokkos+rocm amdgpu_target='gfx90a:xnack-'
+
+    kokkos+rocm amdgpu_target=gfx90c                  build, link
+      when +kokkos+rocm amdgpu_target=gfx90c
+
+    kokkos+rocm amdgpu_target=gfx940                  build, link
+      when +kokkos+rocm amdgpu_target=gfx940
+
+    kokkos+rocm amdgpu_target=gfx941                  build, link
+      when +kokkos+rocm amdgpu_target=gfx941
+
+    kokkos+rocm amdgpu_target=gfx942                  build, link
+      when +kokkos+rocm amdgpu_target=gfx942
+
+    kokkos+rocm amdgpu_target=gfx950                  build, link
+      when +kokkos+rocm amdgpu_target=gfx950
+
+    kokkos+cuda cuda_arch=10                          build, link
+      when +cuda+kokkos cuda_arch=10
+
+    kokkos+cuda cuda_arch=100                         build, link
+      when +cuda+kokkos cuda_arch=100
+
+    kokkos+cuda cuda_arch=100a                        build, link
+      when +cuda+kokkos cuda_arch=100a
+
+    kokkos+cuda cuda_arch=100f                        build, link
+      when +cuda+kokkos cuda_arch=100f
+
+    kokkos+cuda cuda_arch=101                         build, link
+      when +cuda+kokkos cuda_arch=101
+
+    kokkos+cuda cuda_arch=101a                        build, link
+      when +cuda+kokkos cuda_arch=101a
+
+    kokkos+cuda cuda_arch=101f                        build, link
+      when +cuda+kokkos cuda_arch=101f
+
+    kokkos+cuda cuda_arch=103                         build, link
+      when +cuda+kokkos cuda_arch=103
+
+    kokkos+cuda cuda_arch=103a                        build, link
+      when +cuda+kokkos cuda_arch=103a
+
+    kokkos+cuda cuda_arch=103f                        build, link
+      when +cuda+kokkos cuda_arch=103f
+
+    kokkos+cuda cuda_arch=11                          build, link
+      when +cuda+kokkos cuda_arch=11
+
+    kokkos+cuda cuda_arch=110                         build, link
+      when +cuda+kokkos cuda_arch=110
+
+    kokkos+cuda cuda_arch=110a                        build, link
+      when +cuda+kokkos cuda_arch=110a
+
+    kokkos+cuda cuda_arch=110f                        build, link
+      when +cuda+kokkos cuda_arch=110f
+
+    kokkos+cuda cuda_arch=12                          build, link
+      when +cuda+kokkos cuda_arch=12
+
+    kokkos+cuda cuda_arch=120                         build, link
+      when +cuda+kokkos cuda_arch=120
+
+    kokkos+cuda cuda_arch=120a                        build, link
+      when +cuda+kokkos cuda_arch=120a
+
+    kokkos+cuda cuda_arch=120f                        build, link
+      when +cuda+kokkos cuda_arch=120f
+
+    kokkos+cuda cuda_arch=121                         build, link
+      when +cuda+kokkos cuda_arch=121
+
+    kokkos+cuda cuda_arch=121a                        build, link
+      when +cuda+kokkos cuda_arch=121a
+
+    kokkos+cuda cuda_arch=121f                        build, link
+      when +cuda+kokkos cuda_arch=121f
+
+    kokkos+cuda cuda_arch=13                          build, link
+      when +cuda+kokkos cuda_arch=13
+
+    kokkos+cuda cuda_arch=20                          build, link
+      when +cuda+kokkos cuda_arch=20
+
+    kokkos+cuda cuda_arch=21                          build, link
+      when +cuda+kokkos cuda_arch=21
+
+    kokkos+cuda cuda_arch=30                          build, link
+      when +cuda+kokkos cuda_arch=30
+
+    kokkos+cuda cuda_arch=32                          build, link
+      when +cuda+kokkos cuda_arch=32
+
+    kokkos+cuda cuda_arch=35                          build, link
+      when +cuda+kokkos cuda_arch=35
+
+    kokkos+cuda cuda_arch=37                          build, link
+      when +cuda+kokkos cuda_arch=37
+
+    kokkos+cuda cuda_arch=50                          build, link
+      when +cuda+kokkos cuda_arch=50
+
+    kokkos+cuda cuda_arch=52                          build, link
+      when +cuda+kokkos cuda_arch=52
+
+    kokkos+cuda cuda_arch=53                          build, link
+      when +cuda+kokkos cuda_arch=53
+
+    kokkos+cuda cuda_arch=60                          build, link
+      when +cuda+kokkos cuda_arch=60
+
+    kokkos+cuda cuda_arch=61                          build, link
+      when +cuda+kokkos cuda_arch=61
+
+    kokkos+cuda cuda_arch=62                          build, link
+      when +cuda+kokkos cuda_arch=62
+
+    kokkos+cuda cuda_arch=70                          build, link
+      when +cuda+kokkos cuda_arch=70
+
+    kokkos+cuda cuda_arch=72                          build, link
+      when +cuda+kokkos cuda_arch=72
+
+    kokkos+cuda cuda_arch=75                          build, link
+      when +cuda+kokkos cuda_arch=75
+
+    kokkos+cuda cuda_arch=80                          build, link
+      when +cuda+kokkos cuda_arch=80
+
+    kokkos+cuda cuda_arch=86                          build, link
+      when +cuda+kokkos cuda_arch=86
+
+    kokkos+cuda cuda_arch=87                          build, link
+      when +cuda+kokkos cuda_arch=87
+
+    kokkos+cuda cuda_arch=89                          build, link
+      when +cuda+kokkos cuda_arch=89
+
+    kokkos+cuda cuda_arch=90                          build, link
+      when +cuda+kokkos cuda_arch=90
+
+    kokkos+cuda cuda_arch=90a                         build, link
+      when +cuda+kokkos cuda_arch=90a
+
+    kokkos+shared                                     build, link
+      when +kokkos
+
+    kokkos@3.7.01:                                    build, link
+      when @20230208:+kokkos
+
+    kokkos@4.3.00:                                    build, link
+      when @20240417:+kokkos
+
+    kokkos@4.3.01:                                    build, link
+      when @20240627:+kokkos
+
+    kokkos@4.4.01:                                    build, link
+      when @20241119:+kokkos
+
+    kokkos@4.5.01:                                    build, link
+      when @20250204:+kokkos
+
+    kokkos@4.6.00:                                    build, link
+      when @20250402:+kokkos
+
+    kokkos@4.6.02:                                    build, link
+      when @20250722:+kokkos
+
+    kokkos@4.7.01:                                    build, link
+      when @20251210:+kokkos
+
+    kokkos@5.0.2:                                     build, link
+      when @20260211:+kokkos
+
+    kokkos@5.1.0:                                     build, link
+      when @20260704:+kokkos
+
+    lapack                                            build, link
+      when +user-atc
+
+    lapack                                            build, link
+      when +atc
+
+    lapack                                            build, link
+      when +latte
+
+    latte@1.0.1                                       build, link
+      when @:20180222+latte
+
+    latte@1.1.1:                                      build, link
+      when @20180316:20180628+latte
+
+    latte@1.2.1:                                      build, link
+      when @20180629:20200505+latte
+
+    latte@1.2.2:                                      build, link
+      when @20200602:20230328+latte
+
+    libpng                                            build, link
+      when +png
+
+    libyaml                                           test
+
+    llvm-amdgpu                                       build
+      when +rocm
+
+    llvm-amdgpu@5.2.0:                                build, link
+      when amdgpu_target=gfx940
+
+    llvm-amdgpu@5.2.0:                                build, link
+      when amdgpu_target=gfx1036
+
+    llvm-amdgpu@5.3.0:                                build, link
+      when amdgpu_target=gfx1100
+
+    llvm-amdgpu@5.3.0:                                build, link
+      when amdgpu_target=gfx1101
+
+    llvm-amdgpu@5.3.0:                                build, link
+      when amdgpu_target=gfx1102
+
+    llvm-amdgpu@5.3.0:                                build, link
+      when amdgpu_target=gfx1103
+
+    llvm-amdgpu@5.7.0:                                build, link
+      when amdgpu_target=gfx941
+
+    llvm-amdgpu@5.7.0:                                build, link
+      when amdgpu_target=gfx942
+
+    llvm-openmp                                       build
+      when +openmp %apple-clang
+
+    mkl                                               build, link
+      when +kspace fft=mkl
+
+    mkl                                               build, link
+      when +kokkos+kspace fft_kokkos=mkl
+
+    mpi                                               build, link
+      when +mpi
+
+    mpi                                               build, link
+      when +mpiio
+
+    mpi                                               build, link
+      when +user-lb
+
+    mpi                                               build, link
+      when +latboltz
+
+    mpi                                               build, link
+      when +user-h5md
+
+    mpi                                               build, link
+      when +h5md
+
+    n2p2+shared                                       build, link
+      when +lib+user-hdnnp
+
+    n2p2+shared                                       build, link
+      when +lib+ml-hdnnp
+
+    n2p2@2.1.4:                                       build, link
+      when +user-hdnnp
+
+    n2p2@2.1.4:                                       build, link
+      when +ml-hdnnp
+
+    netcdf-c+mpi                                      build, link
+      when +user-netcdf
+
+    netcdf-c+mpi                                      build, link
+      when +netcdf
+
+    ninja                                             build
+      when build_system=cmake generator=ninja
+
+    nvpl-fft                                          build, link
+      when +kspace fft=nvpl
+
+    nvpl-fft                                          build, link
+      when +kokkos+kspace fft_kokkos=nvpl
+
+    opencl                                            build, link
+      when +opencl
+
+    pace                                              build, link
+      when +ml-pace
+
+    plumed                                            build, link
+      when +user-plumed
+
+    plumed                                            build, link
+      when +plumed
+
+    py-build                                          build
+      when +python
+
+    py-cython                                         build
+      when +mliap+python
+
+    py-cython                                         build
+      when +ml-iap+python
+
+    py-mdi                                            build, run
+      when +mdi
+
+    py-mpi4py                                         build, run
+      when +mpi+python
+
+    py-numpy                                          build, run
+      when +python
+
+    py-pip                                            build
+      when +python
+
+    py-setuptools@42:                                 build, run
+      when @20220217:+python
+
+    py-wheel                                          build
+      when +python
+
+    python                                            build, link, run
+      when +python
+
+    python@3.6:                                       build, link
+      when @20250402:+python
+
+    python-venv                                       build, run
+      when +python
+
+    rocm-openmp-extras                                build
+      when +openmp+rocm
+
+    scafacos                                          build, link
+      when +scafacos
+
+    scafacos cflags=-fPIC cxxflags=-fPIC fflags=-fPIC
+                                                      build, link
+      when +lib+scafacos
+
+    tbb                                               build, link
+      when +intel %oneapi
+
+    voropp                                            build, link
+      when +voronoi
+
+    vtk                                               build, link
+      when +user-vtk
+
+    vtk                                               build, link
+      when +vtk
+
+
+Licenses:
+    GPL-2.0-only
+
+
+==> lammps has many complex dependencies; consider this for a simpler view:
+  spack info lammps~cuda~kokkos~rocm
+

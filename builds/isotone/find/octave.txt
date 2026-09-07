@@ -1,1 +1,1 @@
-==> Error: No package matches the query: octave
+environment: line 89: spack: command not found

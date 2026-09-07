@@ -12,7 +12,7 @@
  -           ^automake@1.18.1 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
  -           ^hwloc@2.13.0~cairo~cuda~gl~level_zero~libudev+libxml2~nvml~opencl+pci~rocm build_system=autotools libs:=shared,static patches=b4db98b platform=linux os=ubuntu26.04 target=skylake %c,cxx=gcc@16.0.1
  -               ^libpciaccess@0.17 build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
- -                   ^util-macros@1.20.2 build_system=autotools platform=linux os=ubuntu26.04 target=skylake
+[+]                  ^util-macros@1.20.2 build_system=autotools platform=linux os=ubuntu26.04 target=skylake
 [+]              ^libxml2@2.15.3+pic~python+shared build_system=autotools platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
 [+]                  ^libiconv@1.18 build_system=autotools libs:=shared,static platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
 [+]                  ^xz@5.8.3~pic build_system=autotools libs:=shared,static platform=linux os=ubuntu26.04 target=skylake %c=gcc@16.0.1
