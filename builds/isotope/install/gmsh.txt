@@ -1,0 +1,489 @@
+[ ] z6aflgm xproto@7.0.31 staging (0s)
+[ ] 6ql7b33 xtrans@1.6.0 staging (0s)
+[ ] ewrn56r xextproto@7.3.0 staging (0s)
+[ ] yhtkysi kbproto@1.0.7 staging (0s)
+[ ] vxqr5ql inputproto@2.3.2 staging (0s)
+[ ] niqho7x libpthread-stubs@0.5 staging (0s)
+[ ] qcardkz dri2proto@2.8 staging (0s)
+[ ] 5xvreh6 glproto@1.4.17 staging (0s)
+[ ] kzbvign randrproto@1.5.0 staging (0s)
+[ ] wewyeli python-venv@1.0 staging (0s)
+[ ] 7c6rodw renderproto@0.11.1 staging (0s)
+[ ] 3l757ag libyaml@0.2.5 staging (0s)
+[ ] ugoqcsm libjpeg-turbo@3.1.3 staging (0s)
+[ ] pz4ltjd help2man@1.49.3 staging (0s)
+[ ] wewyeli python-venv@1.0 install (0s)
+[ ] 2mov37q freetype@2.14.3 staging (0s)
+[ ] niqho7x libpthread-stubs@0.5 autoreconf (0s)
+[ ] niqho7x libpthread-stubs@0.5 configure (0s)
+[ ] exwfqhr hdf5@1.12.3 staging (0s)
+[ ] qcardkz dri2proto@2.8 autoreconf (0s)
+[ ] qcardkz dri2proto@2.8 configure (0s)
+[ ] ewrn56r xextproto@7.3.0 autoreconf (0s)
+[ ] ewrn56r xextproto@7.3.0 configure (0s)
+[ ] z6aflgm xproto@7.0.31 autoreconf (0s)
+[ ] vxqr5ql inputproto@2.3.2 autoreconf (0s)
+[ ] z6aflgm xproto@7.0.31 configure (0s)
+[ ] vxqr5ql inputproto@2.3.2 configure (0s)
+[ ] 6ql7b33 xtrans@1.6.0 autoreconf (0s)
+[ ] 6ql7b33 xtrans@1.6.0 configure (0s)
+[ ] yhtkysi kbproto@1.0.7 autoreconf (0s)
+[ ] yhtkysi kbproto@1.0.7 configure (0s)
+[ ] kzbvign randrproto@1.5.0 autoreconf (0s)
+[ ] kzbvign randrproto@1.5.0 configure (0s)
+[ ] 5xvreh6 glproto@1.4.17 autoreconf (0s)
+[ ] 5xvreh6 glproto@1.4.17 configure (0s)
+[+] wewyeli python-venv@1.0 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/python-venv-1.0-wewyelif6t2abg6ganlqvyfkimj5raac (1s)
+[ ] 7c6rodw renderproto@0.11.1 autoreconf (1s)
+[ ] 7c6rodw renderproto@0.11.1 configure (1s)
+[ ] pz4ltjd help2man@1.49.3 autoreconf (1s)
+[ ] pz4ltjd help2man@1.49.3 configure (1s)
+[ ] 3l757ag libyaml@0.2.5 autoreconf (1s)
+[ ] 3l757ag libyaml@0.2.5 configure (1s)
+[ ] ugoqcsm libjpeg-turbo@3.1.3 cmake (1s)
+[ ] 2mov37q freetype@2.14.3 autoreconf (1s)
+[ ] 2mov37q freetype@2.14.3 configure (1s)
+[ ] pu2btvh xcb-proto@1.17.0 staging (0s)
+[ ] pu2btvh xcb-proto@1.17.0 autoreconf (0s)
+[ ] pu2btvh xcb-proto@1.17.0 configure (0s)
+[ ] exwfqhr hdf5@1.12.3 cmake (2s)
+[ ] pz4ltjd help2man@1.49.3 build (2s)
+[ ] pz4ltjd help2man@1.49.3 install (2s)
+[+] pz4ltjd help2man@1.49.3 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/help2man-1.49.3-pz4ltjdw4irjo5hv2ndyiolnepbw3env (2s)
+[ ] sq5pajy py-pip@26.1.2 staging (1s)
+[ ] sq5pajy py-pip@26.1.2 install (1s)
+[ ] ugoqcsm libjpeg-turbo@3.1.3 build (3s)
+[ ] pu2btvh xcb-proto@1.17.0 build (2s)
+[ ] pu2btvh xcb-proto@1.17.0 install (2s)
+[ ] niqho7x libpthread-stubs@0.5 build (3s)
+[ ] niqho7x libpthread-stubs@0.5 install (3s)
+[+] niqho7x libpthread-stubs@0.5 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/libpthread-stubs-0.5-niqho7xun3ngsasl3nhsksoivjuyg2p4 (3s)
+[+] pu2btvh xcb-proto@1.17.0 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/xcb-proto-1.17.0-pu2btvh2dqmapjckaeyu4k5ml6b7za3h (3s)
+[ ] 7c6rodw renderproto@0.11.1 build (5s)
+[ ] 7c6rodw renderproto@0.11.1 install (5s)
+[+] 7c6rodw renderproto@0.11.1 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/renderproto-0.11.1-7c6rodwf2kffprf5oxxwk4vvqsr6ruhk (5s)
+[ ] 6ql7b33 xtrans@1.6.0 build (6s)
+[ ] 6ql7b33 xtrans@1.6.0 install (6s)
+[ ] 3l757ag libyaml@0.2.5 build (6s)
+[ ] 5xvreh6 glproto@1.4.17 build (6s)
+[ ] 5xvreh6 glproto@1.4.17 install (6s)
+[+] 6ql7b33 xtrans@1.6.0 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/xtrans-1.6.0-6ql7b33cef45sfeibni4oqr7ge2jeygf (6s)
+[ ] ewrn56r xextproto@7.3.0 build (6s)
+[ ] ewrn56r xextproto@7.3.0 install (6s)
+[ ] kzbvign randrproto@1.5.0 build (6s)
+[ ] kzbvign randrproto@1.5.0 install (6s)
+[ ] yhtkysi kbproto@1.0.7 build (6s)
+[+] 5xvreh6 glproto@1.4.17 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/glproto-1.4.17-5xvreh6syhhc7gy2v2whrdvx4ut7utx2 (7s)
+[ ] yhtkysi kbproto@1.0.7 install (7s)
+[ ] vxqr5ql inputproto@2.3.2 build (7s)
+[ ] vxqr5ql inputproto@2.3.2 install (7s)
+[+] ewrn56r xextproto@7.3.0 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/xextproto-7.3.0-ewrn56rcinsi2u7ycv3qswcr4xc7pkyy (7s)
+[+] kzbvign randrproto@1.5.0 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/randrproto-1.5.0-kzbvignufxmw4cvjjuxphdvnedsycfa5 (7s)
+[+] yhtkysi kbproto@1.0.7 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/kbproto-1.0.7-yhtkysilv235gykybtmuco2nnhtx6xq5 (7s)
+[+] vxqr5ql inputproto@2.3.2 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/inputproto-2.3.2-vxqr5qlnvxbadhr3oo37mcl7mzbi66vw (7s)
+[ ] z6aflgm xproto@7.0.31 build (7s)
+[ ] z6aflgm xproto@7.0.31 install (7s)
+[ ] qcardkz dri2proto@2.8 build (7s)
+[ ] qcardkz dri2proto@2.8 install (7s)
+[ ] 2mov37q freetype@2.14.3 build (7s)
+[+] z6aflgm xproto@7.0.31 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/xproto-7.0.31-z6aflgmugtpfjadsqy3drxguqivew2qe (8s)
+[+] qcardkz dri2proto@2.8 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/dri2proto-2.8-qcardkzf652jyzqdhitl4es7ltmlpuf2 (8s)
+[+] sq5pajy py-pip@26.1.2 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/py-pip-26.1.2-sq5pajyhswgujbv2klbnziq7qhxyrqlf (9s)
+[ ] 3l757ag libyaml@0.2.5 install (19s)
+[+] 3l757ag libyaml@0.2.5 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/libyaml-0.2.5-3l757agethgp3p6ei7643tpqqbbhkhsm (19s)
+[ ] exwfqhr hdf5@1.12.3 build (32s)
+[ ] 2mov37q freetype@2.14.3 install (43s)
+[+] 2mov37q freetype@2.14.3 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/freetype-2.14.3-2mov37q7qb7bqseb35tmyhgoknvdibue (45s)
+[ ] ugoqcsm libjpeg-turbo@3.1.3 install (48s)
+[+] ugoqcsm libjpeg-turbo@3.1.3 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/libjpeg-turbo-3.1.3-ugoqcsmuhgxvhodvdsvy62zw3tcfskpi (50s)
+[ ] max3krn libxshmfence@1.3.3 staging (0s)
+[ ] nbwyl3n flex@2.6.4 staging (0s)
+[ ] wywee3n libice@1.1.2 staging (1s)
+[ ] 55sbja3 libxau@1.0.12 staging (0s)
+[ ] 53q5lsf libxdmcp@1.1.5 staging (0s)
+[ ] max3krn libxshmfence@1.3.3 autoreconf (1s)
+[ ] max3krn libxshmfence@1.3.3 configure (1s)
+[ ] jn2wpr5 py-wheel@0.45.1 staging (0s)
+[ ] s4czscf py-setuptools@83.0.0 staging (0s)
+[ ] wywee3n libice@1.1.2 autoreconf (1s)
+[ ] wywee3n libice@1.1.2 configure (1s)
+[ ] jn2wpr5 py-wheel@0.45.1 install (0s)
+[ ] s4czscf py-setuptools@83.0.0 install (0s)
+[ ] nbwyl3n flex@2.6.4 autoreconf (1s)
+[ ] 55sbja3 libxau@1.0.12 autoreconf (0s)
+[ ] 55sbja3 libxau@1.0.12 configure (0s)
+[ ] 53q5lsf libxdmcp@1.1.5 autoreconf (0s)
+[ ] 53q5lsf libxdmcp@1.1.5 configure (0s)
+[+] jn2wpr5 py-wheel@0.45.1 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/py-wheel-0.45.1-jn2wpr5dzyfdyic5rf6nfzmzqfbdvbu2 (2s)
+[ ] ffsinmd py-flit-core@3.12.0 staging (0s)
+[ ] ffsinmd py-flit-core@3.12.0 install (1s)
+[+] s4czscf py-setuptools@83.0.0 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/py-setuptools-83.0.0-s4czscfacgitvrwdm5k5yma2n2krlz55 (4s)
+[+] ffsinmd py-flit-core@3.12.0 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/py-flit-core-3.12.0-ffsinmdhtsi5vw6ugwcbdkjtghzdbtxo (2s)
+[ ] v4hceup meson@1.11.1 staging (1s)
+[ ] b6opjdu py-markupsafe@3.0.3 staging (1s)
+[ ] qvzsouf py-cython@3.2.4 staging (1s)
+[ ] ujn76o2 py-packaging@26.2 staging (1s)
+[ ] qvzsouf py-cython@3.2.4 install (1s)
+[ ] v4hceup meson@1.11.1 install (1s)
+[ ] b6opjdu py-markupsafe@3.0.3 install (1s)
+[ ] ujn76o2 py-packaging@26.2 install (1s)
+[+] ujn76o2 py-packaging@26.2 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/py-packaging-26.2-ujn76o2esswg2ftth4sze42qolmicxhg (3s)
+[+] b6opjdu py-markupsafe@3.0.3 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/py-markupsafe-3.0.3-b6opjdum7akmj664rauwfooeb2mvg6vc (4s)
+[ ] jahs4cf py-mako@1.3.10 staging (0s)
+[ ] jahs4cf py-mako@1.3.10 install (1s)
+[ ] max3krn libxshmfence@1.3.3 build (10s)
+[ ] 55sbja3 libxau@1.0.12 build (10s)
+[ ] 53q5lsf libxdmcp@1.1.5 build (10s)
+[ ] max3krn libxshmfence@1.3.3 install (11s)
+[+] max3krn libxshmfence@1.3.3 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/libxshmfence-1.3.3-max3krnx4a7rs4q4iqyu7ywjzmxyibkg (11s)
+[ ] wywee3n libice@1.1.2 build (12s)
+[ ] 55sbja3 libxau@1.0.12 install (11s)
+[+] 55sbja3 libxau@1.0.12 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/libxau-1.0.12-55sbja3oat6q3v6y66tnmzyl5pma67eo (12s)
+[ ] 53q5lsf libxdmcp@1.1.5 install (12s)
+[+] jahs4cf py-mako@1.3.10 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/py-mako-1.3.10-jahs4cfgwhrx3uhesay2deg5zwcok2bx (4s)
+[+] 53q5lsf libxdmcp@1.1.5 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/libxdmcp-1.1.5-53q5lsfcvebso5lgggylcxwmhuywjc46 (12s)
+[+] v4hceup meson@1.11.1 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/meson-1.11.1-v4hceupmeqx7ga6ygjul2zhl56klg3pn (8s)
+[ ] sbqshmy libxcb@1.17.0 staging (1s)
+[ ] sbqshmy libxcb@1.17.0 autoreconf (1s)
+[ ] sbqshmy libxcb@1.17.0 configure (1s)
+[ ] nbwyl3n flex@2.6.4 configure (16s)
+[ ] wywee3n libice@1.1.2 install (16s)
+[+] wywee3n libice@1.1.2 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/libice-1.1.2-wywee3nsvby62jgubwsp2iyioblzib5w (17s)
+[ ] yl3rkyn libsm@1.2.6 staging (0s)
+[ ] yl3rkyn libsm@1.2.6 autoreconf (1s)
+[ ] yl3rkyn libsm@1.2.6 configure (1s)
+[ ] sbqshmy libxcb@1.17.0 build (12s)
+[ ] yl3rkyn libsm@1.2.6 build (9s)
+[ ] yl3rkyn libsm@1.2.6 install (11s)
+[ ] nbwyl3n flex@2.6.4 build (28s)
+[+] yl3rkyn libsm@1.2.6 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/libsm-1.2.6-yl3rkynr33yoklcb6u4gspxp7yjdw45t (12s)
+[ ] nbwyl3n flex@2.6.4 install (41s)
+[+] nbwyl3n flex@2.6.4 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/flex-2.6.4-nbwyl3nr6vpizwbjkvji5rjcfarzdo6x (42s)
+[ ] sbqshmy libxcb@1.17.0 install (31s)
+[ ] q7atwj3 scotch@7.0.13 staging (1s)
+[ ] q7atwj3 scotch@7.0.13 cmake (1s)
+[ ] exwfqhr hdf5@1.12.3 install (2m15s)
+[+] exwfqhr hdf5@1.12.3 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot (2m17s)
+[ ] b3o4bcf med@5.0.0 staging (0s)
+[ ] q7atwj3 scotch@7.0.13 build (7s)
+[ ] m4llgpc cgns@4.5.0 staging (0s)
+[ ] m4llgpc cgns@4.5.0 cmake (1s)
+[ ] m4llgpc cgns@4.5.0 build (4s)
+[+] sbqshmy libxcb@1.17.0 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/libxcb-1.17.0-sbqshmyosyynmq3zn5mri6kyo3k2ihz3 (43s)
+[ ] ko5ptsu libx11@1.8.13 staging (0s)
+[ ] ko5ptsu libx11@1.8.13 autoreconf (1s)
+[ ] ko5ptsu libx11@1.8.13 configure (1s)
+[ ] b3o4bcf med@5.0.0 cmake (11s)
+[ ] b3o4bcf med@5.0.0 build (17s)
+[ ] ko5ptsu libx11@1.8.13 build (18s)
+[x] b3o4bcf med@5.0.0 failed: /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6-vfdn6l8f.log (43s)
+[ ] ko5ptsu libx11@1.8.13 install (1m19s)
+[+] ko5ptsu libx11@1.8.13 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/libx11-1.8.13-ko5ptsur7cidaferyhzfqjb5yp5b53iz (1m23s)
+[ ] mmkwbtk libxt@1.3.1 staging (1s)
+[ ] gnwq7xu libxext@1.3.7 staging (1s)
+[ ] 5eiju2q libxrender@0.9.12 staging (1s)
+[ ] 5eiju2q libxrender@0.9.12 autoreconf (1s)
+[ ] 5eiju2q libxrender@0.9.12 configure (1s)
+[ ] gnwq7xu libxext@1.3.7 autoreconf (1s)
+[ ] gnwq7xu libxext@1.3.7 configure (1s)
+[ ] mmkwbtk libxt@1.3.1 autoreconf (1s)
+[ ] mmkwbtk libxt@1.3.1 configure (1s)
+[ ] 5eiju2q libxrender@0.9.12 build (9s)
+[ ] gnwq7xu libxext@1.3.7 build (9s)
+[ ] mmkwbtk libxt@1.3.1 build (11s)
+[ ] 5eiju2q libxrender@0.9.12 install (11s)
+[+] 5eiju2q libxrender@0.9.12 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/libxrender-0.9.12-5eiju2qjjm5mgjqqgchzlxvwts57ak6c (12s)
+[ ] gnwq7xu libxext@1.3.7 install (12s)
+[+] gnwq7xu libxext@1.3.7 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/libxext-1.3.7-gnwq7xuwynulmlgftcrbq2ldjfwtscbh (13s)
+[ ] rpmrtst libxrandr@1.5.5 staging (1s)
+[ ] rpmrtst libxrandr@1.5.5 autoreconf (1s)
+[ ] rpmrtst libxrandr@1.5.5 configure (1s)
+[ ] mmkwbtk libxt@1.3.1 install (19s)
+[+] mmkwbtk libxt@1.3.1 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/libxt-1.3.1-mmkwbtk6aoq36vxy6btmwtsjrizxt2hb (20s)
+[ ] rpmrtst libxrandr@1.5.5 build (9s)
+[ ] rpmrtst libxrandr@1.5.5 install (11s)
+[+] rpmrtst libxrandr@1.5.5 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/libxrandr-1.5.5-rpmrtstdw6nysnfjyhjdkqmqw5gqhrly (12s)
+[ ] 6x26tuv xrandr@1.5.3 staging (0s)
+[ ] 6x26tuv xrandr@1.5.3 autoreconf (0s)
+[ ] 6x26tuv xrandr@1.5.3 configure (0s)
+[ ] m4llgpc cgns@4.5.0 install (1m57s)
+[+] m4llgpc cgns@4.5.0 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/cgns-4.5.0-m4llgpc6ew7ugfwaqxhcf3vhk5tppnzv (1m57s)
+[ ] 6x26tuv xrandr@1.5.3 build (6s)
+[ ] 6x26tuv xrandr@1.5.3 install (10s)
+[+] 6x26tuv xrandr@1.5.3 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/xrandr-1.5.3-6x26tuv4jhgkpmlga4lcug5kfqgf2hvk (11s)
+[ ] q7atwj3 scotch@7.0.13 install (2m41s)
+[+] q7atwj3 scotch@7.0.13 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/scotch-7.0.13-q7atwj3vw733bppabe6nxwjoi6i7y6mk (2m43s)
+[ ] nusepct mmg@5.8.0 staging (1s)
+[ ] nusepct mmg@5.8.0 cmake (1s)
+[ ] nusepct mmg@5.8.0 build (3s)
+[ ] nusepct mmg@5.8.0 install (33s)
+[+] nusepct mmg@5.8.0 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/mmg-5.8.0-nusepctvy2ulxbbejogqxpziewfn6zl3 (34s)
+[+] qvzsouf py-cython@3.2.4 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/py-cython-3.2.4-qvzsoufzd2jzgzs5itd6xp3ont7cwqwa (9m19s)
+[ ] vzk5gi6 py-pyyaml@6.0.3 staging (0s)
+[ ] vzk5gi6 py-pyyaml@6.0.3 install (1s)
+[+] vzk5gi6 py-pyyaml@6.0.3 /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/py-pyyaml-6.0.3-vzk5gi6vbcrvbrgeckkwbwhslygcwalc (10s)
+[ ] liixsev mesa@25.0.5 staging (1s)
+[ ] liixsev mesa@25.0.5 meson (9s)
+[ ] liixsev mesa@25.0.5 build (24s)
+[x] liixsev mesa@25.0.5 failed: /tmp/dantopa/spack-stage/spack-stage-mesa-25.0.5-liixsevy6pevxz5b4qkg4ulbftucu43j-h9ieow5c.log (1m17s)
+-- lines 28 to 40 --
+  -- Found HDF5 version 1.12.3 -- parallel flag is set to ON
+  -- _versionComponents=1;12;3
+  -- HDF5_VERSION=1.12.3
+  -- HDF5 is parallel
+  -- Check for MPI ...
+  -- Found MPI!
+> CMake Warning at config/cmake_files/FindMedfileMPI.cmake:68 (MESSAGE):
+    Warning: MPI: detected version conflicts with a previously found MPI! The
+    two paths are
+    /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-m24ma4yr2iy3ql2esdopnq6jdzbgjs3d
+    vs /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge
+  Call Stack (most recent call first):
+    config/cmake_files/medMacros.cmake:416 (FIND_PACKAGE)
+-- lines 89 to 101 --
+  -- Looking for stddef.h
+  -- Looking for stddef.h - found
+  -- Check size of int
+  -- Check size of int - done
+  -- Check size of long
+  -- Check size of long - done
+> CMake Warning at config/cmake_files/medMacros.cmake:179 (MESSAGE):
+    The MED_MEDINT_TYPE definition is unset and the fortran is disabled.  The
+    med_int type is supposed to be <int>.
+  Call Stack (most recent call first):
+    CMakeLists.txt:129 (MED_CHECK_SIZE)
+  
+  
+-- lines 1095 to 1126 --
+  [ 36%] Building C object src/2.3.6/ci/CMakeFiles/_ci236.dir/MEDnEntites.c.o
+  cd /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/src/2.3.6/ci && /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DH5O_info_t_vers=1 -DH5Oget_info_by_name_vers=1 -DH5_USE_16_API -DMED_API_23 -DMPICH_IGNORE_CXX_SEEK -DOMPI_IGNORE_CXX_SEEK -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include/2.3.6 -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/include/2.3.6 -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-m24ma4yr2iy3ql2esdopnq6jdzbgjs3d/include -DMED_API_23=1 -O3 -DNDEBUG -fPIC -MD -MT src/2.3.6/ci/CMakeFiles/_ci236.dir/MEDnEntites.c.o -MF CMakeFiles/_ci236.dir/MEDnEntites.c.o.d -o CMakeFiles/_ci236.dir/MEDnEntites.c.o -c /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/2.3.6/ci/MEDnEntites.c
+  [ 36%] Building C object src/2.3.6/ci/CMakeFiles/_ci236.dir/MEDnEntMaa.c.o
+  cd /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/src/2.3.6/ci && /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DH5O_info_t_vers=1 -DH5Oget_info_by_name_vers=1 -DH5_USE_16_API -DMED_API_23 -DMPICH_IGNORE_CXX_SEEK -DOMPI_IGNORE_CXX_SEEK -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include/2.3.6 -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/include/2.3.6 -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-m24ma4yr2iy3ql2esdopnq6jdzbgjs3d/include -DMED_API_23=1 -O3 -DNDEBUG -fPIC -MD -MT src/2.3.6/ci/CMakeFiles/_ci236.dir/MEDnEntMaa.c.o -MF CMakeFiles/_ci236.dir/MEDnEntMaa.c.o.d -o CMakeFiles/_ci236.dir/MEDnEntMaa.c.o -c /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/2.3.6/ci/MEDnEntMaa.c
+  [ 36%] Building C object src/2.3.6/ci/CMakeFiles/_ci236_static.dir/MEDnFam.c.o
+  /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/hdfi/_MEDiterate.c: In function '_MEDiterate':
+> /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/hdfi/_MEDiterate.c:34:63: error: passing argument 5 of 'H5Literate2' from incompatible pointer type [-Wincompatible-pointer-types]
+     34 |   if ( H5Literate( fid, H5_INDEX_NAME, H5_ITER_NATIVE, &_idx, func, itdatas ) < 0 ) {
+        |                                                               ^~~~
+        |                                                               |
+        |                                                               herr_t (*)(void) {aka int (*)(void)}
+  In file included from /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include/H5Opublic.h:30,
+                   from /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include/H5Apublic.h:21,
+                   from /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include/hdf5.h:22,
+                   from /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/include/med.h:22,
+                   from /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/hdfi/_MEDiterate.c:19:
+> /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include/H5Lpublic.h:927:42: note: expected 'H5L_iterate2_t' {aka 'int (*)(long int,  const char *, const H5L_info2_t *, void *)'} but argument is of type 'herr_t (*)(void)' {aka 'int (*)(void)'}
+    927 |                           H5L_iterate2_t op, void *op_data);
+        |                           ~~~~~~~~~~~~~~~^~
+> /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include/H5Lpublic.h:172:18: note: 'H5L_iterate2_t' declared here
+    172 | typedef herr_t (*H5L_iterate2_t)(hid_t group, const char *name, const H5L_info2_t *info, void *op_data);
+        |                  ^~~~~~~~~~~~~~
+  cd /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/src/2.3.6/ci && /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DH5O_info_t_vers=1 -DH5Oget_info_by_name_vers=1 -DH5_USE_16_API -DMED3_USESTATIC -DMED_API_23 -DMPICH_IGNORE_CXX_SEEK -DOMPI_IGNORE_CXX_SEEK -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include/2.3.6 -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/include/2.3.6 -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-m24ma4yr2iy3ql2esdopnq6jdzbgjs3d/include -DMED_API_23=1 -O3 -DNDEBUG -fPIC -MD -MT src/2.3.6/ci/CMakeFiles/_ci236_static.dir/MEDnFam.c.o -MF CMakeFiles/_ci236_static.dir/MEDnFam.c.o.d -o CMakeFiles/_ci236_static.dir/MEDnFam.c.o -c /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/2.3.6/ci/MEDnFam.c
+> make[2]: *** [src/hdfi/CMakeFiles/_hdfi.dir/build.make:768: src/hdfi/CMakeFiles/_hdfi.dir/_MEDiterate.c.o] Error 1
+  make[2]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf'
+> make[1]: *** [CMakeFiles/Makefile2:958: src/hdfi/CMakeFiles/_hdfi.dir/all] Error 2
+  make[1]: *** Waiting for unfinished jobs....
+  [ 36%] Building C object src/ci/CMakeFiles/_ci_static.dir/MEDprofileSizeByName.c.o
+  cd /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/src/ci && /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DH5O_info_t_vers=1 -DH5Oget_info_by_name_vers=1 -DH5_USE_16_API -DMED3_USESTATIC -DMPICH_IGNORE_CXX_SEEK -DOMPI_IGNORE_CXX_SEEK -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-m24ma4yr2iy3ql2esdopnq6jdzbgjs3d/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include -DMED_API_23=1 -O3 -DNDEBUG -fPIC -MD -MT src/ci/CMakeFiles/_ci_static.dir/MEDprofileSizeByName.c.o -MF CMakeFiles/_ci_static.dir/MEDprofileSizeByName.c.o.d -o CMakeFiles/_ci_static.dir/MEDprofileSizeByName.c.o -c /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/ci/MEDprofileSizeByName.c
+  [ 36%] Building C object src/2.3.6/ci/CMakeFiles/_ci236_static.dir/MEDnGauss.c.o
+  cd /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/src/2.3.6/ci && /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DH5O_info_t_vers=1 -DH5Oget_info_by_name_vers=1 -DH5_USE_16_API -DMED3_USESTATIC -DMED_API_23 -DMPICH_IGNORE_CXX_SEEK -DOMPI_IGNORE_CXX_SEEK -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include/2.3.6 -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/include/2.3.6 -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-m24ma4yr2iy3ql2esdopnq6jdzbgjs3d/include -DMED_API_23=1 -O3 -DNDEBUG -fPIC -MD -MT src/2.3.6/ci/CMakeFiles/_ci236_static.dir/MEDnGauss.c.o -MF CMakeFiles/_ci236_static.dir/MEDnGauss.c.o.d -o CMakeFiles/_ci236_static.dir/MEDnGauss.c.o -c /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/2.3.6/ci/MEDnGauss.c
+  [ 36%] Building C object src/misc/CMakeFiles/_misc_static.dir/_MEDmeshtypeCompatibility.c.o
+-- lines 1291 to 1321 --
+  cd /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/src/2.3.6/ci && /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DH5O_info_t_vers=1 -DH5Oget_info_by_name_vers=1 -DH5_USE_16_API -DMED3_USESTATIC -DMED_API_23 -DMPICH_IGNORE_CXX_SEEK -DOMPI_IGNORE_CXX_SEEK -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include/2.3.6 -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/include/2.3.6 -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-m24ma4yr2iy3ql2esdopnq6jdzbgjs3d/include -DMED_API_23=1 -O3 -DNDEBUG -fPIC -MD -MT src/2.3.6/ci/CMakeFiles/_ci236_static.dir/MEDnValProfil.c.o -MF CMakeFiles/_ci236_static.dir/MEDnValProfil.c.o.d -o CMakeFiles/_ci236_static.dir/MEDnValProfil.c.o -c /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/2.3.6/ci/MEDnValProfil.c
+  [ 42%] Building C object src/2.3.6/ci/CMakeFiles/_ci236.dir/MEDnScalairePasdeTemps.c.o
+  cd /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/src/2.3.6/ci && /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DH5O_info_t_vers=1 -DH5Oget_info_by_name_vers=1 -DH5_USE_16_API -DMED_API_23 -DMPICH_IGNORE_CXX_SEEK -DOMPI_IGNORE_CXX_SEEK -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include/2.3.6 -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/include/2.3.6 -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-m24ma4yr2iy3ql2esdopnq6jdzbgjs3d/include -DMED_API_23=1 -O3 -DNDEBUG -fPIC -MD -MT src/2.3.6/ci/CMakeFiles/_ci236.dir/MEDnScalairePasdeTemps.c.o -MF CMakeFiles/_ci236.dir/MEDnScalairePasdeTemps.c.o.d -o CMakeFiles/_ci236.dir/MEDnScalairePasdeTemps.c.o -c /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/2.3.6/ci/MEDnScalairePasdeTemps.c
+  make[2]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf'
+  [ 42%] Built target _misc_static
+  /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/hdfi/_MEDiterate.c: In function '_MEDiterate':
+> /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/hdfi/_MEDiterate.c:34:63: error: passing argument 5 of 'H5Literate2' from incompatible pointer type [-Wincompatible-pointer-types]
+     34 |   if ( H5Literate( fid, H5_INDEX_NAME, H5_ITER_NATIVE, &_idx, func, itdatas ) < 0 ) {
+        |                                                               ^~~~
+        |                                                               |
+        |                                                               herr_t (*)(void) {aka int (*)(void)}
+  In file included from /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include/H5Opublic.h:30,
+                   from /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include/H5Apublic.h:21,
+                   from /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include/hdf5.h:22,
+                   from /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/include/med.h:22,
+                   from /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/hdfi/_MEDiterate.c:19:
+> /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include/H5Lpublic.h:927:42: note: expected 'H5L_iterate2_t' {aka 'int (*)(long int,  const char *, const H5L_info2_t *, void *)'} but argument is of type 'herr_t (*)(void)' {aka 'int (*)(void)'}
+    927 |                           H5L_iterate2_t op, void *op_data);
+        |                           ~~~~~~~~~~~~~~~^~
+> /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include/H5Lpublic.h:172:18: note: 'H5L_iterate2_t' declared here
+    172 | typedef herr_t (*H5L_iterate2_t)(hid_t group, const char *name, const H5L_info2_t *info, void *op_data);
+        |                  ^~~~~~~~~~~~~~
+  [ 42%] Building C object src/ci/CMakeFiles/_ci.dir/MEDfieldComputingStepInfo.c.o
+  cd /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/src/ci && /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DH5O_info_t_vers=1 -DH5Oget_info_by_name_vers=1 -DH5_USE_16_API -DMPICH_IGNORE_CXX_SEEK -DOMPI_IGNORE_CXX_SEEK -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-m24ma4yr2iy3ql2esdopnq6jdzbgjs3d/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include -DMED_API_23=1 -O3 -DNDEBUG -fPIC -MD -MT src/ci/CMakeFiles/_ci.dir/MEDfieldComputingStepInfo.c.o -MF CMakeFiles/_ci.dir/MEDfieldComputingStepInfo.c.o.d -o CMakeFiles/_ci.dir/MEDfieldComputingStepInfo.c.o -c /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/ci/MEDfieldComputingStepInfo.c
+> make[2]: *** [src/hdfi/CMakeFiles/_hdfi_static.dir/build.make:768: src/hdfi/CMakeFiles/_hdfi_static.dir/_MEDiterate.c.o] Error 1
+  make[2]: *** Waiting for unfinished jobs....
+  [ 42%] Building C object src/2.3.6/ci/CMakeFiles/_ci236.dir/MEDnumEcr.c.o
+  cd /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/src/2.3.6/ci && /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DH5O_info_t_vers=1 -DH5Oget_info_by_name_vers=1 -DH5_USE_16_API -DMED_API_23 -DMPICH_IGNORE_CXX_SEEK -DOMPI_IGNORE_CXX_SEEK -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include/2.3.6 -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/include/2.3.6 -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-m24ma4yr2iy3ql2esdopnq6jdzbgjs3d/include -DMED_API_23=1 -O3 -DNDEBUG -fPIC -MD -MT src/2.3.6/ci/CMakeFiles/_ci236.dir/MEDnumEcr.c.o -MF CMakeFiles/_ci236.dir/MEDnumEcr.c.o.d -o CMakeFiles/_ci236.dir/MEDnumEcr.c.o -c /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/2.3.6/ci/MEDnumEcr.c
+  [ 42%] Building C object src/2.3.6/ci/CMakeFiles/_ci236.dir/MEDnumLire.c.o
+  cd /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/src/2.3.6/ci && /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DH5O_info_t_vers=1 -DH5Oget_info_by_name_vers=1 -DH5_USE_16_API -DMED_API_23 -DMPICH_IGNORE_CXX_SEEK -DOMPI_IGNORE_CXX_SEEK -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include/2.3.6 -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/include/2.3.6 -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-m24ma4yr2iy3ql2esdopnq6jdzbgjs3d/include -DMED_API_23=1 -O3 -DNDEBUG -fPIC -MD -MT src/2.3.6/ci/CMakeFiles/_ci236.dir/MEDnumLire.c.o -MF CMakeFiles/_ci236.dir/MEDnumLire.c.o.d -o CMakeFiles/_ci236.dir/MEDnumLire.c.o -c /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/2.3.6/ci/MEDnumLire.c
+  [ 42%] Building C object src/2.3.6/ci/CMakeFiles/_ci236.dir/MEDnVal.c.o
+-- lines 1330 to 1342 --
+  cd /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/src/ci && /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DH5O_info_t_vers=1 -DH5Oget_info_by_name_vers=1 -DH5_USE_16_API -DMPICH_IGNORE_CXX_SEEK -DOMPI_IGNORE_CXX_SEEK -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-m24ma4yr2iy3ql2esdopnq6jdzbgjs3d/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include -DMED_API_23=1 -O3 -DNDEBUG -fPIC -MD -MT src/ci/CMakeFiles/_ci.dir/MEDfieldComputingStepMeshWr.c.o -MF CMakeFiles/_ci.dir/MEDfieldComputingStepMeshWr.c.o.d -o CMakeFiles/_ci.dir/MEDfieldComputingStepMeshWr.c.o -c /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/ci/MEDfieldComputingStepMeshWr.c
+  [ 43%] Building C object src/ci/CMakeFiles/_ci.dir/MEDfieldnProfile.c.o
+  cd /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/src/ci && /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DH5O_info_t_vers=1 -DH5Oget_info_by_name_vers=1 -DH5_USE_16_API -DMPICH_IGNORE_CXX_SEEK -DOMPI_IGNORE_CXX_SEEK -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-m24ma4yr2iy3ql2esdopnq6jdzbgjs3d/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include -DMED_API_23=1 -O3 -DNDEBUG -fPIC -MD -MT src/ci/CMakeFiles/_ci.dir/MEDfieldnProfile.c.o -MF CMakeFiles/_ci.dir/MEDfieldnProfile.c.o.d -o CMakeFiles/_ci.dir/MEDfieldnProfile.c.o -c /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/ci/MEDfieldnProfile.c
+  [ 43%] Building C object src/2.3.6/ci/CMakeFiles/_ci236_static.dir/MEDpasdetempsInfo.c.o
+  cd /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/src/2.3.6/ci && /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DH5O_info_t_vers=1 -DH5Oget_info_by_name_vers=1 -DH5_USE_16_API -DMED3_USESTATIC -DMED_API_23 -DMPICH_IGNORE_CXX_SEEK -DOMPI_IGNORE_CXX_SEEK -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include/2.3.6 -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/include/2.3.6 -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-m24ma4yr2iy3ql2esdopnq6jdzbgjs3d/include -DMED_API_23=1 -O3 -DNDEBUG -fPIC -MD -MT src/2.3.6/ci/CMakeFiles/_ci236_static.dir/MEDpasdetempsInfo.c.o -MF CMakeFiles/_ci236_static.dir/MEDpasdetempsInfo.c.o.d -o CMakeFiles/_ci236_static.dir/MEDpasdetempsInfo.c.o -c /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/2.3.6/ci/MEDpasdetempsInfo.c
+  make[2]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf'
+> make[1]: *** [CMakeFiles/Makefile2:990: src/hdfi/CMakeFiles/_hdfi_static.dir/all] Error 2
+  [ 43%] Building C object src/ci/CMakeFiles/_ci.dir/_MEDfieldnValue.c.o
+  cd /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/src/ci && /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DH5O_info_t_vers=1 -DH5Oget_info_by_name_vers=1 -DH5_USE_16_API -DMPICH_IGNORE_CXX_SEEK -DOMPI_IGNORE_CXX_SEEK -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-m24ma4yr2iy3ql2esdopnq6jdzbgjs3d/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include -DMED_API_23=1 -O3 -DNDEBUG -fPIC -MD -MT src/ci/CMakeFiles/_ci.dir/_MEDfieldnValue.c.o -MF CMakeFiles/_ci.dir/_MEDfieldnValue.c.o.d -o CMakeFiles/_ci.dir/_MEDfieldnValue.c.o -c /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/ci/_MEDfieldnValue.c
+  [ 43%] Building C object src/ci/CMakeFiles/_ci.dir/MEDfieldnValueWithProfileByName.c.o
+  cd /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/src/ci && /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DH5O_info_t_vers=1 -DH5Oget_info_by_name_vers=1 -DH5_USE_16_API -DMPICH_IGNORE_CXX_SEEK -DOMPI_IGNORE_CXX_SEEK -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-m24ma4yr2iy3ql2esdopnq6jdzbgjs3d/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include -DMED_API_23=1 -O3 -DNDEBUG -fPIC -MD -MT src/ci/CMakeFiles/_ci.dir/MEDfieldnValueWithProfileByName.c.o -MF CMakeFiles/_ci.dir/MEDfieldnValueWithProfileByName.c.o.d -o CMakeFiles/_ci.dir/MEDfieldnValueWithProfileByName.c.o -c /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/ci/MEDfieldnValueWithProfileByName.c
+  [ 43%] Building C object src/2.3.6/ci/CMakeFiles/_ci236.dir/MEDnValProfil.c.o
+  cd /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/src/2.3.6/ci && /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DH5O_info_t_vers=1 -DH5Oget_info_by_name_vers=1 -DH5_USE_16_API -DMED_API_23 -DMPICH_IGNORE_CXX_SEEK -DOMPI_IGNORE_CXX_SEEK -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include/2.3.6 -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/include/2.3.6 -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-m24ma4yr2iy3ql2esdopnq6jdzbgjs3d/include -DMED_API_23=1 -O3 -DNDEBUG -fPIC -MD -MT src/2.3.6/ci/CMakeFiles/_ci236.dir/MEDnValProfil.c.o -MF CMakeFiles/_ci236.dir/MEDnValProfil.c.o.d -o CMakeFiles/_ci236.dir/MEDnValProfil.c.o -c /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/2.3.6/ci/MEDnValProfil.c
+-- lines 2108 to 2144 --
+  cd /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/src/ci && /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DH5O_info_t_vers=1 -DH5Oget_info_by_name_vers=1 -DH5_USE_16_API -DMED3_USESTATIC -DMPICH_IGNORE_CXX_SEEK -DOMPI_IGNORE_CXX_SEEK -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-m24ma4yr2iy3ql2esdopnq6jdzbgjs3d/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include -DMED_API_23=1 -O3 -DNDEBUG -fPIC -MD -MT src/ci/CMakeFiles/_ci_static.dir/_MEDmeshUniversalNameRd236.c.o -MF CMakeFiles/_ci_static.dir/_MEDmeshUniversalNameRd236.c.o.d -o CMakeFiles/_ci_static.dir/_MEDmeshUniversalNameRd236.c.o -c /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/ci/_MEDmeshUniversalNameRd236.c
+  [ 74%] Building C object src/ci/CMakeFiles/_ci_static.dir/_MEDmeshnEntity236.c.o
+  cd /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/src/ci && /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DH5O_info_t_vers=1 -DH5Oget_info_by_name_vers=1 -DH5_USE_16_API -DMED3_USESTATIC -DMPICH_IGNORE_CXX_SEEK -DOMPI_IGNORE_CXX_SEEK -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-m24ma4yr2iy3ql2esdopnq6jdzbgjs3d/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include -DMED_API_23=1 -O3 -DNDEBUG -fPIC -MD -MT src/ci/CMakeFiles/_ci_static.dir/_MEDmeshnEntity236.c.o -MF CMakeFiles/_ci_static.dir/_MEDmeshnEntity236.c.o.d -o CMakeFiles/_ci_static.dir/_MEDmeshnEntity236.c.o -c /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/ci/_MEDmeshnEntity236.c
+  [ 74%] Building C object src/ci/CMakeFiles/_ci_static.dir/_MEDmeshAdvancedRd30.c.o
+  cd /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/src/ci && /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DH5O_info_t_vers=1 -DH5Oget_info_by_name_vers=1 -DH5_USE_16_API -DMED3_USESTATIC -DMPICH_IGNORE_CXX_SEEK -DOMPI_IGNORE_CXX_SEEK -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-m24ma4yr2iy3ql2esdopnq6jdzbgjs3d/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include -DMED_API_23=1 -O3 -DNDEBUG -fPIC -MD -MT src/ci/CMakeFiles/_ci_static.dir/_MEDmeshAdvancedRd30.c.o -MF CMakeFiles/_ci_static.dir/_MEDmeshAdvancedRd30.c.o.d -o CMakeFiles/_ci_static.dir/_MEDmeshAdvancedRd30.c.o -c /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/ci/_MEDmeshAdvancedRd30.c
+  /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/ci/_MEDfieldComputingStepCheck236.c: In function '_MEDfieldComputingStepCheck236':
+> /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/ci/_MEDfieldComputingStepCheck236.c:149:32: error: passing argument 2 of '_MEDiterate' from incompatible pointer type [-Wincompatible-pointer-types]
+    149 |       if (_MEDiterate(_cstpid, _MEDcheckAttributeStringFunc, &_itdatas ) < 0) {
+        |                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        |                                |
+        |                                med_err (*)(med_idt,  const char *, const H5L_info2_t *, med_string_itdatas *) {aka int (*)(long int,  const char *, const H5L_info2_t *, med_string_itdatas *)}
+  In file included from /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include/med_outils.h:265,
+                   from /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/ci/_MEDfieldComputingStepCheck236.c:21:
+> /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include/med_hdfi.h:414:49: note: expected 'herr_t (*)(void)' {aka 'int (*)(void)'} but argument is of type 'med_err (*)(med_idt,  const char *, const H5L_info2_t *, med_string_itdatas *)' {aka 'int (*)(long int,  const char *, const H5L_info2_t *, med_string_itdatas *)'}
+    414 | med_err _MEDiterate(const med_idt fid, herr_t (*func)(), void * itdatas );
+        |                                        ~~~~~~~~~^~~~~~~
+> /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include/med_hdfi.h:356:9: note: '_MEDcheckAttributeStringFunc' declared here
+    356 | med_err _MEDcheckAttributeStringFunc(med_idt id,const char *lname, const H5L_info_t *linfo, med_string_itdatas *data);
+        |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+> /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/ci/_MEDfieldComputingStepCheck236.c:160:32: error: passing argument 2 of '_MEDiterate' from incompatible pointer type [-Wincompatible-pointer-types]
+    160 |       if (_MEDiterate(_cstpid, _MEDchecknSublinkFunc, multiplemesh ) < 0) {
+        |                                ^~~~~~~~~~~~~~~~~~~~~
+        |                                |
+        |                                med_err (*)(med_idt,  const char *, const H5L_info2_t *, med_bool *) {aka int (*)(long int,  const char *, const H5L_info2_t *, med_bool *)}
+> /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include/med_hdfi.h:414:49: note: expected 'herr_t (*)(void)' {aka 'int (*)(void)'} but argument is of type 'med_err (*)(med_idt,  const char *, const H5L_info2_t *, med_bool *)' {aka 'int (*)(long int,  const char *, const H5L_info2_t *, med_bool *)'}
+    414 | med_err _MEDiterate(const med_idt fid, herr_t (*func)(), void * itdatas );
+        |                                        ~~~~~~~~~^~~~~~~
+> /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include/med_hdfi.h:361:9: note: '_MEDchecknSublinkFunc' declared here
+    361 | med_err _MEDchecknSublinkFunc(med_idt id,const char *lname, const H5L_info_t *linfo, med_bool *data);
+        |         ^~~~~~~~~~~~~~~~~~~~~
+> make[2]: *** [src/ci/CMakeFiles/_ci.dir/build.make:3204: src/ci/CMakeFiles/_ci.dir/_MEDfieldComputingStepCheck236.c.o] Error 1
+  make[2]: *** Waiting for unfinished jobs....
+  [ 75%] Building C object src/ci/CMakeFiles/_ci_static.dir/_MEDmeshAdvancedRd236.c.o
+  cd /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/src/ci && /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DH5O_info_t_vers=1 -DH5Oget_info_by_name_vers=1 -DH5_USE_16_API -DMED3_USESTATIC -DMPICH_IGNORE_CXX_SEEK -DOMPI_IGNORE_CXX_SEEK -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-m24ma4yr2iy3ql2esdopnq6jdzbgjs3d/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include -DMED_API_23=1 -O3 -DNDEBUG -fPIC -MD -MT src/ci/CMakeFiles/_ci_static.dir/_MEDmeshAdvancedRd236.c.o -MF CMakeFiles/_ci_static.dir/_MEDmeshAdvancedRd236.c.o.d -o CMakeFiles/_ci_static.dir/_MEDmeshAdvancedRd236.c.o -c /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/ci/_MEDmeshAdvancedRd236.c
+  [ 75%] Building C object src/ci/CMakeFiles/_ci_static.dir/_MEDfilterEntityCr30.c.o
+  cd /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/src/ci && /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DH5O_info_t_vers=1 -DH5Oget_info_by_name_vers=1 -DH5_USE_16_API -DMED3_USESTATIC -DMPICH_IGNORE_CXX_SEEK -DOMPI_IGNORE_CXX_SEEK -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-m24ma4yr2iy3ql2esdopnq6jdzbgjs3d/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include -DMED_API_23=1 -O3 -DNDEBUG -fPIC -MD -MT src/ci/CMakeFiles/_ci_static.dir/_MEDfilterEntityCr30.c.o -MF CMakeFiles/_ci_static.dir/_MEDfilterEntityCr30.c.o.d -o CMakeFiles/_ci_static.dir/_MEDfilterEntityCr30.c.o -c /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/ci/_MEDfilterEntityCr30.c
+  [ 75%] Building C object src/ci/CMakeFiles/_ci_static.dir/_MEDfilterEntityCr236.c.o
+-- lines 2173 to 2216 --
+  cd /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/src/ci && /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DH5O_info_t_vers=1 -DH5Oget_info_by_name_vers=1 -DH5_USE_16_API -DMED3_USESTATIC -DMPICH_IGNORE_CXX_SEEK -DOMPI_IGNORE_CXX_SEEK -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-m24ma4yr2iy3ql2esdopnq6jdzbgjs3d/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include -DMED_API_23=1 -O3 -DNDEBUG -fPIC -MD -MT src/ci/CMakeFiles/_ci_static.dir/_MEDfieldInfoByName30.c.o -MF CMakeFiles/_ci_static.dir/_MEDfieldInfoByName30.c.o.d -o CMakeFiles/_ci_static.dir/_MEDfieldInfoByName30.c.o -c /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/ci/_MEDfieldInfoByName30.c
+  [ 76%] Building C object src/ci/CMakeFiles/_ci_static.dir/_MEDfieldInfoByName236.c.o
+  cd /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/src/ci && /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DH5O_info_t_vers=1 -DH5Oget_info_by_name_vers=1 -DH5_USE_16_API -DMED3_USESTATIC -DMPICH_IGNORE_CXX_SEEK -DOMPI_IGNORE_CXX_SEEK -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-m24ma4yr2iy3ql2esdopnq6jdzbgjs3d/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include -DMED_API_23=1 -O3 -DNDEBUG -fPIC -MD -MT src/ci/CMakeFiles/_ci_static.dir/_MEDfieldInfoByName236.c.o -MF CMakeFiles/_ci_static.dir/_MEDfieldInfoByName236.c.o.d -o CMakeFiles/_ci_static.dir/_MEDfieldInfoByName236.c.o -c /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/ci/_MEDfieldInfoByName236.c
+  [ 76%] Building C object src/ci/CMakeFiles/_ci_static.dir/_MEDfieldnProfile30.c.o
+  cd /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/src/ci && /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DH5O_info_t_vers=1 -DH5Oget_info_by_name_vers=1 -DH5_USE_16_API -DMED3_USESTATIC -DMPICH_IGNORE_CXX_SEEK -DOMPI_IGNORE_CXX_SEEK -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-m24ma4yr2iy3ql2esdopnq6jdzbgjs3d/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include -DMED_API_23=1 -O3 -DNDEBUG -fPIC -MD -MT src/ci/CMakeFiles/_ci_static.dir/_MEDfieldnProfile30.c.o -MF CMakeFiles/_ci_static.dir/_MEDfieldnProfile30.c.o.d -o CMakeFiles/_ci_static.dir/_MEDfieldnProfile30.c.o -c /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/ci/_MEDfieldnProfile30.c
+  make[2]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf'
+> make[1]: *** [CMakeFiles/Makefile2:1022: src/ci/CMakeFiles/_ci.dir/all] Error 2
+  [ 76%] Building C object src/ci/CMakeFiles/_ci_static.dir/_MEDfieldnProfile236.c.o
+  [ 76%] Building C object src/ci/CMakeFiles/_ci_static.dir/_MEDfieldnValue30.c.o
+  cd /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/src/ci && /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DH5O_info_t_vers=1 -DH5Oget_info_by_name_vers=1 -DH5_USE_16_API -DMED3_USESTATIC -DMPICH_IGNORE_CXX_SEEK -DOMPI_IGNORE_CXX_SEEK -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-m24ma4yr2iy3ql2esdopnq6jdzbgjs3d/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include -DMED_API_23=1 -O3 -DNDEBUG -fPIC -MD -MT src/ci/CMakeFiles/_ci_static.dir/_MEDfieldnProfile236.c.o -MF CMakeFiles/_ci_static.dir/_MEDfieldnProfile236.c.o.d -o CMakeFiles/_ci_static.dir/_MEDfieldnProfile236.c.o -c /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/ci/_MEDfieldnProfile236.c
+  cd /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/src/ci && /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -DH5O_info_t_vers=1 -DH5Oget_info_by_name_vers=1 -DH5_USE_16_API -DMED3_USESTATIC -DMPICH_IGNORE_CXX_SEEK -DOMPI_IGNORE_CXX_SEEK -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/hdf5-1.12.3-exwfqhrv4v54325t7zafeebmyedvfvot/include -I/home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/openmpi-5.0.10-m24ma4yr2iy3ql2esdopnq6jdzbgjs3d/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf/include -I/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include -DMED_API_23=1 -O3 -DNDEBUG -fPIC -MD -MT src/ci/CMakeFiles/_ci_static.dir/_MEDfieldnValue30.c.o -MF CMakeFiles/_ci_static.dir/_MEDfieldnValue30.c.o.d -o CMakeFiles/_ci_static.dir/_MEDfieldnValue30.c.o -c /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/ci/_MEDfieldnValue30.c
+  /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/ci/_MEDfieldComputingStepCheck236.c: In function '_MEDfieldComputingStepCheck236':
+> /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/ci/_MEDfieldComputingStepCheck236.c:149:32: error: passing argument 2 of '_MEDiterate' from incompatible pointer type [-Wincompatible-pointer-types]
+    149 |       if (_MEDiterate(_cstpid, _MEDcheckAttributeStringFunc, &_itdatas ) < 0) {
+        |                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        |                                |
+        |                                med_err (*)(med_idt,  const char *, const H5L_info2_t *, med_string_itdatas *) {aka int (*)(long int,  const char *, const H5L_info2_t *, med_string_itdatas *)}
+  In file included from /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include/med_outils.h:265,
+                   from /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/ci/_MEDfieldComputingStepCheck236.c:21:
+> /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include/med_hdfi.h:414:49: note: expected 'herr_t (*)(void)' {aka 'int (*)(void)'} but argument is of type 'med_err (*)(med_idt,  const char *, const H5L_info2_t *, med_string_itdatas *)' {aka 'int (*)(long int,  const char *, const H5L_info2_t *, med_string_itdatas *)'}
+    414 | med_err _MEDiterate(const med_idt fid, herr_t (*func)(), void * itdatas );
+        |                                        ~~~~~~~~~^~~~~~~
+> /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include/med_hdfi.h:356:9: note: '_MEDcheckAttributeStringFunc' declared here
+    356 | med_err _MEDcheckAttributeStringFunc(med_idt id,const char *lname, const H5L_info_t *linfo, med_string_itdatas *data);
+        |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+> /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/src/ci/_MEDfieldComputingStepCheck236.c:160:32: error: passing argument 2 of '_MEDiterate' from incompatible pointer type [-Wincompatible-pointer-types]
+    160 |       if (_MEDiterate(_cstpid, _MEDchecknSublinkFunc, multiplemesh ) < 0) {
+        |                                ^~~~~~~~~~~~~~~~~~~~~
+        |                                |
+        |                                med_err (*)(med_idt,  const char *, const H5L_info2_t *, med_bool *) {aka int (*)(long int,  const char *, const H5L_info2_t *, med_bool *)}
+> /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include/med_hdfi.h:414:49: note: expected 'herr_t (*)(void)' {aka 'int (*)(void)'} but argument is of type 'med_err (*)(med_idt,  const char *, const H5L_info2_t *, med_bool *)' {aka 'int (*)(long int,  const char *, const H5L_info2_t *, med_bool *)'}
+    414 | med_err _MEDiterate(const med_idt fid, herr_t (*func)(), void * itdatas );
+        |                                        ~~~~~~~~~^~~~~~~
+> /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-src/include/med_hdfi.h:361:9: note: '_MEDchecknSublinkFunc' declared here
+    361 | med_err _MEDchecknSublinkFunc(med_idt id,const char *lname, const H5L_info_t *linfo, med_bool *data);
+        |         ^~~~~~~~~~~~~~~~~~~~~
+> make[2]: *** [src/ci/CMakeFiles/_ci_static.dir/build.make:3204: src/ci/CMakeFiles/_ci_static.dir/_MEDfieldComputingStepCheck236.c.o] Error 1
+  make[2]: *** Waiting for unfinished jobs....
+  make[2]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf'
+> make[1]: *** [CMakeFiles/Makefile2:1054: src/ci/CMakeFiles/_ci_static.dir/all] Error 2
+  make[1]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6/spack-build-b3o4bcf'
+> make: *** [Makefile:139: all] Error 2
+  Command exited with status 2:
+      /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/gmake-4.4.1-6bd66sboze6lk56atf3h5x3tdil3hbmr/bin/make
+-- lines 15 to 27 --
+  C linker for the host machine: /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc ld.bfd 2.46
+  C++ compiler for the host machine: /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/g++ (gcc 15.2.0 "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0")
+  C++ linker for the host machine: /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/g++ ld.bfd 2.46
+  Host machine cpu family: x86_64
+  Host machine cpu: x86_64
+  Checking for size of "void*" : 8
+> ../spack-src/meson.build:180: WARNING: `gallium-drivers=swrast` is a deprecated alias for `gallium-drivers=softpipe,llvmpipe` and will be removed in version 25.0
+  Checking if "-mtls-dialect=gnu2" runs: YES
+  Checking if "split TLSDESC" links: YES
+  Dependency libglvnd for host machine skipped: feature glvnd disabled
+  Dependency vdpau for host machine skipped: feature gallium-vdpau disabled
+  Program glslangValidator found: NO
+  Dependency libva for host machine skipped: feature gallium-va disabled
+-- lines 349 to 401 --
+  [46/1007] /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/bison-3.8.2-ufki5266m2hb4ubtvzdob4rremnihmpx/bin/bison -Wno-deprecated -o src/compiler/glsl/glsl_parser.cpp -p _mesa_glsl_ --defines=src/compiler/glsl/glsl_parser.h ../spack-src/src/compiler/glsl/glsl_parser.yy
+  [47/1007] /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -Isrc/c11/impl/libmesa_util_c11.a.p -Isrc/c11/impl -I../spack-src/src/c11/impl -Isrc -I../spack-src/src -fvisibility=hidden -fdiagnostics-color=always -DNDEBUG -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS '-DPACKAGE_VERSION="25.0.5"' '-DPACKAGE_BUGREPORT="https://gitlab.freedesktop.org/mesa/mesa/-/issues"' -DHAVE_OPENGL=1 -DHAVE_OPENGL_ES_1=0 -DHAVE_OPENGL_ES_2=0 -DHAVE_SWRAST -DVIDEO_CODEC_VC1DEC=0 -DVIDEO_CODEC_H264DEC=0 -DVIDEO_CODEC_H264ENC=0 -DVIDEO_CODEC_H265DEC=0 -DVIDEO_CODEC_H265ENC=0 -DVIDEO_CODEC_AV1DEC=1 -DVIDEO_CODEC_AV1ENC=1 -DVIDEO_CODEC_VP9DEC=1 -DHAVE_X11_PLATFORM -DHAVE_XCB_PLATFORM -DUSE_LIBGLVND=0 -DUSE_XSHM -DGLAPI_EXPORT_PROTO_ENTRY_POINTS=1 -DALLOW_KCMP -DMESA_DEBUG=0 -DENABLE_SHADER_CACHE -DHAVE___BUILTIN_BSWAP32 -DHAVE___BUILTIN_BSWAP64 -DHAVE___BUILTIN_CLZ -DHAVE___BUILTIN_CLZLL -DHAVE___BUILTIN_CTZ -DHAVE___BUILTIN_EXPECT -DHAVE___BUILTIN_FFS -DHAVE___BUILTIN_FFSLL -DHAVE___BUILTIN_POPCOUNT -DHAVE___BUILTIN_POPCOUNTLL -DHAVE___BUILTIN_UNREACHABLE -DHAVE___BUILTIN_TYPES_COMPATIBLE_P -DHAVE_FUNC_ATTRIBUTE_CONST -DHAVE_FUNC_ATTRIBUTE_FLATTEN -DHAVE_FUNC_ATTRIBUTE_MALLOC -DHAVE_FUNC_ATTRIBUTE_PURE -DHAVE_FUNC_ATTRIBUTE_UNUSED -DHAVE_FUNC_ATTRIBUTE_WARN_UNUSED_RESULT -DHAVE_FUNC_ATTRIBUTE_WEAK -DHAVE_FUNC_ATTRIBUTE_FORMAT -DHAVE_FUNC_ATTRIBUTE_PACKED -DHAVE_FUNC_ATTRIBUTE_RETURNS_NONNULL -DHAVE_FUNC_ATTRIBUTE_ALIAS -DHAVE_FUNC_ATTRIBUTE_NORETURN -DHAVE_FUNC_ATTRIBUTE_OPTIMIZE -DHAVE_FUNC_ATTRIBUTE_VISIBILITY -DHAVE_UINT128 -DHAVE_REALLOCARRAY -DHAVE_FMEMOPEN -D_GNU_SOURCE -DUSE_SSE41 -DHAVE___BUILTIN_IA32_CLFLUSHOPT -DUSE_GCC_ATOMIC_BUILTINS -DUSE_X86_64_ASM -DMAJOR_IN_SYSMACROS -DHAS_SCHED_H -DHAS_SCHED_GETAFFINITY -DHAVE_LINUX_FUTEX_H -DHAVE_ENDIAN_H -DHAVE_DLFCN_H -DHAVE_SYS_SHM_H -DHAVE_CET_H -DHAVE_SYS_INOTIFY_H -DHAVE_LINUX_UDMABUF_H -DHAVE_STRTOF -DHAVE_MKOSTEMP -DHAVE_MEMFD_CREATE -DHAVE_RANDOM_R -DHAVE_FLOCK -DHAVE_STRTOK_R -DHAVE_GETRANDOM -DHAVE_POSIX_FALLOCATE -DHAVE_SECURE_GETENV -DHAVE_GNU_QSORT_R -DHAVE_STRUCT_TIMESPEC -DHAVE_PROGRAM_INVOCATION_NAME -DHAVE_ISSIGNALING -DHAVE_POSIX_MEMALIGN -DHAVE_DIRENT_D_TYPE -DHAVE_STRTOD_L -DHAVE_DLADDR -DHAVE_DL_ITERATE_PHDR -DHAVE_ZLIB -DHAVE_COMPRESSION -DHAVE_PTHREAD -DHAVE_PTHREAD_SETAFFINITY '-DMESA_LLVM_VERSION_STRING="21.1.8"' -DLLVM_IS_SHARED=1 -DLLVM_AVAILABLE=1 -DDRAW_LLVM_AVAILABLE=1 -DAMD_LLVM_AVAILABLE=1 -DGALLIVM_USE_ORCJIT=0 -DTHREAD_SANITIZER=0 -DHAVE_LIBUNWIND -DHAVE_OPENMP -DHAVE_X11_DRM -DHAVE_DRI3_EXPLICIT_SYNC -mtls-dialect=gnu2 -Werror=implicit-function-declaration -Werror=missing-prototypes -Werror=return-type -Werror=empty-body -Werror=incompatible-pointer-types -Werror=int-conversion -Wimplicit-fallthrough -Wmisleading-indentation -Wno-missing-field-initializers -Wno-format-truncation -Wno-nonnull-compare -fno-math-errno -fno-trapping-math -fno-common -Wno-unknown-pragmas -Wno-unused-function -Werror=format -Wformat-security -ffunction-sections -fdata-sections -Wno-unused-variable -Wno-unused-but-set-variable -fPIC -Werror=pointer-arith -Werror=vla -MD -MQ src/c11/impl/libmesa_util_c11.a.p/time.c.o -MF src/c11/impl/libmesa_util_c11.a.p/time.c.o.d -o src/c11/impl/libmesa_util_c11.a.p/time.c.o -c ../spack-src/src/c11/impl/time.c
+  [48/1007] /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/python-venv-1.0-wewyelif6t2abg6ganlqvyfkimj5raac/bin/python3 ../spack-src/src/gallium/auxiliary/indices/u_unfilled_gen.py src/gallium/auxiliary/u_unfilled_gen.c
+  [49/1007] /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/python-venv-1.0-wewyelif6t2abg6ganlqvyfkimj5raac/bin/python3 ../spack-src/src/gallium/auxiliary/util/u_tracepoints.py -p /tmp/dantopa/spack-stage/spack-stage-mesa-25.0.5-liixsevy6pevxz5b4qkg4ulbftucu43j/spack-src/src/util/perf/ -C src/gallium/auxiliary/u_tracepoints.c
+  [50/1007] /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/meson-1.11.1-v4hceupmeqx7ga6ygjul2zhl56klg3pn/bin/meson --internal exe --capture src/mesa/format_info.h -- /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/python-venv-1.0-wewyelif6t2abg6ganlqvyfkimj5raac/bin/python3 ../spack-src/src/mesa/main/format_info.py ../spack-src/src/mesa/main/formats.csv
+  [51/1007] /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -Isrc/c11/impl/libmesa_util_c11.a.p -Isrc/c11/impl -I../spack-src/src/c11/impl -Isrc -I../spack-src/src -fvisibility=hidden -fdiagnostics-color=always -DNDEBUG -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS '-DPACKAGE_VERSION="25.0.5"' '-DPACKAGE_BUGREPORT="https://gitlab.freedesktop.org/mesa/mesa/-/issues"' -DHAVE_OPENGL=1 -DHAVE_OPENGL_ES_1=0 -DHAVE_OPENGL_ES_2=0 -DHAVE_SWRAST -DVIDEO_CODEC_VC1DEC=0 -DVIDEO_CODEC_H264DEC=0 -DVIDEO_CODEC_H264ENC=0 -DVIDEO_CODEC_H265DEC=0 -DVIDEO_CODEC_H265ENC=0 -DVIDEO_CODEC_AV1DEC=1 -DVIDEO_CODEC_AV1ENC=1 -DVIDEO_CODEC_VP9DEC=1 -DHAVE_X11_PLATFORM -DHAVE_XCB_PLATFORM -DUSE_LIBGLVND=0 -DUSE_XSHM -DGLAPI_EXPORT_PROTO_ENTRY_POINTS=1 -DALLOW_KCMP -DMESA_DEBUG=0 -DENABLE_SHADER_CACHE -DHAVE___BUILTIN_BSWAP32 -DHAVE___BUILTIN_BSWAP64 -DHAVE___BUILTIN_CLZ -DHAVE___BUILTIN_CLZLL -DHAVE___BUILTIN_CTZ -DHAVE___BUILTIN_EXPECT -DHAVE___BUILTIN_FFS -DHAVE___BUILTIN_FFSLL -DHAVE___BUILTIN_POPCOUNT -DHAVE___BUILTIN_POPCOUNTLL -DHAVE___BUILTIN_UNREACHABLE -DHAVE___BUILTIN_TYPES_COMPATIBLE_P -DHAVE_FUNC_ATTRIBUTE_CONST -DHAVE_FUNC_ATTRIBUTE_FLATTEN -DHAVE_FUNC_ATTRIBUTE_MALLOC -DHAVE_FUNC_ATTRIBUTE_PURE -DHAVE_FUNC_ATTRIBUTE_UNUSED -DHAVE_FUNC_ATTRIBUTE_WARN_UNUSED_RESULT -DHAVE_FUNC_ATTRIBUTE_WEAK -DHAVE_FUNC_ATTRIBUTE_FORMAT -DHAVE_FUNC_ATTRIBUTE_PACKED -DHAVE_FUNC_ATTRIBUTE_RETURNS_NONNULL -DHAVE_FUNC_ATTRIBUTE_ALIAS -DHAVE_FUNC_ATTRIBUTE_NORETURN -DHAVE_FUNC_ATTRIBUTE_OPTIMIZE -DHAVE_FUNC_ATTRIBUTE_VISIBILITY -DHAVE_UINT128 -DHAVE_REALLOCARRAY -DHAVE_FMEMOPEN -D_GNU_SOURCE -DUSE_SSE41 -DHAVE___BUILTIN_IA32_CLFLUSHOPT -DUSE_GCC_ATOMIC_BUILTINS -DUSE_X86_64_ASM -DMAJOR_IN_SYSMACROS -DHAS_SCHED_H -DHAS_SCHED_GETAFFINITY -DHAVE_LINUX_FUTEX_H -DHAVE_ENDIAN_H -DHAVE_DLFCN_H -DHAVE_SYS_SHM_H -DHAVE_CET_H -DHAVE_SYS_INOTIFY_H -DHAVE_LINUX_UDMABUF_H -DHAVE_STRTOF -DHAVE_MKOSTEMP -DHAVE_MEMFD_CREATE -DHAVE_RANDOM_R -DHAVE_FLOCK -DHAVE_STRTOK_R -DHAVE_GETRANDOM -DHAVE_POSIX_FALLOCATE -DHAVE_SECURE_GETENV -DHAVE_GNU_QSORT_R -DHAVE_STRUCT_TIMESPEC -DHAVE_PROGRAM_INVOCATION_NAME -DHAVE_ISSIGNALING -DHAVE_POSIX_MEMALIGN -DHAVE_DIRENT_D_TYPE -DHAVE_STRTOD_L -DHAVE_DLADDR -DHAVE_DL_ITERATE_PHDR -DHAVE_ZLIB -DHAVE_COMPRESSION -DHAVE_PTHREAD -DHAVE_PTHREAD_SETAFFINITY '-DMESA_LLVM_VERSION_STRING="21.1.8"' -DLLVM_IS_SHARED=1 -DLLVM_AVAILABLE=1 -DDRAW_LLVM_AVAILABLE=1 -DAMD_LLVM_AVAILABLE=1 -DGALLIVM_USE_ORCJIT=0 -DTHREAD_SANITIZER=0 -DHAVE_LIBUNWIND -DHAVE_OPENMP -DHAVE_X11_DRM -DHAVE_DRI3_EXPLICIT_SYNC -mtls-dialect=gnu2 -Werror=implicit-function-declaration -Werror=missing-prototypes -Werror=return-type -Werror=empty-body -Werror=incompatible-pointer-types -Werror=int-conversion -Wimplicit-fallthrough -Wmisleading-indentation -Wno-missing-field-initializers -Wno-format-truncation -Wno-nonnull-compare -fno-math-errno -fno-trapping-math -fno-common -Wno-unknown-pragmas -Wno-unused-function -Werror=format -Wformat-security -ffunction-sections -fdata-sections -Wno-unused-variable -Wno-unused-but-set-variable -fPIC -Werror=pointer-arith -Werror=vla -MD -MQ src/c11/impl/libmesa_util_c11.a.p/threads_posix.c.o -MF src/c11/impl/libmesa_util_c11.a.p/threads_posix.c.o.d -o src/c11/impl/libmesa_util_c11.a.p/threads_posix.c.o -c ../spack-src/src/c11/impl/threads_posix.c
+> FAILED: [code=1] src/c11/impl/libmesa_util_c11.a.p/threads_posix.c.o
+  /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -Isrc/c11/impl/libmesa_util_c11.a.p -Isrc/c11/impl -I../spack-src/src/c11/impl -Isrc -I../spack-src/src -fvisibility=hidden -fdiagnostics-color=always -DNDEBUG -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS '-DPACKAGE_VERSION="25.0.5"' '-DPACKAGE_BUGREPORT="https://gitlab.freedesktop.org/mesa/mesa/-/issues"' -DHAVE_OPENGL=1 -DHAVE_OPENGL_ES_1=0 -DHAVE_OPENGL_ES_2=0 -DHAVE_SWRAST -DVIDEO_CODEC_VC1DEC=0 -DVIDEO_CODEC_H264DEC=0 -DVIDEO_CODEC_H264ENC=0 -DVIDEO_CODEC_H265DEC=0 -DVIDEO_CODEC_H265ENC=0 -DVIDEO_CODEC_AV1DEC=1 -DVIDEO_CODEC_AV1ENC=1 -DVIDEO_CODEC_VP9DEC=1 -DHAVE_X11_PLATFORM -DHAVE_XCB_PLATFORM -DUSE_LIBGLVND=0 -DUSE_XSHM -DGLAPI_EXPORT_PROTO_ENTRY_POINTS=1 -DALLOW_KCMP -DMESA_DEBUG=0 -DENABLE_SHADER_CACHE -DHAVE___BUILTIN_BSWAP32 -DHAVE___BUILTIN_BSWAP64 -DHAVE___BUILTIN_CLZ -DHAVE___BUILTIN_CLZLL -DHAVE___BUILTIN_CTZ -DHAVE___BUILTIN_EXPECT -DHAVE___BUILTIN_FFS -DHAVE___BUILTIN_FFSLL -DHAVE___BUILTIN_POPCOUNT -DHAVE___BUILTIN_POPCOUNTLL -DHAVE___BUILTIN_UNREACHABLE -DHAVE___BUILTIN_TYPES_COMPATIBLE_P -DHAVE_FUNC_ATTRIBUTE_CONST -DHAVE_FUNC_ATTRIBUTE_FLATTEN -DHAVE_FUNC_ATTRIBUTE_MALLOC -DHAVE_FUNC_ATTRIBUTE_PURE -DHAVE_FUNC_ATTRIBUTE_UNUSED -DHAVE_FUNC_ATTRIBUTE_WARN_UNUSED_RESULT -DHAVE_FUNC_ATTRIBUTE_WEAK -DHAVE_FUNC_ATTRIBUTE_FORMAT -DHAVE_FUNC_ATTRIBUTE_PACKED -DHAVE_FUNC_ATTRIBUTE_RETURNS_NONNULL -DHAVE_FUNC_ATTRIBUTE_ALIAS -DHAVE_FUNC_ATTRIBUTE_NORETURN -DHAVE_FUNC_ATTRIBUTE_OPTIMIZE -DHAVE_FUNC_ATTRIBUTE_VISIBILITY -DHAVE_UINT128 -DHAVE_REALLOCARRAY -DHAVE_FMEMOPEN -D_GNU_SOURCE -DUSE_SSE41 -DHAVE___BUILTIN_IA32_CLFLUSHOPT -DUSE_GCC_ATOMIC_BUILTINS -DUSE_X86_64_ASM -DMAJOR_IN_SYSMACROS -DHAS_SCHED_H -DHAS_SCHED_GETAFFINITY -DHAVE_LINUX_FUTEX_H -DHAVE_ENDIAN_H -DHAVE_DLFCN_H -DHAVE_SYS_SHM_H -DHAVE_CET_H -DHAVE_SYS_INOTIFY_H -DHAVE_LINUX_UDMABUF_H -DHAVE_STRTOF -DHAVE_MKOSTEMP -DHAVE_MEMFD_CREATE -DHAVE_RANDOM_R -DHAVE_FLOCK -DHAVE_STRTOK_R -DHAVE_GETRANDOM -DHAVE_POSIX_FALLOCATE -DHAVE_SECURE_GETENV -DHAVE_GNU_QSORT_R -DHAVE_STRUCT_TIMESPEC -DHAVE_PROGRAM_INVOCATION_NAME -DHAVE_ISSIGNALING -DHAVE_POSIX_MEMALIGN -DHAVE_DIRENT_D_TYPE -DHAVE_STRTOD_L -DHAVE_DLADDR -DHAVE_DL_ITERATE_PHDR -DHAVE_ZLIB -DHAVE_COMPRESSION -DHAVE_PTHREAD -DHAVE_PTHREAD_SETAFFINITY '-DMESA_LLVM_VERSION_STRING="21.1.8"' -DLLVM_IS_SHARED=1 -DLLVM_AVAILABLE=1 -DDRAW_LLVM_AVAILABLE=1 -DAMD_LLVM_AVAILABLE=1 -DGALLIVM_USE_ORCJIT=0 -DTHREAD_SANITIZER=0 -DHAVE_LIBUNWIND -DHAVE_OPENMP -DHAVE_X11_DRM -DHAVE_DRI3_EXPLICIT_SYNC -mtls-dialect=gnu2 -Werror=implicit-function-declaration -Werror=missing-prototypes -Werror=return-type -Werror=empty-body -Werror=incompatible-pointer-types -Werror=int-conversion -Wimplicit-fallthrough -Wmisleading-indentation -Wno-missing-field-initializers -Wno-format-truncation -Wno-nonnull-compare -fno-math-errno -fno-trapping-math -fno-common -Wno-unknown-pragmas -Wno-unused-function -Werror=format -Wformat-security -ffunction-sections -fdata-sections -Wno-unused-variable -Wno-unused-but-set-variable -fPIC -Werror=pointer-arith -Werror=vla -MD -MQ src/c11/impl/libmesa_util_c11.a.p/threads_posix.c.o -MF src/c11/impl/libmesa_util_c11.a.p/threads_posix.c.o.d -o src/c11/impl/libmesa_util_c11.a.p/threads_posix.c.o -c ../spack-src/src/c11/impl/threads_posix.c
+  In file included from ../spack-src/src/c11/impl/threads_posix.c:13:
+> ../spack-src/src/c11/threads.h:121:25: error: conflicting types for 'once_flag'; have 'pthread_once_t' {aka 'int'}
+    121 | typedef pthread_once_t  once_flag;
+        |                         ^~~~~~~~~
+  In file included from /usr/include/stdlib.h:1191,
+                   from ../spack-src/src/c11/impl/threads_posix.c:5:
+> /usr/include/x86_64-linux-gnu/bits/types/once_flag.h:24:21: note: previous declaration of 'once_flag' with type 'once_flag'
+     24 | typedef __once_flag once_flag;
+        |                     ^~~~~~~~~
+> ../spack-src/src/c11/threads.h:122:11: warning: 'ONCE_FLAG_INIT' redefined
+    122 | #  define ONCE_FLAG_INIT PTHREAD_ONCE_INIT
+        |           ^~~~~~~~~~~~~~
+> /usr/include/x86_64-linux-gnu/bits/types/once_flag.h:25:9: note: this is the location of the previous definition
+     25 | #define ONCE_FLAG_INIT __ONCE_FLAG_INIT
+        |         ^~~~~~~~~~~~~~
+> ../spack-src/src/c11/threads.h:151:6: error: conflicting types for 'call_once'; have 'void(int *, void (*)(void))'
+    151 | void call_once(once_flag *, void (*)(void));
+        |      ^~~~~~~~~
+> /usr/include/stdlib.h:1195:13: note: previous declaration of 'call_once' with type 'void(once_flag *, void (*)(void))'
+   1195 | extern void call_once (once_flag *__flag, void (*__func)(void));
+        |             ^~~~~~~~~
+> ../spack-src/src/c11/impl/threads_posix.c:50:1: error: conflicting types for 'call_once'; have 'void(int *, void (*)(void))'
+     50 | call_once(once_flag *flag, void (*func)(void))
+        | ^~~~~~~~~
+> /usr/include/stdlib.h:1195:13: note: previous declaration of 'call_once' with type 'void(once_flag *, void (*)(void))'
+   1195 | extern void call_once (once_flag *__flag, void (*__func)(void));
+        |             ^~~~~~~~~
+  [52/1007] /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/python-venv-1.0-wewyelif6t2abg6ganlqvyfkimj5raac/bin/python3 ../spack-src/src/gallium/auxiliary/util/u_tracepoints.py -p /tmp/dantopa/spack-stage/spack-stage-mesa-25.0.5-liixsevy6pevxz5b4qkg4ulbftucu43j/spack-src/src/util/perf/ -H src/gallium/auxiliary/u_tracepoints.h
+  [53/1007] /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/python-venv-1.0-wewyelif6t2abg6ganlqvyfkimj5raac/bin/python3 ../spack-src/src/mesa/main/format_fallback.py ../spack-src/src/mesa/main/formats.csv src/mesa/format_fallback.c
+  [54/1007] /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/bison-3.8.2-ufki5266m2hb4ubtvzdob4rremnihmpx/bin/bison -Wno-deprecated -o src/mesa/program/program_parse.tab.c --defines=src/mesa/program/program_parse.tab.h ../spack-src/src/mesa/program/program_parse.y
+  [55/1007] /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/meson-1.11.1-v4hceupmeqx7ga6ygjul2zhl56klg3pn/bin/meson --internal exe --capture src/compiler/glsl/ir_expression_operation_strings.h -- /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/python-venv-1.0-wewyelif6t2abg6ganlqvyfkimj5raac/bin/python3 ../spack-src/src/compiler/glsl/ir_expression_operation.py strings
+  [56/1007] /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/python-venv-1.0-wewyelif6t2abg6ganlqvyfkimj5raac/bin/python3 ../spack-src/src/gallium/auxiliary/indices/u_indices_gen.py src/gallium/auxiliary/u_indices_gen.c
+  [57/1007] /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/meson-1.11.1-v4hceupmeqx7ga6ygjul2zhl56klg3pn/bin/meson --internal exe --capture src/compiler/glsl/ir_expression_operation_constant.h -- /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/python-venv-1.0-wewyelif6t2abg6ganlqvyfkimj5raac/bin/python3 ../spack-src/src/compiler/glsl/ir_expression_operation.py constant
+  [58/1007] /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/meson-1.11.1-v4hceupmeqx7ga6ygjul2zhl56klg3pn/bin/meson --internal exe --capture src/mapi/shared-glapi/glapi_mapi_tmp.h -- /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/python-venv-1.0-wewyelif6t2abg6ganlqvyfkimj5raac/bin/python3 ../spack-src/src/mapi/mapi_abi.py --printer shared-glapi ../spack-src/src/mapi/glapi/gen/gl_and_es_API.xml
+  [59/1007] /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -Isrc/util/blake3/libblake3.a.p -Isrc/util/blake3 -I../spack-src/src/util/blake3 -fvisibility=hidden -fdiagnostics-color=always -DNDEBUG -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS '-DPACKAGE_VERSION="25.0.5"' '-DPACKAGE_BUGREPORT="https://gitlab.freedesktop.org/mesa/mesa/-/issues"' -DHAVE_OPENGL=1 -DHAVE_OPENGL_ES_1=0 -DHAVE_OPENGL_ES_2=0 -DHAVE_SWRAST -DVIDEO_CODEC_VC1DEC=0 -DVIDEO_CODEC_H264DEC=0 -DVIDEO_CODEC_H264ENC=0 -DVIDEO_CODEC_H265DEC=0 -DVIDEO_CODEC_H265ENC=0 -DVIDEO_CODEC_AV1DEC=1 -DVIDEO_CODEC_AV1ENC=1 -DVIDEO_CODEC_VP9DEC=1 -DHAVE_X11_PLATFORM -DHAVE_XCB_PLATFORM -DUSE_LIBGLVND=0 -DUSE_XSHM -DGLAPI_EXPORT_PROTO_ENTRY_POINTS=1 -DALLOW_KCMP -DMESA_DEBUG=0 -DENABLE_SHADER_CACHE -DHAVE___BUILTIN_BSWAP32 -DHAVE___BUILTIN_BSWAP64 -DHAVE___BUILTIN_CLZ -DHAVE___BUILTIN_CLZLL -DHAVE___BUILTIN_CTZ -DHAVE___BUILTIN_EXPECT -DHAVE___BUILTIN_FFS -DHAVE___BUILTIN_FFSLL -DHAVE___BUILTIN_POPCOUNT -DHAVE___BUILTIN_POPCOUNTLL -DHAVE___BUILTIN_UNREACHABLE -DHAVE___BUILTIN_TYPES_COMPATIBLE_P -DHAVE_FUNC_ATTRIBUTE_CONST -DHAVE_FUNC_ATTRIBUTE_FLATTEN -DHAVE_FUNC_ATTRIBUTE_MALLOC -DHAVE_FUNC_ATTRIBUTE_PURE -DHAVE_FUNC_ATTRIBUTE_UNUSED -DHAVE_FUNC_ATTRIBUTE_WARN_UNUSED_RESULT -DHAVE_FUNC_ATTRIBUTE_WEAK -DHAVE_FUNC_ATTRIBUTE_FORMAT -DHAVE_FUNC_ATTRIBUTE_PACKED -DHAVE_FUNC_ATTRIBUTE_RETURNS_NONNULL -DHAVE_FUNC_ATTRIBUTE_ALIAS -DHAVE_FUNC_ATTRIBUTE_NORETURN -DHAVE_FUNC_ATTRIBUTE_OPTIMIZE -DHAVE_FUNC_ATTRIBUTE_VISIBILITY -DHAVE_UINT128 -DHAVE_REALLOCARRAY -DHAVE_FMEMOPEN -D_GNU_SOURCE -DUSE_SSE41 -DHAVE___BUILTIN_IA32_CLFLUSHOPT -DUSE_GCC_ATOMIC_BUILTINS -DUSE_X86_64_ASM -DMAJOR_IN_SYSMACROS -DHAS_SCHED_H -DHAS_SCHED_GETAFFINITY -DHAVE_LINUX_FUTEX_H -DHAVE_ENDIAN_H -DHAVE_DLFCN_H -DHAVE_SYS_SHM_H -DHAVE_CET_H -DHAVE_SYS_INOTIFY_H -DHAVE_LINUX_UDMABUF_H -DHAVE_STRTOF -DHAVE_MKOSTEMP -DHAVE_MEMFD_CREATE -DHAVE_RANDOM_R -DHAVE_FLOCK -DHAVE_STRTOK_R -DHAVE_GETRANDOM -DHAVE_POSIX_FALLOCATE -DHAVE_SECURE_GETENV -DHAVE_GNU_QSORT_R -DHAVE_STRUCT_TIMESPEC -DHAVE_PROGRAM_INVOCATION_NAME -DHAVE_ISSIGNALING -DHAVE_POSIX_MEMALIGN -DHAVE_DIRENT_D_TYPE -DHAVE_STRTOD_L -DHAVE_DLADDR -DHAVE_DL_ITERATE_PHDR -DHAVE_ZLIB -DHAVE_COMPRESSION -DHAVE_PTHREAD -DHAVE_PTHREAD_SETAFFINITY '-DMESA_LLVM_VERSION_STRING="21.1.8"' -DLLVM_IS_SHARED=1 -DLLVM_AVAILABLE=1 -DDRAW_LLVM_AVAILABLE=1 -DAMD_LLVM_AVAILABLE=1 -DGALLIVM_USE_ORCJIT=0 -DTHREAD_SANITIZER=0 -DHAVE_LIBUNWIND -DHAVE_OPENMP -DHAVE_X11_DRM -DHAVE_DRI3_EXPLICIT_SYNC -mtls-dialect=gnu2 -Werror=implicit-function-declaration -Werror=missing-prototypes -Werror=return-type -Werror=empty-body -Werror=incompatible-pointer-types -Werror=int-conversion -Wimplicit-fallthrough -Wmisleading-indentation -Wno-missing-field-initializers -Wno-format-truncation -Wno-nonnull-compare -fno-math-errno -fno-trapping-math -fno-common -Wno-unknown-pragmas -Wno-unused-function -Werror=format -Wformat-security -ffunction-sections -fdata-sections -Wno-unused-variable -Wno-unused-but-set-variable -fPIC -MD -MQ src/util/blake3/libblake3.a.p/blake3_portable.c.o -MF src/util/blake3/libblake3.a.p/blake3_portable.c.o.d -o src/util/blake3/libblake3.a.p/blake3_portable.c.o -c ../spack-src/src/util/blake3/blake3_portable.c
+  [60/1007] /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -Isrc/util/blake3/libblake3.a.p -Isrc/util/blake3 -I../spack-src/src/util/blake3 -fvisibility=hidden -fdiagnostics-color=always -DNDEBUG -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS '-DPACKAGE_VERSION="25.0.5"' '-DPACKAGE_BUGREPORT="https://gitlab.freedesktop.org/mesa/mesa/-/issues"' -DHAVE_OPENGL=1 -DHAVE_OPENGL_ES_1=0 -DHAVE_OPENGL_ES_2=0 -DHAVE_SWRAST -DVIDEO_CODEC_VC1DEC=0 -DVIDEO_CODEC_H264DEC=0 -DVIDEO_CODEC_H264ENC=0 -DVIDEO_CODEC_H265DEC=0 -DVIDEO_CODEC_H265ENC=0 -DVIDEO_CODEC_AV1DEC=1 -DVIDEO_CODEC_AV1ENC=1 -DVIDEO_CODEC_VP9DEC=1 -DHAVE_X11_PLATFORM -DHAVE_XCB_PLATFORM -DUSE_LIBGLVND=0 -DUSE_XSHM -DGLAPI_EXPORT_PROTO_ENTRY_POINTS=1 -DALLOW_KCMP -DMESA_DEBUG=0 -DENABLE_SHADER_CACHE -DHAVE___BUILTIN_BSWAP32 -DHAVE___BUILTIN_BSWAP64 -DHAVE___BUILTIN_CLZ -DHAVE___BUILTIN_CLZLL -DHAVE___BUILTIN_CTZ -DHAVE___BUILTIN_EXPECT -DHAVE___BUILTIN_FFS -DHAVE___BUILTIN_FFSLL -DHAVE___BUILTIN_POPCOUNT -DHAVE___BUILTIN_POPCOUNTLL -DHAVE___BUILTIN_UNREACHABLE -DHAVE___BUILTIN_TYPES_COMPATIBLE_P -DHAVE_FUNC_ATTRIBUTE_CONST -DHAVE_FUNC_ATTRIBUTE_FLATTEN -DHAVE_FUNC_ATTRIBUTE_MALLOC -DHAVE_FUNC_ATTRIBUTE_PURE -DHAVE_FUNC_ATTRIBUTE_UNUSED -DHAVE_FUNC_ATTRIBUTE_WARN_UNUSED_RESULT -DHAVE_FUNC_ATTRIBUTE_WEAK -DHAVE_FUNC_ATTRIBUTE_FORMAT -DHAVE_FUNC_ATTRIBUTE_PACKED -DHAVE_FUNC_ATTRIBUTE_RETURNS_NONNULL -DHAVE_FUNC_ATTRIBUTE_ALIAS -DHAVE_FUNC_ATTRIBUTE_NORETURN -DHAVE_FUNC_ATTRIBUTE_OPTIMIZE -DHAVE_FUNC_ATTRIBUTE_VISIBILITY -DHAVE_UINT128 -DHAVE_REALLOCARRAY -DHAVE_FMEMOPEN -D_GNU_SOURCE -DUSE_SSE41 -DHAVE___BUILTIN_IA32_CLFLUSHOPT -DUSE_GCC_ATOMIC_BUILTINS -DUSE_X86_64_ASM -DMAJOR_IN_SYSMACROS -DHAS_SCHED_H -DHAS_SCHED_GETAFFINITY -DHAVE_LINUX_FUTEX_H -DHAVE_ENDIAN_H -DHAVE_DLFCN_H -DHAVE_SYS_SHM_H -DHAVE_CET_H -DHAVE_SYS_INOTIFY_H -DHAVE_LINUX_UDMABUF_H -DHAVE_STRTOF -DHAVE_MKOSTEMP -DHAVE_MEMFD_CREATE -DHAVE_RANDOM_R -DHAVE_FLOCK -DHAVE_STRTOK_R -DHAVE_GETRANDOM -DHAVE_POSIX_FALLOCATE -DHAVE_SECURE_GETENV -DHAVE_GNU_QSORT_R -DHAVE_STRUCT_TIMESPEC -DHAVE_PROGRAM_INVOCATION_NAME -DHAVE_ISSIGNALING -DHAVE_POSIX_MEMALIGN -DHAVE_DIRENT_D_TYPE -DHAVE_STRTOD_L -DHAVE_DLADDR -DHAVE_DL_ITERATE_PHDR -DHAVE_ZLIB -DHAVE_COMPRESSION -DHAVE_PTHREAD -DHAVE_PTHREAD_SETAFFINITY '-DMESA_LLVM_VERSION_STRING="21.1.8"' -DLLVM_IS_SHARED=1 -DLLVM_AVAILABLE=1 -DDRAW_LLVM_AVAILABLE=1 -DAMD_LLVM_AVAILABLE=1 -DGALLIVM_USE_ORCJIT=0 -DTHREAD_SANITIZER=0 -DHAVE_LIBUNWIND -DHAVE_OPENMP -DHAVE_X11_DRM -DHAVE_DRI3_EXPLICIT_SYNC -mtls-dialect=gnu2 -Werror=implicit-function-declaration -Werror=missing-prototypes -Werror=return-type -Werror=empty-body -Werror=incompatible-pointer-types -Werror=int-conversion -Wimplicit-fallthrough -Wmisleading-indentation -Wno-missing-field-initializers -Wno-format-truncation -Wno-nonnull-compare -fno-math-errno -fno-trapping-math -fno-common -Wno-unknown-pragmas -Wno-unused-function -Werror=format -Wformat-security -ffunction-sections -fdata-sections -Wno-unused-variable -Wno-unused-but-set-variable -fPIC -MD -MQ src/util/blake3/libblake3.a.p/blake3.c.o -MF src/util/blake3/libblake3.a.p/blake3.c.o.d -o src/util/blake3/libblake3.a.p/blake3.c.o -c ../spack-src/src/util/blake3/blake3.c
+  [61/1007] /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/meson-1.11.1-v4hceupmeqx7ga6ygjul2zhl56klg3pn/bin/meson --internal exe --capture src/mesa/get_hash.h -- /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/python-venv-1.0-wewyelif6t2abg6ganlqvyfkimj5raac/bin/python3 ../spack-src/src/mesa/main/get_hash_generator.py -f ../spack-src/src/mapi/glapi/gen/gl_and_es_API.xml
+  [62/1007] /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/meson-1.11.1-v4hceupmeqx7ga6ygjul2zhl56klg3pn/bin/meson --internal exe --capture src/mesa/main/dispatch.h -- /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/python-venv-1.0-wewyelif6t2abg6ganlqvyfkimj5raac/bin/python3 ../spack-src/src/mesa/main/../../mapi/glapi/gen/gl_table.py -f ../spack-src/src/mapi/glapi/gen/gl_and_es_API.xml -m dispatch
+  [63/1007] /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/meson-1.11.1-v4hceupmeqx7ga6ygjul2zhl56klg3pn/bin/meson --internal exe --capture src/mesa/main/marshal_generated.h -- /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/python-venv-1.0-wewyelif6t2abg6ganlqvyfkimj5raac/bin/python3 ../spack-src/src/mesa/main/../../mapi/glapi/gen/gl_marshal_h.py ../spack-src/src/mapi/glapi/gen/gl_and_es_API.xml 8
+  [64/1007] /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/compiler-wrapper-1.1.0-3chgylum2qjt6gs7xvrznmwivywo36fb/libexec/spack/gcc/gcc -Isrc/util/blake3/libblake3.a.p -Isrc/util/blake3 -I../spack-src/src/util/blake3 -fvisibility=hidden -fdiagnostics-color=always -DNDEBUG -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS '-DPACKAGE_VERSION="25.0.5"' '-DPACKAGE_BUGREPORT="https://gitlab.freedesktop.org/mesa/mesa/-/issues"' -DHAVE_OPENGL=1 -DHAVE_OPENGL_ES_1=0 -DHAVE_OPENGL_ES_2=0 -DHAVE_SWRAST -DVIDEO_CODEC_VC1DEC=0 -DVIDEO_CODEC_H264DEC=0 -DVIDEO_CODEC_H264ENC=0 -DVIDEO_CODEC_H265DEC=0 -DVIDEO_CODEC_H265ENC=0 -DVIDEO_CODEC_AV1DEC=1 -DVIDEO_CODEC_AV1ENC=1 -DVIDEO_CODEC_VP9DEC=1 -DHAVE_X11_PLATFORM -DHAVE_XCB_PLATFORM -DUSE_LIBGLVND=0 -DUSE_XSHM -DGLAPI_EXPORT_PROTO_ENTRY_POINTS=1 -DALLOW_KCMP -DMESA_DEBUG=0 -DENABLE_SHADER_CACHE -DHAVE___BUILTIN_BSWAP32 -DHAVE___BUILTIN_BSWAP64 -DHAVE___BUILTIN_CLZ -DHAVE___BUILTIN_CLZLL -DHAVE___BUILTIN_CTZ -DHAVE___BUILTIN_EXPECT -DHAVE___BUILTIN_FFS -DHAVE___BUILTIN_FFSLL -DHAVE___BUILTIN_POPCOUNT -DHAVE___BUILTIN_POPCOUNTLL -DHAVE___BUILTIN_UNREACHABLE -DHAVE___BUILTIN_TYPES_COMPATIBLE_P -DHAVE_FUNC_ATTRIBUTE_CONST -DHAVE_FUNC_ATTRIBUTE_FLATTEN -DHAVE_FUNC_ATTRIBUTE_MALLOC -DHAVE_FUNC_ATTRIBUTE_PURE -DHAVE_FUNC_ATTRIBUTE_UNUSED -DHAVE_FUNC_ATTRIBUTE_WARN_UNUSED_RESULT -DHAVE_FUNC_ATTRIBUTE_WEAK -DHAVE_FUNC_ATTRIBUTE_FORMAT -DHAVE_FUNC_ATTRIBUTE_PACKED -DHAVE_FUNC_ATTRIBUTE_RETURNS_NONNULL -DHAVE_FUNC_ATTRIBUTE_ALIAS -DHAVE_FUNC_ATTRIBUTE_NORETURN -DHAVE_FUNC_ATTRIBUTE_OPTIMIZE -DHAVE_FUNC_ATTRIBUTE_VISIBILITY -DHAVE_UINT128 -DHAVE_REALLOCARRAY -DHAVE_FMEMOPEN -D_GNU_SOURCE -DUSE_SSE41 -DHAVE___BUILTIN_IA32_CLFLUSHOPT -DUSE_GCC_ATOMIC_BUILTINS -DUSE_X86_64_ASM -DMAJOR_IN_SYSMACROS -DHAS_SCHED_H -DHAS_SCHED_GETAFFINITY -DHAVE_LINUX_FUTEX_H -DHAVE_ENDIAN_H -DHAVE_DLFCN_H -DHAVE_SYS_SHM_H -DHAVE_CET_H -DHAVE_SYS_INOTIFY_H -DHAVE_LINUX_UDMABUF_H -DHAVE_STRTOF -DHAVE_MKOSTEMP -DHAVE_MEMFD_CREATE -DHAVE_RANDOM_R -DHAVE_FLOCK -DHAVE_STRTOK_R -DHAVE_GETRANDOM -DHAVE_POSIX_FALLOCATE -DHAVE_SECURE_GETENV -DHAVE_GNU_QSORT_R -DHAVE_STRUCT_TIMESPEC -DHAVE_PROGRAM_INVOCATION_NAME -DHAVE_ISSIGNALING -DHAVE_POSIX_MEMALIGN -DHAVE_DIRENT_D_TYPE -DHAVE_STRTOD_L -DHAVE_DLADDR -DHAVE_DL_ITERATE_PHDR -DHAVE_ZLIB -DHAVE_COMPRESSION -DHAVE_PTHREAD -DHAVE_PTHREAD_SETAFFINITY '-DMESA_LLVM_VERSION_STRING="21.1.8"' -DLLVM_IS_SHARED=1 -DLLVM_AVAILABLE=1 -DDRAW_LLVM_AVAILABLE=1 -DAMD_LLVM_AVAILABLE=1 -DGALLIVM_USE_ORCJIT=0 -DTHREAD_SANITIZER=0 -DHAVE_LIBUNWIND -DHAVE_OPENMP -DHAVE_X11_DRM -DHAVE_DRI3_EXPLICIT_SYNC -mtls-dialect=gnu2 -Werror=implicit-function-declaration -Werror=missing-prototypes -Werror=return-type -Werror=empty-body -Werror=incompatible-pointer-types -Werror=int-conversion -Wimplicit-fallthrough -Wmisleading-indentation -Wno-missing-field-initializers -Wno-format-truncation -Wno-nonnull-compare -fno-math-errno -fno-trapping-math -fno-common -Wno-unknown-pragmas -Wno-unused-function -Werror=format -Wformat-security -ffunction-sections -fdata-sections -Wno-unused-variable -Wno-unused-but-set-variable -fPIC -MD -MQ src/util/blake3/libblake3.a.p/blake3_dispatch.c.o -MF src/util/blake3/libblake3.a.p/blake3_dispatch.c.o.d -o src/util/blake3/libblake3.a.p/blake3_dispatch.c.o -c ../spack-src/src/util/blake3/blake3_dispatch.c
+  [65/1007] /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/meson-1.11.1-v4hceupmeqx7ga6ygjul2zhl56klg3pn/bin/meson --internal exe --capture src/util/format_srgb.c -- /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/python-venv-1.0-wewyelif6t2abg6ganlqvyfkimj5raac/bin/python3 ../spack-src/src/util/format_srgb.py
+  [66/1007] /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/python-venv-1.0-wewyelif6t2abg6ganlqvyfkimj5raac/bin/python3 ../spack-src/src/compiler/nir/nir_opt_algebraic.py --out src/compiler/nir/nir_opt_algebraic.c
+  ninja: build stopped: subcommand failed.
+  Command exited with status 1:
+      /home/dantopa/spacktivity/spack-isotope/opt/spack/linux-ivybridge/ninja-1.13.2-ifdj5adyz2jdoh6kpw3szttv4nsmfn2p/bin/ninja -v
+==> Error: The following packages failed to install:
+med@5.0.0/b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6: /tmp/dantopa/spack-stage/spack-stage-med-5.0.0-b3o4bcfl5hzd72vlw2sjggtfnt4ufjr6-vfdn6l8f.log
+mesa@25.0.5/liixsevy6pevxz5b4qkg4ulbftucu43j: /tmp/dantopa/spack-stage/spack-stage-mesa-25.0.5-liixsevy6pevxz5b4qkg4ulbftucu43j-h9ieow5c.log
