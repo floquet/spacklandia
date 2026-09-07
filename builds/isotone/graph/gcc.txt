@@ -1,1 +1,1 @@
-o gcc@16.0.1/nfczfqn
+environment: line 89: spack: command not found

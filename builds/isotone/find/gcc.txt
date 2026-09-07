@@ -1,2 +1,1 @@
--- linux-ubuntu26.04-x86_64 / no compilers ----------------------
-gcc@16.0.1
+environment: line 89: spack: command not found
