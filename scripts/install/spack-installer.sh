@@ -94,7 +94,7 @@ new_step "install package ${package}"
             spack spec "${package}" > "${repo}/spec/${package}.txt" 2>&1 &
 
   sub_step "spack install  ${package}"
-            # spack install "${package}" > "${repo}/install/${package}.txt" 2>&1
+            spack install "${package}" > "${repo}/install/${package}.txt" 2>&1
 
   sub_step "wait for all probe commands to finish writing"
 	    wait
