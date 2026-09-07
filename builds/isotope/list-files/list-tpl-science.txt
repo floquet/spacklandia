@@ -1,0 +1,16 @@
+# Mesh generation / finite elements
+gmsh
+mfem
+deal-ii
+
+# PDE / discretization frameworks
+hypre
+
+# Scientific visualization
+vtk
+
+# Molecular / particle simulation
+lammps
+
+# General scientific computing
+arpack-ng
