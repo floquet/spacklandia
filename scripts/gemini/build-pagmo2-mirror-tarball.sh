@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
+printf "%s\n" "$(tput bold)$(date) ${BASH_SOURCE[0]}$(tput sgr0)"
+
+# invocation: ./build-pagmo2-mirror-tarball.sh 2>&1 | tee build-pagmo2-mirror-tarball.log
 
 if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
     set -euo pipefail
 fi
-printf "%s\n" "$(tput bold)$(date) ${BASH_SOURCE[0]}$(tput sgr0)"
-
-# invocation: ./build-pagmo2-mirror-tarball.sh 2>&1 | tee build-pagmo2-mirror-tarball.log
 
 counter=0
 subcounter=0

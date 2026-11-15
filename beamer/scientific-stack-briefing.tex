@@ -1,0 +1,84 @@
+\documentclass{beamer}
+
+% Minimalist styling: no theme bloat, no custom fonts, no nav icons
+\usetheme{default}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+
+\title{Scientific Computing Stack}
+\subtitle{Why Office and \texttt{pip} Are Not Enough for 6DoF Simulation}
+\author{Simulation \& Optimization Engineering}
+\date{\today}
+
+\begin{document}
+
+% Slide 1: Title
+\begin{frame}
+  \titlepage
+\end{frame}
+
+% Slide 2: The Bottom Line
+\begin{frame}{Bottom Line Up Front}
+  \begin{itemize}
+    \item Office tools fail at coupled 6DoF physics.
+    \item \texttt{pip} only manages Python scripts.
+    \item C++ engines require native builds (\textbf{Spack}).
+    \item Shell environments require clean switching (\textbf{Modules}).
+  \end{itemize}
+\end{frame}
+
+% Slide 3: Why Not Office?
+\begin{frame}{Why Not Spreadsheets for 6DoF?}
+  \begin{itemize}
+    \item \textbf{Stiff Dynamics:} 12+ coupled differential equations.
+    \item \textbf{Throughput:} 50,000 Monte Carlo runs stall VBA.
+    \item \textbf{Optimization:} Multi-objective Pareto fronts require C++.
+    \item \textbf{Auditability:} Text code in Git beats hidden cell formulas.
+  \end{itemize}
+\end{frame}
+
+% Slide 4: The Kitchen Analogy (ELI5)
+\begin{frame}{The Stack: Kitchen Analogy}
+  \begin{itemize}
+    \item \textbf{pip:} Buys spices only. Assumes kitchen exists.
+    \item \textbf{conda:} Delivers boxed meal kit and hot plate.
+    \item \textbf{Spack:} Builds industrial ovens wired to local grid.
+    \item \textbf{Modules:} Wall switches turning specific ovens on/off.
+  \end{itemize}
+\end{frame}
+
+% Slide 5: Tool Comparison
+\begin{frame}{Tool Roles \& Boundaries}
+  \begin{tabular}{lll}
+    \hline
+    \textbf{Tool} & \textbf{Manages} & \textbf{Limitation} \\
+    \hline
+    \texttt{pip} & Python scripts & Blind to C++/MPI/BLAS \\
+    \texttt{conda} & Prebuilt binaries & Clashes with system/proxy \\
+    \textbf{Spack} & Native C++ builds & Upfront compile time \\
+    \textbf{Modules} & Shell paths & Installs nothing itself \\
+    \hline
+  \end{tabular}
+\end{frame}
+
+% Slide 6: Recommended Architecture
+\begin{frame}{Target Workflow: Spack + Modules}
+  \begin{enumerate}
+    \item \textbf{Spack} compiles C++ engines (\texttt{pagmo2}, Eigen, MPI).
+    \item \textbf{Spack} auto-generates environment modulefiles.
+    \item \textbf{Modules} activate toolchains instantly (\texttt{module load}).
+    \item \textbf{pip} handles lightweight plotting on top.
+  \end{enumerate}
+\end{frame}
+
+% Slide 7: Air-Gapped / Proxy Resilience
+\begin{frame}{Enterprise Proxy Resilience}
+  \begin{itemize}
+    \item Corporate proxies break live package fetches.
+    \item Spack mirrors bundle exact source tarballs offline.
+    \item Single verified archive transfers via GitLab.
+    \item Deterministic builds across WSL and Linux clusters.
+  \end{itemize}
+\end{frame}
+
+\end{document}

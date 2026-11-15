@@ -29,3 +29,9 @@ __pycache__/
 
 # Logs
 *.log
+
+# Spack source mirrors & archives (keep out of Git)
+*.tar.gz
+*.tgz
+*.tar.xz
+*.tar.zst
