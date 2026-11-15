@@ -35,3 +35,11 @@ __pycache__/
 *.tgz
 *.tar.xz
 *.tar.zst
+
+# LaTeX intermediate build artifacts (keep .tex and .pdf)
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
