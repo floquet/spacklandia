@@ -1,0 +1,8 @@
+dantopa@isomer:~/repos-isomer/github/spacklandia/scripts/gemini$ bash -n spack-bootstrap-wsl.sh build-pagmo2-mirror-tarball.sh
+dantopa@isomer:~/repos-isomer/github/spacklandia/scripts/gemini$ for f in spack-bootstrap-wsl.sh build-pagmo2-mirror-tarball.sh; do
+    bash -n "$f" && echo "[OK] $f"
+done
+[OK] spack-bootstrap-wsl.sh
+[OK] build-pagmo2-mirror-tarball.sh
+dantopa@isomer:~/repos-isomer/github/spacklandia/scripts/gemini$ 
+
