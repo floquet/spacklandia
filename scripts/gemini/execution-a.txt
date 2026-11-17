@@ -1,0 +1,51 @@
+dantopa@isotope:~/repos-isotope/github/spacklandia/scripts/gemini$ cd ~/repos-$(hostname)/github/spacklandia/scripts/gemini
+./install-pagmo2-offline.sh 2>&1 | tee install-pagmo2-offline_$(hostname).log
+Mon Nov 16 08:02:17 PM MST 2026 ./install-pagmo2-offline.sh
+
+====================================================================
+Step 1: Host and environment diagnostics
+====================================================================
+
+  Substep 1.1: hostname && uname -a && nproc
+isotope
+Linux isotope 7.0.0-43-generic #43-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct 23 13:25:25 UTC 2026 x86_64 GNU/Linux
+CPU threads: 24
+
+====================================================================
+Step 2: Wipe existing Spack tree and ~/.spack hangover
+====================================================================
+
+  Substep 2.1: rm -rf /home/dantopa/spack /home/dantopa/.spack
+
+====================================================================
+Step 3: Fetch and verify offline mirror archive (pagmo2-mirror.tar.gz)
+====================================================================
+
+  Substep 3.1: Valid /home/dantopa/pagmo2-mirror.tar.gz already present; skipping download
+-rw-r--r-- 1 dantopa dantopa 514M Nov 16 19:50 /home/dantopa/pagmo2-mirror.tar.gz
+
+  Substep 3.2: Verify SHA-256 checksum
+/home/dantopa/pagmo2-mirror.tar.gz: OK
+
+====================================================================
+Step 4: Unpack offline mirror into /home/dantopa/pagmo2-mirror
+====================================================================
+
+  Substep 4.1: rm -rf /home/dantopa/pagmo2-mirror && tar -xzf /home/dantopa/pagmo2-mirror.tar.gz -C /home/dantopa
+
+  Substep 4.2: Count extracted archive files
+Extracted archive count: 66
+
+====================================================================
+Step 5: Clone Spack and check out exact mirror commit (21bd91776b3a6d1bf96442bbd8b390072ee65fa8)
+====================================================================
+
+  Substep 5.1: git clone -c feature.manyFiles=true https://github.com/spack/spack.git /home/dantopa/spack
+Cloning into '/home/dantopa/spack'...
+
+  Substep 5.2: git -C /home/dantopa/spack checkout 21bd91776b3a6d1bf96442bbd8b390072ee65fa8
+fatal: unable to read tree (21bd91776b3a6d1bf96442bbd8b390072ee65fa8)
+
+Total elapsed time: 01:08 (MM:SS)
+dantopa@isotope:~/repos-isotope/github/spacklandia/scripts/gemini$ 
+

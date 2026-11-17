@@ -1,0 +1,22 @@
+-- Set non-toolchain portion of runtime path of "/home/dantopa/spack/opt/spack/linux-ivybridge/pagmo2-2.18.0-k7pt7aurerpb6fx5vlzkbh722zpdn2dl/lib/libpagmo.so.8.0" to "/home/dantopa/spack/opt/spack/linux-ivybridge/pagmo2-2.18.0-k7pt7aurerpb6fx5vlzkbh722zpdn2dl/lib:/home/dantopa/spack/opt/spack/linux-ivybridge/pagmo2-2.18.0-k7pt7aurerpb6fx5vlzkbh722zpdn2dl/lib64:/home/dantopa/spack/opt/spack/linux-ivybridge/boost-1.90.0-3p72w2xnvmf7che6mbul4oyqfr3lyukr/lib:/home/dantopa/spack/opt/spack/linux-ivybridge/intel-tbb-2023.2.0-eoqjaps2vf3k4bfona4ogh7rvsnluc45/lib"
+-- Installing: /home/dantopa/spack/opt/spack/linux-ivybridge/pagmo2-2.18.0-k7pt7aurerpb6fx5vlzkbh722zpdn2dl/lib/libpagmo.so
+-- Installing: /home/dantopa/spack/opt/spack/linux-ivybridge/pagmo2-2.18.0-k7pt7aurerpb6fx5vlzkbh722zpdn2dl/lib/cmake/pagmo/pagmo-config.cmake
+-- Installing: /home/dantopa/spack/opt/spack/linux-ivybridge/pagmo2-2.18.0-k7pt7aurerpb6fx5vlzkbh722zpdn2dl/lib/cmake/pagmo/Findpagmo_IPOPT.cmake
+-- Installing: /home/dantopa/spack/opt/spack/linux-ivybridge/pagmo2-2.18.0-k7pt7aurerpb6fx5vlzkbh722zpdn2dl/lib/cmake/pagmo/PagmoFindBoost.cmake
+-- Installing: /home/dantopa/spack/opt/spack/linux-ivybridge/pagmo2-2.18.0-k7pt7aurerpb6fx5vlzkbh722zpdn2dl/lib/cmake/pagmo/pagmo_export.cmake
+-- Installing: /home/dantopa/spack/opt/spack/linux-ivybridge/pagmo2-2.18.0-k7pt7aurerpb6fx5vlzkbh722zpdn2dl/lib/cmake/pagmo/pagmo_export-release.cmake
+-- Installing: /home/dantopa/spack/opt/spack/linux-ivybridge/pagmo2-2.18.0-k7pt7aurerpb6fx5vlzkbh722zpdn2dl/lib/cmake/pagmo/pagmo-config-version.cmake
+[+] k7pt7au pagmo2@2.18.0 /home/dantopa/spack/opt/spack/linux-ivybridge/pagmo2-2.18.0-k7pt7aurerpb6fx5vlzkbh722zpdn2dl (59s)
+
+  Substep 7.3: Verify installed package and location
+-- linux-ubuntu26.04-ivybridge / %c,cxx=gcc@15.2.0 --------------
+k7pt7au pagmo2@2.18.0~ipo+shared build_system=cmake build_type=Release generator=make
+/home/dantopa/spack/opt/spack/linux-ivybridge/pagmo2-2.18.0-k7pt7aurerpb6fx5vlzkbh722zpdn2dl
+
+SUCCESS: pagmo2 installed cleanly in /home/dantopa/spack
+To load in any shell: source /home/dantopa/spack/share/spack/setup-env.sh && spack load pagmo2
+
+Total elapsed time: 33:54 (MM:SS)
+dantopa@isotope:~/repos-isotope/github/spacklandia/scripts/gemini$ 
+
+
