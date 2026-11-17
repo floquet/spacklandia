@@ -1,0 +1,8 @@
+dantopa@nuclide:~/repos-nuclide/github/spacklandia/scripts/gemini/monday$ spack install -j 4 pagmo python@3.12
+Progress: 0/6  +/-: 4 jobs  /: filter  v: logs  n/p: next/prev
+[|] 7uzcwlc py-numpy@2.5.4 install (2s)
+[|] m3nfgzp openmpi@5.0.11 staging (2s)
+[|] 4ta3gfw boost@1.90.0 staging (2s)
+
+[process exited with code 1 (0x00000001)]
+You can now close this terminal with Ctrl+D, or press Enter to restart.
