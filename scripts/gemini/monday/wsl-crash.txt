@@ -1,0 +1,9 @@
+[+] c6x6e2c gettext@1.0 /home/dantopa/spack/opt/spack/linux-alderlake/gettext-1.0-c6x6e2cplebqbdgyhkzhifd4ba7usccy (7m12s)
+Progress: 44/89  +/-: 16 jobs  /: filter  v: logs  n/p: next/prev
+[|] t4qqsdw cmake@3.31.12 build (2m53s)
+[|] pl23g6r findutils@4.11.0 configure (51s)
+[|] hcflduw python@3.14.10 configure (51s)
+
+[process exited with code 1 (0x00000001)]
+You can now close this terminal with Ctrl+D, or press Enter to restart.
+

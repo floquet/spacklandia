@@ -1,4 +1,3 @@
-cat << 'EOF' > query.sh
 #!/usr/bin/env bash
 printf "%s\n" "$(tput bold)$(date) ${BASH_SOURCE[0]}$(tput sgr0)"
 
@@ -93,5 +92,3 @@ new_step "System clingo and registered compilers"
               spack compilers 2>&1
 
 display_total_elapsed_time
-EOF
-chmod +x query.sh
