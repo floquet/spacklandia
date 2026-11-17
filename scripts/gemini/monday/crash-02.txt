@@ -1,0 +1,50 @@
+Progress: 30/36  +/-: 16 jobs  /: filter  v: logs  n/p: next/prev
+[-] 4ta3gfw boost@1.90.0 install (4m06s)
+[-] m3nfgzp openmpi@5.0.11 install (4m04s)
+[-] 7uzcwlc py-numpy@2.5.4 install (2m46s)
+Killed                     command spack $_sp_flags $_sp_subcommand "$@"
+dantopa@nuclide:~/repos-nuclide/github/spacklandia/scripts/gemini/monday$ Process Process-72:
+Traceback (most recent call last):
+  File "/usr/lib/python3.14/multiprocessing/process.py", line 320, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/usr/lib/python3.14/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dantopa/spack/lib/spack/spack/installer/build.py", line 572, in worker_function
+    send_exit(exit_code, state_stream)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dantopa/spack/lib/spack/spack/installer/build.py", line 295, in send_exit
+    state_pipe.write("\n")
+    ~~~~~~~~~~~~~~~~^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+Process Process-68:
+Traceback (most recent call last):
+  File "/usr/lib/python3.14/multiprocessing/process.py", line 320, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/usr/lib/python3.14/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dantopa/spack/lib/spack/spack/installer/build.py", line 572, in worker_function
+    send_exit(exit_code, state_stream)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dantopa/spack/lib/spack/spack/installer/build.py", line 295, in send_exit
+    state_pipe.write("\n")
+    ~~~~~~~~~~~~~~~~^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+Process Process-67:
+Traceback (most recent call last):
+  File "/usr/lib/python3.14/multiprocessing/process.py", line 320, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/usr/lib/python3.14/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dantopa/spack/lib/spack/spack/installer/build.py", line 572, in worker_function
+    send_exit(exit_code, state_stream)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dantopa/spack/lib/spack/spack/installer/build.py", line 295, in send_exit
+    state_pipe.write("\n")
+    ~~~~~~~~~~~~~~~~^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
