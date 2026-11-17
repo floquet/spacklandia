@@ -1,0 +1,66 @@
+  Substep 6.1: spack compiler find
+remote: Enumerating objects: 20938, done.
+remote: Counting objects: 100% (20938/20938), done.
+remote: Compressing objects: 100% (11352/11352), done.
+remote: Total 20938 (delta 1369), reused 14455 (delta 1172), pack-reused 0 (from 0)
+==> Added 2 new compilers to /home/dantopa/.spack/packages.yaml
+    llvm@21.1.8  gcc@15.2.0
+==> Compilers are defined in the following files:
+    /home/dantopa/.spack/packages.yaml
+
+  Substep 6.2: spack compilers
+==> Available compilers
+-- gcc ubuntu26.04-x86_64 ---------------------------------------
+[e]  gcc@15.2.0
+
+-- llvm ubuntu26.04-x86_64 --------------------------------------
+[e]  llvm@21.1.8
+
+====================================================================
+Step 7: Smoke test: fetch, build, and install zlib
+====================================================================
+
+  Substep 7.1: spack spec zlib
+[e] ezbxj64 python@3.14 /usr (0s)
+[e] dasjaxo glibc@2.43 /usr (0s)
+[e] 7cgzni7 gcc@15.2.0 /usr (0s)
+[+] m6a6dxw gcc-runtime@15.2.0 /home/dantopa/.spack/bootstrap/store/linux-x86_64/gcc-runtime-15.2.0-m6a6dxwogbacsdksz663dedzxclqpoky (0s)
+[+] dmmvmq5 python-venv@1.0 /home/dantopa/.spack/bootstrap/store/linux-x86_64/python-venv-1.0-dmmvmq5iidqrkpctlpqvsknaj75mt5dw (0s)
+[+] pgwn3tj compiler-wrapper@1.0 /home/dantopa/.spack/bootstrap/store/linux-x86_64/compiler-wrapper-1.0-pgwn3tjdkfll4dpxegihapxkryoe2vij (1s)
+[+] crqlten ca-certificates-mozilla@2026-10-20 /home/dantopa/.spack/bootstrap/store/linux-x86_64/ca-certificates-mozilla-2026-10-20-crqltengbgyfzg5nrwtqwp4vodvkpacp (1s)
+[+] d6l35vx gmake@4.4.1 /home/dantopa/.spack/bootstrap/store/linux-x86_64/gmake-4.4.1-d6l35vx5x4ol3uww2lbgxhcogxuunahf (15s)
+[-] 7rmmgxp libsigsegv@2.14 configure (3s)
+[-] pq4sjd4 berkeley-db@18.1.40 staging (3s)
+[-] nljgz2w re2c@3.1 configure (3s)
+[-] nplcgjc pkgconf@2.2.0 configure (3s)
+[-] qad4zqj libiconv@1.19 configure (3s)
+[x] zguukms zlib-ng@2.2.1 failed: /tmp/dantopa/spack-stage/spack-stage-zlib-ng-2.2.1-zguukms47k7cbl3vqmndcanm3ganagav-odznh59p.log (3s)
+-- lines 1 to 14 --
+  curl: (18) end of response with 835708 bytes missing
+  Traceback (most recent call last):
+    File "/home/dantopa/spack/lib/spack/spack/stage.py", line 690, in check
+      self.fetcher.check()
+      ~~~~~~~~~~~~~~~~~~^^
+    File "/home/dantopa/spack/lib/spack/spack/fetch_strategy.py", line 72, in wrapper
+      return fun(self, *args, **kwargs)
+    File "/home/dantopa/spack/lib/spack/spack/fetch_strategy.py", line 595, in check
+      verify_checksum(self.archive_file, self.digest, self.url, self._effective_url)
+      ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/home/dantopa/spack/lib/spack/spack/fetch_strategy.py", line 1469, in verify_checksum
+      raise ChecksumError(f"{checker.hash_name} checksum failed for {file}", long_msg)
+  spack.fetch_strategy.ChecksumError: sha256 checksum failed for /tmp/dantopa/spack-stage/spack-stage-zlib-ng-2.2.1-zguukms47k7cbl3vqmndcanm3ganagav/2.2.1.tar.gz
+      Expected ec6a76169d4214e2e8b737e0850ba4acb806c69eeace6240ed4481b9f5c57cdf but got 80e7e7d7d4dabe38863b3a689ad46e5d677b9499b6ef618d23db36d4e645d8b6. File size = 1474560 bytes. Contents = b'\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03\xec;ks\xe3F...H\xd5\xf8\xc5t\xf0a\xe6bL\x1eC\n\xb1B\xbd'. URL = https://github.com/zlib-ng/zlib-ng/archive/2.2.1.tar.gz
+==> Error: cannot bootstrap the "clingo" Python module from spec "clingo-bootstrap@spack+python platform=linux target=x86_64 ^python@3.14" due to the following failures:
+
+        github-actions-v2 raised FetchCacheError: FetchIndexError: Could not fetch manifest from https://ghcr.io/v2/spack/bootstrap-buildcache-v2.2/manifests/index.spack, due to: GET https://ghcr.io/v2/spack/bootstrap-buildcache-v2.2/manifests/index.spack errored with: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Authority Key Identifier (_ssl.c:1081)
+
+
+        github-actions-v0.6 raised FetchCacheError: FetchIndexError: Could not fetch manifest from https://ghcr.io/v2/spack/bootstrap-buildcache-v1/manifests/index.spack, due to: GET https://ghcr.io/v2/spack/bootstrap-buildcache-v1/manifests/index.spack errored with: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Authority Key Identifier (_ssl.c:1081)
+
+
+        spack-install raised InstallError: The following packages failed to install:
+zlib-ng@2.2.1/zguukms47k7cbl3vqmndcanm3ganagav: /tmp/dantopa/spack-stage/spack-stage-zlib-ng-2.2.1-zguukms47k7cbl3vqmndcanm3ganagav-odznh59p.log
+
+Run `spack --backtrace ...` for more detailed errors
+
+Total elapsed time: 00:53 (MM:SS)
