@@ -1,0 +1,100 @@
+dantopa@nuclide:~/repos-nuclide/github/spacklandia/scripts/gemini/monday$ spack install -j 4 pagmo python@3.12
+[+] 4ta3gfw boost@1.90.0 /home/dantopa/spack/opt/spack/linux-alderlake/boost-1.90.0-4ta3gfwkv2ueyw76flb7fvpfgfls2jvf (4m23s)
+[+] 7uzcwlc py-numpy@2.5.4 /home/dantopa/spack/opt/spack/linux-alderlake/py-numpy-2.5.4-7uzcwlcmwjelslg37r7qhcypstm37k4w (4m34s)
+[+] m3nfgzp openmpi@5.0.11 /home/dantopa/spack/opt/spack/linux-alderlake/openmpi-5.0.11-m3nfgzpockqwdd73agtl2hagxbudjptl (4m49s)
+[+] rcn62xa py-pythran@0.19.0 /home/dantopa/spack/opt/spack/linux-alderlake/py-pythran-0.19.0-rcn62xamqf446yvz6ntq7lw73ha5tej3 (25s)
+[+] 5mve42y py-scipy@1.18.1 /home/dantopa/spack/opt/spack/linux-alderlake/py-scipy-1.18.1-5mve42yvlnibcuorecq727jnnb42ldjg (5m51s)
+[x] slhvb3e pagmo@1.1.7 failed: /tmp/dantopa/spack-stage/spack-stage-pagmo-1.1.7-slhvb3eotnnknxoxro4ax5ilya6iqmo4-2q7yyb36.log (13s)
+-- lines 1 to 10 --
+  ==> No patches needed for pagmo
+  ==> pagmo: Executing phase: 'cmake'
+  ==> [2026-11-17-16:07:17.829211] /home/dantopa/spack/opt/spack/linux-alderlake/cmake-3.31.12-t4qqsdwfvlgiv7isvjhhz3bikrjv2mzd/bin/cmake -G 'Unix Makefiles' -DCMAKE_INSTALL_PREFIX:STRING=/home/dantopa/spack/opt/spack/linux-alderlake/pagmo-1.1.7-slhvb3eotnnknxoxro4ax5ilya6iqmo4 -DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON '-DCMAKE_INSTALL_RPATH:STRING=/home/dantopa/spack/opt/spack/linux-alderlake/pagmo-1.1.7-slhvb3eotnnknxoxro4ax5ilya6iqmo4/lib;/home/dantopa/spack/opt/spack/linux-alderlake/pagmo-1.1.7-slhvb3eotnnknxoxro4ax5ilya6iqmo4/lib64' '-DCMAKE_PREFIX_PATH:STRING=/home/dantopa/spack/opt/spack/linux-alderlake/boost-1.90.0-4ta3gfwkv2ueyw76flb7fvpfgfls2jvf;/home/dantopa/spack/opt/spack/linux-alderlake/cmake-3.31.12-t4qqsdwfvlgiv7isvjhhz3bikrjv2mzd;/home/dantopa/spack/opt/spack/linux-alderlake/compiler-wrapper-1.1.0-wme5442wwkowaen5lzo5kkvrfgt6fggj;/home/dantopa/spack/opt/spack/linux-alderlake/gmake-4.4.1-wejykvmolfqsrmybvn2xnsdexbp5aoz3;/home/dantopa/spack/opt/spack/linux-alderlake/gsl-2.8-jeg24zdmn3ge7l32oxtysdhptpdptxbp;/home/dantopa/spack/opt/spack/linux-alderlake/openblas-0.3.34-5i23yb2n7uk33f7xbqbfx6az7mrmndxu;/home/dantopa/spack/opt/spack/linux-alderlake/openmpi-5.0.11-m3nfgzpockqwdd73agtl2hagxbudjptl;/home/dantopa/spack/opt/spack/linux-alderlake/py-scipy-1.18.1-5mve42yvlnibcuorecq727jnnb42ldjg;/home/dantopa/spack/opt/spack/linux-alderlake/python-venv-1.0-mwrr3gzofh4jibq2vfoveui6qeooky5r;/home/dantopa/spack/opt/spack/linux-alderlake/icu4c-74.2-27pm7vw3xvf7lajtj7rxresco4g3ukiq;/home/dantopa/spack/opt/spack/linux-alderlake/python-3.12.15-wallxtx7656yasbwkewdsgggizgnk3tw;/home/dantopa/spack/opt/spack/linux-alderlake/zstd-1.5.7-xhpcea3cz4peu3r7z4us64g4o7tou44i;/home/dantopa/spack/opt/spack/linux-alderlake/numactl-2.0.19-ubfbdgoynwt43ugcu2hbfqjhftmmtsky;/home/dantopa/spack/opt/spack/linux-alderlake/prrte-4.1.0-ltja5xda5tdqmajqng6uuuo7svsmsu3l;/home/dantopa/spack/opt/spack/linux-alderlake/expat-2.10.0-aehhxzwchg6wjh4cm5tw74ieuume7r5m;/home/dantopa/spack/opt/spack/linux-alderlake/gdbm-1.26-6nvinjokkqseaj3nns76q5dfuyukv64f;/home/dantopa/spack/opt/spack/linux-alderlake/gettext-1.0-c6x6e2cplebqbdgyhkzhifd4ba7usccy;/home/dantopa/spack/opt/spack/linux-alderlake/libffi-3.8.0-4pnigutg5bqxil3ypu345ynuzzhav4uu;/home/dantopa/spack/opt/spack/linux-alderlake/libxcrypt-4.5.2-l53rfohfip3hnbiyq2lic7qx2dz2aiks;/home/dantopa/spack/opt/spack/linux-alderlake/sqlite-3.54.1-b7kji45bn5psallelyyvwmbn5osfuems;/home/dantopa/spack/opt/spack/linux-alderlake/util-linux-uuid-2.42.4-konpbthigflxerjfz34uvzmlz45egyic;/home/dantopa/spack/opt/spack/linux-alderlake/pmix-6.1.0-5zxrt4ksrds5c4spgedykjygciiydenr;/home/dantopa/spack/opt/spack/linux-alderlake/libbsd-0.12.2-x7ocugww4wlxwq2k2g5ciuobejf6mgyu;/home/dantopa/spack/opt/spack/linux-alderlake/bzip2-1.0.8-i4tmmugm4lpbor7anctmonkuvmlqyxta;/home/dantopa/spack/opt/spack/linux-alderlake/readline-8.3-jgfspkqkxpzcio3ywnvwoogqdxvar64d;/home/dantopa/spack/opt/spack/linux-alderlake/hwloc-2.13.0-blbjpecdtgndvgvxezsy2rgi3inpgsui;/home/dantopa/spack/opt/spack/linux-alderlake/libevent-2.1.13-shx76537fejbb7tzpktvnklicbfz22nh;/home/dantopa/spack/opt/spack/linux-alderlake/libmd-1.3.0-vd6hxc4gny2tau36bpzdxzkwx67eyg7n;/home/dantopa/spack/opt/spack/linux-alderlake/libpciaccess-0.17-pix44aj5sdlzdscggt2fwobqip4lzlew;/home/dantopa/spack/opt/spack/linux-alderlake/libxml2-2.15.4-baipudwdo4luqwnsycr3o45zjwfx5qc7;/home/dantopa/spack/opt/spack/linux-alderlake/ncurses-6.6-aq5tl27vwjlc44545vslzxv52jpjnl5z;/home/dantopa/spack/opt/spack/linux-alderlake/openssl-3.6.5-5lsymnrfsyb2mxzat2kqesgp4rntx7zo;/home/dantopa/spack/opt/spack/linux-alderlake/libiconv-1.19-kuzmkvuewxvuk5eajejlyokvgq66yovm;/home/dantopa/spack/opt/spack/linux-alderlake/xz-5.8.4-dps4ndxuoueh6uprvoi6xi5zkrds4uv4;/home/dantopa/spack/opt/spack/linux-alderlake/zlib-1.3.2-uqztmlmbc3eq3o6wlfyoyanyd6auhclz;/home/dantopa/spack/opt/spack/linux-alderlake/gcc-runtime-15.2.0-6qcjql55hpkbooslcj3qjdb3vjsclcff' -DCMAKE_BUILD_TYPE:STRING=Release -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON -DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF -DCMAKE_POLICY_DEFAULT_CMP0090:STRING=NEW -DCMAKE_FIND_USE_PACKAGE_REGISTRY:BOOL=OFF -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON -DPYTHON_EXECUTABLE:PATH=/home/dantopa/spack/opt/spack/linux-alderlake/python-venv-1.0-mwrr3gzofh4jibq2vfoveui6qeooky5r/bin/python3 -DPython_EXECUTABLE:PATH=/home/dantopa/spack/opt/spack/linux-alderlake/python-venv-1.0-mwrr3gzofh4jibq2vfoveui6qeooky5r/bin/python3 -DPython3_EXECUTABLE:PATH=/home/dantopa/spack/opt/spack/linux-alderlake/python-venv-1.0-mwrr3gzofh4jibq2vfoveui6qeooky5r/bin/python3 -DBUILD_EXAMPLES:BOOL=OFF -DBUILD_MAIN:BOOL=ON -DBUILD_PYGMO:BOOL=ON -DENABLE_GSL:BOOL=ON -DENABLE_GTOP_DATABASE:BOOL=OFF -DENABLE_IPOPT:BOOL=OFF -DENABLE_MPI:BOOL=ON -DENABLE_NLOPT:BOOL=OFF -DENABLE_SNOPT:BOOL=OFF -DENABLE_WORHP:BOOL=OFF -DINSTALL_HEADERS:BOOL=ON -DENABLE_TESTS:BOOL=OFF -DPYTHON_MODULES_DIR=/home/dantopa/spack/opt/spack/linux-alderlake/pagmo-1.1.7-slhvb3eotnnknxoxro4ax5ilya6iqmo4/lib/python3.12/site-packages /tmp/dantopa/spack-stage/spack-stage-pagmo-1.1.7-slhvb3eotnnknxoxro4ax5ilya6iqmo4/spack-src
+> CMake Warning (dev) at CMakeLists.txt:1 (PROJECT):
+    cmake_minimum_required() should be called prior to this top-level project()
+    call.  Please see the cmake-commands(7) manual for usage documentation of
+    both commands.
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+
+  -- The C compiler identification is GNU 15.2.0
+-- lines 52 to 64 --
+  -- Performing Test GNUCXX_FASTMATH - Success
+  -- Enabling '-ffast-math' compiler flag.
+  -- Performing Test ALL_C11
+  -- Performing Test ALL_C11 - Success
+  -- Enabling '-std=c++11' compiler flag
+  -- CXX compilation flags:  -Wall -Wno-deprecated -Wextra -Wnoexcept -Wdisabled-optimization -ffast-math -std=c++11
+> CMake Warning (dev) at cmake_scripts/python_setup.cmake:5 (INCLUDE):
+    Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+    are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+    the cmake_policy command to set the policy and suppress this warning.
+
+  Call Stack (most recent call first):
+    CMakeLists.txt:86 (INCLUDE)
+-- lines 81 to 124 --
+  -- Python modules install path: /home/dantopa/spack/opt/spack/linux-alderlake/pagmo-1.1.7-slhvb3eotnnknxoxro4ax5ilya6iqmo4/lib/python3.12/site-packages
+  -- Python library name:
+  Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+  ModuleNotFoundError: No module named 'distutils'
+  -- Required Boost libraries: system;serialization;thread;python3
+> CMake Warning (dev) at CMakeLists.txt:99 (FIND_PACKAGE):
+    Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+    --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+    set the policy and suppress this warning.
+
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+
+> CMake Error at /home/dantopa/spack/opt/spack/linux-alderlake/boost-1.90.0-4ta3gfwkv2ueyw76flb7fvpfgfls2jvf/lib/cmake/Boost-1.90.0/BoostConfig.cmake:262 (boost_find_component):
+    boost_find_component Macro invoked with incorrect arguments for macro
+    named: boost_find_component
+  Call Stack (most recent call first):
+    /home/dantopa/spack/opt/spack/linux-alderlake/cmake-3.31.12-t4qqsdwfvlgiv7isvjhhz3bikrjv2mzd/share/cmake-3.31/Modules/FindBoost.cmake:610 (find_package)
+    CMakeLists.txt:99 (FIND_PACKAGE)
+
+
+> CMake Error at /home/dantopa/spack/opt/spack/linux-alderlake/boost-1.90.0-4ta3gfwkv2ueyw76flb7fvpfgfls2jvf/lib/cmake/Boost-1.90.0/BoostConfig.cmake:262 (boost_find_component):
+    boost_find_component Macro invoked with incorrect arguments for macro
+    named: boost_find_component
+  Call Stack (most recent call first):
+    /home/dantopa/spack/opt/spack/linux-alderlake/cmake-3.31.12-t4qqsdwfvlgiv7isvjhhz3bikrjv2mzd/share/cmake-3.31/Modules/FindBoost.cmake:610 (find_package)
+    CMakeLists.txt:99 (FIND_PACKAGE)
+
+
+> CMake Error at /home/dantopa/spack/opt/spack/linux-alderlake/boost-1.90.0-4ta3gfwkv2ueyw76flb7fvpfgfls2jvf/lib/cmake/Boost-1.90.0/BoostConfig.cmake:262 (boost_find_component):
+    boost_find_component Macro invoked with incorrect arguments for macro
+    named: boost_find_component
+  Call Stack (most recent call first):
+    /home/dantopa/spack/opt/spack/linux-alderlake/cmake-3.31.12-t4qqsdwfvlgiv7isvjhhz3bikrjv2mzd/share/cmake-3.31/Modules/FindBoost.cmake:610 (find_package)
+    CMakeLists.txt:99 (FIND_PACKAGE)
+
+
+> CMake Error at /home/dantopa/spack/opt/spack/linux-alderlake/boost-1.90.0-4ta3gfwkv2ueyw76flb7fvpfgfls2jvf/lib/cmake/Boost-1.90.0/BoostConfig.cmake:262 (boost_find_component):
+    boost_find_component Macro invoked with incorrect arguments for macro
+    named: boost_find_component
+  Call Stack (most recent call first):
+    /home/dantopa/spack/opt/spack/linux-alderlake/cmake-3.31.12-t4qqsdwfvlgiv7isvjhhz3bikrjv2mzd/share/cmake-3.31/Modules/FindBoost.cmake:610 (find_package)
+    CMakeLists.txt:99 (FIND_PACKAGE)
+
+-- lines 139 to 158 --
+  -- MPI compile flags:
+  -- MPI link flags: -Wl,-rpath -Wl,/home/dantopa/spack/opt/spack/linux-alderlake/openmpi-5.0.11-m3nfgzpockqwdd73agtl2hagxbudjptl/lib
+  -- MPI exec file: /home/dantopa/spack/opt/spack/linux-alderlake/openmpi-5.0.11-m3nfgzpockqwdd73agtl2hagxbudjptl/bin/mpiexec
+  -- MPI exec num_processors flag: -n
+  -- MPI exec pre flags:
+  -- MPI exec post flags:
+  -- GSL library: /home/dantopa/spack/opt/spack/linux-alderlake/gsl-2.8-jeg24zdmn3ge7l32oxtysdhptpdptxbp/lib/libgsl.so
+  -- GSL CBLAS library: /home/dantopa/spack/opt/spack/linux-alderlake/gsl-2.8-jeg24zdmn3ge7l32oxtysdhptpdptxbp/lib/libgslcblas.so
+  -- GSL include dir: /home/dantopa/spack/opt/spack/linux-alderlake/gsl-2.8-jeg24zdmn3ge7l32oxtysdhptpdptxbp/include
+  -- Running the GSL version checker.
+  -- GSL version checker output:
+        Detected GSL version: 2.8
+  -- GSL version is fine.
+  -- Found GSL BLAS library, linking it in.
+  -- Build flags:  -Wall -Wno-deprecated -Wextra -Wnoexcept -Wdisabled-optimization -ffast-math -std=c++11 -pthread  -DBOOST_THREAD_USE_DLL -DBOOST_SERIALIZATION_DYN_LINK=1
+  -- Module linker flags:    -Wl,-rpath -Wl,/home/dantopa/spack/opt/spack/linux-alderlake/openmpi-5.0.11-m3nfgzpockqwdd73agtl2hagxbudjptl/lib
+  -- Shared linker flags:    -Wl,-rpath -Wl,/home/dantopa/spack/opt/spack/linux-alderlake/openmpi-5.0.11-m3nfgzpockqwdd73agtl2hagxbudjptl/lib
+  -- Configuring incomplete, errors occurred!
+  Command exited with status 1:
+      /home/dantopa/spack/opt/spack/linux-alderlake/cmake-3.31.12-t4qqsdwfvlgiv7isvjhhz3bikrjv2mzd/bin/cmake -G 'Unix Makefiles' -DCMAKE_INSTALL_PREFIX:STRING=/home/dantopa/spack/opt/spack/linux-alderlake/pagmo-1.1.7-slhvb3eotnnknxoxro4ax5ilya6iqmo4 -DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON '-DCMAKE_INSTALL_RPATH:STRING=/home/dantopa/spack/opt/spack/linux-alderlake/pagmo-1.1.7-slhvb3eotnnknxoxro4ax5ilya6iqmo4/lib;/home/dantopa/spack/opt/spack/linux-alderlake/pagmo-1.1.7-slhvb3eotnnknxoxro4ax5ilya6iqmo4/lib64' '-DCMAKE_PREFIX_PATH:STRING=/home/dantopa/spack/opt/spack/linux-alderlake/boost-1.90.0-4ta3gfwkv2ueyw76flb7fvpfgfls2jvf;/home/dantopa/spack/opt/spack/linux-alderlake/cmake-3.31.12-t4qqsdwfvlgiv7isvjhhz3bikrjv2mzd;/home/dantopa/spack/opt/spack/linux-alderlake/compiler-wrapper-1.1.0-wme5442wwkowaen5lzo5kkvrfgt6fggj;/home/dantopa/spack/opt/spack/linux-alderlake/gmake-4.4.1-wejykvmolfqsrmybvn2xnsdexbp5aoz3;/home/dantopa/spack/opt/spack/linux-alderlake/gsl-2.8-jeg24zdmn3ge7l32oxtysdhptpdptxbp;/home/dantopa/spack/opt/spack/linux-alderlake/openblas-0.3.34-5i23yb2n7uk33f7xbqbfx6az7mrmndxu;/home/dantopa/spack/opt/spack/linux-alderlake/openmpi-5.0.11-m3nfgzpockqwdd73agtl2hagxbudjptl;/home/dantopa/spack/opt/spack/linux-alderlake/py-scipy-1.18.1-5mve42yvlnibcuorecq727jnnb42ldjg;/home/dantopa/spack/opt/spack/linux-alderlake/python-venv-1.0-mwrr3gzofh4jibq2vfoveui6qeooky5r;/home/dantopa/spack/opt/spack/linux-alderlake/icu4c-74.2-27pm7vw3xvf7lajtj7rxresco4g3ukiq;/home/dantopa/spack/opt/spack/linux-alderlake/python-3.12.15-wallxtx7656yasbwkewdsgggizgnk3tw;/home/dantopa/spack/opt/spack/linux-alderlake/zstd-1.5.7-xhpcea3cz4peu3r7z4us64g4o7tou44i;/home/dantopa/spack/opt/spack/linux-alderlake/numactl-2.0.19-ubfbdgoynwt43ugcu2hbfqjhftmmtsky;/home/dantopa/spack/opt/spack/linux-alderlake/prrte-4.1.0-ltja5xda5tdqmajqng6uuuo7svsmsu3l;/home/dantopa/spack/opt/spack/linux-alderlake/expat-2.10.0-aehhxzwchg6wjh4cm5tw74ieuume7r5m;/home/dantopa/spack/opt/spack/linux-alderlake/gdbm-1.26-6nvinjokkqseaj3nns76q5dfuyukv64f;/home/dantopa/spack/opt/spack/linux-alderlake/gettext-1.0-c6x6e2cplebqbdgyhkzhifd4ba7usccy;/home/dantopa/spack/opt/spack/linux-alderlake/libffi-3.8.0-4pnigutg5bqxil3ypu345ynuzzhav4uu;/home/dantopa/spack/opt/spack/linux-alderlake/libxcrypt-4.5.2-l53rfohfip3hnbiyq2lic7qx2dz2aiks;/home/dantopa/spack/opt/spack/linux-alderlake/sqlite-3.54.1-b7kji45bn5psallelyyvwmbn5osfuems;/home/dantopa/spack/opt/spack/linux-alderlake/util-linux-uuid-2.42.4-konpbthigflxerjfz34uvzmlz45egyic;/home/dantopa/spack/opt/spack/linux-alderlake/pmix-6.1.0-5zxrt4ksrds5c4spgedykjygciiydenr;/home/dantopa/spack/opt/spack/linux-alderlake/libbsd-0.12.2-x7ocugww4wlxwq2k2g5ciuobejf6mgyu;/home/dantopa/spack/opt/spack/linux-alderlake/bzip2-1.0.8-i4tmmugm4lpbor7anctmonkuvmlqyxta;/home/dantopa/spack/opt/spack/linux-alderlake/readline-8.3-jgfspkqkxpzcio3ywnvwoogqdxvar64d;/home/dantopa/spack/opt/spack/linux-alderlake/hwloc-2.13.0-blbjpecdtgndvgvxezsy2rgi3inpgsui;/home/dantopa/spack/opt/spack/linux-alderlake/libevent-2.1.13-shx76537fejbb7tzpktvnklicbfz22nh;/home/dantopa/spack/opt/spack/linux-alderlake/libmd-1.3.0-vd6hxc4gny2tau36bpzdxzkwx67eyg7n;/home/dantopa/spack/opt/spack/linux-alderlake/libpciaccess-0.17-pix44aj5sdlzdscggt2fwobqip4lzlew;/home/dantopa/spack/opt/spack/linux-alderlake/libxml2-2.15.4-baipudwdo4luqwnsycr3o45zjwfx5qc7;/home/dantopa/spack/opt/spack/linux-alderlake/ncurses-6.6-aq5tl27vwjlc44545vslzxv52jpjnl5z;/home/dantopa/spack/opt/spack/linux-alderlake/openssl-3.6.5-5lsymnrfsyb2mxzat2kqesgp4rntx7zo;/home/dantopa/spack/opt/spack/linux-alderlake/libiconv-1.19-kuzmkvuewxvuk5eajejlyokvgq66yovm;/home/dantopa/spack/opt/spack/linux-alderlake/xz-5.8.4-dps4ndxuoueh6uprvoi6xi5zkrds4uv4;/home/dantopa/spack/opt/spack/linux-alderlake/zlib-1.3.2-uqztmlmbc3eq3o6wlfyoyanyd6auhclz;/home/dantopa/spack/opt/spack/linux-alderlake/gcc-runtime-15.2.0-6qcjql55hpkbooslcj3qjdb3vjsclcff' -DCMAKE_BUILD_TYPE:STRING=Release -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON -DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF -DCMAKE_POLICY_DEFAULT_CMP0090:STRING=NEW -DCMAKE_FIND_USE_PACKAGE_REGISTRY:BOOL=OFF -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON -DPYTHON_EXECUTABLE:PATH=/home/dantopa/spack/opt/spack/linux-alderlake/python-venv-1.0-mwrr3gzofh4jibq2vfoveui6qeooky5r/bin/python3 -DPython_EXECUTABLE:PATH=/home/dantopa/spack/opt/spack/linux-alderlake/python-venv-1.0-mwrr3gzofh4jibq2vfoveui6qeooky5r/bin/python3 -DPython3_EXECUTABLE:PATH=/home/dantopa/spack/opt/spack/linux-alderlake/python-venv-1.0-mwrr3gzofh4jibq2vfoveui6qeooky5r/bin/python3 -DBUILD_EXAMPLES:BOOL=OFF -DBUILD_MAIN:BOOL=ON -DBUILD_PYGMO:BOOL=ON -DENABLE_GSL:BOOL=ON -DENABLE_GTOP_DATABASE:BOOL=OFF -DENABLE_IPOPT:BOOL=OFF -DENABLE_MPI:BOOL=ON -DENABLE_NLOPT:BOOL=OFF -DENABLE_SNOPT:BOOL=OFF -DENABLE_WORHP:BOOL=OFF -DINSTALL_HEADERS:BOOL=ON -DENABLE_TESTS:BOOL=OFF -DPYTHON_MODULES_DIR=/home/dantopa/spack/opt/spack/linux-alderlake/pagmo-1.1.7-slhvb3eotnnknxoxro4ax5ilya6iqmo4/lib/python3.12/site-packages /tmp/dantopa/spack-stage/spack-stage-pagmo-1.1.7-slhvb3eotnnknxoxro4ax5ilya6iqmo4/spack-src
+==> Error: The following packages failed to install:
+pagmo@1.1.7/slhvb3eotnnknxoxro4ax5ilya6iqmo4: /tmp/dantopa/spack-stage/spack-stage-pagmo-1.1.7-slhvb3eotnnknxoxro4ax5ilya6iqmo4-2q7yyb36.log
