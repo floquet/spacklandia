@@ -27,8 +27,8 @@ function display_total_elapsed_time() {
     printf "Total elapsed time: %02d:%02d (MM:SS)\n" "$total_minutes" "$total_seconds"
 }
 
-new_step "move to spacklandia: cd ${Github}/spacklandia/scripts/gemini/monday"
-                               cd ${Github}/spacklandia/scripts/gemini/monday && pwd
+new_step "move to spacklandia: cd ${pGithub}/spacklandia/scripts/gemini/monday"
+                               cd ${pGithub}/spacklandia/scripts/gemini/monday && pwd
 
 new_step "activate spack: source ~/spack/share/spack/setup-env.sh"
                           source ~/spack/share/spack/setup-env.sh
