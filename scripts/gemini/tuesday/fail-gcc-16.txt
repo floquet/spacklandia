@@ -1,0 +1,67 @@
+dantopa@nuclide:~/repos-nuclide/github/spacklandia/scripts/gemini/monday$ spack install gcc@16
+[+] dk3evwu autoconf-archive@2024.10.16 /home/dantopa/spack/opt/spack/linux-alderlake/autoconf-archive-2024.10.16-dk3evwuhwhkazgzwqynlorqgwitcvqta (3s)
+[+] 2ebqwn4 gmp@6.3.0 /home/dantopa/spack/opt/spack/linux-alderlake/gmp-6.3.0-2ebqwn4reu62sfw4j5yi3agjhi3pcnxi (35s)
+[+] 7nx7x7a texinfo@7.3 /home/dantopa/spack/opt/spack/linux-alderlake/texinfo-7.3-7nx7x7awrmkhy6byl6zj5ctf6zgvzm3f (1m10s)
+[+] sizpe75 binutils@2.47 /home/dantopa/spack/opt/spack/linux-alderlake/binutils-2.47-sizpe75de42luam2qg54qv3knvnu3bcm (1m17s)
+[+] bzjjusu mpfr@4.2.2 /home/dantopa/spack/opt/spack/linux-alderlake/mpfr-4.2.2-bzjjusus3s3izxktydbtue55pn5xsd2h (23s)
+[+] ki2xout mpc@1.4.1 /home/dantopa/spack/opt/spack/linux-alderlake/mpc-1.4.1-ki2xoutkmwq2xqp7g7npouc6q774ar44 (7s)
+[+] rr4hkag gawk@5.4.1 /home/dantopa/spack/opt/spack/linux-alderlake/gawk-5.4.1-rr4hkagjfhqfam3xdkc2xhstpqcedwid (21s)
+Progress: 7/8  +/-: 12 jobs  /: filter  v: logs  n/p: next/prev
+[\] 4jesnae gcc@16.2.0 build (1m30s)
+
+[process exited with code 1 (0x00000001)]
+
+  In file included from /tmp/dantopa/spack-stage/spack-stage-gcc-16.2.0-4jesnae44ccbeoqytc6jrurl44rqsnoo/spack-src/gcc/cp/decl.cc:21371:
+> ./gt-cp-decl.h:435:1: fatal error: error writing to /tmp/cci2II6t.s: No space left on device
+    435 | }
+        | ^
+  compilation terminated.
+> make[3]: *** [Makefile:1218: cp/decl.o] Error 1
+  make[3]: *** Waiting for unfinished jobs....
+  rm gcc.pod gfortran.pod
+  make[3]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-gcc-16.2.0-4jesnae44ccbeoqytc6jrurl44rqsnoo/spack-src/spack-build/gcc'
+> make[2]: *** [Makefile:5182: all-stage2-gcc] Error 2
+  make[2]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-gcc-16.2.0-4jesnae44ccbeoqytc6jrurl44rqsnoo/spack-src/spack-build'
+> make[1]: *** [Makefile:26153: stage2-bubble] Error 2
+  make[1]: Leaving directory '/tmp/dantopa/spack-stage/spack-stage-gcc-16.2.0-4jesnae44ccbeoqytc6jrurl44rqsnoo/spack-src/spack-build'
+> make: *** [Makefile:1140: all] Error 2
+  Command exited with status 2:
+      /home/dantopa/spack/opt/spack/linux-alderlake/gmake-4.4.1-wejykvmolfqsrmybvn2xnsdexbp5aoz3/bin/make V=1
+==> Error: The following packages failed to install:
+gcc@16.2.0/4jesnae44ccbeoqytc6jrurl44rqsnoo: /tmp/dantopa/spack-stage/spack-stage-gcc-16.2.0-4jesnae44ccbeoqytc6jrurl44rqsnoo-61b0p_ra.log
+
+-- lines 4915 to 4934 --
+  Applying io_quotes_use            to linux/vhost.h
+  Applying io_quotes_use            to linux/usb/tmc.h
+  Applying io_quotes_use            to linux/userfaultfd.h
+  Applying io_quotes_def            to linux/soundcard.h
+  Applying io_quotes_use            to linux/aspeed-p2a-ctrl.h
+  Applying io_quotes_use            to linux/mshv.h
+  Applying io_quotes_use            to linux/blkzoned.h
+  Applying io_quotes_use            to linux/suspend_ioctls.h
+  Applying io_quotes_use            to linux/phantom.h
+  Applying io_quotes_use            to linux/raid/md_u.h
+  Applying io_quotes_use            to linux/fd.h
+  Applying io_quotes_use            to linux/watchdog.h
+  Applying io_quotes_use            to linux/user_events.h
+  Applying io_quotes_use            to linux/mmtimer.h
+  Applying io_quotes_use            to linux/eventpoll.h
+  Applying sun_malloc               to malloc.h
+  Applying io_quotes_use            to fwctl/fwctl.h
+  Applying io_quotes_use            to mtd/ubi-user.h
+  Fixing directory /usr/include/llvm-c into /home/dantopa/tmp/spack-stage/spack-stage-gcc-16.2.0-4jesnae44ccbeoqytc6jrurl44rqsnoo/spack-src/spack-build/gcc/include-fixed/root/usr/lib/llvm-21/include/llvm-c
+  Fixing directory /usr/include/clang/21.1.8/include into /home/dantopa/tmp/spack-stage/spack-stage-gcc-16.2.0-4jesnae44ccbeoqytc6jrurl44rqsnoo/spack-src/spack-build/gcc/include-fixed/root/usr/lib/llvm-21/lib/clang/21/include
+==> Error: The following packages failed to install:
+gcc@16.2.0/4jesnae44ccbeoqytc6jrurl44rqsnoo: /home/dantopa/tmp/spack-stage/spack-stage-gcc-16.2.0-4jesnae44ccbeoqytc6jrurl44rqsnoo-c1h7e2rq.log
+Traceback (most recent call last):
+  File "/usr/lib/python3.14/multiprocessing/util.py", line 371, in _run_finalizers
+  File "/usr/lib/python3.14/multiprocessing/util.py", line 295, in __call__
+  File "/usr/lib/python3.14/multiprocessing/util.py", line 147, in _remove_temp_dir
+  File "/usr/lib/python3.14/shutil.py", line 852, in rmtree
+  File "/usr/lib/python3.14/shutil.py", line 721, in _rmtree_safe_fd
+  File "/usr/lib/python3.14/shutil.py", line 802, in _rmtree_safe_fd_step
+  File "/usr/lib/python3.14/shutil.py", line 795, in _rmtree_safe_fd_step
+  File "/usr/lib/python3.14/shutil.py", line 791, in _rmtree_safe_fd_step
+OSError: [Errno 30] Read-only file system: '/home/dantopa/tmp/pymp-aqiz02x_'
+dantopa@nuclide:~/repos-nuclide/github/spacklandia/scripts/gemini$
+
