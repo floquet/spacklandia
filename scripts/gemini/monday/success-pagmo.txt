@@ -1,0 +1,195 @@
+dantopa@nuclide:~/repos-nuclide/github/spacklandia/scripts/gemini/monday$ cat spack_on_wsl_post_mortem.md
+# Spack on WSL2: `pagmo` Build Failure Post-Mortem
+
+Two distinct failures occurred during the installation of `pagmo` on WSL2 (`nuclide`):
+
+## 1. Root Cause Analysis
+
+### Failure A: `python@3.14.10` Post-Install `JSONDecodeError` (`boom.txt`)
+During Python's post-install verification (`config_vars()`), Spack executes the newly compiled binary (`./python -c "import sysconfig; ... print(json.dumps(config))"`) and parses `stdout` as JSON.
+
+However, **`pip_system_certs`** was injected into the build environment (likely via a leaked host `PYTHONPATH`, `PYTHONSTARTUP`, or system `.pth` file). Because Spack's `python@3.14.10` failed to compile its `_ssl` C extension against `openssl@3.6.5`, `pip_system_certs` emitted error diagnostics directly to `stdout` prior to `json.dumps(config)`:
+
+```text
+pip_system_certs: ERROR: could not register module: No module named '_ssl'
+pip_system_certs: ERROR: truststore not available
+```
+
+These stray lines corrupted the JSON payload, causing Spack's parser to crash with:
+```text
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+```
+
+### Failure B: WSL2 Terminal Termination / OOM Kill (`crash-03.txt`)
+Running `spack install -j 4 pagmo python@3.12` staged and built `py-numpy`, `openmpi`, and `boost@1.90.0` concurrently. Heavy C++ template compilation (`boost`) combined with multiple parallel build jobs exhausted the default WSL2 RAM/swap allocation, triggering the Linux Out-Of-Memory (OOM) killer and abruptly terminating the WSL session (`[process exited with code 1 (0x00000001)]`).
+
+---
+
+## 2. Resolution & Recovery Steps
+
+Run these steps sequentially in your WSL terminal on `nuclide` to isolate Spack from the host Python environment, prevent WSL OOM kills, and install `pagmo` cleanly:
+
+### Step 1: Sanitize Environment Variables & Clean Failed Stages
+Ensure no host Python environment variables (`PYTHONPATH`, `PYTHONSTARTUP`, `PYTHONHOME`) leak into Spack's build environment, and purge the broken `python@3.14.10` staging directory:
+
+```bash
+unset PYTHONPATH PYTHONSTARTUP PYTHONHOME
+spack clean -a
+```
+
+* **Verification:** Running `env | grep -i python` returns no output.
+
+### Step 2: Bypass Building Python from Scratch
+The C++ `pagmo` library (unlike `py-pygmo`) only pulls in Python if a transitive dependency such as `boost +python` requests it. Register your system Ubuntu Python as an external package and disable `+python` on `boost`:
+
+```bash
+spack external find python
+spack spec -I pagmo ^boost~python
+```
+
+* **Verification:** The concretized spec tree shows `boost~python` and either uses an external `[e]` Python or omits Python completely.
+
+### Step 3: Install `pagmo` with Bounded Parallelism
+Build `pagmo` using a single concurrent package and restricted compile threads so `boost` does not exhaust WSL2 memory:
+
+```bash
+spack install -j 1 --concurrent-packages 1 pagmo ^boost~python
+```
+
+*(Note: If you specifically need `py-pygmo` or Python bindings later, install `python@3.12` first with `unset PYTHONPATH` so `pip_system_certs` does not inject into `site-packages`, or link your `pybind11` bridge against the Spack-built C++ `pagmo` library.)*
+
+* **Verification:** `spack find -lv pagmo` displays `pagmo` with a green `[+]` hash and no failed dependencies.
+
+### Optional: Increase WSL2 Memory & Swap Limits
+If WSL2 still terminates during `boost`, create or update `C:\Users\<YourWindowsUser>\.wslconfig` on Windows to allocate more memory and swap:
+
+```ini
+[wsl2]
+memory=12GB
+swap=8GB
+```
+
+Then restart WSL from PowerShell (`wsl --shutdown`) before resuming the Spack build.dantopa@nuclide:~/repos-nuclide/github/spacklandia/scripts/gemini/monday$ unset PYTHONPATH PYTHONSTARTUP PYTHONHOME      unset PYTHONPATH PYTHONSTARTUP PYTHONHOME
+spack clean -a
+==> Removing all temporary build stages
+==> Removing cached downloads
+==> Removing install failure marks
+==> Removing cached information on repositories
+==> Removing python cache files
+==> Removing bootstrapped software and configuration in "/home/dantopa/.spack/bootstrap"
+dantopa@nuclide:~/repos-nuclide/github/spacklandia/scripts/gemini/monday$ spack external find python
+spack spec -I pagmo ^boost~python
+==> The following specs have been detected on this system and added to /home/dantopa/.spack/packages.yaml
+-- no arch / no compilers ---------------------------------------
+python@3.14.4
+[e] ezbxj64 python@3.14 /usr (0s)
+[e] dasjaxo glibc@2.43 /usr (0s)
+[e] ig45adz gcc@16.0.1 /usr (0s)
+[e] ufc73kv cmake@4.2.3 /usr (0s)
+[+] a6q6pk3 gcc-runtime@16.0.1 /home/dantopa/.spack/bootstrap/store/linux-x86_64/gcc-runtime-16.0.1-a6q6pk3upu577thqpjosqeqhqc64bmez (1s)
+[+] dmmvmq5 python-venv@1.0 /home/dantopa/.spack/bootstrap/store/linux-x86_64/python-venv-1.0-dmmvmq5iidqrkpctlpqvsknaj75mt5dw (1s
+[+] pgwn3tj compiler-wrapper@1.0 /home/dantopa/.spack/bootstrap/store/linux-x86_64/compiler-wrapper-1.0-pgwn3tjdkfll4dpxegihapxkryoe2vij (1s)
+[+] 6eilpa7 gmake@4.4.1 /home/dantopa/.spack/bootstrap/store/linux-x86_64/gmake-4.4.1-6eilpa7oureusmir77ukro35vhgat2ia (14s)
+[+] faamma4 libsigsegv@2.14 /home/dantopa/.spack/bootstrap/store/linux-x86_64/libsigsegv-2.14-faamma4ubk7u4vu4q5uznceznyanc3o3 (6s
+[+] xnxyy3a re2c@3.1 /home/dantopa/.spack/bootstrap/store/linux-x86_64/re2c-3.1-xnxyy3acdxrgwea66fbsk5sp3gqdqdxm (27s)
+[+] 5gydpef libiconv@1.19 /home/dantopa/.spack/bootstrap/store/linux-x86_64/libiconv-1.19-5gydpefq2efi45om5gg5eig75ayhzxi6 (34s)
+[+] fl4agq3 diffutils@3.10 /home/dantopa/.spack/bootstrap/store/linux-x86_64/diffutils-3.10-fl4agq3srxcsy6t5g2b3wcu4knatd5se (36s)
+[+] zmkgjjw m4@1.4.21 /home/dantopa/.spack/bootstrap/store/linux-x86_64/m4-1.4.21-zmkgjjwbwsjngfbythdxo46h5bgj7cqa (51s)
+[+] 3l5z7ep bison@3.8.2 /home/dantopa/.spack/bootstrap/store/linux-x86_64/bison-3.8.2-3l5z7epm7koihfgvizzumezztbnvtq4s (36s)
+[+] oufgjmu clingo-bootstrap@spack /home/dantopa/.spack/bootstrap/store/linux-x86_64/clingo-bootstrap-spack-oufgjmuhmfrl3gqtqobhn6o5yzuhpyf3 (43s)
+ -   pagmo@1.1.7+blas+cxx~examples+gsl~gtop+headers~ipo~ipopt+mpi~networkx~nlopt~pykep~python+scipy~snopt~vpython~worhp build_system=cmake build_type=Release generator=make platform=linux os=ubuntu26.04 target=alderlake %c,cxx=gcc@15.2.0
+ -       ^boost@1.90.0+atomic~charconv+chrono~clanglibcpp~cobalt~container~context~contract~conversion+date_time~debug+exception~fiber+filesystem+graph~graph_parallel+icu+iostreams~json+locale+log+math~mpi~mqtt5+multithreaded~nowide~numpy~openmethod~pic~process+program_options~python+random+regex+serialization+shared~signals2~singlethreaded~stacktrace+system~taggedlayout+test+thread+timer~type_erasure~url~versionedlayout+wave build_system=generic cxxstd=11 patches=a440f96 visibility=hidden platform=linux os=ubuntu26.04 target=alderlake %c,cxx=gcc@15.2.0
+[+]          ^bzip2@1.0.8~debug~pic+shared build_system=generic platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]              ^diffutils@3.12 build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]                  ^libiconv@1.19 build_system=autotools libs:=shared,static platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]          ^icu4c@74.2 build_system=autotools cxxstd=11 platform=linux os=ubuntu26.04 target=alderlake %c,cxx=gcc@15.2.0
+[+]          ^xz@5.8.4~pic build_system=autotools libs:=shared,static platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]          ^zlib@1.3.2+optimize+pic+shared build_system=makefile platform=linux os=ubuntu26.04 target=alderlake %c,cxx=gcc@15.2.0
+[+]          ^zstd@1.5.7+programs build_system=makefile compression:=none libs:=shared,static platform=linux os=ubuntu26.04 target=alderlake %c,cxx=gcc@15.2.0
+[+]      ^cmake@3.31.12~doc+ncurses+ownlibs~qtgui build_system=generic build_type=Release platform=linux os=ubuntu26.04 target=alderlake %c,cxx=gcc@15.2.0
+[+]          ^curl@8.23.0~gssapi~ldap~libidn2~librtmp~libssh~libssh2+nghttp2 build_system=autotools libs:=shared,static tls:=openssl platform=linux os=ubuntu26.04 target=alderlake %c,cxx=gcc@15.2.0
+[+]              ^nghttp2@1.71.0 build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c,cxx=gcc@15.2.0
+[+]              ^openssl@3.6.5~docs+shared build_system=generic certs=mozilla platform=linux os=ubuntu26.04 target=alderlake %c,cxx=gcc@15.2.0
+[+]                  ^ca-certificates-mozilla@2026-10-20 build_system=generic platform=linux os=ubuntu26.04 target=alderlake
+[+]          ^ncurses@6.6~symlinks+termlib abi=none build_system=autotools patches=7a351bc platform=linux os=ubuntu26.04 target=alderlake %c,cxx=gcc@15.2.0
+[+]      ^compiler-wrapper@1.1.0 build_system=generic platform=linux os=ubuntu26.04 target=alderlake
+[e]      ^gcc@15.2.0+binutils+bootstrap+futex~graphite+libsanitizer~mold~nvptx~piclibs~profiled~strip build_system=autotools build_type=Release languages:='c,c++,fortran' platform=linux os=ubuntu26.04 target=x86_64
+[+]      ^gcc-runtime@15.2.0 build_system=generic platform=linux os=ubuntu26.04 target=alderlake
+[e]      ^glibc@2.43 build_system=autotools platform=linux os=ubuntu26.04 target=x86_64
+[+]      ^gmake@4.4.1~guile build_system=generic platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]      ^gsl@2.8~external-cblas+pic+shared build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]      ^openblas@0.3.34~bignuma~consistent_fpcsr+dynamic_dispatch+fortran~ilp64+locking+pic+shared~static build_system=makefile patches=7cf59b4,b047da5,cea51fd,e192335 symbol_suffix=none threads=none platform=linux os=ubuntu26.04 target=alderlake %c,cxx,fortran=gcc@15.2.0
+[+]      ^openmpi@5.0.11+atomics~cuda~debug+fortran~gpfs~internal-hwloc~internal-libevent~internal-pmix~ipv6~java~lustre~memchecker~openshmem~rocm~romio+rsh~static~two_level_namespace+vt+wrapper-rpath build_system=autotools fabrics:=none romio-filesystem:=none schedulers:=none platform=linux os=ubuntu26.04 target=alderlake %c,cxx,fortran=gcc@15.2.0
+[+]          ^autoconf@2.73 build_system=autotools platform=linux os=ubuntu26.04 target=alderlake
+[+]              ^m4@1.4.21+sigsegv build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c,cxx=gcc@15.2.0
+[+]                  ^libsigsegv@2.15 build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]          ^automake@1.20 build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]          ^hwloc@2.13.0~cairo~cuda~gl~level_zero~libudev+libxml2~nvml~opencl+pci~rocm build_system=autotools libs:=shared,static patches=b4db98b platform=linux os=ubuntu26.04 target=alderlake %c,cxx=gcc@15.2.0
+[+]              ^libpciaccess@0.17 build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]                  ^util-macros@1.20.2 build_system=autotools platform=linux os=ubuntu26.04 target=alderlake
+[+]              ^libxml2@2.15.4+pic~python+shared build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]          ^libevent@2.1.13+openssl build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]          ^libtool@2.5.4 build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]              ^file@5.48+static build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]              ^findutils@4.11.0 build_system=autotools patches=440b954 platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]          ^numactl@2.0.19 build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]          ^openssh@10.6p2+gssapi build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c,cxx=gcc@15.2.0
+[+]              ^krb5@1.22.3+shared build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c,cxx=gcc@15.2.0
+[+]                  ^bison@3.8.2~color build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c,cxx=gcc@15.2.0
+[+]              ^libedit@3.1-20260512 build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]              ^libxcrypt@4.5.2~obsolete_api build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]          ^perl@5.44.0+cpanm+opcode+open+shared+threads build_system=generic platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]              ^berkeley-db@18.1.40+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc platform=linux os=ubuntu26.04 target=alderlake %c,cxx=gcc@15.2.0
+[+]              ^gdbm@1.26 build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]              ^less@710 build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]          ^pkgconf@3.0.10 build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]          ^pmix@6.1.0~munge~python build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]          ^prrte@4.1.0 build_system=autotools patches=64faa1a,91b28f5,fba2368 schedulers:=none platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]              ^flex@2.6.3+lex~nls build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c,cxx=gcc@15.2.0
+[+]      ^py-scipy@1.18.1 build_system=python_pip platform=linux os=ubuntu26.04 target=alderlake %c,cxx,fortran=gcc@15.2.0
+[+]          ^meson@1.12.0 build_system=python_pip patches=0f0b1bd,26cf8d5 platform=linux os=ubuntu26.04 target=alderlake
+[+]              ^ninja@1.13.2+re2c build_system=generic platform=linux os=ubuntu26.04 target=alderlake %c,cxx=gcc@15.2.0
+[+]                  ^re2c@4.6 build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c,cxx=gcc@15.2.0
+[+]              ^py-setuptools@83.0.0 build_system=generic platform=linux os=ubuntu26.04 target=alderlake
+[+]          ^py-cython@3.2.4 build_system=python_pip platform=linux os=ubuntu26.04 target=alderlake %c,cxx=gcc@15.2.0
+[+]          ^py-meson-python@0.19.0 build_system=python_pip platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]              ^py-packaging@26.3 build_system=python_pip platform=linux os=ubuntu26.04 target=alderlake
+[+]                  ^py-flit-core@4.2.0 build_system=python_pip platform=linux os=ubuntu26.04 target=alderlake
+[+]              ^py-pyproject-metadata@0.11.0 build_system=python_pip platform=linux os=ubuntu26.04 target=alderlake
+[+]          ^py-numpy@2.5.4 build_system=python_pip platform=linux os=ubuntu26.04 target=alderlake %c,cxx=gcc@15.2.0
+[+]          ^py-pip@26.2.2 build_system=generic platform=linux os=ubuntu26.04 target=alderlake
+[+]          ^py-pybind11@3.1.0+ipo build_system=cmake build_type=Release generator=ninja platform=linux os=ubuntu26.04 target=alderlake %cxx=gcc@15.2.0
+[+]              ^py-scikit-build-core@0.12.2~pyproject build_system=python_pip platform=linux os=ubuntu26.04 target=alderlake %c,cxx,fortran=gcc@15.2.0
+[+]                  ^py-hatch-vcs@0.5.0 build_system=python_pip platform=linux os=ubuntu26.04 target=alderlake
+[+]                      ^py-setuptools-scm@10.3.4+toml build_system=python_pip platform=linux os=ubuntu26.04 target=alderlake
+[+]                          ^git@2.56.1+man+nls+perl+subtree~tcltk build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]                              ^libidn2@2.3.8 build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]                                  ^libunistring@1.4.2 build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]                              ^pcre2@10.49~jit+multibyte+pic build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]                          ^py-vcs-versioning@2.5.0 build_system=python_pip platform=linux os=ubuntu26.04 target=alderlake
+[+]                  ^py-hatchling@1.33.0 build_system=python_pip platform=linux os=ubuntu26.04 target=alderlake
+[+]                      ^py-pluggy@1.6.0 build_system=python_pip platform=linux os=ubuntu26.04 target=alderlake
+[+]                      ^py-tomlkit@0.14.0 build_system=python_pip platform=linux os=ubuntu26.04 target=alderlake
+[+]                          ^py-poetry-core@2.3.2 build_system=python_pip platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]                      ^py-trove-classifiers@2026.6.1.19 build_system=python_pip platform=linux os=ubuntu26.04 target=alderlake
+[+]                          ^py-calver@2025.10.20 build_system=python_pip platform=linux os=ubuntu26.04 target=alderlake
+[+]                  ^py-pathspec@1.1.1 build_system=python_pip platform=linux os=ubuntu26.04 target=alderlake
+[+]          ^py-pythran@0.19.0 build_system=python_pip platform=linux os=ubuntu26.04 target=alderlake %cxx=gcc@15.2.0
+[+]              ^py-beniget@0.5.0 build_system=python_pip platform=linux os=ubuntu26.04 target=alderlake
+[+]              ^py-gast@0.7.0 build_system=python_pip platform=linux os=ubuntu26.04 target=alderlake
+[+]              ^py-ply@3.11 build_system=python_pip platform=linux os=ubuntu26.04 target=alderlake
+[+]          ^py-wheel@0.45.1 build_system=generic platform=linux os=ubuntu26.04 target=alderlake
+[+]          ^python@3.12.15+bz2+crypt+ctypes+curses+dbm~debug+libxml2+lzma~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~static~tests~tkinter+uuid+zlib build_system=generic patches=17b3721 platform=linux os=ubuntu26.04 target=alderlake %c,cxx=gcc@15.2.0
+[+]              ^expat@2.10.0+libbsd+pic build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c,cxx=gcc@15.2.0
+[+]                  ^libbsd@0.12.2 build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]                      ^libmd@1.3.0 build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]              ^gettext@1.0+bzip2+curses+git~libunistring+libxml2+pic+shared+tar+xz build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c,cxx=gcc@15.2.0
+[+]                  ^tar@1.35 build_system=autotools patches=85cb6b4 zip=pigz platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]                      ^pigz@2.8 build_system=makefile platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]              ^libffi@3.8.0 build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c,cxx=gcc@15.2.0
+[+]              ^readline@8.3 build_system=autotools patches=21f0a03,72dee13,e273643 platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]              ^sqlite@3.54.1+column_metadata+fts+rtree build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]              ^util-linux-uuid@2.42.4 build_system=autotools platform=linux os=ubuntu26.04 target=alderlake %c=gcc@15.2.0
+[+]          ^python-venv@1.0 build_system=generic platform=linux os=ubuntu26.04 target=alderlake
+
+dantopa@nuclide:~/repos-nuclide/github/spacklandia/scripts/gemini/monday$
