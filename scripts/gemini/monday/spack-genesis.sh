@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# invocation: ./spack-genesis.sh
+# invocation: source spack-genesis.sh
 printf "%s\n" "$(tput bold)$(date) ${BASH_SOURCE[0]}$(tput sgr0)"
 
 counter=0
@@ -34,7 +34,7 @@ new_step "activate spack: source ~/spack/share/spack/setup-env.sh"
                           source ~/spack/share/spack/setup-env.sh
 
 new_step "install julia: spack install -j 4 julia 2>&1 | tee install-julia.log"
-          install julia: spack install -j 4 julia 2>&1 | tee install-julia.log
+                         spack install -j 4 julia 2>&1 | tee install-julia.log
 
 display_total_elapsed_time
 
