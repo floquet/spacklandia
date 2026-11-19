@@ -33,8 +33,8 @@ new_step "move to spacklandia: cd ${pGithub}/spacklandia/scripts/gemini/monday"
 new_step "activate spack: source ~/spack/share/spack/setup-env.sh"
                           source ~/spack/share/spack/setup-env.sh
 
-new_step "install julia: spack install -j 4 julia 2>&1 | tee install-julia.log"
-                         spack install -j 4 julia 2>&1 | tee install-julia.log
+new_step "install julia: spack install -j 4 julia cflags="-Wno-comment" 2>&1 | tee install-julia.log"
+                         spack install -j 4 julia cflags="-Wno-comment" 2>&1 | tee install-julia.log
 
 display_total_elapsed_time
 
